@@ -1,18 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="me.thesis.mtd_app.MainActivity">
+    android:gravity="center"
+    android:background="@color/main">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/ss" />
 
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="5dip"
+        android:hint="Search word . . ."
+        android:drawableLeft="@drawable/search"
+        android:background="@drawable/textbox"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/xmark"
+        android:background="@null"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_marginEnd="14dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="81dp"
+        android:background="@null"
+        app:srcCompat="@drawable/clock"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/imageButton13"
+        android:layout_marginEnd="51dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:background="@null"
+        app:srcCompat="@drawable/star"
+        android:layout_alignTop="@+id/imageButton12"
+        android:layout_toStartOf="@+id/imageButton4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recents"
+        android:textColor="@color/maintext"
+        android:layout_below="@+id/imageButton13"
+        android:layout_alignEnd="@+id/imageButton12"
+        android:layout_marginEnd="11dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorites"
+        android:textColor="@color/maintext"
+        android:layout_below="@+id/imageButton13"
+        android:layout_alignStart="@+id/imageButton13"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>
