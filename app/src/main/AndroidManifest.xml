@@ -15,6 +15,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+    <activity
+        android:name=".Recent"
+        android:label="MTD-App">
+        <intent-filter>
+            <action android:name="me.thesis.mtd_app.Recent"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name=".Favorite"
+            android:label="MTD-App">
+            <intent-filter>
+                <action android:name="me.thesis.mtd_app.Favorite"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>
