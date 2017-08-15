@@ -13,7 +13,7 @@
         app:srcCompat="@drawable/ss" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/main_textbox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -27,7 +27,7 @@
         android:layout_marginTop="10dp" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/main_close"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/xmark"
