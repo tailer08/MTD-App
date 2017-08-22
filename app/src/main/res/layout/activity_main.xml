@@ -32,10 +32,10 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/xmark"
         android:background="@null"
-        android:layout_alignTop="@+id/editText4"
-        android:layout_alignBottom="@+id/editText4"
-        android:layout_alignEnd="@+id/editText4"
-        android:layout_alignRight="@+id/editText4"
+        android:layout_alignTop="@+id/main_textbox"
+        android:layout_alignBottom="@+id/main_textbox"
+        android:layout_alignEnd="@+id/main_textbox"
+        android:layout_alignRight="@+id/main_textbox"
         android:layout_marginEnd="14dp" />
 
     <ImageButton
@@ -57,7 +57,7 @@
         android:background="@null"
         app:srcCompat="@drawable/star"
         android:layout_alignTop="@+id/main_recent"
-        android:layout_toStartOf="@+id/imageButton4" />
+        android:layout_toStartOf="@+id/main_close" />
 
     <TextView
         android:id="@+id/textView"
@@ -77,6 +77,7 @@
         android:textColor="@color/maintext"
         android:layout_below="@+id/main_fave"
         android:layout_alignStart="@+id/main_fave"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
