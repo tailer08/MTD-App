@@ -7,33 +7,28 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import java.util.ArrayList;
-
 import me.thesis.mtd_app.R;
-import me.thesis.mtd_app.db.DBHandler;
-import me.thesis.mtd_app.db.Word;
 
 public class Favorite extends AppCompatActivity {
 
     ListView lv;
-    ArrayList<Word> list=new ArrayList<Word>();
+    String[] word={"Aso","Ginhihigugma","Misay","Ngayon","Lidong"};
+    String[] defn={"n.\nayam","v.\nminamahal","n.\npusa","adv.\nyana","n.\nbilog"};
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fave);
 
-        DBHandler dbHandler=new DBHandler(this.getApplicationContext());
-        list=dbHandler.getFavorite();
-
         lv = (ListView) findViewById(R.id.fave);
-        Adapter adapter=new Adapter(this,list);
+        Adapter adapter = new Adapter(this, word, defn);
         lv.setAdapter(adapter);
-
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String str=lv.getItemAtPosition(i).toString();
+
                 Intent intent=new Intent(Favorite.this,WordView.class);
-                intent.putExtra("selectedText",list.get(i).getWord());
+                intent.putExtra("selectedText",str);
                 startActivity(intent);
                 finish();
             }

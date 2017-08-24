@@ -9,22 +9,21 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-
 import me.thesis.mtd_app.R;
-import me.thesis.mtd_app.db.Word;
 
 public class Adapter extends ArrayAdapter<String> {
 
-    ArrayList<Word> list=new ArrayList<Word>();
+    String[] words={};
+    String[] defn={};
 
     Context c;
     LayoutInflater inflater;
 
-    public Adapter(Context c, ArrayList<Word> list) {
-        super(c, R.layout.fave_fragment);
+    public Adapter(Context c, String[] words, String[] defn) {
+        super(c, R.layout.fave_fragment,words);
         this.c=c;
-        this.list=list;
+        this.words=words;
+        this.defn=defn;
     }
 
     public class ViewHolder {
@@ -44,8 +43,8 @@ public class Adapter extends ArrayAdapter<String> {
         holder.word=(TextView)convertView.findViewById(R.id.fave_word);
         holder.def=(TextView)convertView.findViewById(R.id.fave_defn);
 
-        holder.word.setText(list.get(position).getWord());
-        holder.def.setText(list.get(position).getDefn());
+        holder.word.setText(words[position]);
+        holder.def.setText(defn[position]);
         return convertView;
     }
 }

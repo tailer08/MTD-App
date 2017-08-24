@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/word_textbox"
+        android:id="@+id/editText4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -40,10 +40,10 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/xmark"
         android:background="@null"
-        android:layout_alignTop="@+id/word_textbox"
-        android:layout_alignBottom="@+id/word_textbox"
-        android:layout_alignEnd="@+id/word_textbox"
-        android:layout_alignRight="@+id/word_textbox"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_alignRight="@+id/editText4"
         android:layout_marginEnd="14dp" />
 
     </RelativeLayout>
