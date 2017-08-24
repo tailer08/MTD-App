@@ -3,12 +3,17 @@ package me.thesis.mtd_app.view;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
+import java.util.List;
+
 import me.thesis.mtd_app.R;
+import me.thesis.mtd_app.db.DBHandler;
+import me.thesis.mtd_app.db.Word;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,8 +21,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Log.i("mtd","yohoooooooo");
+        DBHandler db = new DBHandler(this);
+        Log.i("mtd","wetwew");
+        Log.i("mtd","inserting values to database");
+        db.addWord("Gugma" , "love", 0, 0);
+        Log.i("mtd","reading db");
 
         et=(EditText)findViewById(R.id.main_textbox);
 
@@ -46,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
                 et.setText("");
             }
         });
+
+
     }
 
     @Override

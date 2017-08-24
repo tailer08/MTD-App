@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import me.thesis.mtd_app.R;
+import me.thesis.mtd_app.db.DBHandler;
 import me.thesis.mtd_app.db.Word;
 
 public class WordView extends AppCompatActivity {
@@ -40,7 +41,7 @@ public class WordView extends AppCompatActivity {
         String wrd;
         String dfn;
 
-//        set db here
+//        DBHandler wordDB = new DBHandler(this);
 
         if (str.equalsIgnoreCase("aso")) {
 //            get word here

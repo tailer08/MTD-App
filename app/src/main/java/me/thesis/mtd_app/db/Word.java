@@ -59,4 +59,9 @@ public class Word{
     public int getLookup() {
         return _lookup;
     }
+
+    public int getFavorite() {
+        return _favorite;
+    }
+
 }
