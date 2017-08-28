@@ -1,4 +1,4 @@
-package me.thesis.mtd_app.view;
+package me.thesis.mtd_app;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

@@ -1,41 +1,20 @@
-package me.thesis.mtd_app.view;
+package me.thesis.mtd_app;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import me.thesis.mtd_app.R;
-import me.thesis.mtd_app.db.DBHandler;
-import me.thesis.mtd_app.db.Word;
 
 public class WordView extends AppCompatActivity {
 
     TextView word;
     TextView defn;
-
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dictionary);
-
-        final ImageButton close=(ImageButton)findViewById(R.id.word_close);
-        close.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                final EditText et=(EditText)findViewById(R.id.main_textbox);
-                et.setText("");
-            }
-        });
-
-        word = (TextView)findViewById(R.id.dictionary_word);
-        defn = (TextView)findViewById(R.id.dictionary_meaning);
-    }
 
     private void setText(String str) {
         String wrd;
@@ -77,14 +56,33 @@ public class WordView extends AppCompatActivity {
         defn.setText(dfn);
     }
 
+    protected void onCreate(Bundle savedInstanceState) {
+        Log.d("mtd","created word view");
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_dictionary);
+
+        final ImageButton close=(ImageButton)findViewById(R.id.word_close);
+        close.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                final EditText et=(EditText)findViewById(R.id.main_textbox);
+                et.setText("");
+            }
+        });
+
+        word = (TextView)findViewById(R.id.dictionary_word);
+        defn = (TextView)findViewById(R.id.dictionary_meaning);
+    }
+
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
         Log.d("mtd","back pressed");
-        Intent i=new Intent(getApplicationContext(),MainActivity.class);
-        i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
-        startActivity(i);
-        finish();
+//
+//        Intent i=new Intent(getApplicationContext(),MainActivity.class);
+//        i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+//        startActivity(i);
+//        finish();
+        moveTaskToBack(true);
     }
 
     @Override
@@ -95,6 +93,8 @@ public class WordView extends AppCompatActivity {
         Intent intent=getIntent();
         String str=(String)intent.getStringExtra("selectedText");
         setText(str);
+
+        Log.d("mtd","out resume");
     }
 
     @Override
@@ -104,5 +104,15 @@ public class WordView extends AppCompatActivity {
             return true;
         }
         return super.dispatchKeyEvent(event);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int res_id=item.getItemId();
+        if (res_id==android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+        return false;
     }
 }

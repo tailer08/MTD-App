@@ -80,4 +80,13 @@
         android:layout_marginLeft="10dp"
         android:layout_alignParentBottom="true"/>
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© MTD Project , 2017"
+        android:textColor="@color/maintext"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

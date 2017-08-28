@@ -11,16 +11,20 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".view.MainActivity">
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+            <intent-filter>
+                <action android:name="me.thesis.mtd_app.MainActivity"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
         <activity
-            android:name=".view.Recent"
+            android:name=".Recent"
             android:label="MTD-App">
             <intent-filter>
                 <action android:name="me.thesis.mtd_app.Recent"/>
@@ -30,7 +34,7 @@
         </activity>
 
         <activity
-            android:name=".view.Favorite"
+            android:name=".Favorite"
             android:label="MTD-App">
             <intent-filter>
                 <action android:name="me.thesis.mtd_app.Favorite"/>
@@ -39,7 +43,7 @@
         </activity>
 
         <activity
-            android:name=".view.WordView"
+            android:name=".WordView"
             android:label="MTD-App">
         </activity>
     </application>

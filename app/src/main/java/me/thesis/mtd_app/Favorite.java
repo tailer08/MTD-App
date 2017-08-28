@@ -1,4 +1,4 @@
-package me.thesis.mtd_app.view;
+package me.thesis.mtd_app;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,8 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
-import me.thesis.mtd_app.R;
 
 public class Favorite extends AppCompatActivity {
 
