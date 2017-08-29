@@ -1,6 +1,7 @@
 package me.thesis.mtd_app;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -11,36 +12,41 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import me.thesis.mtd_app.db.DBHandler;
+
 public class WordView extends AppCompatActivity {
 
     TextView word;
     TextView defn;
 
     private void setText(String str) {
-        String wrd;
-        String dfn;
+        String wrd = "";
+        String dfn = "";
 
-//        DBHandler wordDB = new DBHandler(this);
+        DBHandler wordDB = new DBHandler(this);
 
         if (str.equalsIgnoreCase("aso")) {
 //            get word here
-            wrd="Aso";
-            dfn="n.\nayam";
+            Cursor data = wordDB.getData("Aso");
+            while(data.moveToNext()){
+                wrd = (data.getString(1));
+                dfn = (data.getString(2));
+            }
         }
         else if (str.equalsIgnoreCase("ginhihigugma")) {
 //          get word here
             wrd="Ginhihigugma";
-            dfn="v.\nminamahal";
+            dfn="v.\n minamahal";
         }
         else if (str.equalsIgnoreCase("misay")) {
 //            get word here
             wrd="Misay";
-            dfn="n.\npusa";
+            dfn="n.\n pusa";
         }
         else if (str.equalsIgnoreCase("ngayon")) {
 //            get word here
             wrd="Ngayon";
-            dfn="adv.\nyana";
+            dfn="adv.\n yana";
         }
         else if (str.equalsIgnoreCase("lidong")) {
 //            get word here

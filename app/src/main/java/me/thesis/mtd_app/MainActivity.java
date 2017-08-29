@@ -1,6 +1,7 @@
 package me.thesis.mtd_app;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -8,6 +9,10 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
+
+import java.util.ArrayList;
+
+import me.thesis.mtd_app.db.DBHandler;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,9 +23,21 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//
-//        Log.i("mtd","yohoooooooo");
-//        DBHandler db = new DBHandler(this);
+
+        DBHandler db = new DBHandler(this);
+
+        addWord(db, "Aso" , "n.\n ayam", 1, 1);
+
+        Log.i("mtd", "Displaying DB Contents");
+        Cursor data = db.getData();
+        ArrayList<String> listData = new ArrayList<>();
+        while(data.moveToNext()){
+            listData.add(data.getString(1));
+        }
+
+        for(String s : listData){
+            Log.i("mtd", s);
+        }
 //        Log.i("mtd","wetwew");
 //        Log.i("mtd","inserting values to database");
 //        db.addWord("Gugma" , "love", 0, 0);
@@ -63,6 +80,14 @@ public class MainActivity extends AppCompatActivity {
         Log.d("mtd","naresume ko na po ang main");
     }
 
+    public void addWord(DBHandler db, String word, String defn, int fav, int look){
+        boolean insertWord = db.addWord(word , defn , fav , look);
+        if(insertWord){
+            Log.i("mtd", "Successfully added the word " + word);
+        }else{
+            Log.i("mtd", "UNSUCCESSFUL");
+        }
+    }
     @Override
     public boolean onKeyUp(int keyCode, KeyEvent event) {
         if (keyCode==KeyEvent.KEYCODE_ENTER) {
