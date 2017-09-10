@@ -25,23 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         DBHandler db = new DBHandler(this);
-
-        addWord(db, "Aso" , "n.\n ayam", 1, 1);
-
-        Log.i("mtd", "Displaying DB Contents");
-        Cursor data = db.getData();
-        ArrayList<String> listData = new ArrayList<>();
-        while(data.moveToNext()){
-            listData.add(data.getString(1));
-        }
-
-        for(String s : listData){
-            Log.i("mtd", s);
-        }
-//        Log.i("mtd","wetwew");
-//        Log.i("mtd","inserting values to database");
-//        db.addWord("Gugma" , "love", 0, 0);
-//        Log.i("mtd","reading db");
+        initDatabase(db);
 
         et=(EditText)findViewById(R.id.main_textbox);
 
@@ -70,14 +54,25 @@ public class MainActivity extends AppCompatActivity {
                 et.setText("");
             }
         });
-
-
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.d("mtd","naresume ko na po ang main");
+    private void initDatabase(DBHandler db) {
+        addWord(db, "Aso" , "n.\n ayam", 1, 1);
+        addWord(db, "Ginhihigugma" , "v.\n minamahal", 1, 1);
+        addWord(db, "Ngayon" , "n.\n yana", 1, 1);
+        addWord(db, "Lidong" , "n.\n bilog", 1, 1);
+        addWord(db, "Misay" , "n.\n pusa", 1, 1);
+
+        Log.i("mtd", "Testing lookup ");
+        Cursor data = db.getRecentData();
+        ArrayList<String> listData = new ArrayList<>();
+        while(data.moveToNext()){
+            listData.add(data.getString(1));
+        }
+
+        for(String s : listData){
+            Log.i("mtd", s);
+        }
     }
 
     public void addWord(DBHandler db, String word, String defn, int fav, int look){
@@ -88,6 +83,14 @@ public class MainActivity extends AppCompatActivity {
             Log.i("mtd", "UNSUCCESSFUL");
         }
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d("mtd","naresume ko na po ang main");
+    }
+
+
     @Override
     public boolean onKeyUp(int keyCode, KeyEvent event) {
         if (keyCode==KeyEvent.KEYCODE_ENTER) {

@@ -1,6 +1,7 @@
 package me.thesis.mtd_app;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -9,9 +10,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class Recent extends AppCompatActivity {
+import java.util.ArrayList;
 
-    String tmp[] ={"Aso","Ginhihigugma","Misay","Ngayon","Lidong"};
+import me.thesis.mtd_app.db.DBHandler;
+
+public class Recent extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,9 +23,15 @@ public class Recent extends AppCompatActivity {
 //        TextView tx=(TextView)findViewById(R.id.recent_mtd);
 //        Typeface custom_font= Typeface.createFromAsset(getAssets(),"fonts/Roboto-Bold.ttf");
 //        tx.setTypeface(custom_font);
+        DBHandler db = new DBHandler(this);
+        Cursor data = db.getRecentData();
+        ArrayList<String> listData = new ArrayList<>();
+        while(data.moveToNext()){
+            listData.add(data.getString(1));
+        }
 
         final ListView lv=(ListView)findViewById(R.id.list_recent);
-        ArrayAdapter<String> arrayAdapter=new ArrayAdapter<String>(this,R.layout.word_fragment,R.id.textView,tmp);
+        ArrayAdapter<String> arrayAdapter=new ArrayAdapter<String>(this,R.layout.word_fragment,R.id.textView,listData);
         lv.setAdapter(arrayAdapter);
 
 

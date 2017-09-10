@@ -35,23 +35,36 @@ public class WordView extends AppCompatActivity {
         }
         else if (str.equalsIgnoreCase("ginhihigugma")) {
 //          get word here
-            wrd="Ginhihigugma";
-            dfn="v.\n minamahal";
+            Cursor data = wordDB.getData("Ginhihigugma");
+            while(data.moveToNext()){
+                wrd = (data.getString(1));
+                dfn = (data.getString(2));
+            }
+
         }
         else if (str.equalsIgnoreCase("misay")) {
 //            get word here
-            wrd="Misay";
-            dfn="n.\n pusa";
+            Cursor data = wordDB.getData("Misay");
+            while(data.moveToNext()){
+                wrd = (data.getString(1));
+                dfn = (data.getString(2));
+            }
         }
         else if (str.equalsIgnoreCase("ngayon")) {
 //            get word here
-            wrd="Ngayon";
-            dfn="adv.\n yana";
+            Cursor data = wordDB.getData("Ngayon");
+            while(data.moveToNext()){
+                wrd = (data.getString(1));
+                dfn = (data.getString(2));
+            }
         }
         else if (str.equalsIgnoreCase("lidong")) {
 //            get word here
-            wrd="Lidong";
-            dfn="bilog";
+            Cursor data = wordDB.getData("Lidong");
+            while(data.moveToNext()){
+                wrd = (data.getString(1));
+                dfn = (data.getString(2));
+            }
         }
 //        set textview here
         else {

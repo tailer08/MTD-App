@@ -49,21 +49,29 @@ public class DBHandler extends SQLiteOpenHelper {
     }
 
     public boolean addWord(String word, String def, int fav, int look) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        ContentValues values = new ContentValues();
 
-        values.put(KEY_WORD, word);
-        values.put(KEY_DEFN, def);
-        values.put(KEY_FAVORITE, fav);
-        values.put(KEY_LOOKUP, look);
+        Cursor data = getData(word);
+        if(data.getCount() == 0) {
 
-        Log.i("mtd", "add data: ADDING " + word + " : " + def + " : " + fav + " : " + look  + " to " + TABLE_WORDS);
-        long result = db.insert(TABLE_WORDS, null, values);
+            SQLiteDatabase db = this.getWritableDatabase();
+            ContentValues values = new ContentValues();
 
-        if (result == -1) {
+            values.put(KEY_WORD, word);
+            values.put(KEY_DEFN, def);
+            values.put(KEY_FAVORITE, fav);
+            values.put(KEY_LOOKUP, look);
+
+            Log.i("mtd", "add data: ADDING " + word + " : " + def + " : " + fav + " : " + look + " to " + TABLE_WORDS);
+            long result = db.insert(TABLE_WORDS, null, values);
+
+            if (result == -1) {
+                return false;
+            } else {
+                return true;
+            }
+        }else{
+            Log.i("mtd", "already inside database");
             return false;
-        }else {
-            return true;
         }
     }
 
@@ -80,6 +88,21 @@ public class DBHandler extends SQLiteOpenHelper {
         Cursor data = db.rawQuery(query, null);
         return data;
     }
+
+    public Cursor getFavoriteData(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_WORDS + " ORDER BY favorite DESC LIMIT 10";
+        Cursor data = db.rawQuery(query, null);
+        return data;
+    }
+
+    public Cursor getRecentData(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_WORDS + " ORDER BY lookup DESC LIMIT 10";
+        Cursor data = db.rawQuery(query, null);
+        return data;
+    }
+
 //    public List<Word> getAllWords(){
 //        List<Word> wordList = new ArrayList<Word>();
 //// Select All Query
