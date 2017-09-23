@@ -1,118 +1,165 @@
 package me.thesis.mtd_app;
 
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
-import android.database.Cursor;
+import android.content.ServiceConnection;
 import android.os.Bundle;
+import android.os.IBinder;
+import android.speech.tts.TextToSpeech;
+import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.KeyEvent;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.ImageButton;
+import android.view.Menu;
+import android.view.MenuItem;
 
-import java.util.ArrayList;
+import java.util.Locale;
 
 import me.thesis.mtd_app.db.DBHandler;
+import me.thesis.mtd_app.db.Word;
+import me.thesis.mtd_app.service.MTDService;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener,
+                    TextToSpeech.OnInitListener {
 
-    EditText et;
+    private MTDService mService;
+    private boolean isBound=false;
+    private TextToSpeech tts;
+
+    private ServiceConnection mConnection=new ServiceConnection() {
+        @Override
+        public void onServiceConnected(ComponentName componentName, IBinder service) {
+            if (service.toString().equals("MTD")) {
+                mService=((MTDService.LocalBinder)service).getService();
+            }
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName componentName) { mService=null;}
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
+        Log.d("mtd-app","created app");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        DBHandler db = new DBHandler(this);
-        initDatabase(db);
+        tts=new TextToSpeech(this,this);
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        et=(EditText)findViewById(R.id.main_textbox);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.setDrawerListener(toggle);
+        toggle.syncState();
 
-        final ImageButton recent=(ImageButton)findViewById(R.id.main_recent);
-        recent.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,Recent.class);
-                startActivity(i);
-            }
-        });
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
-        final ImageButton fave=(ImageButton)findViewById(R.id.main_fave);
-        fave.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,Favorite.class);
-                startActivity(i);
-            }
-        });
-
-        final ImageButton close=(ImageButton)findViewById(R.id.main_close);
-        close.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                et.setText("");
-            }
-        });
-    }
-
-    private void initDatabase(DBHandler db) {
-        addWord(db, "Aso" , "n.\n ayam", 1, 1);
-        addWord(db, "Ginhihigugma" , "v.\n minamahal", 1, 1);
-        addWord(db, "Ngayon" , "n.\n yana", 1, 1);
-        addWord(db, "Lidong" , "n.\n bilog", 1, 1);
-        addWord(db, "Misay" , "n.\n pusa", 1, 1);
-
-        Log.i("mtd", "Testing lookup ");
-        Cursor data = db.getRecentData();
-        ArrayList<String> listData = new ArrayList<>();
-        while(data.moveToNext()){
-            listData.add(data.getString(1));
-        }
-
-        for(String s : listData){
-            Log.i("mtd", s);
-        }
-    }
-
-    public void addWord(DBHandler db, String word, String defn, int fav, int look){
-        boolean insertWord = db.addWord(word , defn , fav , look);
-        if(insertWord){
-            Log.i("mtd", "Successfully added the word " + word);
-        }else{
-            Log.i("mtd", "UNSUCCESSFUL");
-        }
+        Intent intent=new Intent(this,MTDService.class);
+        intent.setAction(MTDService.ACTION_INIT_DB);
+        startService(intent);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d("mtd","naresume ko na po ang main");
-    }
-
-
-    @Override
-    public boolean onKeyUp(int keyCode, KeyEvent event) {
-        if (keyCode==KeyEvent.KEYCODE_ENTER) {
-            Intent i=new Intent(MainActivity.this,WordView.class);
-            i.putExtra("selectedText",et.getText().toString());
-            i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
-            startActivity(i);
-//            finish();
-            return true;
+        if (!isBound) {
+            bindService(new Intent(MainActivity.this, MTDService.class),
+                    mConnection,
+                    Context.BIND_AUTO_CREATE);
+            isBound=true;
         }
-        return super.dispatchKeyEvent(event);
     }
 
     @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.d("mtd","restart main");
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
     }
 
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.d("mtd","sinira ko na po and main");
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        return super.onOptionsItemSelected(item);
+    }
+
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+        Bundle b=new Bundle();
+
+        if (id == R.id.nav_search) {
+            WordFragment wordFragment=new WordFragment();
+            b.putString("state","Search");
+            wordFragment.setArguments(b);
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,wordFragment).commit();
+        } else if (id == R.id.nav_favorite) {
+            WordFragment wordFragment=new WordFragment();
+            b.putString("state","Favorite");
+            wordFragment.setArguments(b);
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,wordFragment).commit();
+        } else if (id == R.id.nav_wartag) {
+            ListFragment listFragment=new ListFragment();
+            b.putString("language","Waray");
+            listFragment.setArguments(b);
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,listFragment).commit();
+        } else if (id == R.id.nav_tagwar) {
+            ListFragment listFragment=new ListFragment();
+            b.putString("language","Tagalog");
+            listFragment.setArguments(b);
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,listFragment).commit();
+        } else if (id == R.id.nav_about) {
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,new AboutFragment()).commit();
+        }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
+
+    public void speak(String word) {
+        Log.d("mtd-app","beb be alayb");
+        tts.speak(word,TextToSpeech.QUEUE_FLUSH,null);
+    }
+
+    @Override
+    public void onInit(int status) {
+        if (status == TextToSpeech.SUCCESS){
+            Locale US = tts.getLanguage();
+            int result = tts.setLanguage(US);
+            if(result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED){
+                Log.d("mtd", "Language not supported");
+            }else{}
+        }
+    }
+
+    public void editFavorite(Word word, int i) {
+        DBHandler dbTemp=mService.getDBHandler();
+        dbTemp.updateFavorite(word,i);
     }
 }

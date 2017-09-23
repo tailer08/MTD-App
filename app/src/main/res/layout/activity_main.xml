@@ -1,92 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:background="@color/main">
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ss" />
-
-    <EditText
-        android:id="@+id/main_textbox"
+    <include
+        layout="@layout/app_bar_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:padding="5dip"
-        android:hint="Search word . . ."
-        android:drawableLeft="@drawable/search"
-        android:background="@drawable/textbox"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp" />
+        android:layout_height="match_parent" />
 
-    <ImageButton
-        android:id="@+id/main_close"
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/xmark"
-        android:background="@null"
-        android:layout_alignTop="@+id/main_textbox"
-        android:layout_alignBottom="@+id/main_textbox"
-        android:layout_alignEnd="@+id/main_textbox"
-        android:layout_alignRight="@+id/main_textbox"
-        android:layout_marginEnd="14dp" />
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
 
-    <ImageButton
-        android:id="@+id/main_recent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="81dp"
-        android:background="@null"
-        app:srcCompat="@drawable/clock"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/main_fave"
-        android:layout_marginEnd="51dp" />
-
-    <ImageButton
-        android:id="@+id/main_fave"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="44dp"
-        android:background="@null"
-        app:srcCompat="@drawable/star"
-        android:layout_alignTop="@+id/main_recent"
-        android:layout_toStartOf="@+id/main_close" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Recents"
-        android:textColor="@color/maintext"
-        android:layout_below="@+id/main_fave"
-        android:layout_alignEnd="@+id/main_recent"
-        android:layout_marginEnd="11dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Favorites"
-        android:textColor="@color/maintext"
-        android:layout_below="@+id/main_fave"
-        android:layout_alignStart="@+id/main_fave"
-        android:layout_marginLeft="10dp"
-        android:layout_alignParentBottom="true"/>
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="© MTD Project , 2017"
-        android:textColor="@color/maintext"
-        android:textStyle="italic"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-</RelativeLayout>
+</android.support.v4.widget.DrawerLayout>
