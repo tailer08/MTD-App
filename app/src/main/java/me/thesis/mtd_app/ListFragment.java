@@ -18,7 +18,7 @@ public class ListFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        mView=inflater.inflate(R.layout.activity_letterlist,container,false);
+        mView=inflater.inflate(R.layout.fragment_letterlist,container,false);
 
         final ListView listView=(ListView) mView.findViewById(R.id.letters);
         ArrayAdapter<String> arrayAdapter=new ArrayAdapter<String>(

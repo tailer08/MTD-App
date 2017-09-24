@@ -73,7 +73,7 @@ public class WordFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        mView=inflater.inflate(R.layout.activity_search,container,false);
+        mView=inflater.inflate(R.layout.fragment_search,container,false);
         listView=(ListView)mView.findViewById(R.id.search_listview);
 
         wordAdapter=new WordAdapter(list,(MainActivity) getActivity());
