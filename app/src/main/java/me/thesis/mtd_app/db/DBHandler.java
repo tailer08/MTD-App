@@ -43,7 +43,7 @@ public class DBHandler extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
        Log.d("mtd-app","here at upgrade");
-        db.execSQL("DROP IF TABLE EXISTS " + Word.TABLE_NAME);
+        db.execSQL("DROP TABLE " + TABLE_WORDS);
         onCreate(db);
     }
 
@@ -73,33 +73,27 @@ public class DBHandler extends SQLiteOpenHelper {
         }
     }
 
-//    public Cursor getData(){
-//        SQLiteDatabase db = this.getWritableDatabase();
-//        String query = "SELECT * FROM " + TABLE_WORDS;
-//        Cursor data = db.rawQuery(query, null);
-//        return data;
-//    }
-//
-
-     private Cursor getData(String word){
+     public Cursor getData(String word){
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "SELECT * FROM " + TABLE_WORDS + " WHERE word = '" + word + "'";
         Cursor data = db.rawQuery(query, null);
         return data;
     }
 
-    public ArrayList<Word> searchWords(String condition) {
+    public ArrayList<String> searchWords(String condition) {
         Log.d("mtd-app","condition="+condition);
-        String query="SELECT * FROM "+TABLE_WORDS+" WHERE "+condition+" ORDER BY "+Word.WORD+" ASC";
+        String query="SELECT * FROM "+TABLE_WORDS+" WHERE "+condition+" ORDER BY "+KEY_WORD+" ASC";
         SQLiteDatabase db=getWritableDatabase();
-        ArrayList<Word> list=new ArrayList<Word>();
+        ArrayList<String> list=new ArrayList<String>();
 
         Log.d("mtd-app","querrry="+query);
         Cursor c=db.rawQuery(query,null);
         c.moveToFirst();
 
         while(!c.isAfterLast()) {
-            list.add(new Word(c));
+            Word w=new Word(c);
+            list.add(w.getWord());
+            Log.d("mtd-app","word="+w.getWord()+" fave="+w.getFavorite());
             c.moveToNext();
         }
         db.close();
@@ -107,12 +101,12 @@ public class DBHandler extends SQLiteOpenHelper {
     }
 
     public void updateFavorite(Word word,int i) {
-        Log.d("mtd-app","updating word");
+        Log.d("mtd-app","updating word="+i);
         SQLiteDatabase db=this.getWritableDatabase();
         ContentValues values=new ContentValues();
         values.put(Word.FAVORITE,i);
         db.update(Word.TABLE_NAME,values,Word.ID+"=?",
-                new String[]{String.valueOf(1)});
+                new String[]{Integer.toString(word.getID())});
         Log.d("mtd-app","updated bish");
     }
 

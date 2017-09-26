@@ -5,50 +5,64 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.speech.tts.TextToSpeech;
 import android.support.annotation.Nullable;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ListView;
+import android.widget.TextView;
 
-import java.util.ArrayList;
+import java.util.Locale;
 
 import me.thesis.mtd_app.db.DBHandler;
 import me.thesis.mtd_app.db.Word;
 import me.thesis.mtd_app.service.MTDService;
 
-public class WordFragment extends Fragment {
+public class WordFragment extends Fragment implements TextToSpeech.OnInitListener {
 
-    private static View mView;
-    private static ListView listView;
-
-    DBHandler dbHandler;
-    private String param,letter;
+    private View mView;
     private MTDService mService=null;
     private boolean isBound=false;
-    private ArrayList<Word> list=new ArrayList<Word>();
-    private WordAdapter wordAdapter;
+
+    private TextView word,defn;
+    private TextToSpeech tts;
+    private ImageButton favorite,sound;
+
+    private Word w;
+    private String param;
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName componentName, IBinder service) {
-            if(service.toString().equals("MTD")) {
+            if(service.toString().equals("MTD") && mService==null) {
                 mService = ((MTDService.LocalBinder) service).getService();
-                dbHandler = mService.getDBHandler();
-                Log.d("mtd-app","db is aiiight");
+                Log.d("mtd-app","mService initialized");
 
-                if (param.equals("Favorite")) {
-                    Log.d("mtd-app","at favoritE");
-                    show("favorite=1");
-                } else if (!param.equals("Search")) {
-                    Log.d("mtd-app","at latter kena");
-                    show("word LIKE '"+letter+"%'");
+                Cursor c=(mService.getDBHandler()).getData(param);
+                c.moveToFirst();
+
+                w=new Word(c);
+                word.setText(w.getWord());
+
+                if (w.getDefn().contains("!!")) {
+                    Log.d("mtd-app","gon try for loop");
+                    String[] tokens=w.getDefn().split("!!");
+
+                    for (int i=0; i<tokens.length; i++) {
+                        defn.append(tokens[i]);
+                        defn.append("\n");
+                    }
+                } else {
+                    defn.setText(w.getDefn());
+                }
+
+                if (w.getFavorite()==1) {
+                    favorite.setImageResource(R.drawable.star_on);
                 }
             }
         }
@@ -57,48 +71,57 @@ public class WordFragment extends Fragment {
         public void onServiceDisconnected(ComponentName componentName) { mService=null;}
     };
 
-    private void show(String filter) {
+    public void editFavorite() {
+        DBHandler dbTemp=mService.getDBHandler();
 
-        Log.d("mtd-app","filter="+filter);
-
-        if (dbHandler!=null) {
-            list.removeAll(list);
-            list.addAll(dbHandler.searchWords(filter));
-            wordAdapter.notifyDataSetChanged();
+        if (w.getFavorite()==0) {
+            favorite.setImageResource(R.drawable.star_on);
+            dbTemp.updateFavorite(w,1);
         } else {
-            Log.d("mtd-app","dbHandler is null?");
+            favorite.setImageResource(R.drawable.star_off);
+            dbTemp.updateFavorite(w,0);
+        }
+    }
+
+    public void speak() {
+        Log.d("mtd-app","beb be alayb");
+        tts.speak(w.getWord(), TextToSpeech.QUEUE_FLUSH,null);
+    }
+
+    @Override
+    public void onInit(int status) {
+        if (status == TextToSpeech.SUCCESS){
+            Locale US = tts.getLanguage();
+            int result = tts.setLanguage(US);
+            if(result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED){
+                Log.d("mtd", "Language not supported");
+            }else{}
         }
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        mView=inflater.inflate(R.layout.fragment_search,container,false);
-        listView=(ListView)mView.findViewById(R.id.search_listview);
+        mView=inflater.inflate(R.layout.fragment_wordview,container,false);
 
-        wordAdapter=new WordAdapter(list,(MainActivity) getActivity());
-        listView.setAdapter(wordAdapter);
+        word=(TextView) mView.findViewById(R.id.word_main);
+        defn=(TextView) mView.findViewById(R.id.word_defn);
 
-        final EditText et=(EditText)mView.findViewById(R.id.search_textbox);
-        et.setOnKeyListener(new View.OnKeyListener(){
-            @Override
-            public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
-                if (keyEvent.getAction()==KeyEvent.ACTION_UP) {
-                    if (param.equals("Search")) {
-                        show("word LIKE '%"+et.getText().toString()+"%'");
-                    } else if (letter!=null){
-                        show("language='"+param+"' and word LIKE '"+letter+"%'");
-                    }
-                }
-                return false;
-            }
-        });
-
-        ((ImageButton)mView.findViewById(R.id.search_close)).setOnClickListener(new View.OnClickListener(){
+        tts=new TextToSpeech(getActivity(),this);
+        favorite=(ImageButton) mView.findViewById(R.id.favorite);
+        favorite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                et.setText("");
+                editFavorite();
             }});
+
+        sound=(ImageButton) mView.findViewById(R.id.sound);
+        sound.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                speak();
+            }});
+
         return mView;
     }
 
@@ -113,9 +136,26 @@ public class WordFragment extends Fragment {
             isBound=true;
         }
 
-        Bundle b=getArguments();
-        param = b.getString("state");
-        letter=b.getString("letter");
-        Log.d("mtd-app","oi resume si word fragment="+param+" letter="+letter);
+        if (tts==null) {
+            tts=new TextToSpeech(getActivity(),this);
+        }
+
+        param=getArguments().getString("word");
+    }
+
+    @Override
+    public void onDestroy() {
+        if (isBound) {
+            isBound=false;
+            getActivity().unbindService(mConnection);
+        }
+
+        if (tts!=null) {
+            tts.stop();
+            tts.shutdown();
+            Log.d("mtd-app","TTS Destroyed");
+        }
+
+        super.onDestroy();
     }
 }

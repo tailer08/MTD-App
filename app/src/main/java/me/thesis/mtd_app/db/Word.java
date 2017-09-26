@@ -5,7 +5,7 @@ import android.provider.BaseColumns;
 
 public class Word{
 
-    public static final String TABLE_NAME="Words";
+    public static final String TABLE_NAME="words";
 
     public static final String ID= BaseColumns._ID;
     public static final String WORD="word";
@@ -42,6 +42,10 @@ public class Word{
 
     public void setFavorite(int favorite) {
         this._favorite=favorite;
+    }
+
+    public int getID() {
+        return _id;
     }
 
     public String getWord() {

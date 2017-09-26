@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
-import android.speech.tts.TextToSpeech;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -17,19 +16,13 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import java.util.Locale;
-
-import me.thesis.mtd_app.db.DBHandler;
-import me.thesis.mtd_app.db.Word;
 import me.thesis.mtd_app.service.MTDService;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener,
-                    TextToSpeech.OnInitListener {
+        implements NavigationView.OnNavigationItemSelectedListener {
 
     private MTDService mService;
     private boolean isBound=false;
-    private TextToSpeech tts;
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
@@ -49,7 +42,6 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tts=new TextToSpeech(this,this);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -114,25 +106,25 @@ public class MainActivity extends AppCompatActivity
         Bundle b=new Bundle();
 
         if (id == R.id.nav_search) {
-            WordFragment wordFragment=new WordFragment();
+            WordListFragment wordListFragment =new WordListFragment();
             b.putString("state","Search");
-            wordFragment.setArguments(b);
-            getFragmentManager().beginTransaction().replace(R.id.content_frame,wordFragment).commit();
+            wordListFragment.setArguments(b);
+            getFragmentManager().beginTransaction().replace(R.id.content_frame, wordListFragment).commit();
         } else if (id == R.id.nav_favorite) {
-            WordFragment wordFragment=new WordFragment();
+            WordListFragment wordListFragment =new WordListFragment();
             b.putString("state","Favorite");
-            wordFragment.setArguments(b);
-            getFragmentManager().beginTransaction().replace(R.id.content_frame,wordFragment).commit();
+            wordListFragment.setArguments(b);
+            getFragmentManager().beginTransaction().replace(R.id.content_frame, wordListFragment).commit();
         } else if (id == R.id.nav_wartag) {
-            ListFragment listFragment=new ListFragment();
+            LetterListFragment letterListFragment =new LetterListFragment();
             b.putString("language","Waray");
-            listFragment.setArguments(b);
-            getFragmentManager().beginTransaction().replace(R.id.content_frame,listFragment).commit();
+            letterListFragment.setArguments(b);
+            getFragmentManager().beginTransaction().replace(R.id.content_frame, letterListFragment).commit();
         } else if (id == R.id.nav_tagwar) {
-            ListFragment listFragment=new ListFragment();
+            LetterListFragment letterListFragment =new LetterListFragment();
             b.putString("language","Tagalog");
-            listFragment.setArguments(b);
-            getFragmentManager().beginTransaction().replace(R.id.content_frame,listFragment).commit();
+            letterListFragment.setArguments(b);
+            getFragmentManager().beginTransaction().replace(R.id.content_frame, letterListFragment).commit();
         } else if (id == R.id.nav_about) {
             getFragmentManager().beginTransaction().replace(R.id.content_frame,new AboutFragment()).commit();
         }
@@ -142,24 +134,14 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    public void speak(String word) {
-        Log.d("mtd-app","beb be alayb");
-        tts.speak(word,TextToSpeech.QUEUE_FLUSH,null);
-    }
-
     @Override
-    public void onInit(int status) {
-        if (status == TextToSpeech.SUCCESS){
-            Locale US = tts.getLanguage();
-            int result = tts.setLanguage(US);
-            if(result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED){
-                Log.d("mtd", "Language not supported");
-            }else{}
+    protected void onDestroy() {
+        if (isBound) {
+            isBound=false;
+            unbindService(mConnection);
         }
-    }
 
-    public void editFavorite(Word word, int i) {
-        DBHandler dbTemp=mService.getDBHandler();
-        dbTemp.updateFavorite(word,i);
+        super.onDestroy();
+        Log.d("mtd-app","here bruh");
     }
 }

@@ -10,7 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class ListFragment extends Fragment {
+public class LetterListFragment extends Fragment {
 
     private View mView;
     private String param;
@@ -29,13 +29,13 @@ public class ListFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                WordFragment wordFragment=new WordFragment();
+                WordListFragment wordListFragment =new WordListFragment();
                 Bundle b=new Bundle();
                 b.putString("state",param);
                 b.putString("letter",listView.getItemAtPosition(i).toString());
-                wordFragment.setArguments(b);
+                wordListFragment.setArguments(b);
                 getActivity().getFragmentManager().beginTransaction().
-                        replace(R.id.content_frame,wordFragment,null).addToBackStack(null).commit();
+                        replace(R.id.content_frame, wordListFragment,null).addToBackStack(null).commit();
             }
         });
         return mView;

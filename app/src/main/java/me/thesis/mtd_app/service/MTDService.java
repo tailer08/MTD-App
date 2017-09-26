@@ -44,7 +44,7 @@ public class MTDService extends IntentService {
         if(insertWord){
             Log.i("mtd-app", "Successfully added the word " + word);
         }else{
-            Log.i("mtd-app", "UNSUCCESSFUL");
+            Log.i("mtd-app", "UNSUCCESSFUL "+word);
         }
     }
 

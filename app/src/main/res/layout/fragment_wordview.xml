@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/search_textbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="5dip"
+            android:hint="Search word . . ."
+            android:drawableLeft="@drawable/search"
+            android:background="@drawable/textbox"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:id="@+id/search_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/xmark"
+            android:background="@null"
+            android:layout_alignTop="@+id/search_textbox"
+            android:layout_alignBottom="@+id/search_textbox"
+            android:layout_alignEnd="@+id/search_textbox"
+            android:layout_alignRight="@+id/search_textbox"
+            android:layout_marginEnd="5dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/word_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="aewbkhjj"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/word_main"
+            android:layout_alignTop="@+id/word_main"
+            android:layout_toEndOf="@+id/word_main"
+            android:layout_marginEnd="5dp"
+            android:background="@color/main"
+            android:clickable="true"
+            android:src="@drawable/sound_off" />
+
+        <ImageButton
+            android:id="@+id/favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sound"
+            android:layout_alignTop="@+id/word_main"
+            android:layout_toEndOf="@+id/sound"
+            android:background="@color/main"
+            android:clickable="true"
+            android:src="@drawable/star_off" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/word_defn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"/>
+    </ScrollView>
+</LinearLayout>
