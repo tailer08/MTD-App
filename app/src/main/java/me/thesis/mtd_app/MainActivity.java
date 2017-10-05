@@ -15,25 +15,21 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import me.thesis.mtd_app.service.MTDService;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private MTDService mService;
     private boolean isBound=false;
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
-        public void onServiceConnected(ComponentName componentName, IBinder service) {
-            if (service.toString().equals("MTD")) {
-                mService=((MTDService.LocalBinder)service).getService();
-            }
-        }
+        public void onServiceConnected(ComponentName componentName, IBinder service) {}
 
         @Override
-        public void onServiceDisconnected(ComponentName componentName) { mService=null;}
+        public void onServiceDisconnected(ComponentName componentName) {}
     };
 
     @Override
@@ -41,11 +37,13 @@ public class MainActivity extends AppCompatActivity
         Log.d("mtd-app","created app");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                new HomeFragment()).commit();
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        final DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
@@ -53,6 +51,15 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        View headerView=navigationView.getHeaderView(0);
+        headerView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                        new HomeFragment()).commit();
+                drawer.closeDrawer(GravityCompat.START);
+            }});
 
         Intent intent=new Intent(this,MTDService.class);
         intent.setAction(MTDService.ACTION_INIT_DB);
@@ -62,8 +69,9 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onResume() {
         super.onResume();
+
         if (!isBound) {
-            bindService(new Intent(MainActivity.this, MTDService.class),
+            bindService(new Intent(this, MTDService.class),
                     mConnection,
                     Context.BIND_AUTO_CREATE);
             isBound=true;
@@ -76,7 +84,12 @@ public class MainActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            Log.d("mtd-app","on back pressed @ mainactivity");
+            if (getFragmentManager().getBackStackEntryCount()>0) {
+                getFragmentManager().popBackStack();
+            } else {
+                super.onBackPressed();
+            }
         }
     }
 
@@ -106,27 +119,38 @@ public class MainActivity extends AppCompatActivity
         Bundle b=new Bundle();
 
         if (id == R.id.nav_search) {
-            WordListFragment wordListFragment =new WordListFragment();
+            SearchFragment searchFragment=new SearchFragment();
             b.putString("state","Search");
-            wordListFragment.setArguments(b);
-            getFragmentManager().beginTransaction().replace(R.id.content_frame, wordListFragment).commit();
+            searchFragment.setArguments(b);
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                    searchFragment).addToBackStack(null).commit();
+        } else if (id == R.id.nav_recent) {
+            SearchFragment searchFragment=new SearchFragment();
+            b.putString("state","Recent");
+            searchFragment.setArguments(b);
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                    searchFragment).addToBackStack(null).commit();
         } else if (id == R.id.nav_favorite) {
-            WordListFragment wordListFragment =new WordListFragment();
+            SearchFragment searchFragment=new SearchFragment();
             b.putString("state","Favorite");
-            wordListFragment.setArguments(b);
-            getFragmentManager().beginTransaction().replace(R.id.content_frame, wordListFragment).commit();
+            searchFragment.setArguments(b);
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                    searchFragment).addToBackStack(null).commit();
         } else if (id == R.id.nav_wartag) {
             LetterListFragment letterListFragment =new LetterListFragment();
             b.putString("language","Waray");
             letterListFragment.setArguments(b);
-            getFragmentManager().beginTransaction().replace(R.id.content_frame, letterListFragment).commit();
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                    letterListFragment).addToBackStack(null).commit();
         } else if (id == R.id.nav_tagwar) {
             LetterListFragment letterListFragment =new LetterListFragment();
             b.putString("language","Tagalog");
             letterListFragment.setArguments(b);
-            getFragmentManager().beginTransaction().replace(R.id.content_frame, letterListFragment).commit();
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                    letterListFragment).addToBackStack(null).commit();
         } else if (id == R.id.nav_about) {
-            getFragmentManager().beginTransaction().replace(R.id.content_frame,new AboutFragment()).commit();
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                    new AboutFragment()).addToBackStack(null).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -142,6 +166,5 @@ public class MainActivity extends AppCompatActivity
         }
 
         super.onDestroy();
-        Log.d("mtd-app","here bruh");
     }
 }

@@ -21,7 +21,6 @@ public class MTDService extends IntentService {
     private final IBinder mBinder=new LocalBinder();
     private DBHandler dbHandler=null;
 
-
     private void initDatabase() {
         BufferedReader reader;
 
@@ -31,16 +30,19 @@ public class MTDService extends IntentService {
             String line;
             while((line=reader.readLine())!=null) {
                 String[] tokens=line.split(" , ");
-                addWord(tokens[0], tokens[1],
-                        Integer.parseInt(tokens[2]), tokens[3]);
+                addWord(tokens[0],
+                        tokens[1],
+                        Integer.parseInt(tokens[2]),
+                        Integer.parseInt(tokens[3]),
+                        tokens[4]);
             }
         } catch(IOException e) {
             Log.d("mtd-app","cannot open file");
         }
     }
 
-    private void addWord(String word, String defn, int fav, String lang){
-        boolean insertWord = dbHandler.addWord(word,defn,fav,lang);
+    private void addWord(String word, String defn, int fav, int lookup, String lang){
+        boolean insertWord = dbHandler.addWord(word,defn,fav,lang,lookup);
         if(insertWord){
             Log.i("mtd-app", "Successfully added the word " + word);
         }else{
@@ -54,7 +56,7 @@ public class MTDService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        if (intent != null && intent.getAction().equals(ACTION_INIT_DB)) {
+        if (intent!=null && intent.getAction().equals(ACTION_INIT_DB)) {
             dbHandler=new DBHandler(this);
             initDatabase();
         }

@@ -13,13 +13,14 @@ import java.util.ArrayList;
 public class DBHandler extends SQLiteOpenHelper {
 
     private static final String TAG = "DBHandler";
-    private static final int DATABASE_VERSION   = 4;
+    private static final int DATABASE_VERSION   = 5;
     private static final String DATABASE_NAME   = "mtd";
     private static final String TABLE_WORDS     = "words";
     private static final String KEY_WORD        = "word";
     private static final String KEY_DEFN        = "defn";
     private static final String KEY_FAVORITE    = "favorite";
-    private static final String KEY_LANGUAGE      = "language";
+    private static final String KEY_LANGUAGE    = "language";
+    private static final String KEY_LOOKUP      = "lookup";
 //    private static final String KEY_PHONETIC      = "phonetic";
 
     private static final String CREATE_WORD_TABLE=
@@ -28,7 +29,8 @@ public class DBHandler extends SQLiteOpenHelper {
                     KEY_WORD    + " TEXT NOT NULL," +
                     KEY_DEFN    + " TEXT NOT NULL," +
                     KEY_LANGUAGE+ " TEXT NOT NULL," +
-                    KEY_FAVORITE+ " INTEGER DEFAULT 0)";
+                    KEY_FAVORITE+ " INTEGER DEFAULT 0,"+
+                    KEY_LOOKUP  + " INTEGER DEFAULT 0)";
 
     public DBHandler(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -47,7 +49,7 @@ public class DBHandler extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public boolean addWord(String word, String def, int fav, String lang) {
+    public boolean addWord(String word, String def, int fav, String lang, int lookup) {
         Cursor data = getData(word);
         if(data.getCount() == 0) {
             SQLiteDatabase db = this.getWritableDatabase();
@@ -57,6 +59,7 @@ public class DBHandler extends SQLiteOpenHelper {
             values.put(KEY_DEFN, def);
             values.put(KEY_FAVORITE, fav);
             values.put(KEY_LANGUAGE, lang);
+            values.put(KEY_LOOKUP, lookup);
 
             Log.i("mtd-app", "add data: ADDING "+word+" : "+def+" : "+fav+" : "+lang+" to "+TABLE_WORDS);
             long result = db.insert(TABLE_WORDS, null, values);
@@ -81,26 +84,23 @@ public class DBHandler extends SQLiteOpenHelper {
     }
 
     public ArrayList<String> searchWords(String condition) {
-        Log.d("mtd-app","condition="+condition);
-        String query="SELECT * FROM "+TABLE_WORDS+" WHERE "+condition+" ORDER BY "+KEY_WORD+" ASC";
+        String query="SELECT * FROM "+TABLE_WORDS+" WHERE "+condition+" ASC";
         SQLiteDatabase db=getWritableDatabase();
         ArrayList<String> list=new ArrayList<String>();
 
-        Log.d("mtd-app","querrry="+query);
         Cursor c=db.rawQuery(query,null);
         c.moveToFirst();
 
         while(!c.isAfterLast()) {
             Word w=new Word(c);
             list.add(w.getWord());
-            Log.d("mtd-app","word="+w.getWord()+" fave="+w.getFavorite());
             c.moveToNext();
         }
         db.close();
         return list;
     }
 
-    public void updateFavorite(Word word,int i) {
+    public void updateFavorite(Word word, int i) {
         Log.d("mtd-app","updating word="+i);
         SQLiteDatabase db=this.getWritableDatabase();
         ContentValues values=new ContentValues();
@@ -108,6 +108,16 @@ public class DBHandler extends SQLiteOpenHelper {
         db.update(Word.TABLE_NAME,values,Word.ID+"=?",
                 new String[]{Integer.toString(word.getID())});
         Log.d("mtd-app","updated bish");
+    }
+
+    public void updateLookup(Word word, int i) {
+        Log.d("mtd-app","updating lookup");
+        SQLiteDatabase db=this.getWritableDatabase();
+        ContentValues values=new ContentValues();
+        values.put(Word.LOOKUP,i);
+        db.update(Word.TABLE_NAME,values,Word.ID+"=?",
+                new String[]{Integer.toString(word.getID())});
+        Log.d("mtd-app","updated lookup");
     }
 
     public Cursor getFavoriteData(){

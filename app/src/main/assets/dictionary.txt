@@ -1,27 +1,27 @@
-Abat , ramdam , 0 , Waray 
-Bunggo , salpok,bunggo , 0 , Waray
-Kadausa , bawat isa , 0 , Waray
-Doason , maputla,anemiko , 0 , Waray
-Eksplikar , magpaliwanag , 0 , Waray
-Galot , malagkit , 0 , Waray
-Hanabo , nangyari , 0 , Waray
-Idro , eruplano , 0 , Waray
-Laknit , hila,tanggal , 0 , Waray
-Manggad , yaman,kayamanan , 0 , Waray
-Tapat , tabok , 0 , Tagalog
-Inumin , irimnon!!Anong gusto mong inumin?- Ano it imu gusto inumon?- Unsay gusto nimo imnon?!!akakalasing na inumin, nakakahubog nga irinumon,makahubog nga ilimnon , 0 , Tagalog
-Pagkakataon , pagkakataon-higayon-okasyon-oportunidad , 0 , Tagalog
-Utang , credit-utang-loan , 0 , Tagalog
-Makina , makina , 0 , Tagalog
-Balahibo , barahibo , 0 , Tagalog
-Paglakad , paso , 0 , Tagalog
-Butas , buho , 0 , Tagalog
-Angkin , kinaiya , 0 , Tagalog
-Payat , payatot-magasa,gasa-niwang!!pumayat ka-gumasa ka-ikaw nawad-an sa gibug, aton , 0 , Tagalog
-Nangyari , nangyari,nahitabo!!walang nangyari,waray nahitabo!!Anong nangyari dito? Ano an nahitabo dinhi?!!Anong nangyari sa inyo? , 0 , Tagalog
-Angkinin , pagkakaroon ng taglay na katangian.!!Tinataglay o inaari.!!Nga adunay usa nga kina iya.!!Tinataglay o inaangkon!!nag mamay ari,nanag iya!!kam-kam,agaw!!ilit,diri hinay!!nakaw,kupit!!angkinin,pag angkon!!aangkinin, aangkunon , 0 , Tagalog
-Bawat-isa , nagpakilala ang bawat -isa,usa ka tawo an nag pakilala- gipaila-ila matang usa!!iguguhit sa bawat isa- isusurat ha kadausa- madani sa usag usa , 0 , Tagalog
-Kayamanan , kayamanan-karikuhan-bahandi-manggad , 0 , Tagalog
-Malagkit , malagkit-mapilit-hagkot ang lawas-galot , 0 , Tagalog
-Eruplano , eruplano-idro-haydrolika , 0 , Tagalog
-Butas , lungag-hukay-lubak-buho , 0 , Tagalog
+Abat , ramdam , 0 , 0 , Waray
+Bunggo , salpok,bunggo , 0 , 0 , Waray
+Kadausa , bawat isa , 0 , 0 , Waray
+Doason , maputla,anemiko , 0 , 0 , Waray
+Eksplikar , magpaliwanag , 0 , 0 , Waray
+Galot , malagkit , 0 , 0 , Waray
+Hanabo , nangyari , 0 , 0 , Waray
+Idro , eruplano , 0 , 0 , Waray
+Laknit , hila,tanggal , 0 , 0 , Waray
+Manggad , yaman,kayamanan , 0 , 0 , Waray
+Tapat , tabok , 0 , 0 , Tagalog
+Inumin , irimnon!!Anong gusto mong inumin?- Ano it imu gusto inumon?- Unsay gusto nimo imnon?!!akakalasing na inumin, nakakahubog nga irinumon,makahubog nga ilimnon , 0 , 0 , Tagalog
+Pagkakataon , pagkakataon-higayon-okasyon-oportunidad , 0 , 0 , Tagalog
+Utang , credit-utang-loan , 0 , 0 , Tagalog
+Makina , makina , 0 , 0 , Tagalog
+Balahibo , barahibo , 0 , 0 , Tagalog
+Paglakad , paso , 0 , 0 , Tagalog
+Butas , buho , 0 , 0 , Tagalog
+Angkin , kinaiya , 0 , 0 , Tagalog
+Payat , payatot-magasa,gasa-niwang!!pumayat ka-gumasa ka-ikaw nawad-an sa gibug, aton , 0 , 0 , Tagalog
+Nangyari , nangyari,nahitabo!!walang nangyari,waray nahitabo!!Anong nangyari dito? Ano an nahitabo dinhi?!!Anong nangyari sa inyo? , 0 , 0 , Tagalog
+Angkinin , pagkakaroon ng taglay na katangian.!!Tinataglay o inaari.!!Nga adunay usa nga kina iya.!!Tinataglay o inaangkon!!nag mamay ari,nanag iya!!kam-kam,agaw!!ilit,diri hinay!!nakaw,kupit!!angkinin,pag angkon!!aangkinin, aangkunon , 0 , 0 , Tagalog
+Bawat-isa , nagpakilala ang bawat -isa,usa ka tawo an nag pakilala- gipaila-ila matang usa!!iguguhit sa bawat isa- isusurat ha kadausa- madani sa usag usa , 0 , 0 , Tagalog
+Kayamanan , kayamanan-karikuhan-bahandi-manggad , 0 , 0 , Tagalog
+Malagkit , malagkit-mapilit-hagkot ang lawas-galot , 0 , 0 , Tagalog
+Eruplano , eruplano-idro-haydrolika , 0 , 0 , Tagalog
+Butas , lungag-hukay-lubak-buho , 0 , 0 , Tagalog

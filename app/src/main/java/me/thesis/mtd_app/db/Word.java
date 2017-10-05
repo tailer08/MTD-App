@@ -12,6 +12,7 @@ public class Word{
     public static final String DEFN="defn";
     public static final String FAVORITE="favorite";
     public static final String LANGUAGE="language";
+    public static final String LOOKUP="lookup";
 //    public static final String PHONETIC="phonetic";
 
     private int _id;
@@ -19,15 +20,17 @@ public class Word{
     private String _defn;
     private int _favorite;
     private String _language;
+    private int _lookup;
 //    private String _phonetic;
 
     public Word() {}
 
-    public Word(String word, String defn, int favorite, String language/*, String phonetic*/) {
+    public Word(String word, String defn, int favorite, String language, int lookup/*, String phonetic*/) {
         this._word=word;
         this._defn=defn;
         this._favorite=favorite;
         this._language=language;
+        this._lookup=lookup;
 //        this._phonetic=phonetic;
     }
 
@@ -37,11 +40,8 @@ public class Word{
         this._defn=c.getString(c.getColumnIndex(DEFN));
         this._favorite=c.getInt(c.getColumnIndex(FAVORITE));
         this._language=c.getString(c.getColumnIndex(LANGUAGE));
+        this._lookup=c.getInt(c.getColumnIndex(LOOKUP));
 //        this._phonetic=c.getString(c.getColumnIndex(PHONETIC));
-    }
-
-    public void setFavorite(int favorite) {
-        this._favorite=favorite;
     }
 
     public int getID() {
@@ -56,17 +56,10 @@ public class Word{
         return _defn;
     }
 
-    public int isFavorite() {
-        return _favorite;
-    }
-
-    public String getLanguage() {
-        return _language;
-    }
-
     public int getFavorite() {
         return _favorite;
     }
 
+    public int getLookup() { return _lookup; }
 //    public String getPhonetic() { return _phonetic; }
 }

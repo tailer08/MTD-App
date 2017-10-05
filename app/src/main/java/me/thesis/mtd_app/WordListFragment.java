@@ -9,14 +9,11 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -30,7 +27,7 @@ public class WordListFragment extends Fragment {
     private static ListView listView;
 
     DBHandler dbHandler;
-    private String param,letter;
+    private String param,letter, condition="empty";
     private MTDService mService=null;
     private boolean isBound=false;
     private ArrayList<String> list=new ArrayList<String>();
@@ -43,14 +40,7 @@ public class WordListFragment extends Fragment {
                 mService = ((MTDService.LocalBinder) service).getService();
                 dbHandler = mService.getDBHandler();
                 Log.d("mtd-app","db is aiiight");
-
-                if (param.equals("Favorite")) {
-                    Log.d("mtd-app","at favoritE");
-                    show("favorite=1");
-                } else if (!param.equals("Search")) {
-                    Log.d("mtd-app","at latter kena");
-                    show("word LIKE '"+letter+"%'");
-                }
+                setList();
             }
         }
 
@@ -58,15 +48,26 @@ public class WordListFragment extends Fragment {
         public void onServiceDisconnected(ComponentName componentName) { mService=null;}
     };
 
-    private void show(String filter) {
-        Log.d("mtd-app","filter="+filter);
+    private void setList() {
+        if (condition!=null) {
+            Log.d("mtd-app","condition="+condition);
+            show(condition+" ORDER BY word");
+        } else if (param.equals("Favorite")) {
+            Log.d("mtd-app","at favoritE");
+            show("favorite=1 ORDER BY word");
+        } else if (param.equals("Recent")) {
+            Log.d("mtd-app","at recent");
+            show("lookup>=1 ORDER BY lookup");
+        } else if (!param.equals("Search")) {
+            Log.d("mtd-app","at latter kena");
+            show("word LIKE '"+letter+"%' AND language LIKE '"+param+"' ORDER BY word");
+        }
+    }
 
+    private void show(String filter) {
         if (dbHandler!=null) {
             list.removeAll(list);
             list.addAll(dbHandler.searchWords(filter));
-            for (String w: list) {
-                Log.d("mtd-app","word="+w);
-            }
             wordAdapter.notifyDataSetChanged();
         } else {
             Log.d("mtd-app","dbHandler is null?");
@@ -95,26 +96,6 @@ public class WordListFragment extends Fragment {
                         replace(R.id.content_frame, wordFragment,null).addToBackStack(null).commit();
             }});
 
-        final EditText et=(EditText)mView.findViewById(R.id.search_textbox);
-        et.setOnKeyListener(new View.OnKeyListener(){
-            @Override
-            public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
-                if (keyEvent.getAction()==KeyEvent.ACTION_UP) {
-                    if (param.equals("Search")) {
-                        show("word LIKE '%"+et.getText().toString()+"%'");
-                    } else if (letter!=null){
-                        show("language='"+param+"' and word LIKE '"+letter+"%'");
-                    }
-                }
-                return false;
-            }
-        });
-
-        ((ImageButton)mView.findViewById(R.id.search_close)).setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                et.setText("");
-            }});
         return mView;
     }
 
@@ -122,17 +103,24 @@ public class WordListFragment extends Fragment {
     public void onResume() {
         super.onResume();
 
+        Bundle b=getArguments();
+        param = b.getString("state");
+        letter=b.getString("letter");
+
+        if (b.getString("condition")!=null && !b.getString("condition").equals(condition)) {
+            condition=b.getString("condition");
+        } else {
+            condition=null;
+        }
+
         if (!isBound) {
             getActivity().bindService(new Intent(getActivity(), MTDService.class),
                     mConnection,
                     Context.BIND_AUTO_CREATE);
             isBound=true;
+        } else {
+            setList();
         }
-
-        Bundle b=getArguments();
-        param = b.getString("state");
-        letter=b.getString("letter");
-        Log.d("mtd-app","oi resume si word fragment="+param+" letter="+letter);
     }
 
     @Override
@@ -143,6 +131,6 @@ public class WordListFragment extends Fragment {
         }
 
         super.onDestroy();
-        Log.d("mtd-app","destroyed fragment");
+        Log.d("mtd-app","destroyed fragment WordListFragment");
     }
 }

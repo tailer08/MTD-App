@@ -23,4 +23,5 @@
             android:name=".service.MTDService"
             android:exported="false" />
     </application>
+
 </manifest>

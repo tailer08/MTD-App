@@ -8,11 +8,6 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/app_bar_main">
 
-    <ImageView
-        android:layout_width="0dp"
-        android:layout_height="495dp"
-        android:src="@drawable/ss"/>
-
     <FrameLayout
         android:id="@+id/content_frame"
         android:layout_width="match_parent"
