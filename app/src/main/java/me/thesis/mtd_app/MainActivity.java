@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private boolean isBound=false;
+    private String s;
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
@@ -85,11 +86,7 @@ public class MainActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             Log.d("mtd-app","on back pressed @ mainactivity");
-            if (getFragmentManager().getBackStackEntryCount()>0) {
-                getFragmentManager().popBackStack();
-            } else {
                 super.onBackPressed();
-            }
         }
     }
 
@@ -119,38 +116,38 @@ public class MainActivity extends AppCompatActivity
         Bundle b=new Bundle();
 
         if (id == R.id.nav_search) {
-            SearchFragment searchFragment=new SearchFragment();
+            WordListFragment wordListFragment=new WordListFragment();
             b.putString("state","Search");
-            searchFragment.setArguments(b);
+            wordListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    searchFragment).addToBackStack(null).commit();
+                    wordListFragment).commit();
         } else if (id == R.id.nav_recent) {
-            SearchFragment searchFragment=new SearchFragment();
+            WordListFragment wordListFragment=new WordListFragment();
             b.putString("state","Recent");
-            searchFragment.setArguments(b);
+            wordListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    searchFragment).addToBackStack(null).commit();
+                    wordListFragment).commit();
         } else if (id == R.id.nav_favorite) {
-            SearchFragment searchFragment=new SearchFragment();
+            WordListFragment wordListFragment=new  WordListFragment();
             b.putString("state","Favorite");
-            searchFragment.setArguments(b);
+            wordListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    searchFragment).addToBackStack(null).commit();
+                    wordListFragment).commit();
         } else if (id == R.id.nav_wartag) {
             LetterListFragment letterListFragment =new LetterListFragment();
             b.putString("language","Waray");
             letterListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    letterListFragment).addToBackStack(null).commit();
+                    letterListFragment).commit();
         } else if (id == R.id.nav_tagwar) {
             LetterListFragment letterListFragment =new LetterListFragment();
             b.putString("language","Tagalog");
             letterListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    letterListFragment).addToBackStack(null).commit();
+                    letterListFragment).commit();
         } else if (id == R.id.nav_about) {
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    new AboutFragment()).addToBackStack(null).commit();
+                    new AboutFragment()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

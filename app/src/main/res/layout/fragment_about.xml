@@ -18,7 +18,7 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/text_about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView2"
@@ -27,6 +27,5 @@
         android:layout_centerHorizontal="true"
         android:textColor="#FFFFFF"
         android:textSize="15dp"
-        android:gravity="fill_horizontal"
-        android:text="Thank you for using our app!\n\n\nMother Tongue Dictionary is an offline Waray-Tagalog dictionary that allows users to search for the equivalent of Waray-Waray or Tagalog words.\n\n"/>
+        android:gravity="fill_horizontal"/>
 </RelativeLayout>

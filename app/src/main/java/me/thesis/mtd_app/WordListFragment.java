@@ -1,5 +1,6 @@
 package me.thesis.mtd_app;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.content.ComponentName;
 import android.content.Context;
@@ -9,11 +10,15 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -27,7 +32,7 @@ public class WordListFragment extends Fragment {
     private static ListView listView;
 
     DBHandler dbHandler;
-    private String param,letter, condition="empty";
+    private String letter, condition, state;
     private MTDService mService=null;
     private boolean isBound=false;
     private ArrayList<String> list=new ArrayList<String>();
@@ -52,15 +57,15 @@ public class WordListFragment extends Fragment {
         if (condition!=null) {
             Log.d("mtd-app","condition="+condition);
             show(condition+" ORDER BY word");
-        } else if (param.equals("Favorite")) {
+        } else if (state.equals("Favorite")) {
             Log.d("mtd-app","at favoritE");
             show("favorite=1 ORDER BY word");
-        } else if (param.equals("Recent")) {
+        } else if (state.equals("Recent")) {
             Log.d("mtd-app","at recent");
             show("lookup>=1 ORDER BY lookup");
-        } else if (!param.equals("Search")) {
+        } else if (!state.equals("Search")) {
             Log.d("mtd-app","at latter kena");
-            show("word LIKE '"+letter+"%' AND language LIKE '"+param+"' ORDER BY word");
+            show("word LIKE '"+letter+"%' AND language LIKE '"+state+"' ORDER BY word");
         }
     }
 
@@ -96,6 +101,50 @@ public class WordListFragment extends Fragment {
                         replace(R.id.content_frame, wordFragment,null).addToBackStack(null).commit();
             }});
 
+        final EditText et=(EditText)mView.findViewById(R.id.word_search);
+        et.setOnKeyListener(new View.OnKeyListener(){
+
+            @Override
+            public boolean onKey(View view, int i, KeyEvent keyEvent) {
+                if (keyEvent.getAction()==KeyEvent.ACTION_UP) {
+
+                    if (state.equals("Search")) {
+                        condition="word LIKE '%"+et.getText().toString()+"%'";
+                    } else if (state.equals("Favorite")) {
+                        condition="favorite=1 AND word LIKE '"+et.getText().toString()+"%'";
+                    } else if (state.equals("Recent")) {
+                        condition="word LIKE '%"+et.getText().toString()+"%' AND lookup>=1";
+                    } else {
+                        condition = "language LIKE '" + state + "' AND " +
+                                "word LIKE '" + letter + "%' AND " +
+                                "word LIKE '" + et.getText().toString() + "%'";
+                    }
+
+                    if (condition==null) {
+                        return false;
+                    } else {
+                        setList();
+                    }
+
+                    et.setText("");
+                }
+                return false;
+            }
+        });
+        et.setOnFocusChangeListener(new View.OnFocusChangeListener(){
+            @Override
+            public void onFocusChange(View view, boolean b) {
+                if (!b) {
+                    ((InputMethodManager)getActivity().getSystemService(Activity.INPUT_METHOD_SERVICE)).
+                            hideSoftInputFromWindow(et.getWindowToken(), 0);
+                }
+            }});
+
+        ((ImageButton)mView.findViewById(R.id.search_close)).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                et.setText("");
+            }});
         return mView;
     }
 
@@ -103,15 +152,8 @@ public class WordListFragment extends Fragment {
     public void onResume() {
         super.onResume();
 
-        Bundle b=getArguments();
-        param = b.getString("state");
-        letter=b.getString("letter");
-
-        if (b.getString("condition")!=null && !b.getString("condition").equals(condition)) {
-            condition=b.getString("condition");
-        } else {
-            condition=null;
-        }
+        state = getArguments().getString("state");
+        letter=getArguments().getString("letter");
 
         if (!isBound) {
             getActivity().bindService(new Intent(getActivity(), MTDService.class),
@@ -131,6 +173,7 @@ public class WordListFragment extends Fragment {
         }
 
         super.onDestroy();
+        condition=null;
         Log.d("mtd-app","destroyed fragment WordListFragment");
     }
 }

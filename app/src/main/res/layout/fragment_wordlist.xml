@@ -7,6 +7,38 @@
     android:layout_height="match_parent"
     android:background="@color/main">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/word_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textbox"
+            android:drawableLeft="@drawable/search"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:hint="Search word . . ."
+            android:inputType="text"
+            android:padding="5dip" />
+
+        <ImageButton
+            android:id="@+id/search_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/word_search"
+            android:layout_alignEnd="@+id/word_search"
+            android:layout_alignRight="@+id/word_search"
+            android:layout_alignTop="@+id/word_search"
+            android:layout_marginEnd="5dp"
+            android:background="@null"
+            android:src="@drawable/xmark" />
+    </RelativeLayout>
+
     <ListView
         android:id="@+id/words"
         android:layout_width="match_parent"

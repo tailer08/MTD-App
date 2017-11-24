@@ -55,6 +55,9 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         Cursor c=(mService.getDBHandler()).getData(param);
         c.moveToFirst();
 
+        word.clearComposingText();
+        defn.clearComposingText();
+
         w=new Word(c);
         word.setText(w.getWord());
 

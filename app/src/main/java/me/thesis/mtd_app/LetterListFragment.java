@@ -29,13 +29,13 @@ public class LetterListFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                SearchFragment searchFragment=new SearchFragment();
+                WordListFragment wordListFragment=new WordListFragment();
                 Bundle b=new Bundle();
                 b.putString("state",param);
                 b.putString("letter",listView.getItemAtPosition(i).toString());
-                searchFragment.setArguments(b);
+                wordListFragment.setArguments(b);
                 getActivity().getFragmentManager().beginTransaction().
-                        replace(R.id.content_frame,searchFragment,null).addToBackStack(null).commit();
+                        replace(R.id.content_frame,wordListFragment,null).addToBackStack("Letter List").commit();
             }
         });
         return mView;
