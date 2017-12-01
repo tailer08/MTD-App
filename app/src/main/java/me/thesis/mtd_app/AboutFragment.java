@@ -21,7 +21,6 @@ public class AboutFragment extends Fragment {
                 "Mother Tongue Dictionary is an offline " +
                 "Waray-Tagalog dictionary that allows users to" +
                 " search for the equivalent of Waray-Waray or Tagalog words.\n\n\n");
-
         return mView;
     }
 }

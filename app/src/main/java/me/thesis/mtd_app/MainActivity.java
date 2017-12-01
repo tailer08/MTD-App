@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             Log.d("mtd-app","on back pressed @ mainactivity");
-                super.onBackPressed();
+            super.onBackPressed();
         }
     }
 
