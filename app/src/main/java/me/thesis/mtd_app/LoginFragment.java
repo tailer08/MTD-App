@@ -2,16 +2,13 @@ package me.thesis.mtd_app;
 
 import android.app.Fragment;
 import android.content.ComponentName;
-import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.IBinder;
-import android.speech.tts.TextToSpeech;
 import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -70,7 +67,16 @@ public class LoginFragment extends Fragment {
         login_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                validate(username.getText().toString(), password.getText().toString());
+                if (validate(username.getText().toString(), password.getText().toString())) {
+                    UserWordsFragment userWordsFragment=new UserWordsFragment();
+                    Bundle b=new Bundle();
+                    /*to use as checker if admin is logged in*/
+                    b.putString("status","logged in");
+                    userWordsFragment.setArguments(b);
+                    getActivity().getFragmentManager().beginTransaction().
+                            replace(R.id.content_frame,userWordsFragment,null).
+                            addToBackStack(null).commit();
+                }
             }
         });
 
@@ -83,7 +89,7 @@ public class LoginFragment extends Fragment {
         return mView;
     }
 
-    private void validate(String username, String password){
+    private boolean validate(String username, String password){
         Cursor data = dbHandler.getUsersData(username);
         if(data.getCount() != 0) {
             data.moveToFirst();
@@ -91,14 +97,17 @@ public class LoginFragment extends Fragment {
             if(password.equals(origPassword)){
                 result.setText("Success login");
                 result.setTextColor(Color.GREEN);
+                return true;
             }else{
                 result.setText("Invalid login: Password is not correct");
                 result.setTextColor(Color.RED);
+                return false;
             }
 
         } else{
             result.setText("Invalid login: Username is not in the database");
             result.setTextColor(Color.RED);
+            return false;
         }
     }
 
