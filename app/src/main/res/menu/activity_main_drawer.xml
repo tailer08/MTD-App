@@ -23,6 +23,10 @@
             android:icon="@drawable/book"
             android:title="Tagalog-Waray (A-Z)" />
         <item
+            android:id="@+id/nav_userwords"
+            android:icon="@drawable/book"
+            android:title="User Generated Words" />
+        <item
             android:id="@+id/nav_about"
             android:icon="@drawable/about"
             android:title="About" />

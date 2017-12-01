@@ -34,6 +34,7 @@ public class LoginFragment extends Fragment {
     private TextView result;
     private MTDService mService=null;
     private boolean isBound=false;
+    private boolean isLoggedIn = false;
     DBHandler dbHandler;
 
     @Nullable
@@ -67,16 +68,38 @@ public class LoginFragment extends Fragment {
         login_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (validate(username.getText().toString(), password.getText().toString())) {
-                    UserWordsFragment userWordsFragment=new UserWordsFragment();
-                    Bundle b=new Bundle();
-                    /*to use as checker if admin is logged in*/
-                    b.putString("status","logged in");
-                    userWordsFragment.setArguments(b);
-                    getActivity().getFragmentManager().beginTransaction().
-                            replace(R.id.content_frame,userWordsFragment,null).
-                            addToBackStack(null).commit();
+                if(login_button.getText().equals("Login")){
+                    if (validate(username.getText().toString(), password.getText().toString())) {
+//                    UserWordsFragment userWordsFragment=new UserWordsFragment();
+//                    Bundle b=new Bundle();
+//                    /*to use as checker if admin is logged in*/
+//                    b.putString("status","logged in");
+//                    userWordsFragment.setArguments(b);
+//                    getActivity().getFragmentManager().beginTransaction().
+//                            replace(R.id.content_frame,userWordsFragment,null).
+//                            addToBackStack(null).commit();
+                        isLoggedIn = true;
+                        login_button.setText("Logout");
+                        username.setFocusable(false);
+                        username.setClickable(false);
+                        username.setFocusableInTouchMode(false);
+                        password.setFocusable(false);
+                        password.setClickable(false);
+                        password.setFocusableInTouchMode(false);
+                        signup_button.setVisibility(View.GONE);
+                    }
+                }else{
+                    isLoggedIn = false;
+                    login_button.setText("Login");
+                    username.setFocusable(true);
+                    username.setClickable(true);
+                    username.setFocusableInTouchMode(true);
+                    password.setFocusable(true);
+                    password.setClickable(true);
+                    password.setFocusableInTouchMode(true);
+                    signup_button.setVisibility(View.VISIBLE);
                 }
+
             }
         });
 
@@ -139,6 +162,10 @@ public class LoginFragment extends Fragment {
 
     }
 
+    public boolean isLoggedIn() {
+        return isLoggedIn;
+    }
+
     @Override
     public void onResume() {
         super.onResume();
@@ -147,7 +174,27 @@ public class LoginFragment extends Fragment {
                     mConnection,
                     Context.BIND_AUTO_CREATE);
             isBound=true;
-        } else {
+        } else {}
+        String tmp = null;
+        try {
+            tmp = getArguments().getString("status");
+        }catch (Exception e){}
+
+        if (tmp!=null && tmp.equals("logged in")) {
+            login_button.setText("Logout");
+            username.setFocusable(false);
+            username.setClickable(false);
+            password.setFocusable(false);
+            password.setClickable(false);
+            signup_button.setVisibility(View.GONE);
+            result.setText("Success login");
+            result.setTextColor(Color.GREEN);
+        }else{
+            this.login_button.setEnabled(true);
+            username.setFocusable(true);
+            username.setClickable(true);
+            password.setFocusable(true);
+            password.setClickable(true);
         }
     }
 

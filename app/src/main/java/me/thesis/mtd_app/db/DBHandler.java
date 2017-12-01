@@ -15,6 +15,7 @@ public class DBHandler extends SQLiteOpenHelper {
     private static final String TAG = "DBHandler";
     private static final int DATABASE_VERSION   = 5;
     private static final String DATABASE_NAME   = "mtd";
+    private static final String TABLE_USERWORDS = "userwords";
     private static final String TABLE_WORDS     = "words";
     private static final String KEY_WORD        = "word";
     private static final String KEY_DEFN        = "defn";
@@ -41,6 +42,15 @@ public class DBHandler extends SQLiteOpenHelper {
                     KEY_USERNAME    + " TEXT NOT NULL," +
                     KEY_PASSWORD    + " TEXT NOT NULL)";
 
+    private static final String CREATE_USERWORD_TABLE=
+            "CREATE TABLE "+ TABLE_USERWORDS + " ( " +
+                    BaseColumns._ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"+
+                    KEY_WORD    + " TEXT NOT NULL," +
+                    KEY_DEFN    + " TEXT NOT NULL," +
+                    KEY_LANGUAGE+ " TEXT NOT NULL," +
+                    KEY_FAVORITE+ " INTEGER DEFAULT 0,"+
+                    KEY_LOOKUP  + " INTEGER DEFAULT 0)";
+
     public DBHandler(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -50,6 +60,7 @@ public class DBHandler extends SQLiteOpenHelper {
         Log.d("mtd-app","at create db");
         db.execSQL(CREATE_WORD_TABLE);
         db.execSQL(CREATE_USER_TABLE);
+        db.execSQL(CREATE_USERWORD_TABLE);
         Log.d("mtd-app","********************suceess at create db");
     }
 
@@ -58,6 +69,7 @@ public class DBHandler extends SQLiteOpenHelper {
        Log.d("mtd-app","here at upgrade");
         db.execSQL("DROP TABLE " + TABLE_WORDS);
         db.execSQL("DROP TABLE " + TABLE_USERS);
+        db.execSQL("DROP TABLE " + TABLE_USERWORDS);
         onCreate(db);
     }
 
@@ -75,6 +87,33 @@ public class DBHandler extends SQLiteOpenHelper {
 
             Log.i("mtd-app", "add data: ADDING "+word+" : "+def+" : "+fav+" : "+lang+" to "+TABLE_WORDS);
             long result = db.insert(TABLE_WORDS, null, values);
+
+            db.close();
+            if(result == -1) {
+                return false;
+            }else {
+                return true;
+            }
+        } else{
+            Log.i("mtd-app", "already inside database");
+            return false;
+        }
+    }
+
+    public boolean addUserWord(String word, String def, int fav, String lang, int lookup) {
+        Cursor data = getData(word);
+        if(data.getCount() == 0) {
+            SQLiteDatabase db = this.getWritableDatabase();
+            ContentValues values = new ContentValues();
+
+            values.put(KEY_WORD, word);
+            values.put(KEY_DEFN, def);
+            values.put(KEY_FAVORITE, fav);
+            values.put(KEY_LANGUAGE, lang);
+            values.put(KEY_LOOKUP, lookup);
+
+            Log.i("mtd-app", "add data: ADDING "+word+" : "+def+" : "+fav+" : "+lang+" to "+TABLE_USERWORDS);
+            long result = db.insert(TABLE_USERWORDS, null, values);
 
             db.close();
             if(result == -1) {
@@ -115,6 +154,13 @@ public class DBHandler extends SQLiteOpenHelper {
     public Cursor getData(String word){
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "SELECT * FROM " + TABLE_WORDS + " WHERE word = '" + word + "'";
+        Cursor data = db.rawQuery(query, null);
+        return data;
+    }
+
+    public Cursor getUserWordsData(String word){
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_USERWORDS + " WHERE word = '" + word + "'";
         Cursor data = db.rawQuery(query, null);
         return data;
     }

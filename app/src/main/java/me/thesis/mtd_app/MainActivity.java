@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity
 
     private boolean isBound=false;
     private String s;
+    private boolean isLoggedIn;
+    private int tick = 0;
+    private LoginFragment loginFragment = new LoginFragment();
+    private UserWordsFragment userWordsFragment;
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
@@ -61,6 +65,8 @@ public class MainActivity extends AppCompatActivity
                         new HomeFragment()).commit();
                 drawer.closeDrawer(GravityCompat.START);
             }});
+
+        this.userWordsFragment = new UserWordsFragment();
 
         Intent intent=new Intent(this,MTDService.class);
         intent.setAction(MTDService.ACTION_INIT_DB);
@@ -121,37 +127,65 @@ public class MainActivity extends AppCompatActivity
             wordListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     wordListFragment).commit();
+            isLoggedIn = this.loginFragment.isLoggedIn();
         } else if (id == R.id.nav_recent) {
             WordListFragment wordListFragment=new WordListFragment();
             b.putString("state","Recent");
             wordListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     wordListFragment).commit();
+            isLoggedIn = this.loginFragment.isLoggedIn();
         } else if (id == R.id.nav_favorite) {
             WordListFragment wordListFragment=new  WordListFragment();
             b.putString("state","Favorite");
             wordListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     wordListFragment).commit();
+            isLoggedIn = this.loginFragment.isLoggedIn();
         } else if (id == R.id.nav_wartag) {
             LetterListFragment letterListFragment =new LetterListFragment();
             b.putString("language","Waray");
             letterListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     letterListFragment).commit();
+            isLoggedIn = this.loginFragment.isLoggedIn();
         } else if (id == R.id.nav_tagwar) {
             LetterListFragment letterListFragment =new LetterListFragment();
             b.putString("language","Tagalog");
             letterListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     letterListFragment).commit();
-        } else if (id == R.id.nav_about) {
+            isLoggedIn = this.loginFragment.isLoggedIn();
+        } else if (id == R.id.nav_userwords) {
+            isLoggedIn = this.loginFragment.isLoggedIn();
+            Bundle bd = new Bundle();
+            if (isLoggedIn) {
+                bd.putString("status", "logged in");
+            } else {
+                bd.putString("status", "logged out");
+            }
+            if(tick == 0){
+                this.userWordsFragment.setArguments(bd);
+                tick = 1;
+            }else{
+                this.userWordsFragment.setLoggedIn(isLoggedIn);
+            }
+
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                    this.userWordsFragment).commit();
+        }else if (id == R.id.nav_about) {
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     new AboutFragment()).commit();
         } else if (id == R.id.nav_admin) {
-            LoginFragment loginFragment = new LoginFragment();
+            Bundle bl = new Bundle();
+            if(this.loginFragment.isLoggedIn()){
+                bl.putString("status","logged in");
+            }else{
+                bl.putString("status","logged out");
+            }
+            this.loginFragment.setArguments(bl);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    loginFragment).commit();
+                    this.loginFragment).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

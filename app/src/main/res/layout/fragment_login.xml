@@ -76,6 +76,7 @@
         android:layout_below="@+id/signup_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:text="Testing Here" />
+        android:textColor="#FFFFFF"
+        android:text="Enter Username and Password" />
 
 </RelativeLayout>
