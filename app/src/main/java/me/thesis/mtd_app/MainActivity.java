@@ -148,6 +148,10 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_about) {
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     new AboutFragment()).commit();
+        } else if (id == R.id.nav_admin) {
+            LoginFragment loginFragment = new LoginFragment();
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                    loginFragment).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

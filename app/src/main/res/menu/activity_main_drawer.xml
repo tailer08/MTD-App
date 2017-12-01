@@ -26,5 +26,9 @@
             android:id="@+id/nav_about"
             android:icon="@drawable/about"
             android:title="About" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/about"
+            android:title="Admin" />
     </group>
 </menu>

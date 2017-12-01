@@ -51,7 +51,7 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         public void onServiceDisconnected(ComponentName componentName) { mService=null;}
     };
 
-    private void showWord() {
+     private void showWord() {
         Cursor c=(mService.getDBHandler()).getData(param);
         c.moveToFirst();
 
