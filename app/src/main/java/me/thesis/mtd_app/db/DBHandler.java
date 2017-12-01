@@ -21,6 +21,9 @@ public class DBHandler extends SQLiteOpenHelper {
     private static final String KEY_FAVORITE    = "favorite";
     private static final String KEY_LANGUAGE    = "language";
     private static final String KEY_LOOKUP      = "lookup";
+    private static final String TABLE_USERS     = "users";
+    private static final String KEY_USERNAME    = "username";
+    private static final String KEY_PASSWORD    = "password";
 //    private static final String KEY_PHONETIC      = "phonetic";
 
     private static final String CREATE_WORD_TABLE=
@@ -32,6 +35,12 @@ public class DBHandler extends SQLiteOpenHelper {
                     KEY_FAVORITE+ " INTEGER DEFAULT 0,"+
                     KEY_LOOKUP  + " INTEGER DEFAULT 0)";
 
+    private static final String CREATE_USER_TABLE=
+            "CREATE TABLE "+ TABLE_USERS + " ( " +
+                    BaseColumns._ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"+
+                    KEY_USERNAME    + " TEXT NOT NULL," +
+                    KEY_PASSWORD    + " TEXT NOT NULL)";
+
     public DBHandler(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -40,12 +49,15 @@ public class DBHandler extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db){
         Log.d("mtd-app","at create db");
         db.execSQL(CREATE_WORD_TABLE);
+        db.execSQL(CREATE_USER_TABLE);
+        Log.d("mtd-app","********************suceess at create db");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
        Log.d("mtd-app","here at upgrade");
         db.execSQL("DROP TABLE " + TABLE_WORDS);
+        db.execSQL("DROP TABLE " + TABLE_USERS);
         onCreate(db);
     }
 
@@ -76,9 +88,40 @@ public class DBHandler extends SQLiteOpenHelper {
         }
     }
 
-     public Cursor getData(String word){
+    public boolean addUser(String username, String password) {
+        Cursor data = getUsersData(username);
+        if(data.getCount() == 0) {
+            SQLiteDatabase db = this.getWritableDatabase();
+            ContentValues values = new ContentValues();
+
+            values.put(KEY_USERNAME, username);
+            values.put(KEY_PASSWORD, password);
+
+            Log.i("mtd-app", "add data: ADDING username: " + username + " password: " + password);
+            long result = db.insert(TABLE_USERS, null, values);
+
+            db.close();
+            if(result == -1) {
+                return false;
+            }else {
+                return true;
+            }
+        } else{
+            Log.i("mtd-app", "already inside database");
+            return false;
+        }
+    }
+
+    public Cursor getData(String word){
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "SELECT * FROM " + TABLE_WORDS + " WHERE word = '" + word + "'";
+        Cursor data = db.rawQuery(query, null);
+        return data;
+    }
+
+    public Cursor getUsersData(String username){
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_USERS + " WHERE username = '" + username + "'";
         Cursor data = db.rawQuery(query, null);
         return data;
     }

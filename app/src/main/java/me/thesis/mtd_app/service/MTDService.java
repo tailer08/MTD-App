@@ -49,7 +49,6 @@ public class MTDService extends IntentService {
             Log.i("mtd-app", "UNSUCCESSFUL "+word);
         }
     }
-
     public MTDService() {
         super("MTDService");
     }
