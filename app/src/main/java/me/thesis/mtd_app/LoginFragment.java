@@ -70,14 +70,6 @@ public class LoginFragment extends Fragment {
             public void onClick(View view) {
                 if(login_button.getText().equals("Login")){
                     if (validate(username.getText().toString(), password.getText().toString())) {
-//                    UserWordsFragment userWordsFragment=new UserWordsFragment();
-//                    Bundle b=new Bundle();
-//                    /*to use as checker if admin is logged in*/
-//                    b.putString("status","logged in");
-//                    userWordsFragment.setArguments(b);
-//                    getActivity().getFragmentManager().beginTransaction().
-//                            replace(R.id.content_frame,userWordsFragment,null).
-//                            addToBackStack(null).commit();
                         isLoggedIn = true;
                         login_button.setText("Logout");
                         username.setFocusable(false);
@@ -94,8 +86,10 @@ public class LoginFragment extends Fragment {
                     username.setFocusable(true);
                     username.setClickable(true);
                     username.setFocusableInTouchMode(true);
+                    username.setText("");
                     password.setFocusable(true);
                     password.setClickable(true);
+                    password.setText("");
                     password.setFocusableInTouchMode(true);
                     signup_button.setVisibility(View.VISIBLE);
                 }
@@ -195,6 +189,11 @@ public class LoginFragment extends Fragment {
             username.setClickable(true);
             password.setFocusable(true);
             password.setClickable(true);
+        }
+
+        if(!isLoggedIn()){
+            username.setText("");
+            password.setText("");
         }
     }
 

@@ -1,8 +1,10 @@
 package me.thesis.mtd_app;
 
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
@@ -28,6 +30,7 @@ public class UserWordsFragment extends Fragment {
     private DBHandler dbHandler;
     private MTDService mService=null;
     private boolean isBound=false;
+
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
@@ -56,10 +59,20 @@ public class UserWordsFragment extends Fragment {
                             replace(R.id.content_frame,addWordFragment,null).
                             addToBackStack(null).commit();
                 } else {
-                    Log.d("mtd-app", "***********Entering login");
-                    LoginFragment loginFragment = new LoginFragment();
-                    getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                            loginFragment).commit();
+                    AlertDialog.Builder builder1 = new AlertDialog.Builder(getActivity());
+                    builder1.setMessage("Only an Administrator can add new words. \nLogin first at Admin Page on the menu.");
+                    builder1.setCancelable(true);
+
+                    builder1.setPositiveButton(
+                            "Ok",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    dialog.cancel();
+                                }
+                            });
+
+                    AlertDialog alert11 = builder1.create();
+                    alert11.show();
                 }
             }
         });

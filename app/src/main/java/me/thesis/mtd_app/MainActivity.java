@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity
     private String s;
     private boolean isLoggedIn;
     private int tick = 0;
+    private int tick2 = 0;
     private LoginFragment loginFragment = new LoginFragment();
     private UserWordsFragment userWordsFragment;
 
@@ -170,7 +171,6 @@ public class MainActivity extends AppCompatActivity
             }else{
                 this.userWordsFragment.setLoggedIn(isLoggedIn);
             }
-
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     this.userWordsFragment).commit();
         }else if (id == R.id.nav_about) {
@@ -183,7 +183,11 @@ public class MainActivity extends AppCompatActivity
             }else{
                 bl.putString("status","logged out");
             }
-            this.loginFragment.setArguments(bl);
+            if(tick2 == 0){
+                this.loginFragment.setArguments(bl);
+            }else{
+                tick2 = 1;
+            }
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     this.loginFragment).commit();
         }
