@@ -103,8 +103,8 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
     @Override
     public void onInit(int status) {
         if (status == TextToSpeech.SUCCESS){
-            Locale US = tts.getLanguage();
-            int result = tts.setLanguage(US);
+//            Locale US = tts.getLanguage();
+            int result = tts.setLanguage(new Locale("fil"));
             if(result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED){
                 Log.d("mtd", "Language not supported");
             }else{}
