@@ -14,7 +14,11 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 import me.thesis.mtd_app.db.DBHandler;
 import me.thesis.mtd_app.service.MTDService;
@@ -25,12 +29,15 @@ import me.thesis.mtd_app.service.MTDService;
 
 public class UserWordsFragment extends Fragment {
 
-    View mView;
+    private static View mView;
+    private static ListView listView;
+
     private boolean isLoggedIn=false;
     private DBHandler dbHandler;
     private MTDService mService=null;
     private boolean isBound=false;
-
+    private ArrayList<String> list=new ArrayList<String>();
+    private ArrayAdapter<String> wordAdapter;
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
@@ -39,15 +46,41 @@ public class UserWordsFragment extends Fragment {
                 mService = ((MTDService.LocalBinder) service).getService();
                 dbHandler = mService.getDBHandler();
                 Log.d("mtd-app","************************************mService initialized");
+                setList();
             }
         }
         @Override
         public void onServiceDisconnected(ComponentName componentName) { mService=null;}
     };
 
+    private void setList() {
+        show("ORDER BY word");
+    }
+
+    private void show(String filter) {
+        if (dbHandler!=null) {
+            list.removeAll(list);
+            list.addAll(dbHandler.searchUserWords(filter));
+            wordAdapter.notifyDataSetChanged();
+        } else {
+            Log.d("mtd-app","dbHandler is null?");
+        }
+    }
+
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         mView=inflater.inflate(R.layout.fragment_userwords,container,false);
 
+//      user_generated_words list
+        listView=(ListView)mView.findViewById(R.id.userWordList);
+        wordAdapter=new ArrayAdapter<String>(
+                getActivity(),
+                R.layout.custom_textview,
+                list);
+        Log.d("mtd-app", "list here: " + wordAdapter);
+        listView.setAdapter(wordAdapter);
+
+
+//      Adding a user_generater_word button
         Button addWordButton = (Button)mView.findViewById(R.id.add_word);
         addWordButton.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -76,12 +109,20 @@ public class UserWordsFragment extends Fragment {
                 }
             }
         });
+
         return mView;
+
     }
 
-
+//  updatating login information
     public void setLoggedIn(boolean loggedIn) {
         isLoggedIn = loggedIn;
+    }
+
+//  refreshing list
+    public void updateList(){
+        Log.d("mtd-app", "********updating list");
+        setList();
     }
 
     @Override
