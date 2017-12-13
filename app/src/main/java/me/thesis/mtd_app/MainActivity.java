@@ -164,6 +164,7 @@ public class MainActivity extends AppCompatActivity
                 tick = 1;
             }else{
                 this.userWordsFragment.setLoggedIn(isLoggedIn);
+                this.userWordsFragment.updateList();
             }
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     this.userWordsFragment).commit();

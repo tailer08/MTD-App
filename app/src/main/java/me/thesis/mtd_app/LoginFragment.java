@@ -92,6 +92,8 @@ public class LoginFragment extends Fragment {
                     password.setText("");
                     password.setFocusableInTouchMode(true);
                     signup_button.setVisibility(View.VISIBLE);
+                    result.setText("Enter Username and Password");
+                    result.setTextColor(Color.WHITE);
                 }
 
             }
