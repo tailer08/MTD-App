@@ -68,8 +68,14 @@ public class MTDService extends IntentService {
     protected void onHandleIntent(Intent intent) {
         if (intent!=null && intent.getAction().equals(ACTION_INIT_DB)) {
             dbHandler=new DBHandler(this);
-            initWord();
-            initPhonetic();
+
+            if (dbHandler.getDBCount("words") < 500) {
+                initWord();
+            }
+
+            if (dbHandler.getDBCount("phonetic") == 0 ) {
+                initPhonetic();
+            }
 
             Intent i=new Intent(DISPLAY_HOME);
             sendBroadcast(i);

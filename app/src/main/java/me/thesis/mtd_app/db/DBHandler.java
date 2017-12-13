@@ -3,6 +3,7 @@ package me.thesis.mtd_app.db;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
+import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
@@ -188,6 +189,13 @@ public class DBHandler extends SQLiteOpenHelper {
         }
         db.close();
         return list;
+    }
+
+    public long getDBCount(String table) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        long cnt  = DatabaseUtils.queryNumEntries(db, table);
+        db.close();
+        return cnt;
     }
 
     public void updateFavorite(Word word, int i) {
