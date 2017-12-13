@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/main"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/word_defn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:padding="5dp"/>
+
+    <ImageButton
+        android:id="@+id/word_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/word_defn"
+        android:layout_alignTop="@+id/word_defn"
+        android:layout_toEndOf="@+id/word_defn"
+        android:layout_margin="5dp"
+        android:background="@color/main"
+        android:clickable="true"
+        android:visibility="gone"
+        android:src="@drawable/sound_off" />
+
+</RelativeLayout>

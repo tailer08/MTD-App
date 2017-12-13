@@ -46,16 +46,8 @@
             android:src="@drawable/star_off" />
     </RelativeLayout>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/word_defn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:textColor="#FFFFFF"
-            android:textSize="18dp"/>
-    </ScrollView>
+   <ListView
+       android:id="@+id/word_list"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
 </LinearLayout>

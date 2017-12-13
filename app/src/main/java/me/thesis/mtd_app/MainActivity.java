@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private boolean isBound=false;
+    private MTDService mService=null;
     private String s;
     private boolean isLoggedIn;
     private int tick = 0;
@@ -142,13 +143,6 @@ public class MainActivity extends AppCompatActivity
             wordListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     wordListFragment).commit();
-            isLoggedIn = this.loginFragment.isLoggedIn();
-        } else if (id == R.id.nav_wartag) {
-            LetterListFragment letterListFragment =new LetterListFragment();
-            b.putString("language","Waray");
-            letterListFragment.setArguments(b);
-            getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    letterListFragment).commit();
             isLoggedIn = this.loginFragment.isLoggedIn();
         } else if (id == R.id.nav_tagwar) {
             LetterListFragment letterListFragment =new LetterListFragment();

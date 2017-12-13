@@ -18,10 +18,6 @@ import android.widget.EditText;
 import me.thesis.mtd_app.db.DBHandler;
 import me.thesis.mtd_app.service.MTDService;
 
-/**
- * Created by Khalile on 12/1/2017.
- */
-
 public class AddWordFragment extends Fragment {
 
     View mView;
@@ -57,7 +53,7 @@ public class AddWordFragment extends Fragment {
         save_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(dbHandler.addUserWord(word.getText().toString(),definition.getText().toString(),0,"Waray",0)){
+                if(dbHandler.addWord(word.getText().toString(),definition.getText().toString(),0,"Waray",0,1)){
                     Log.d("mtd-app", "****************Success on adding new user generated word");
                 };
             }

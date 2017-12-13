@@ -21,12 +21,10 @@ public class MTDService extends IntentService {
     private final IBinder mBinder=new LocalBinder();
     private DBHandler dbHandler=null;
 
-    private void initDatabase() {
-        BufferedReader reader;
-
+    private void initWord() {
         try {
             final InputStream file=getAssets().open("dictionary.txt");
-            reader=new BufferedReader(new InputStreamReader(file));
+            BufferedReader  reader=new BufferedReader(new InputStreamReader(file));
             String line;
             while((line=reader.readLine())!=null) {
                 String[] tokens=line.split(" , ");
@@ -37,18 +35,42 @@ public class MTDService extends IntentService {
                         tokens[4]);
             }
         } catch(IOException e) {
-            Log.d("mtd-app","cannot open file");
+            Log.d("mtd-app","cannot open dictionary file");
+        }
+    }
+
+    private void initPhonetic() {
+        try {
+            final InputStream file=getAssets().open("waray words.txt");
+            BufferedReader reader=new BufferedReader(new InputStreamReader(file));
+            String line;
+            while ((line=reader.readLine())!=null) {
+                String[] tokens=line.split(" , ");
+                addPhonetic(tokens[0],tokens[1]);
+            }
+        } catch (IOException e) {
+            Log.d("mtd-app","cannot open phonetic file");
         }
     }
 
     private void addWord(String word, String defn, int fav, int lookup, String lang){
-        boolean insertWord = dbHandler.addWord(word,defn,fav,lang,lookup);
+        boolean insertWord = dbHandler.addWord(word,defn,fav,lang,lookup,0);
         if(insertWord){
-            Log.i("mtd-app", "Successfully added the word " + word);
+//            Log.i("mtd-app", "Successfully added the word " + word);
         }else{
-            Log.i("mtd-app", "UNSUCCESSFUL "+word);
+//            Log.i("mtd-app", "UNSUCCESSFUL "+word);
         }
     }
+
+    private void addPhonetic(String word, String phonetic) {
+        boolean insertWord=dbHandler.addPhonetic(word,phonetic);
+        if (insertWord) {
+//            Log.d("mtd-app","Successfully added phonetic");
+        } else {
+//            Log.d("mtd-app","UNSUCCESSFUL "+word);
+        }
+    }
+
     public MTDService() {
         super("MTDService");
     }
@@ -57,7 +79,8 @@ public class MTDService extends IntentService {
     protected void onHandleIntent(Intent intent) {
         if (intent!=null && intent.getAction().equals(ACTION_INIT_DB)) {
             dbHandler=new DBHandler(this);
-            initDatabase();
+            initWord();
+            initPhonetic();
         }
     }
 

@@ -15,26 +15,32 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Locale;
 
 import me.thesis.mtd_app.db.DBHandler;
 import me.thesis.mtd_app.db.Word;
 import me.thesis.mtd_app.service.MTDService;
 
-public class WordFragment extends Fragment implements TextToSpeech.OnInitListener {
+public class WordFragment extends Fragment implements TextToSpeech.OnInitListener, DefnAdapter.CallBack {
 
     private View mView;
     private MTDService mService=null;
     private boolean isBound=false;
 
-    private TextView word,defn;
+    private TextView word;
     private TextToSpeech tts;
     private ImageButton favorite,sound;
+    private ListView listView;
+    private DefnAdapter defnAdapter;
 
     private Word w;
     private String param;
+    private ArrayList<String> defn;
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
@@ -51,27 +57,21 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         public void onServiceDisconnected(ComponentName componentName) { mService=null;}
     };
 
-     private void showWord() {
+    private void updateDefn() {
+        defn.removeAll(defn);
+        defn.addAll(Arrays.asList(w.getDefn().split("!!")));
+        defnAdapter.notifyDataSetChanged();
+    }
+
+    private void showWord() {
         Cursor c=(mService.getDBHandler()).getData(param);
         c.moveToFirst();
 
         word.clearComposingText();
-        defn.clearComposingText();
 
         w=new Word(c);
         word.setText(w.getWord());
-
-        if (w.getDefn().contains("!!")) {
-            Log.d("mtd-app","gon try for loop");
-            String[] tokens=w.getDefn().split("!!");
-
-            for (int i=0; i<tokens.length; i++) {
-                defn.append(tokens[i]);
-                defn.append("\n");
-            }
-        } else {
-            defn.setText(w.getDefn());
-        }
+        updateDefn();
 
         if (w.getFavorite()==1) {
             favorite.setImageResource(R.drawable.star_on);
@@ -95,9 +95,9 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         dbTemp.updateLookup(w,w.getLookup()+1);
     }
 
-    public void speak() {
+    public void speak(String text) {
         Log.d("mtd-app","beb be alayb");
-        tts.speak(w.getWord(), TextToSpeech.QUEUE_FLUSH,null);
+        tts.speak(text, TextToSpeech.QUEUE_FLUSH,null);
     }
 
     @Override
@@ -117,7 +117,12 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         mView=inflater.inflate(R.layout.fragment_wordview,container,false);
 
         word=(TextView) mView.findViewById(R.id.word_main);
-        defn=(TextView) mView.findViewById(R.id.word_defn);
+
+        listView=(ListView) mView.findViewById(R.id.word_list);
+        defn=new ArrayList<String>();
+
+        defnAdapter=new DefnAdapter(mView.getContext(),defn,this);
+        listView.setAdapter(defnAdapter);
 
         tts=new TextToSpeech(getActivity(),this);
         favorite=(ImageButton) mView.findViewById(R.id.favorite);
@@ -131,7 +136,7 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         sound.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                speak();
+                speak(w.getWord());
             }});
 
         return mView;
@@ -170,5 +175,10 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         }
 
         super.onDestroy();
+    }
+
+    @Override
+    public void speakToFragment(String word) {
+        speak(mService.getDBHandler().getPhonetic(word));
     }
 }

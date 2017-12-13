@@ -1,480 +1,501 @@
 Abakus , 1. bilangan ng insik!!2. ang pinakaputong na tabla sa itaas o dulo ng haligi!!3. abakus , 0 , 0 , Tagalog
-Abain , 1. pahirapan, hindi maayos na pakikitungo sa kapwa!!2. pagraugdaug, pagtalumpigos, pagtamos-tamos, paglupog-lupog, paglupog , 0 , 0 , Tagalog
-Abante , 1. diretso!!2. pagkadto, pagkada, paglakat  , 0 , 0 , Tagalog
-Abot , 1. layo, taway!!2. hanay, lagay, uri, taas, ayos!!3. katubtoban!!4. lugar!!5. hiluag nga hangraban , 0 , 0 , Tagalog
-Adhika , 1. nais, gusto, nasa, hangad!!2. magnasa, magnais, pumita, maghangad!!3. karuyag, gusto, kawili!!4. pag-ungara, pagtinguha, paghingyap, pagkawili , 0 , 0 , Tagalog
-Adres , 1. kinatatahanan, kinaroonan, salaysay!!2. magsalaysay, manalita, magtagumpay!!3. urukyan (lugar)!!4. diskurso , 0 , 0 , Tagalog
-Agam-agam , 1. pag-aalangan!!2. kalipongan, kagupongan , 0 , 0 , Tagalog
-Agawin , 1. dakutin, masusunggab!!2. pag-agaw, pagrabnot, pag-rabot, pagbiknit , 0 , 0 , Tagalog
-Agnasin , 1. umagnas, maagnas, matibag!!2. astaka!!3. pagpanpan, pagtikba, pagtimpag, pagtibhang , 0 , 0 , Tagalog
-Agrabiyado , 1. napapatisod, nasaktan, nagkasala!!2. mabidoon, mabido, mauba, mabudlay , 0 , 0 , Tagalog
-Alab , 1. dingas, laab, lagablab, lingas, liyab, siklab!!2. ningas, liyab, siklab!!3. magningas, magliyab!!4. ulyab!!5. pag-ulyab!!6. rumbo , 0 , 0 , Tagalog
-Alaga , 1. alintana, pagkalinga, malasakit!!2. ingat, kalinga!!3. mag-ingat, ingatan, kumalinga, kalingain!!4. panimangno!!5. pagmangno!!6. pag-ataman!!7. pagmayuyo!!8. pag-asikaso!!9. pagtimangno , 0 , 0 , Tagalog
-Alak , 1. anyeho, banluag, basi, bino!!2. bino, alak, alaksiw, tuba, bahal , 0 , 0 , Tagalog
-Alikabok , 1. galabok, alabok, alisan nga alikabok, punasan!!2. tapo-tapo, agu-op, girhang (kan-on) , 0 , 0 , Tagalog
-Alinsunod , 1. anang, ayon!!2. siring han!!3. saegon!!4. subay , 0 , 0 , Tagalog
-Alisin , 1. tanggalin, sirain!!2. pumaram, pumawi, lumipol, magwala ng halaga!!3. pagbali-waray!!4. pagkuha!!5. pag-utod , 0 , 0 , Tagalog
-Alisin , 1. lumigta, ligtaan, lumaktaw, laktawan!!2. tanggalin, kunin!!3. pag-iban, pagbaya, pagkuha , 0 , 0 , Tagalog
-Alok , 1. mungkahi!!2. handog, palagay!!3. maghandog!!4. paghalad, paghatag, pagpresentar , 0 , 0 , Tagalog
-Alumihit , 1. pagpapalag, alsa, alumihit!!2. sapot, sungpong, tulos , 0 , 0 , Tagalog
-Amoy , 1. bango, salimuyak!!2. alingasaw, alisangsang!!3. baho, alimyon, bungaw  , 0 , 0 , Tagalog
-Andas , 1. patong, patungan!!2. turumbanon, taramakan, bangkilyo , 0 , 0 , Tagalog
-Aparato , 1. sangkap!!2. pagsasangkup ng mga kailangan dalhin!!2. garamiton, kasangkapan, ekipahi , 0 , 0 , Tagalog
-Apoy , 1. sunog, silab!!2. sumunog, magpaningas ng apoy!!3. kalayo, sunog!!4. haring, irong, sugangan , 0 , 0 , Tagalog
-Aral , 1. kuro, kuru-kuro!!2. tuluojan, doktrina, tinuonan , 0 , 0 , Tagalog
-Araw-Araw , 1. pang-araw-araw!!2. bawat araw!!3. adlaw-adlaw!!4. ikinaadlaw , 0 , 0 , Tagalog
-Asahan , 1. iasa, ibiliang!!2. ipagkatiwala!!3. pagsairg, pagtapod, pag-piyar , 0 , 0 , Tagalog
-Asalin , 1. mag-ugali, magpalagay mag-asal!!2. paggios!!3. pamatasan!!4. gios!!5. lihok!!6. kiwa!!7. kiay-kiay , 0 , 0 , Tagalog
-Asiwa , 1. kuti-kutiltilin!!2. piyon, peon!!3. hindi marunong!!4. diri kunosido, diri hanas, diri maaram , 0 , 0 , Tagalog
-Aso , 1. singaw, gaas!!2. usok, aso!!3. alisngaw, singaw, hungaw , 0 , 0 , Tagalog
-Away , 1. alit, babag, kana, sigalot, taltal, alitan, bakbakan!!2. makipagbasag-ulo, makipag-away, makipagbabag!!3. away, balingkot!!4. pag-away, pagkabingkil, pagbalingkot , 0 , 0 , Tagalog
-Bagabundo , 1. bulakbol, hampaslumpa!!2. palaboy, tanga!!3. bangaw!!4. bangaw!!5. bangaw, latagaw!!5. bugoy, bugay , 0 , 0 , Tagalog
-Bag , 1. supot, bayong!!2. baruyot!!3. biol , 0 , 0 , Tagalog
-Bagkus , 1. sa halip!!2. sa lugar ng, na kahalili ng o ni!!3. imbis, bagkus!!4. lugod, tibway , 0 , 0 , Tagalog
-Bago , 1. sukli!!2. baguhin, pagbabago, palitan, pagpapalit!!3. paghalili, pag-iiba!!4. magbago, magpalit, maghalili!!5. kaibahan!!6. pag-iba!!7. pagbalyo!!8. pagbalhin!!9. pagliwan , 0 , 0 , Tagalog
-Bagsak , 1. bigo!!2. ligta, kaligtaan, kulang, kakulangan, kapahamakan, kapariwaraan!!3. magkulang, maligtaan, mawala, maparam!!4. pagpakayas, pagpaltos, pagsalto , 0 , 0 , Tagalog
-Bagtasin , 1. dumaan, magdaan, lumagpas!!2. hakbang, lakad, landas, daan, pases!!3. pag-agi, paglabay, paghagos, pagpasar, pagpasa , 0 , 0 , Tagalog
-Baguhin , 1. kalasin, kalagin!!2. pagtangtang, paghubad, pagruba, pagbali-waray , 0 , 0 , Tagalog
-Bahagi , 1. kabahagi, kabilanin!!2. hindi buo!!3. parte, diri papreho, paura , 0 , 0 , Tagalog
-Bahay , 1. tirahan!!2. tahanan!!3. urukyan, balay , 0 , 0 , Tagalog
-Baklasin , 1. sumira, bumasag, sirain, basagin, lumagot, lagutin!!2. lumagot, lagutin!!3. pagbari!!4. pagbarag!!5. pagbuong!!6. pag-tipik!!7. pagpusa!!8. pagrugmok , 0 , 0 , Tagalog
-Bakod , 1. talakop, bakuran!!2. bakuran!!3. magbakod, bakuran!!4. pader, atabay, alasid, alad, kudal , 0 , 0 , Tagalog
-Balaghan , 1. kagilalasan!!2. manggilalas, magtaka, mamangha!!3. hangan, mamangha!!4. kahangahanga, kababalaghan!!5. urusahon, katingalaan!!6. pagpausa, paghipausa , 0 , 0 , Tagalog
-Balakid , 1. nakaharang!!2. kapansanan, hadlang!!3. sangwil, balabag, sangko, ulang , 0 , 0 , Tagalog
-Balda , 1. wala, lung!!2. kulang, kakulangan, kailangan!!3. magkulang, mangailangan!!4. kulang, kakulangan , 0 , 0 , Tagalog
-Bale-wala , 1. walang halaga!!2. waray bali, diri importanti , 0 , 0 , Tagalog
-Balisong , 1. kutsilyo, tarak, lanseta!!2. sundang, lanseta!!3. kutsilyo, sipol, korta, pisaw, balisong!!4. budod, sarad, haras!!5. kayod, garab, yatab!!6. alpanghi, badong, bungay dipang, tipas!!7. sundang, sansibar!!8. bolo , 0 , 0 , Tagalog
-Balon , 1. balon, bukal, balong!!2. bumukal, bumalong!!3. bubon, atabay, timba , 0 , 0 , Tagalog
-Baluktot , 1. biling, bakunot, liko!!2. yupi, hutok!!3. baliko!!4. bawod!!5. balok!!6. biad!!7. gangko!!8. halag (tanum) , 0 , 0 , Tagalog
-Balutan , 1. balot, magbalot!!2. bilot, bigkis!!3. kahon, putos, paketi , 0 , 0 , Tagalog
-Balsa , 1. sakyanan pandagat!!2. balsa, tabaw!!3. gakit (bamboo) , 0 , 0 , Tagalog
-Banaag , 1. sikat, tala!!2. sinag, liwayway!!3. banawag, sirak, kaway , 0 , 0 , Tagalog
-Bandana , 1. pamigkis, panali!!2. pandong, tudong, turong, taong, bandana , 0 , 0 , Tagalog
-Bantaan , 1. balaan!!2. mabala, manakot!!3. pagtarhog, panarhog, pagtutok , 0 , 0 , Tagalog
-Bantilan , 1. daungan, piyer!!2. paliguan!!3. paanan ng hagdanan!!4. pantalan, piyer, duruongan, resiko!!5. pagduong, pagsalta , 0 , 0 , Tagalog
-Bantay , 1. taliba, tanod, guwardiya!!2. tanod!!3. magbantay, tumanod, magsanggalang!!4. bantay, gwardya, magbarantay , 0 , 0 , Tagalog
-Baro , 1. damit!!2. kasuotan, bihisan!!3. magdamit, magsuot, magbihis!!4. bado, saya!!5. pagbado , 0 , 0 , Tagalog
-Basio , 1. hungkag, kakab, lugganggang, walang laman, limasin!!2. walang laman, walang kabuluhan, hangal!!3. alisan ang laman!!4. waray sulod, basiyo!!5. bulalo, wada , 0 , 0 , Tagalog
-Basura , 1. tapon, sukal!!2. baya, sighot, si-ot , 0 , 0 , Tagalog
-Bata , 1. bagets, binata!!2. batan-on, bata pa, lapsot, linghod , 0 , 0 , Tagalog
-Batuhin , 1. balabag, hagis, pukol, tilapon, ihagis!!2. balibat, pagkabato!!3. maghagis, magtapon, pumukol, bumalibat, bumato!!4. paglabay, pag-itsa, pag-pilak , 0 , 0 , Tagalog
-Bawi , 1. mabawi, maisauli, bawiin, isauli!!2. pagbawi,  pag-upay, pag-uli , 0 , 0 , Tagalog
-Bayad , 1. magbayad, suweldo!!2. upa, sahod!!3. magbayad, umupa!!4. pagbayad, pag-impas, pagsweldo , 0 , 0 , Tagalog
-Benggansa , 1. tirya, higanti, paghihiganti!!2. panghihiganti!!3. dumot, bulos, pag-dumot , 0 , 0 , Tagalog
-Bigat , 1. talaro, timbang, kilo, dagan!!2. timbang, bug-at, kabug-at, lugpit , 0 , 0 , Tagalog
-Binat , 1. binatin, bintay!!2. pagkakasalangmuli!!3. mabinat, muling magkasala, umulit!!4. bughat, pagsumat, paglibwat, mahabughat , 0 , 0 , Tagalog
-Bitiw , 1. nagbitiw, magbitiw!!2. palayin, pabayaan!!3. sumuko, huminto!!4. pag-ukoy, pag-undang, pag-baya, pagretira , 0 , 0 , Tagalog
-Biro , 1. tudyo, pabiro, patawa!!2. pagpapatawa!!3. magbiro, magpatawa!!4. pataraw-an!!5.  pagpatawa, pag-intrimis , 0 , 0 , Tagalog
-Birtud , 1. kabanalan, bisa!!2. pagkabuotan, kaputlian, hiyas , 0 , 0 , Tagalog
-Bloke , 1. kalo, panghulma ng sombrero!!2. maghalang, kumulong!!3. bloki!!4. pagsangko, pagsanko!!5. pagbalabag!!6. pagtapotapo , 0 , 0 , Tagalog
-Bola , 1. magsinungaling, kasinungalingan!!2. kabulaan, magbulaan!!3. buwa!!4. pagbinuwa, panhimuwa , 0 , 0 , Tagalog
-Bubot , 1. mura!!2. di pa panahon, wala sa panahon!!3. linghod, lapyo, luyat!!4. gadlaw , 0 , 0 , Tagalog
-Bubuyog , 1. pukyutan!!2. kamumo, putakti!!3. buyog!!4. putyokan!!5. lapinig!!6. ligwan!!7. butok!!8. alimbubuyog , 0 , 0 , Tagalog
-Buhay , 1. tira, nakatira!!2. matira, manahan, tumira, tumahan, mamuhay!!3. pag-ukoy, pagpuyo, pag-istar!!4. buhi, mabuhi!!5. (magupod) paglumon, pagtig-ob!!6. paglugaring (magusahan) , 0 , 0 , Tagalog
-Bukas , 1. abre, prangka, walang takip, walang tungtong!!2. abri, abierto, hayagm bangang (nakita)!!3. (libro) pagpakli, pagbuklad!!4. (mata) pagpuklat, pagmudlot!!5. pagtukaw (surudlan!!6. (mouth) pagbungat, pag-nganga , 0 , 0 , Tagalog
-Bukas , 1. hinaharap, sa susunod na araw!!2. buwas!!3. kabubwason, kaurhian , 0 , 0 , Tagalog
-Bungangera , 1. tabil, mabigbig, madaldal, masalita, bungangero, mabibig!!2. masalita!!3. turaban, tarabitaban, madawdaw , 0 , 0 , Tagalog
-Bunggo , 1. banggain!!2. bumangga, umumpog!!3. pagbangga!!4. pagbunggo!!5. paglagipik!!6. paglugipik , 0 , 0 , Tagalog
-Buong-puso , 1. taos, tapat, wagas!!2. ng buong puso!!3. tim-os nga kasing-kasing!!4. bug-os nga kasingkasing!!5. kinasingkasing!!6. unob, hul-os , 0 , 0 , Tagalog
-Daan , 1. daanan, kabahayan, salas!!2. agian, buwang, sayawan , 0 , 0 , Tagalog
-Daan , 1. kalasada, landas, talunton, daanan!!2. landas, bakas, daanan!!3. agian, dalan, sigad, garam , 0 , 0 , Tagalog
-Daglatin , 1. paikliin!!2. magpaikli, iklian, magpadali!!3. pagpahaliput , 0 , 0 , Tagalog
-Daigin , 1. pasukuin, supliin, talunin, pangayupapin!!2. pagpalipas, pagpahugpoy, pagsugpo , 0 , 0 , Tagalog
-Dakila , 1. dakila, malaki!!2. harangdon, makarit!!3. makagarahom , 0 , 0 , Tagalog
-Dala , 1. magdala, dalhin!!2. kipkipin, pasanin!!3. pagkugos, pagsabak!!4. pagsapnay!!5. pagbitbit!!6. pagtukdo!!7. pagpas-an, pagusong , 0 , 0 , Tagalog
-Damo , 1. damo!!2. banwa!!3. kugon, lakatan, rawadaw, sakati , 0 , 0 , Tagalog
-Danyos , 1. sira, perhuwisyo, pinsala, pagkasira!!2. kasiraan!!3. sumira!!4. perhisyo!!5. distruso!!6. pagpirdi!!7. pagperhisyo!!8. pagdistruso , 0 , 0 , Tagalog
-Daos , 1. diwang, pagdaraos, handaan!!2. pagdiriwan, pagsasaya!!3. kaliwasan, bakayaw, parugmok!!4. anti-bespera , 0 , 0 , Tagalog
-Dasagwe , 1. paagusan, pansol!!2. pagpaawas!!3. pasalugsogan (bamboo)!!4. buog (talinga) , 0 , 0 , Tagalog
-Daungan , 1. pantal!!2. mwelye!!3. piyer, duruongan, duongan , 0 , 0 , Tagalog
-Daungang-dagat , 1. piyer, daungan ng mga sasakyang pandagat!!2. mulye, piyer, duongan , 0 , 0 , Tagalog
-Desbentaha , 1. kahinaan!!2. kasahulan, pagkasahol!!3. makasahol, makalamang!!4. kapirdihan!!5. karat-an , 0 , 0 , Tagalog
-Deskompiyansa , 1. sapantaga, hinala!!2. hindi nagtitiwala, walang tiwala!!3. magkulang ng tiwala, mapsapantaha, maghinala!!4. pagduda!!5. pagruhaduha!!6. pagkawara-sarig!!7. pagkawaray-tapod , 0 , 0 , Tagalog
-Destinasyon , 1. hantong, punta, saan!!2. kaukulan, pag-uukol, destino!!3. kakadtoan!!4. destino!!5. dadangatan , 0 , 0 , Tagalog
-Destino , 1. sapit, tadhana, signos!!2. palad, kapalaran, signos, siglo , 0 , 0 , Tagalog
-Di-maramot , 1. hindi makasarili, mapagkaloob!!2. diri lamot, diri makikalugaringon, diri maimot, mahatagon, mabuligon , 0 , 0 , Tagalog
-Di-masunurin , 1. matigas ang ulo!!2. nagmamatigas, makulit!!3. batingilan, salbahi, batinguran , 0 , 0 , Tagalog
-Di-tanyag , 1. madilim, malabo!!2. padilimin, palabuin!!3. diri klarado, madaparap, malubog, masirom , 0 , 0 , Tagalog
-Di-totoo , 1. hindi totoo, kasinunaglingan!!2. diri tuod, diri matuod, buwa , 0 , 0 , Tagalog
-Di-sapat , 1. madalang, napakahamak!!2. diri husto, diri eksato, kulang , 0 , 0 , Tagalog
-Dilim , 1. madilim, kulimlim!!2. malabo, madilim!!3. kasirom, dulom!!4. masirom, madulom, espiso (kulay) , 0 , 0 , Tagalog
-Diskargo , 1. paumanhin, dahilan!!2. magpaumanhin, magpawalang, bahala, dispensahin!!4. madahilan!!5. baribad, pasangil, lansis!!6. pagtabi, pagpasaylo , 0 , 0 , Tagalog
-Diwa , 1. isip, akala!!2. pag-iisip, isipan!!3. hunahuna, paghunahuna, pamati, gasi, panumdoman , 0 , 0 , Tagalog
-Doktor , 1. manggagamot, duktor!!2. pantas, paham, manggagamot,!!3. gumamot!!4. doktor, doktora!!5. manarambal , 0 , 0 , Tagalog
-Duda , 1. pangamba, agam-agam, alinlangan, ngamba!!2. alinlangan, sapantaha, hinala!!4. mag-alinlangan, maghinala, magsapantaha!!4. ruhaduha!!5. pagruhaduha!!6. duha , 0 , 0 , Tagalog
-Dumamay , 1. sumali!!2. nakilahok, makalahok!!3. pag-entra, pag-api, paggagad , 0 , 0 , Tagalog
-Dusa , 1. sakit, alumpihit, tili!!2. parusa, sakit, antak, kirot, hirap!!3. sumakit, umantak, kumirot!!4. ul-ol, kaul-ol, hapdos, kangutngot!!5. pag-ul-ol, paghapdos, bumiti, kumutab, pumutok , 0 , 0 , Tagalog
-Dwag , 1. himatay, nawalan ng malay!!2. lupaypay!!3. manglupaypay, madwag!!4. malinop, madismayo, kuyapan , 0 , 0 , Tagalog
-Edad , 1. gulang, tanga!!2. idad!!3. panuigon (taon)!!4. katuigan!!5. siglo , 0 , 0 , Tagalog
-Ehemplo , 1. halimbawa, ehemplar, uliran!!2. halimbawa, uliran, mwestra!!3. pananglitan, susbaranan, surubdan , 0 , 0 , Tagalog
-Eksakto , 1. tamang-tama, ganap, singkad, susi, husto, sukat!!2. ganap, husto, sukat, lubos!!3. humingi, sumingil!!4. eksakto, hingpit, tul-id!!5. tama , 0 , 0 , Tagalog
-Eksamen , 1. subok, sulit!!2. pagsubok, pagtikim!!3. eksamin!!4. pagtigi, pagsari, pagsuray, pag-eksamen , 0 , 0 , Tagalog
-Embargo , 1. parusa, multa, rikargo!!2. parusa, dusa!!3. multa, sirot, kastigo, sentensya , 0 , 0 , Tagalog
-Engkahe , 1. puntas, sintas!!2. laso, panali!!3. laso!!4. sintas (para sapatos) , 0 , 0 , Tagalog
-Eskapo , 1. takas, tipas, tiplas!!2. tumaanan, tumakas!!3. pagtataanan, pagtakas!!4. palagiw, kalagiw, eskapo!!5. pagpalagiw, pagkalagiw, pagpuga, paglayas, pag-eskapar , 0 , 0 , Tagalog
-Esperansa , 1. pag-asa, tiwala, asa, umasa!!2. paglaom, ginlalaoman , 0 , 0 , Tagalog
-Espina , 1. talsok, tinik!!2. tunok, pukol, sunit, sora , 0 , 0 , Tagalog
-Establisimiento , 1. tatag!!2. pagkakatatag, bahay!!3. gintukod, organisasyon , 0 , 0 , Tagalog
-Eternidad , 1. laot!!2. pagkakaylan man, pagkawalang hanggan!!3. waray katapusan, kadayonan, kahasta , 0 , 0 , Tagalog
-Etiketa , 1. magtanda o maglagay ng tanda!!2. tigaman, marka!!3. pag-tigaman, pagmarka , 0 , 0 , Tagalog
-Galang , 1. alang-alang, kundangan!!2. pahalagahan, mahalin, magpitagan!!3. paghunahuna, pamati, pagtahod , 0 , 0 , Tagalog
-Galawin , 1. tinag, kilos, galawin, lipat!!2.  gumalaw, kumilos!!3. pagkiwa, paglarga, pagbantad, pagwaring, pagbahit , 0 , 0 , Tagalog
-Gamitin , 1. madalas gamitin, komodo!!2. maluag, magaan, kayang dalhin sa kamay!!3. maarabot, mabiritbit, maragamit , 0 , 0 , Tagalog
-Gana , 1. kita, mga kinita!!2. atik, paga, pakinabang!!3. kita, abot, suhol, panginabuhi , 0 , 0 , Tagalog
-Ganap , 1. katuwiran, lang!!2. tapat, matwid!!3. sukat!!4. tama, husto, makatadongan, kasadangan , 0 , 0 , Tagalog
-Ganit , 1. matigas, hirap, kagang, mahirap!!2. matigas, batibot, mahirap, mabagsik!!3. mapagmatigas na loob, walang awa!!4. matig-a!!5. bantok (tuna)!!6. mabaska (bugas) , 0 , 0 , Tagalog
-Gantimpala , 1. bayad, pabuya!!2. ganti, kagantihan!!3. pagkalooban ng ganiting-pala!!4. balos, premyo, pag-balos, pagpanibalos , 0 , 0 , Tagalog
-Gapang , 1. umusad, gumapang!!2. kamang!!3. pagkamang, pag-usoy , 0 , 0 , Tagalog
-Gapiin , 1. manaig, mamighati!!!2. pagdaog, pagpirdi, pagsobra hin kusog , 0 , 0 , Tagalog
-Gapos , 1. magtali, mag-ugpong!!2. bangkatin, bigkisin!!3. paggapos!!4. pagsangbod!!5. pagalinghod , 0 , 0 , Tagalog
-Gasang , 1. maliliit na bato!!2. buskay, timbi!!3. bukawil, buranday, suso , 0 , 0 , Tagalog
-Gawa , 1. paggawa!!2. trabaho!!3. gumawa, magtrabaho, magsikap!!4. kabudlay, trabaho!!5. pag-trabaho, pagkabudlay, pagbuhat, pagbati , 0 , 0 , Tagalog
-Gayon , 1. gayon ay!!2. walang kaya, walang abot, hindi kaya!!3. diri makahirimo, diri pwede, diri mahimo , 0 , 0 , Tagalog
-Gibain , 1. alisin, baliin!!2. sirain!!3.  pagrangka, pagtanggal, pagtangtang, pagbingbing , 0 , 0 , Tagalog
-Gilit , 1. putol, talyada, tabas, sugat!!2. hiwa!!3. pag-utod, pagdulot, pag-gunting!!4. pagtabas!!5. paggulgol, paggutgot , 0 , 0 , Tagalog
-Giya , 1. patuto, gabay, patnubay, patnubayan, akayin!!2. patnubay, panugot!!3. mamatnubay, mamatnugot!!4. giya, surubdan!!5. paggiya, pagsugay, pagmulay, pagsagib , 0 , 0 , Tagalog
-Gripo , 1. gripo, ruskas , 0 , 0 , Tagalog
-Grupo , 1. pangkat, katipunan!!2. pook, pulutong, bunton, katipunan!!3. magbunton!!4. grupo, pundok, tampak, kapanon (mga tawo), katipunan, kaidad (parehos idad), tumpok (baligya)!!5. pagpundok, pagtampak , 0 , 0 , Tagalog
-Gulang , 1. hinog, magulang!!2. mahinog, gumulang!!3. gurang, hamtong, tugas, unas (mais) , 0 , 0 , Tagalog
-Gulpe , 1. gulpi, upak, hampas, hataw!!2. bugbog, tama!!3. humampas, pumalo, bumugbog, tuamama!!4. paggumbal, pagtultog!!5. pagsuntok, pagyabo!!6. lagipik, lugipik, lagatak , 0 , 0 , Tagalog
-Guluhin , 1. masakit na, masakit, masakit lang!!2. hindi nakakatuwa!!3. pagbalikad, pagdisturbo, pag-aburido , 0 , 0 , Tagalog
-Gumiwang , 1. humapay-hapay, pagiwangin, ugain!!2. pagwagol, pagpadag, paghimarading-pading , 0 , 0 , Tagalog
-Guro , 1. titser, maestra, tagapagturo, tagaaral!!2. magturutdo, maestra, maestro , 0 , 0 , Tagalog
-Gusgusin , 1. burara, limahi, salaula, marumi!!2. amog, huagabos, kalamukat, yamu-it , 0 , 0 , Tagalog
-Gusto , 1. gaya, paris, kumbaga, katulad, ibig, tulad!!2. kawangis, kawangkit!!3. gaya, para, paris!!4. umbig, suminta, gumiliw!!5. pareho, baga, sugad, kasi!!6. pagruyag , 0 , 0 , Tagalog
-Gutay , 1. punit!!2. pahakin, punitin, pilasin!!3. kisi!!4. pagkisi, paggisi, pagkusnit, paggusi, pagrabya!!5. paggibra, pag-gibwak, paggibwang , 0 , 0 , Tagalog
-Habi , 1. lala!!2. humabi, maglala, magsala!!3. paglara, pagpahot, pagtagik, paghabol , 0 , 0 , Tagalog
-Habol , 1. humabol, mamunot, manunod!!2. habulin, hinahabol, tinatangay!!3. pagbukod, paglanat, pagbiling , 0 , 0 , Tagalog
-Hadlang , 1. abala, balakid!!2. makaurulang, ulang, sagwil , 0 , 0 , Tagalog
-Halimbawa , 1. muwestra!!2. parisan, mwestra!!3. magpakitang uliran!!4. panaglitan, pruyba, probar , 0 , 0 , Tagalog
-Halinhan , 1. bigyang lunas, paginahawahin, aliwin!!2. paghuwas, pagpawhas!!3. pagsaliwan (hin trabaho)!!4. magsando , 0 , 0 , Tagalog
-Hamak , 1. walang kabuluhan, walang halaga!!2. diri makahulogan, diri importanti , 0 , 0 , Tagalog
-Hambog , 1. banidoso, mapagmataas!!2. walang kabuluhan!!3. kawang, waray pulos, hambog , 0 , 0 , Tagalog
-Hamon , 1. reto, paghamon!!2. bala!!3, disapyo, desapio!!4. humamon, manghamon!!5. paghiyaw!!6. pag-ayat!!7. pagsaping!!8. paghagit , 0 , 0 , Tagalog
-Hangganan , 1. hanghang, linya, taliktik!!2. wakas!!3. bigyan ng hangga!!4. katubtoban, patubtoban , 0 , 0 , Tagalog
-Hapakin , 1. punitin, kuyamusin!!2. pilas!!3. pagrabnot, pagkisi, pag-kusnit, paggusi  , 0 , 0 , Tagalog
-Hapis , 1. malungkot, lunos, malumbay!!2. malungkot, mapanglaw!!3. masubo, masulub-on, maabayaw , 0 , 0 , Tagalog
-Hapo , 1. pata, rendido, ngawit!!2. makapoy, hangat, pagal , 0 , 0 , Tagalog
-Hawak , 1. pagkakahawak!!2. pagkupog, pagtugol, pagkurumog , 0 , 0 , Tagalog
-Hawakan , 1. hawak, taban!!2. hawak, tangan!!3. tagnan, pigilan!!4. padkapot, pagtugol, paggamol, paggunit , 0 , 0 , Tagalog
-Henerasyon , 1. salinlahi!!2. lahi!!3. kalutinan, kamamatan, katigurangang , 0 , 0 , Tagalog
-Himas , 1. kaliinga, alindog!!2. kumalinga, umalindog, palayawin, alindugin!!3. karinyo!!4. pagkarinyo!!5. paghaplos!!6. pag-anga , 0 , 0 , Tagalog
-Hindi bale , 1. wag nalang!!2. waray sapayan, waray bali, sagdi , 0 , 0 , Tagalog
-Hindi mabahagi , 1. hindi mahati!!2. diri maturunga, diri mabarahin  , 0 , 0 , Tagalog
-Hinggil , 1. tungkol sa!!2. malapit sa!!3. parte!!4. bahin!!5. hiunong!!6. mahatungod , 0 , 0 , Tagalog
-Hingkod , 1. kiyay, pilay!!2. pilayin, pilayan!!3. piay, kinto, pikit , 0 , 0 , Tagalog
-Hiwatig , 1. tama!!2. uyok, udyok, sulsol!!3. mag-uyok, mag-udyok, magsulsol!!4. palabtik, paaliday, pasambingay!!5. pagpalabtik, pagpaaliday, pagpasambingay , 0 , 0 , Tagalog
-Hugnusin , 1. kalagin, tastasin!!2. paghubad, pagrangka, pagbadbad , 0 , 0 , Tagalog
-Hukay , 1. seryo, matindi!!2. pormal, malubha, mabigat, walang imik!!3. libingan, hukay!!4. lumilok!!5. lubong, lubnganan!!6. grabi , 0 , 0 , Tagalog
-Huminga , 1. suminghot ng hangin!!2. pagginhawa tipasakob, pagsimhot , 0 , 0 , Tagalog
-Humingi , 1. pakiusap!!2. magpalimos, sumamo, mamanhik!!3. pangaro!!4. panlimos!!5. pagpakimaluoy!!6. pangamuyo!!7. pangiyupo , 0 , 0 , Tagalog
-Humiya , 1. kumbaba, aba!!2. mababang loob, mapagkumbaba!!3. magpangayupapa!!4. mapaubsanon, paubsanon, ubos , 0 , 0 , Tagalog
-Huwad , 1. kuliro, pustiso!!2. sinungaling, hindi totoo, bulaan, magdaraya!!3. diri tinuod, palsipikado , 0 , 0 , Tagalog
-Huwaran , 1. mithi, uliran!!2. isipan!!3. surundan nga plano, hingpit nga ideya , 0 , 0 , Tagalog
-Ibabaw , 1. itaas!!2. sa itaas, mas mataas!!3. igbaw!!4. labaw , 0 , 0 , Tagalog
-Ibayo , 1. harap, kabila, salansang, saliwa, taliwas, katapat!!2. kalaban, kasalungat, salangsang, katapat!!3. kaatbang, kabaliktaran!!4. tugbang , 0 , 0 , Tagalog
-Ibig , 1. gusto, nais!!2. pangangailangn, kakulangan!!3. mangailangan, magkailangn, magkulang!!4. karuyag, gusto, kawili!!5. pagruyag, pagkawili , 0 , 0 , Tagalog
-Ibon , 1. tamsi!!2. banug!!3. buwirte!!4. kalaw!!5. kosi!!6. gamaw!!7. gitgit!!8. itik!!9. pato!!10. pikoy!!11. purrit!!12. talabong!!13. tikarol!!14. tikbubulan!!15. tikling!!16. tigo!!17. uwak!!18. wakwak!!19. yapyap , 0 , 0 , Tagalog
-Idagdag , 1. dagdag!!2. magpuno, magsugpong, magdugtong!!3. pagdungang!!4. pagsumpay!!5. pagsapong!!6. pagtakip!!7. pagsuma (Math) , 0 , 0 , Tagalog
-Igi , 1. maigi!!2. mabuti, magaling!!3. walang dinaramdam!!4. pangkarawat , 0 , 0 , Tagalog
-Ikot , 1. alap, baling, pihit, pulupot, turno!!2. pihit, balik, ikit!!3. likdo, lirikduan, paglikdo, paghiko , 0 , 0 , Tagalog
-Ikuskos , 1. maglampaso, iskobahin, kuskusin, magkuskos!!2. pagbagnos, pagkuskos, pagnusnos, pagludgod , 0 , 0 , Tagalog
-Ilegal , 1. bawal, labag sa batas, hindi legal!!2. laban sa utos, labag sa katwiran!!3. kontrasenyas, kontrabando!!4. kontra han balaud, supak han balaud , 0 , 0 , Tagalog
-Imbabaw , 1. hindi tapat na loob, giring pula!!2. diri sinsiro, politika, salingkapaw , 0 , 0 , Tagalog
-Ingat , 1. lingap, kalinga, pagtingin!!2. mag-ingat, lumingap, kumalinga, tignan!!3. pagmatngon, pagdungog, panungog , 0 , 0 , Tagalog
-Inggit , 1. kainggitan!!2. kainggitan, pananaghili!!3. mainggit, managhili!!4. kaawa!!5. ibi, tuyo!!6. maawa, atkanan , 0 , 0 , Tagalog
-Insekto , 1. kulisap!!2. mga hayop na maliliit na gaya nga hanip, tutubi!!3. mananap!!4. buyongaw, rahon-dahon, tagnok, timos, tungaw , 0 , 0 , Tagalog
-Inutil , 1. walang kabuluhan, walang gamit!!2. waray gamit, kawang!!3. hakang, awat , 0 , 0 , Tagalog
-Ipaalam , 1. magpahiwatig, magbigay-alam, magbalita!!2. pagpasabot, pagpahibaro, pag-abiso , 0 , 0 , Tagalog
-Ipagkapuri , 1. kumporme, sawa, kuntento!!2. kontento, busog, mahinangpot, mahimuroy , 0 , 0 , Tagalog
-Ipangilin , 1. magmalas, magmasig, sumubok, tikman!!2. bantayan!!3. pagkita-kita, pag-obserba, pagsunod, pag-ino-ino , 0 , 0 , Tagalog
-Ipasya , 1. magpasaya, magdesisyon!!2.  ihatol, disisyunan, disidihin!!3. paglarang!!4. pagdesider!!5. pagkalasag!!6. pagmalaigo , 0 , 0 , Tagalog
-Ipitin , 1. siksikan, halea!!2. pag-ipit, pagpiit, paghitinga, pagdasok , 0 , 0 , Tagalog
-Ipon , 1. dumampot, tumipon, magpisan!!2. pagtirok, pagharampag, pagbulkas!!3. pag-alirong, pagtangka (palibot)!!4. paghiwat, pag-sanggot (tuba) , 0 , 0 , Tagalog
-Isabit , 1. bitayin!!2. ibitin, isampay, ilaylay, bitayin, bigtihin!!3. pagbitay, pagsab-it, pag-sablay , 0 , 0 , Tagalog
-Isalaysay , 1. salaysay, ideklama!!2. manalaysay!!3. bigkasan!!4. pag-asoy, pagluwa, pag-istorya , 0 , 0 , Tagalog
-Isalin , 1. itanim, matanim!!2. pagtutdo, pagtanom ha hunahuna , 0 , 0 , Tagalog
-Isaysay , 1. salaysayin, saysayin!!2. iugnay, mag-ugnay!!3.pagsaysay, pag-asoy, pag-istorya , 0 , 0 , Tagalog
-Isda , 1. tayubay, tinayubay!!2. mangisda!!3. baklad!!4. isda, lab-as (presko), paksiw!!5. pangisa, pangawil, pagkawil, pagbinwit, pagtibaw!!6. aguk-ok, balanak, bulinaw, buraw, burot, butiti, gurami, langkoy, sandatan, tangigi, turingan, turobay, tigi, tingag , 0 , 0 , Tagalog
-Isip , 1. magisip!!2. umisip, mag-isip, magwari, umakala!!3. paghunahuna, pag-isip, pagpinsar, pag-ino-ino , 0 , 0 , Tagalog
-Iskaut , 1. tagatuklas!!2. manunuklas, tagatuklas, tiktik, manunubok!!3. pag-inaw, paghupol, pagtiktik , 0 , 0 , Tagalog
-Isuwato , 1. magkaayos, magkasundo, magbatian!!2. itaga!!3. pagkauli, pagkabalik, pagkatuhay , 0 , 0 , Tagalog
-Itago , 1. tago!!2. maglingid, magtago, maglihim!!3. pagtago, pagluklok, pag-luok, pagsibat, pag-unlok , 0 , 0 , Tagalog
-Itago , 1. mag-alaga!!2. mag-ingat!!3. pagtipig, paghimos , 0 , 0 , Tagalog
-Itakwil , 1. iwaksi, tanggihan, ayawan!!2. pagdiri, pagbali-waray, pagsalikway , 0 , 0 , Tagalog
-Iwal , 1. ilang, magisahan!!2. mahidlaw, mailiw, mangandoy , 0 , 0 , Tagalog
-Iwasan , 1. huwag pansinin!!2. di makaalam, di makamalay!!3. pagbali-waray, diri pag-asi , 0 , 0 , Tagalog
-Kaalatan , 1. alat, maalat!!2. kaasin, kapag-ad, arat, kaarat , 0 , 0 , Tagalog
-Kabuti , 1. kabute!!2. upaling, uhong, buklad , 0 , 0 , Tagalog
-Kagawian , 1. nakasanayan, arte, gawi!!2. kinaiya, lihok, gios , 0 , 0 , Tagalog
-Kahihiyan , 1. desgrasya!!2. kasiraang puri!!3. manirang puri, magpangayaya magpahamak!!4. pagkaalo, pagkaurit!!5. pagkaalo, pagpakaurit, pagdukit , 0 , 0 , Tagalog
-Kahinugan , 1. pagtanda, gulang!!2. kagurang, kahamtongan, kaidaran , 0 , 0 , Tagalog
-Kaibig-ibig , 1. kahang-hanga!!2. marapat, samabahin, nakagigiliw!!3. makaruruyag , 0 , 0 , Tagalog
-Kailangan , 1. kawalan, pangangailangan!!2. kahirapan!!3. mangailangan!!4. kinahanglan, kainahanglanon , 0 , 0 , Tagalog
-Kakayahan , 1. kapas, obra!!2. may kaya, may abot, sapat!!3. may katapos!!4. akos!!5. takos , 0 , 0 , Tagalog
-Kakilabot , 1. kasindaksinadak, katakot-takot!!2. makalilisang, makangingirhat , 0 , 0 , Tagalog
-Kakilala , 1. bagong kakilala!!2. hindi masyadong kilala!!3. kakilala!!4. kilala , 0 , 0 , Tagalog
-Kalahati , 1. medyo, medya!!2. kabyak!!3. katunga, kapikaw, buwang, pikas!!4. tunga, medya , 0 , 0 , Tagalog
-Kalakal , 1. merkanisa!!2. tinda, paraliton, papliton , 0 , 0 , Tagalog
-Kalaykay , 1. pangalahig, pangalakay!!2. kalahigin ng kalaykay!!3. kagkag, kalkag!!4. surod , 0 , 0 , Tagalog
-Kaligtasan , 1. ligtas, seguridad!!2. katiwasayan!!3. katalwasan, kaluwasan, kalibrehan , 0 , 0 , Tagalog
-Kalkulahin , 1. kuwentahin, tuusin!!2. kumuro, tumasa!!3. tiyakin!!4. pagbanabana!!5. pag-karkulo!!6. pagkunokuno , 0 , 0 , Tagalog
-Kalokohan , 1. loko, walang katuturan, walang saysay!!2. kabalastugan!!3. tinuyaw!!4. dawdaw, turab, yawyaw , 0 , 0 , Tagalog
-Kami , 1. kami rin, kami nga, amin!!2. kita mismo, aton kalugaringon, amon kalugaring, kami ngahaw , 0 , 0 , Tagalog
-Kamiseta , 1. sando!!2. kamisita, saliko (para mga babayi), sando , 0 , 0 , Tagalog
-Kamoteng kahoy , 1. balinghoy!!2. kasaba!!3. samaray!!4. balanghoy!!5. kamotingkahoy , 0 , 0 , Tagalog
-Kapareho , 1. duplikado, dalawing salin, ikalawang salin!!2. dalawahin!!3. duplikado, kopya!!4. pagkopya, pagtundog, pagduplikar , 0 , 0 , Tagalog
-Kapayapaan , 1. kali!!2. kapahingahan, katiwasayan!!3. murayaw, kamurayaw!!4. kalinaw!!5. kamurayawan!!6. pakigdait , 0 , 0 , Tagalog
-Kapitbahay , 1. kapwa, kapwa-tao!!2. kaamyaw, kaharani, kahipid, hiripid , 0 , 0 , Tagalog
-Kapwa , 1. kamag-anak!!2. kahinlugan, kamag-anakan, angkan!!3. mag-urupod, mag-pareho , 0 , 0 , Tagalog
-Karaniwan , 1. talik!!2. kasi, katoto, kasamasama, kalaguyo!!3. kilala, pamilyar, kilalado , 0 , 0 , Tagalog
-Kariton , 1. karetela!!2. kareta!!3. kariton!!4. karomata!!5. karetilya!!6. karo , 0 , 0 , Tagalog
-Kasabihan , 1. kawikaan!!2. bukambibig, bukang-bibigi!!3. siringanon, puplunganon, darawhonon , 0 , 0 , Tagalog
-Katabi , 1. tabi, sa tabi!!2. sa siping, sa piling!!3. sapit!!4. tupad!!5. hipid , 0 , 0 , Tagalog
-Katapangan , 1. lumangutngot, gitil!!2. pagngalitin!!3. tapang, dangal, gigil!!4. kailob!!5. pangigot (ngipon) , 0 , 0 , Tagalog
-Katuwiran , 1. katuwiran!!2. may katwiran, na sa katwiran, tama!!3. mahingdanon, may rason, pagrason , 0 , 0 , Tagalog
-Kaugnayan , 1. may pinagsamahan!!2. magbilas, mag-asawa, mag-ilaw, magtalaamay, magtala-iroy , 0 , 0 , Tagalog
-Kawayan , 1. bamboo!!2. bagakay (small)!!3. makaranas!!4. mamban!!5. kabugawan!!6. tangnan!!7. patong!!8. dabong!!9. guod!!10. palpag!!11. katsaw!!12. amakan , 0 , 0 , Tagalog
-Kibkibin , 1. ngatngat!!2. ngumatngat!!3. pagkutkot, pagkitkit, pag-kibkib , 0 , 0 , Tagalog
-Kilala , 1. kiala ng mabuti!!2. kilalado, bantugan, dayag, samwak, sikat , 0 , 0 , Tagalog
-Komplot , 1. panukala, akala, haka!!2. balak, pakakas, plano, sistema!!3. plano, paagi!!4. pagplano, pagkumplot, pagkunsabo , 0 , 0 , Tagalog
-Kostura , 1. kustura!!2. pinagtahian, bitik!!3. tahi!!4. sumpayan, tinugkopan, tinakipan, rinangkitan , 0 , 0 , Tagalog
-Kulto , 1. lingid, tago, kubli!!2. misteryoso, baga hudem-hudem , 0 , 0 , Tagalog
-Kumagat , 1. kagat, sikmat!!2. mangat, manuka, mamupog!!3.pagkagat!!4. pag-angkap!!5. pag-ingkib!!6. pagtukob , 0 , 0 , Tagalog
-Kumalag , 1. kumalas, magpalwag!!2. paghukal, pagtukal, patusak (tuna) , 0 , 0 , Tagalog
-Kurtina , 1. tabing, kortina, telon sa palabas!!2. magtabing, lagyan ng tabing!!3. kurtina, biray!!4. talon , 0 , 0 , Tagalog
-Kuting , 1. batang pusa!!2. gutiay nga misay, gutiay nga uding , 0 , 0 , Tagalog
-Laban , 1. away, babag, hamok, bakbakan, basag, awayin, labanan!!2. babag, away, labanan!!3. umaway, bumabag, lumaban!!4. away, aragway!!5. pag-away , 0 , 0 , Tagalog
-Laban , 1. nalalaban, nakakaagawan!!2. diri mag-angay, diri nakaasya , 0 , 0 , Tagalog
-Laglag , 1. bagsak, lagpak, laglag, tag-lagas!!2. bagsak, lagpak, takpak, laglag, pagkahulog, pagkabagsak, bugso!!3. mahulog, bumagsak, lumagpak, tumakpak, malaglag, bumungso!!4. paghulog, pag-untong!!5. pagpurak!!6. pagpalin!!7. pagdagdag!!8. pagpatinhulog, diri tinuod , 0 , 0 , Tagalog
-Lakad , 1. lumakad, maglakad!!2. pasyal, gala!!3. maglakad, magpasyal, gumala!!4. paglakat, pagbaktas!!5. paso, iwod-iwod, kindang-kindang , 0 , 0 , Tagalog
-Lakbay , 1. biyahe, pasahe!!2. paglalakbay, paglalakad!!3. maglakbay!!4. biyahi, paglalaktan, paglakaton , 0 , 0 , Tagalog
-Laktaw , 1. kulang, mali!!2. pagsipyat, pagpalta, pagbalios , 0 , 0 , Tagalog
-Lalo , 1. sakdal, totoo!!2. lubha, napaka, totoo!!3. labi han, hin duro, ura-ura , 0 , 0 , Tagalog
-Lamay , 1. pagpupuyat, bihilya, paglalamay, pagtatanod!!2. lamay, mag-aga nga pag-bantay , 0 , 0 , Tagalog
-Lambat , 1. neto, silo!!2. net, pukot, bintol, panti, sibbot, baring, batong (higot)  , 0 , 0 , Tagalog
-Lansangan , 1. daan, landas!!2. aragian, agian!!3. paagi, kaagi , 0 , 0 , Tagalog
-Lantutay , 1. tamad, batugan!!2. hubya, huros, ukoy, maudong , 0 , 0 , Tagalog
-Laro , 1. palaro, hayop!!2. libangan, napangusuhan!!3. maglaro, magsugal!!4. mulay, uyag!!5. dama-dama, daragita, daragkupanay, sakingking, sipal , 0 , 0 , Tagalog
-Lasa , 1. latoy, namnam, tikim!!2. lasap, linamnam!!3. lasahin, lasapin, namnamin!!4. rasa!!5. pagtilaw, pag-agom , 0 , 0 , Tagalog
-Latigo , 1. panghagupit, hagupitin!!2. lamba, latub, latigo!!3. paglamba, paglatub, paglapdos, paghatos, pagrituba , 0 , 0 , Tagalog
-Laya , 1. pagka-kawala!!2. pawalan, palayain, gaanan!!3. pagbuhi, paglibre, pag-ariya, pagturos , 0 , 0 , Tagalog
-Legal , 1. matwid, ayon sa kautusan!!2. subay han balaud, uyon han balaud , 0 , 0 , Tagalog
-Libre , 1. walang bayad, hindi binayaran!!2. waray bayad, diri impas, moroso , 0 , 0 , Tagalog
-Ligaya , 1. ginhawa, kaginghawahan!!2. kasiyahan!!3. kalipay, kalipayon, risyo (maaringasa) , 0 , 0 , Tagalog
-Ligoy , 1. sikot, paliguy-ligoy!!2. pasaliw, padaplis, hindi tapatan!!3. diri deretso, diri largo , 0 , 0 , Tagalog
-Ligtas , 1. tiwasay!!2. malayo sa panganib!!3. libre, talwas, luwas!!4. maluwas, matalwas , 0 , 0 , Tagalog
-Likod , 1. itaguyod, lumingon, suportahan!!2. urong sa dakong likod!!3. bumalik!!4. talikuran!!5. pag-atras!!6. pag-isol , 0 , 0 , Tagalog
-Liksi , 1. mabilis, ayuno, bilis, matulin, rapido!!2. matatag, matibay, madali, matulin!!3. ayuno, kulasyon!!4. mag-ayuno, magkulasyon!!5. madagmit, malaksi, mapaspas, paspas , 0 , 0 , Tagalog
-Lingon , 1. alang-alang!!2. pagmamahal, pagpapahalaga!!3. mahalin, pahalagahan!!4. pagpahinungdan, pag-paimportanti , 0 , 0 , Tagalog
-Lipulin , 1. patayin, pumatay!!2. pagpatay, paglaglag, pagtahas, pag-utang , 0 , 0 , Tagalog
-Listo , 1. mabilis, agap, dali, madali, bilis!!2. madali, matulin, maliksi!!3. malaksi, madagmit, maabtik!!4. matibaksi, matibagsik , 0 , 0 , Tagalog
-Liwanag , 1. maliwanag, ilaw, tanglaw, ulang-tikatik!!2. magtitis, magsindi, magpaningas, magpalyab!!3. pawa, lamrag, siga, sanag, lawagkalamrag, kapawa, kasanag, suga!!4. paglamrag, paglawag, pagpawa, pagsiga!!5. malamrag, mapawa, malawag , 0 , 0 , Tagalog
-Lukso , 1. kandirit, lumundag!!2. pag-ukpaw, pagsakingking (usa ka tiil), pagkingking , 0 , 0 , Tagalog
-Lumitaw , 1. nagpakita!!2. sumipot, humarap, sumikat, sumilang!!3. pagpakita!!4. paggimaw!!5. pag-ulbo!!6. pag-ulwa , 0 , 0 , Tagalog
-Lumuhog , 1. mamanhik, sumamo!!2. pagpakimaluoy, pangamuyo , 0 , 0 , Tagalog
-Lundag , 1. talon, tumalon, kandirit, lukso, lundy, salta!!2. lumukso, lumundag!!3. paglukso!!4. paglayog (paubos)!!5. pag-ambak!!6. pag-umpok (igbaw, ubos)!!7. pagkundog (paglukso ha kahadlok) , 0 , 0 , Tagalog
-Maaari , 1. baka, maka, puwede!!2. maari mangyari!!3. pwede, mahimo, hinaut, unta , 0 , 0 , Tagalog
-Maanod , 1. pilit, dahas!!2. mag-udyok, magbuyo, magbunton!!3. mahaanod, mahadara, mahaupod , 0 , 0 , Tagalog
-Maanta , 1. bulok, sira!!2. mapan-os, maanga, mabaho , 0 , 0 , Tagalog
-Madalas , 1. malimit, limit, palagi!!2. sukot, agsub, masukot, masunson , 0 , 0 , Tagalog
-Madumi , 1. dumi, sukal!!2. hindi malinis, madungis!!3. mahugaw!!4. maringbit!!5. malamiri!!6. buring-ot!!7. yamu-it , 0 , 0 , Tagalog
-Magalak , 1. matwa, magsaya!!2. pagmalipay, pagrayhak, pag-andak , 0 , 0 , Tagalog
-Magaling , 1. maramdamin!!2. makaaramdok, malandaw, manlandawan , 0 , 0 , Tagalog
-Maganda , 1. marikit!!2. kaakit akit tingnan!!3. mahusay!!4. matahom!!5. maanyag!!6. pustorawo!!7. pugita , 0 , 0 , Tagalog
-Magarbo , 1. mainam, marikit, pusong, nakakatawa!!2. maanyag, malubay , 0 , 0 , Tagalog
-Maghimo , 1. pahirap ng langis!!2. pagduhig!!3. pagdihog!!4. pagbanyos!!5. paghirog!!6. pagbuhos (king) , 0 , 0 , Tagalog
-Maghubad , 1. alisin ang damit!!2. ilayo ang damit!!3. paghukas, pag-lubas, paghubo  , 0 , 0 , Tagalog
-Magkaayos ,  1. ayos!!2. pag-amuma (katapos away), pag-uli, paghi-uliay , 0 , 0 , Tagalog
-Magkaisa , 1. ilakip mo, bukluran!!2. isahin, isanib, kumampi!!3. pag-usa, pagtimpo, pag-urusa, pagtirimpo , 0 , 0 , Tagalog
-Magkalat , 1. magsabog, pangaliatin, ikinalat, isambulat!!2. pagsarang, pagkalat!!3. paggawas!!4. pagwalas, pagwatak, pagsabwag, pagragrag , 0 , 0 , Tagalog
-Magkita , 1. magtagpo!!2. makasumpong, makatagpo, sumalubong!!3. pagkita, pagsugat, pagtapo, pagrapo , 0 , 0 , Tagalog
-Maglaba , 1. labhan mga damit!!2. paglaba, pagbunak, paglabar, pagyakyak , 0 , 0 , Tagalog
-Magligtas , 1. liban, bukod sa!!2. mag-impok!!3. pagluwas, pagsalbar, pagtalwas!!4. (kwarta) pagtirok, pagpundo!!5. (gamit) paghimos, pagtipig, pagpundo, pagreserba , 0 , 0 , Tagalog
-Magmarka , 1. pumigil, umampat!!2. tsek, magtsek!!3. pagmarka!!4. pagtigaman!!5. pagsugpo!!6. panginano , 0 , 0 , Tagalog
-Magpahayag , 1. kumilala, kilalanin!!2. pag-ako!!3. pag-kumpabli!!4. pagtangdo!!5. pag-angkon , 0 , 0 , Tagalog
-Magpahirap , 1. magpasakit, gumambala, galitin, makayamot!!2. pagdisturbo, pagmolestya, pagsamok, paglipong , 0 , 0 , Tagalog
-Magsalita , 1. huma, pag-imik, dakdak, usap, salita!!2. mag-usap, makipag-usap!!3. turab!!4. pagyakan, paglibak (pagyakan kontra ha iba), paghunta (grupo) , 0 , 0 , Tagalog
-Magsimula , 1. simulan!!2. umpishan, pasimulan!!3. pagtikang!!4. paghugar!!5. pagimpisar , 0 , 0 , Tagalog
-Magsindi , 1. magtitis, magpaningas!!2. pagdagkot, pagparukot, pagsindi , 0 , 0 , Tagalog
-Magtaas , 1. bumuhat, ibangon, itaas, ibunyi, itanghal!!2. pag-alsa, pagtuboy, pag-bakyaw , 0 , 0 , Tagalog
-Magulang , 1. ama o ina!!2. kag-anak, ginikanan!!3. anakan , 0 , 0 , Tagalog
-Maingay , 1. maalingaw-ngaw, mahugong, magulo!!2. maaringasa, maaringabngab, masaba!!3. marisyo (damo nga tawo)!!4. marighom , 0 , 0 , Tagalog
-Makapal , 1. gipalpal!!2. malapot, masinsin, siksik, paikpik!!3. madakmol, bahol, espiso, saputok , 0 , 0 , Tagalog
-Malamlam , 1. malabo!!2. madulom, masirom, madaparap , 0 , 0 , Tagalog
-Malapit , 1. dapit, kapiling, lapit!!2. karatig!!3. harani, haraniay, duok , 0 , 0 , Tagalog
-Maligo , 1. ligo!!2. pagkarigo!!3. pagparigo!!4. paglabar!!5. digos , 0 , 0 , Tagalog
-Maliwanag , 1. tinag, liwanag!!2. makintab, maningning, malinaw!!3. buhay ang loob, matalino!!4. mapawa!!5. masanag!!6. malamrag!!7. baltok!!8. ranggat , 0 , 0 , Tagalog
-Mamagitan , 1. mamagitna, pamagitan!!2. pag-alang, agan, paghawig, pagbutnga , 0 , 0 , Tagalog
-Mamuri , 1. manuya, mamuri ng palimbabaw!!2. pinuri, tinutuya!!3. pag-uwat, pagsurog-surog, pagbula, pag-aring!!4. amuma, surog , 0 , 0 , Tagalog
-Mana , 1. mana, pamana!!2. surundon, surundanon, panurundon, kabilin, eridar , 0 , 0 , Tagalog
-Managhili , 1. masama!!2. mag-imbot ng masama!!3. pagmaldisyon, paglibak, pagbuyayaw , 0 , 0 , Tagalog
-Mangasiwa , 1. bahala, pangangasiwa!!2. mamahala, mamatnugot, pumaraan!!3. pagdumara, pag-maneho, paggawi, pagtagad , 0 , 0 , Tagalog
-Mangaso , 1. mamamaril!!2. mangangaso!!3. manmurusil, mangaranop, parapanganop , 0 , 0 , Tagalog
-Mangkukulam , 1. bruha!!2. manggagaway, hukluban!!3. manggaway, gawayin!!4. aswang, alok, alot, danggab, wakwak , 0 , 0 , Tagalog
-Manipis , 1. payat, kupis, kuyumpis, nipis!!2. payat, malagnaw!!3. manipis, magasa, maniwang , 0 , 0 , Tagalog
-Manmanan , 1. obserba!!2. magmanman!!3. sabang, sayat!!4. paghupol, pag-inaw, pagtiktik , 0 , 0 , Tagalog
-Manunukso , 1. manghihibo, pagkatukso, palapuri!!2. manunulay, paratintar, magsurulay , 0 , 0 , Tagalog
-Mapangarapin , 1. di-maisasagawa!!2. diri magaramit, waray pulos , 0 , 0 , Tagalog
-Maputik , 1. maburak, mabanik!!2. malusak, malagay, lusakon, hanangon, lupokon, lapakon, lutakon, malupok, malapak , 0 , 0 , Tagalog
-Maputla , 1. putla, namumutla!!2. hiluka!!3. putla, kaputlaan!!4. bakod, mga tulos, bakuran!!5. doason, arag, labsag , 0 , 0 , Tagalog
-Maramot , 1. hamak, walang kabagay-bagay!!2. waray pulos, waray gamit , 0 , 0 , Tagalog
-Marawak , 1. malawak, malaki!!2. dako hin duro, hiluag hin duro, kadako , 0 , 0 , Tagalog
-Marka , 1. bakas, bakat, gatla, senyal, senyas, tanda, tatak, tandaan, tatakan!!2. bakat, guhit, tala!!3. marka, tigaman, kagis (ha lawas), labag, lupot!!4. pagtigaman , 0 , 0 , Tagalog
-Masugid , 1. masigasig!!2. maskiap, mapagmasakit!!3. makugion, makugi gud, intrasado gud , 0 , 0 , Tagalog
-Masukal , 1. salabahe, mabangis!!2. ihalas, mapintas, mabangis , 0 , 0 , Tagalog
-Matanda , 1. magulang, may-gulang na!!2. tigurang!!3. hamtong (tipalagas)!!4. idaran!!5. lagas!!6. bahal (tuba) , 0 , 0 , Tagalog
-Matanda , 1. gurang, luma, tanda!!2. magulang, dati, luma, laon!!3. lagas, tigurang, daan (mga butang), laon , 0 , 0 , Tagalog
-Matangkad , 1. mataas, tass!!2. matayog!!3. hataas!!4. lanyog (hitaas hin duro), kahitaas , 0 , 0 , Tagalog
-Maternal , 1. nauukol sa ina!!2. kanan iroy, baga hin nanay , 0 , 0 , Tagalog
-Maya , 1. mamaya, mayamaya!!2. niyan, nuruniyan, unina , 0 , 0 , Tagalog
-Mayamot , 1. makayamot, manggulo, mangyamot!!2. pag-urit, pag-pungot!!3. makapupungot, makauurit, alingugngog (tunog)!!4. kapungot, kaurit , 0 , 0 , Tagalog
-Maulol , 1. magalit!!2. pagpasina, pagpaurit, pagpalango , 0 , 0 , Tagalog
-Mikrobyo , 1. binhi, pinanggalingan, pinagbubuhatan!!2. kagaw, mikrobyo, binlud , 0 , 0 , Tagalog
-Mukha , 1. harapan, karaagan, pagmumukha, anyo, balat o bagay na kita sa labas!!2. humarap, iharap, magpamukha, ipamukha!!3. kahimo, nawong!!4. pag-atubang , 0 , 0 , Tagalog
-Mura , 1. sumpa, murahin!!2. tungayaw, lait!!3. tampalas, maldisyon!!4. pagtampalas, panumpa, pagmaldisyon, pagbuyayaw , 0 , 0 , Tagalog
-Nagagalit , 1. nagngingitngit!!2. mahangiton, masinahon , 0 , 0 , Tagalog
-Nagmamadali , 1. dali!!2. pagmamadali, pagtutumulin!!3. magmadali, magtumulin, magmaliksi!!4. pagdagmit, pag-ikag, pag-apura , 0 , 0 , Tagalog
-Nagsisisi , 1.  gusto humingi ng tawad!!2. mabinasolon, mabidoon, mahinulsolon , 0 , 0 , Tagalog
-Nakakatuwa , 1. nakakaaliw, magandang tingnan!!2. maganda!!3. mahusay nga gutiay!!4. pugita , 0 , 0 , Tagalog
-Nakakayamot , 1. nakagagalit!!2. makaguruol, makapoy, masumo , 0 , 0 , Tagalog
-Nakaraan , 1. nakalipas!!2. malaon na!! 3. naglabay!!4. hanin!!5. hadto , 0 , 0 , Tagalog
-Nangyari , 1. nagkataon, pangyayari!!2. ganap!!3. paghanabo, pag-himugso, pagduldoy , 0 , 0 , Tagalog
-Nasain , 1. testamento, lakas, loob, habilin!!2. kalooban, ibigin!!3. buot, kaburut-on!!4. larang , 0 , 0 , Tagalog
-Ng buong puso , 1. buong puso!!2. maaghup, unob, kinasing-kasing , 0 , 0 , Tagalog
-Notisya , 1. puna, abiso, bala, pansin, paunawa, reparo, babala!!2. balita, pahayag!!3. pasabot, pahibaro, paskin, abiso (legal) , 0 , 0 , Tagalog
-Okupant , 1. ukupante!!2. namamay-ari, napapanahon!!3. umurukoy, napwesto, taga-pwesto , 0 , 0 , Tagalog
-Opera , 1. operahin!!2. gumawa, masagawa!!3. papalakat, pagdumara, pagmaneho, pagpaandar , 0 , 0 , Tagalog
-Opereytor , 1. tagapagpalakad!!2. tagagawa, tagabusbos!!3. tagdumara, tagpalakat, tagmaneho, parapaandar, makinista , 0 , 0 , Tagalog
-Order , 1. bilin, direksiyon, atas, ayos, mandamyento, utos!!2. utos, ayos, husay!!3. mag-utos, magpasya, umayos!!4. order, areglo, kahapnig, kamada, mando!!5. pagpaorder, pag-order, pagmandar , 0 , 0 , Tagalog
-Ordinansa , 1. takda!!2. utos, tuntunin!!3. balaud, pagturun-an, kasugoan , 0 , 0 , Tagalog
-Pabaya , 1. mahina, walang pakialam!!2. diri strikto, waray-waray , 0 , 0 , Tagalog
-Pabigat , 1. paragos, panaginip, panghila!!2. humila, hilahin!!3. pagsaog!!4. pagguyod!!5. pagdanas!!6. paghila!!7. pagyudyod , 0 , 0 , Tagalog
-Pabor , 1. paunlakan, biyaya, utang ng loob!!2. pabor!!3. pagpaura, pagsulabi, pag-alayon!!4. dapig, gapil , 0 , 0 , Tagalog
-Pag-ibig , 1. mahal, amor, gayuma, giliw, ibig, irog, sinta, pagmamahal, mahalin, pitak!!2. pagsinta, pag-irog, pag-giliw!!3. umbig, mangibig suminta, umirog, gumiliw!!4. gugma!!5. paghigugma, pagmayuyo, pagmahal , 0 , 0 , Tagalog
-Paghiwa , 1. pagputol, paggilit!!2. pagputol, umukit!!3. sanggi!!4. salana (kamote) , 0 , 0 , Tagalog
-Pagitan , 1. pinid, paghihiwalay, pagbabahagi!!2. bumahagi, bahagihin!!3. partisyon, salipod, mampara , 0 , 0 , Tagalog
-Pagkain , 1. pangpatid-gutom!!2. magpalain, magpanginain, magpasabsab!!3. buntol, pagpakaon, paghungit, pagtubong, pagbuntol , 0 , 0 , Tagalog
-Pagkakataon , 1. asa, baka, sakali!!2. palad, kapalaran, pagkakataon!!3. mangyari, magkataon!!4. higayon!!5. pag-alaswerti!!6. paghulat hin panahon , 0 , 0 , Tagalog
-Pagkatapos , 1. makaraan, pagkaraan!!2. pagkaraan, matapos, pagkalipas!!3. tima!!4. tapos!!5. kataliwan!!6. katapos!!7. katima , 0 , 0 , Tagalog
-Palakpak , 1. lagapak, pagakpak!!2. lumagapak, pumagakpak!!3. lagapak, lagapik!!4. paglagpak!!5. paglagapak!!6. paglugapak , 0 , 0 , Tagalog
-Palitan , 1. panumbalikin, iuli!!2. pag-uli, pagbalik, pag-liwan , 0 , 0 , Tagalog
-Panahon , 1. kapahunan!!2. rekaduhan, lagyan ng rekado!!3. panahon!!4. bundok, kathuraw, karayapan, katuraw , 0 , 0 , Tagalog
-Pananariaw , 1. naginhawahan, pinaginhawa!!2. mahadnaw, presko, maupay nga pamati , 0 , 0 , Tagalog
-Pangangalunya , 1. pakikiagulo!!2. pagkaroon ng maraming asawa!!3. adulteryo!!4. paglibog!!5. libing-libing!!6. mansibado, kirido, kirida!!7. bilyako , 0 , 0 , Tagalog
-Pansit , 1. bihon!!2. miswa!!3. miki!!4. udong , 0 , 0 , Tagalog
-Pantay , 1. paris, patag, patas!!2. patag, yano, panay, pares!!3. bagaman, kahit!!4. pantayin, patagin, panayin!!5. tungod (kalinya)!!6. tupong (kahitaas)!!7. sangad (kapareho), pareho , 0 , 0 , Tagalog
-Pareho , 1. rin, nga, kagaya, kapara!!2. pareho, purupareho, amo la gihapon , 0 , 0 , Tagalog
-Pasa , 1. pumapasa!!2. pagdaraan, pasado!!3. umaragi, lumalabay, mapasado (grade) , 0 , 0 , Tagalog
-Patak , 1. alisan, bagsak, laglag, ibagsak, bitawan!!2. tulo!!3. pumatak, tumulo, mahulog, malaglag, lumagpak, bumaksak!!4. turo!!5. paghulog, pagtaktak, paghutak, paghudag , 0 , 0 , Tagalog
-Patayan , 1. pamumuksa!!2. magpatayan!!3. paglaglag, pagpuo, paghapyod , 0 , 0 , Tagalog
-Paypay , 1. pamaypay, tagahanga, tagasunod!!2. pamaypay, abaniko, pangpahangin!!3. magpaypay, mag-abaniko, mag-pahangin!!4. papha, abaniko, bentilador!!5. pagpapha, pagpaypay , 0 , 0 , Tagalog
-Payuhan , 1. paalalahan, turuan!!2. payo, aral!!3. pumayo, umaral!!4. pagsagdon!!5. pagwaydong!!6. paglarang!!7. pagtugon , 0 , 0 , Tagalog
-Peke , 1. huwad, kunwari!!2. palsipikado, diri tuod!!3. pag-palsipikaw , 0 , 0 , Tagalog
-Peklat , 1. piklat, bikat!!2. bakat, pikat!!3. ulat, kagis, pandok , 0 , 0 , Tagalog
-Pilya , 1. masama, malikot, makaras!!2. pilyo, pilya, sutil, maldito  , 0 , 0 , Tagalog
-Pinakamabuti , 1. kabutibutihan!!2. pinakamainam, pinakamahusay!!3. giuupayi, pinakamaupay!!4. hawod!!5. hayaw!!6. lahod , 0 , 0 , Tagalog
-Pinakamataas , 1. pinakapantas, kataastaasan!!2. dulo, pangulong, pasimula, mataas!!3. gihatataasi, pinakahitaas, sampaw , 0 , 0 , Tagalog
-Piring , 1. may piring ang mata!!2. magpiring, piringa ang mata!!3. itarakop!!4. itarabon!!5. butahan , 0 , 0 , Tagalog
-Pueblo , 1. munisipyo, bungto, poblasyon , 0 , 0 , Tagalog
-Pumatay , 1. makapatay, patayin!!2. pagparong, pagpahugpoy, pagsugpo , 0 , 0 , Tagalog
-Pumayag , 1. umayon!!2. sumang-ayon!!3. pag-abuyon!!4. pagsarabot!!5. pagkausa!!6. pagkaasya , 0 , 0 , Tagalog
-Pumighati , 1. magpahirap, sumakal, uminis!!2. amisin, duhagihin!!3. pagtalumpigos, pagraugdaug, pagpabug-at , 0 , 0 , Tagalog
-Punas , 1. linisin, pahirin!!2. punas, punasan mo!!3. pagpahid, paghinis, pag-trapo , 0 , 0 , Tagalog
-Punla , 1. semilya!!2. labot, paglabot!!3. ganhi, gahi, lalong, semilya , 0 , 0 , Tagalog
-Puno , 1. kabusugan, kasaganaan!!2. pumuno, bumusog, punuin, busugin!!3. pagpuno, pagsulod, pagpaaras, pag-ugdok , 0 , 0 , Tagalog
-Ramdam , 1. dama, damahin!!2. hipo, kapa, damdam!!2. makaramdam, humipo, kumapa!!3. paghiram, pagkamkam, pag-abat, pagbati!!4. bantad , 0 , 0 , Tagalog
-Raspa , 1. hadlang, kapansanan!!2. katkatin, kaskasin, kalmutin!!3. pagkagos, pagkaruskos, pagkudkod, pagkiskis , 0 , 0 , Tagalog
-Rebelyon , 1. alsa, himagsik!!2. panghihimagsik, himagsikan, pag-aalsa!!3. pagrebelde, masupilon, maatohon , 0 , 0 , Tagalog
-Regalo , 1. pasalubong, alaala, bigay, handog, parating, kaloob!!2. kaloob, bigay, pasalubong!!3. regalo, hatag, upa, premyo!!4. pabalon, pahalipay , 0 , 0 , Tagalog
-Rehas , 1. parilya!!2. dalang-dalang!!3. kumayod, lumangitngit, magbakod!!4. kaguran, sugang!!5. saladang!!6. pagkagud , 0 , 0 , Tagalog
-Relikya , 1. isang mahalagang bagay!!2. makalumang bagay!!3. salin, kadaan, kasanhi , 0 , 0 , Tagalog
-Rendido , 1. gasgas, pudpod, upod!!2. ibas, dumay, pundir , 0 , 0 , Tagalog
-Rikisa , 1. hanap, siyasat!!2. paniniyasat, paghanap!!3. sumiyasat, sumaliksik!!4. pagbiling, pangita, pamiling, paghanaw, paghanap , 0 , 0 , Tagalog
-Sadlakan , 1. panig!!2. pagitan, agwat!!3. bungbong, kabug-os, pundok (hin mga tawo) , 0 , 0 , Tagalog
-Sakahan , 1. bukid, lining, kabukiran, taniman!!2. lupang pag-aari, bukid, lupang bunkalin!!3. magsaka, magbukid, bumukid, luminang!!4. huron, uma, tayod!!5. pag-uma , 0 , 0 , Tagalog
-Sakit , 1. sama ng katawan, sakit!!2. baration!!3. balatian!!4. buti!!5. bartik!!6. alap-ap!!7. tukwaw!!8. uga , 0 , 0 , Tagalog
-Sakit ng Ulo , 1. konsumisyon, sakit-ulo!!2. kaul-ol han ulo!!3. malingaw, malipong , 0 , 0 , Tagalog
-Sakripisyo , 1. pagpapakasakit!!2. hain, alay!!3. maghain, mag-alay!!4. sakripisyo, halad, pag-antos!!5. paghalad, pagsakripisyo, pag-antos, pagbudlay , 0 , 0 , Tagalog
-Salapi , 1. pera, kuwarta, atik, datung, pilak!!2. kwarta, salapi, sukli, taya, puhunan!!3. piluka, pisita, piso , 0 , 0 , Tagalog
-Salsal , 1. mapurol, sano, bobo, torpe, tungag, mahina!!2. tigil, dungo, ungas, malamlam, mapanglaw!!3. matigilan, madungo, pumanglaw!!4. mangarol, rumol, umal, supo, budol (tawo), bulok, bungaw, linga , 0 , 0 , Tagalog
-Salungatin , 1. tumutol, sumalungat, sumalangsang, lumaban!!2. pagkontra, pagsupak, paglaris, pagsuway , 0 , 0 , Tagalog
-Sama , 1. masama!!2. kasamaan!!3. karautan!!4. magil-ad, magirhat , 0 , 0 , Tagalog
-Sarili , 1. kalugaringon!!2. mismo ngahaw!!3. ginagapilan , 0 , 0 , Tagalog
-Saya , 1. pagsaya, bunyi!!2. pagkakatawa, paghihiyawa ng papuri!!3. kalipay, palakpak!!4. pagpalakpak , 0 , 0 , Tagalog
-Sawi , 1. panatag, sawi, takda, kamatayan, pamamayapa!!2. kamatayan, pagkamatay!!3. kamatayon, pagkamatay!!4. namatyan!!5. himaratyan, mamaratayon , 0 , 0 , Tagalog
-Seradura , 1. kandado, susi!!2. pangtrandka!!3. isara, isusi, itrangka!!4. kandado, trangka , 0 , 0 , Tagalog
-Sigla , 1. atikabo, gana, kasigasigan!!2. kainteresado, kadesidido, kagiyan , 0 , 0 , Tagalog
-Sikap , 1. pagsikapan!!2. masakit!!3. magsumikap, magsikap, magsumakit!!4. paningkamot, pagtalinguha, paglimbasog , 0 , 0 , Tagalog
-Silay , 1. sulyap, kislap, kisap!!2. sumulyap, kumisap, kumislap!!3. sid-ap, siplat!!4. pagsiplat, pagsid-ap , 0 , 0 , Tagalog
-Sinag , 1. kumislap, kumisap, numingning!!2. liwanag!!3. idlap (liwanag)!!4. sulhog (araw)!!5. lagonlagon (sahig) , 0 , 0 , Tagalog
-Sindak , 1. kagulo, kakilabutan!!2. katarantar!!3. matarantar, maburigo , 0 , 0 , Tagalog
-Sine , 1. tampok na palabas!!2. pasalida, pasundayag!!3. pagpasalida, pagpasundayag , 0 , 0 , Tagalog
-Singil , 1. taripa, sugod, sugurin!!2. bilin, tagubilin, ingat, sakdal, sumbong, paratang, hingi, pahalag!!3. magbilin, magtagubilin, masakdal, magparatang, humingi, sumingil!!4. pagsukot (kwarta)!!5. pagpautang!!6. pagkiha (korte)!!7. pag-akusar!!8. pagkarga (battery) , 0 , 0 , Tagalog
-Sisi , 1. sisihin!!2. sala!!3. bigyang sala!!4. basol!!5. pagbasol!!6. pagtuklin!!7. pagtum-a , 0 , 0 , Tagalog
-Siyap , 1. huni!!2. sumiyap, humuni!!3. huni, piyak!!4. paghuni, pagpiyak , 0 , 0 , Tagalog
-Sumali , 1. dumamay!!2. maghati!!3. pagsaro, pag-angbit, pagbulig , 0 , 0 , Tagalog
-Sumamo , 1. mamahik, makiusap!!2. pag-aram, aram!!3. paghingod-hingod!!4. pagpakimaluoy!!5. pangamuyo!!6. panginyupo , 0 , 0 , Tagalog
-Sunod , 1. sumunod, sundin!!2. sumunod, tumalima!!3. pagsugot, pag-alagad, pagtuman , 0 , 0 , Tagalog
-Taba , 1. mataba!!2. magpataba!!3. tambok, sibo, mantika!!4. matambok, bundan , 0 , 0 , Tagalog
-Tabla , 1. pareho, patas, kaparis, katumbas, parehas, katapat!!2. kagaya, kawangis, kawangki!!3. pagparahin, pagparisin, pagparehohin!!4. pareho, tupong, sandag, sarandag, turopong , 0 , 0 , Tagalog
-Tadjak , 1. sipa, tadyak, sipain!!2. sipa, sikad, tadyak!!3. manipa, sumipa, manikad, manadyak!!4. pagbanyak, pagsipa, pagtikod , 0 , 0 , Tagalog
-Taga-tala , 1. tagapagtala, tagapagtanda!!2. tagalista, paralista, parasurat , 0 , 0 , Tagalog
-Talim , 1. bingit, lamang!!2. patalim, gilid, tabi, laylayan, baybayin, hangganan!!3. maghasa, gawin ang gilid!!4. pagilid, sa gawing gilid!!5. ligid, daplin, ganggang!!6. palwais surab, tarom, katadman , 0 , 0 , Tagalog
-Talo , 1. tunggali, pagtatalo, debate!!2. pagmamatwiran!!3. makipagtalo, makipaglaban, makipagmatwiranan!!4. debati, lantugi, kahisgutan!!5. pagdebati, paglantugi, pagretaki , 0 , 0 , Tagalog
-Talo , 1. hindi nanalo!!2. magwala, pumaram, pumawi, magbulaksak!!3. pagwara, pagwagsing , 0 , 0 , Tagalog
-Taltal , 1. away, sigalot!!2. makigpagtalo, makigpagmatwiranan!!3. pagtatalo, pagmamatwiranan!!4. balingkot, pakigbingkil!!5. pagbalingkot, pagtigi , 0 , 0 , Tagalog
-Tamad , 1. batugan, tanga, pagayongayon!!2. magbatugan, magpagayongayon, tumanga!!3. hubya!!4. paghinubya, pag-istambay, pagpuruko , 0 , 0 , Tagalog
-Tangkal , 1. kulungan!!2. kumulong, isilid sa tangkal!!3. alad, toril, tangkal, kudal , 0 , 0 , Tagalog
-Tangkay , 1. puluhan, tatagnan, bitbitan!!2. humipo, lumamas, umugit!!3. karaptan, pulo, ulo-ulo, kalugkog (hilaba), bukong-bukong , 0 , 0 , Tagalog
-Tanod , 1. bantay!!2. tagatanod, tagabantay!!3. bantay, magbarantay, sirino , 0 , 0 , Tagalog
-Tanong , 1. tanungin!!2. bagay, asunto, tanong!!3. pakiana!!4. pagpakiana, paggipurupakiana, pagbista , 0 , 0 , Tagalog
-Tapik , 1. tuktok!!2. butas, tubaan!!3. pagpikpik, pagmakmak , 0 , 0 , Tagalog
-Tapos , 1. tapos na, natapos, rematado, ganap, lutas, remata, tambay, tapos, todas, yari, utas!!2. tima, human, ripot, liwas , 0 , 0 , Tagalog
-Taya , 1. tantiya, kuro!!2. tasa, pahalaga, kuro!!3. halagahan!!4. karkulo, kuno-kuno!!5. pagkarkulo, pagbanabana, pagkuno-kuno, pagpaino-ino , 0 , 0 , Tagalog
-Teksto , 1. testo, text, letra!!2. bagay, layon, adhika, pinag-salitaan!!3. barasahon, teksto, tinuod nga mga pulong , 0 , 0 , Tagalog
-Testigo , 1. saksi, sumaksi!!2. testigo, saksi, manarambong , 0 , 0 , Tagalog
-Tingin , 1. tingnan, tumingin!!2. paghiling, pagtutok, pagkinita , 0 , 0 , Tagalog
-Tugis , 1. huli, pangaso!!2. habol, sundan!!3. pagbukod!!4. pagtabog!!5. paghigin , 0 , 0 , Tagalog
-Tuksuhin , 1. manukso!!2. pagyaang-yaang, pag-sunlog, pagtiaw, pagtingyay  , 0 , 0 , Tagalog
-Tulong , 1. saklolo!!2. abuloy, umabuloy!!3. bulig, pagbulig!!4. tabang, pagtabang!!5. lihog, paglihog , 0 , 0 , Tagalog
-Tuluy-tuloy , 1. walang-humpay, sunod-sunod!!2. sigidas, waray hunong, waray ukoy , 0 , 0 , Tagalog
-Tumbas , 1. pagkakapantay!!2. paris!!3. katurupong!!4. magturupong, magpareho, matupong , 0 , 0 , Tagalog
-Tuos , 1. kuwenta!!2. bilang, kuro, turing!!3. utang!!4. listahan , 0 , 0 , Tagalog
-Tuparin , 1. gawin!!2. yumari, tumapos, magwakas, gumanap!!3. pag-akomplisar!!4. paghinayon!!5. paghuman!!6. pagtangpos!!7. paglampos , 0 , 0 , Tagalog
-Tuyo , 1. tuin, patuyuin!!2. mamara, uga, hubas!!3. pagmara, pagladlad (bado) , 0 , 0 , Tagalog
-Ubusin , 1. sakmal!!2. lamunin, sirain, iwasak!!3. paghaklam!!4. paghakhak!!5. paghalukhok , 0 , 0 , Tagalog
-Udyok , 1. pag-himok!!2. magpalakas ng loob, magpatapang!!3. pag-aghat, pag-palahan , 0 , 0 , Tagalog
-Udyok , 1. pumilitt, madaliin, papagmadaliin, ibuyo, udyukan!!2. ngudyot!!3. pag-aghat, pagtukso, paghugay , 0 , 0 , Tagalog
-Ugma , 1. pareho, bagay!!2. pag-aasawa!!3. itulad, iparis, papag-asawahin!!4. kapadis, kaatbang , 0 , 0 , Tagalog
-Ugnayan , 1. sugpungan, sugpong!!2. kasukasuan!!3. sumama, sumanib!!4. kaluluthan, luta (tanom), muko-buko (lawas) , 0 , 0 , Tagalog
-Uliran , 1. dibuho, muwestra, pag-paparisan, huwaran, hulmahan!!2. tularan!!3. disenyo, modelo, surundan, turundogan, suruklan, batakan , 0 , 0 , Tagalog
-Ultimo , 1. huli, wakas, natira!!2. katapusan!!3. magtagal, maglwat!!4. urhi, katapusan, pukis, giuurhii , 0 , 0 , Tagalog
-Umakay , 1. pumatnugot, pumatnubay!!2. panguna, pag-una, pag-sugay, pagtungway , 0 , 0 , Tagalog
-Umalipusta , 1. tumampalasan!!2. pagraugdaug, paglupaglupog, pagdurugas , 0 , 0 , Tagalog
-Umayaw , 1. sukal!!2. tapon, labis, sobra!!3. tumanggi, pagindi, humiya!!4. pagbaribad, pagdiri, pagdehar, pagbinaribaray , 0 , 0 , Tagalog
-Umulit , 1. dumulog, dumalo!!2. pagtulos, pagsugmat, paglibwat , 0 , 0 , Tagalog
-Una , 1. muna, primera, uno, nangunguna!!2. panguna!!3. pinsang buo!!4. siyahan, una, primero!!5. anay , 0 , 0 , Tagalog
-Unano , 1. bulilit, duwende!!2. pandak!!3. papandakin, bansutin!!4. inano, duwendi , 0 , 0 , Tagalog
-Unawa , 1. alam, muslak, muwang, taho, tingkala, pagkaintindi, maunawain, pagkakaunawa!!2. kaalaman, bait!!3. pag-intiende, intiendehan, sinabotan , 0 , 0 , Tagalog
-Ungal , 1. hiyaw!!2. kahol, tahol, angal!!3. umangal, umungal!!4. guliat, singgit!!5. pagguliat, pagsinggit , 0 , 0 , Tagalog
-Uod , 1. bulati!!2. ulod, wait, wutok, atatado, uging , 0 , 0 , Tagalog
-Usisa , 1. usisain, magtanong!!2. siyasatin, litisin!!3. pagpakiana, panginano, panginsayod , 0 , 0 , Tagalog
-Uyam , 1. gagad, biro!!2. tuya!!3. umuyam, gumagad, tumuya, manuya!!4. pagsunlog, pagsudyot, pag-udoy-udoy , 0 , 0 , Tagalog
-Wagi , 1. nagtagumpay, nagwagi, nanalo, panalo!!2. magdaraog, daogan, paradaog , 0 , 0 , Tagalog
-Wakas , 1. katapusan, dulo!!2. katapusan, dulo, hangganan, hangga!!3. tumapos, yumari, lumutas, umutas, humangga!!4. katapusan, katubtuban!!5. pagtapos , 0 , 0 , Tagalog
-Wakasan , 1. tapusin, tapos!!2. pagtapos, paghuman, pag-iwas , 0 , 0 , Tagalog
-Wala , 1. walang kapararakan!!2. waray bali, waray gamit , 0 , 0 , Tagalog
-Walang hanggan , 1. walang katapusan, walang bilang!!2. waray katubtoban, waray katapusan , 0 , 0 , Tagalog
-Walang-kahulilip , 1. di maihahantulad, di maipaparis, walang katulad!!2. waray katupong, waray katanding, waray kapareho , 0 , 0 , Tagalog
-Walang-kaya , 1. hindi sanay!!2. walang karapatan, hindi marunong!!3. diri igo, diri angay, diri takos , 0 , 0 , Tagalog
-Wani , 1. saklolo, tulong, abuloy, pagtulong!!2. tulong, abuloy, saklolo!!3. tumulong, umabulog, sumaklolo!!4. bulig, tambulig, arayupan, lighog!!5. pagbulig, pagtabag , 0 , 0 , Tagalog
-Wika , 1. lengguwa!!2. pananalita!!3. yinaknan, pinulongan , 0 , 0 , Tagalog
-Yakap , 1. yapos!!2. yumakap, yumapos!!2. pagkupkop, paggakos, pagtakgus, paggahos , 0 , 0 , Tagalog
-Yaman , 1. ginhawa, kariwasaan, riwasa!!2. kayamanan!!3. bahandi, manggad, karikohan, kamanggaran  , 0 , 0 , Tagalog
-Yamot , 1. pagod, napapagal!!2. pumagod, mamagod, yumamot!!3. guol, kapoy, rahol, pagal, butlaw , 0 , 0 , Tagalog
-Yapos , 1. yumapos, yumakap!!2. paggakos, pagkupkop, paghangkop , 0 , 0 , Tagalog
-Yarda , 1. bakuran!!2. bara, looban!!3. barisbisan, libong, bangsaran , 0 , 0 , Tagalog
-Yurak , 1. padyak, tapakan!!2. tumadyak, sumikad, yumurak, tumusak!!3. pagyatak, pagyaag, pag-raugdaug , 0 , 0 , Tagalog
-Nais , 1. hangad, nasa, gusto, udyok!!2. pita, hangad!!3. magnais, magnasa, pumita, maghangad!!4. karuyag, kursunada, kawili, ungara!!5. paghingyap , 0 , 0 , Tagalog
-Ulitin , 1. sabihin uli!!2. pag-utro, pagliwat, pag-uruutro , 0 , 0 , Tagalog
+Abain , 1. pahirapan, hindi maayos na pakikitungo sa kapwa!!W2. pagraugdaug!!W3. pagtalumpigos!!W4. pagtamos-tamos!!W5. paglupog-lupog!!W6. paglupog , 0 , 0 , Tagalog
+Abante , 1. diretso!! W2. pagkadto!!W3. pagkada!!W4. paglakat  , 0 , 0 , Tagalog
+Abot , 1. layo, taway!!2. hanay, lagay, uri, taas, ayos!!W3. katubtoban!!W4. lugar!!W5. hiluag nga hangraban , 0 , 0 , Tagalog
+Adhika , 1. nais, gusto, nasa, hangad!!2. magnasa, magnais, pumita, maghangad!!W3. karuyag!!W4. gusto!!W5. kawili!!W6. pag-ungara!!W7. pagtinguha!!W8. paghingyap!!W9. pagkawili , 0 , 0 , Tagalog
+Adres , 1. kinatatahanan, kinaroonan, salaysay!!2. magsalaysay, manalita, magtagumpay!!W3. urukyan (lugar)!!W4. diskurso , 0 , 0 , Tagalog
+Agam-agam , !. pag-aalangan!!W2. kalipongan!!W3. kagupongan , 0 , 0 , Tagalog
+Agawin , 1. dakutin, masusunggab!!W2. pag-agaw!!W3. pagrabnot!!W4. pag-rabot!!W5. pagbiknit , 0 , 0 , Tagalog
+Agnasin , 1. umagnas, maagnas, matibag!!2. astaka!!W3. pagpanpan!!W4. pagtikba!!W5. pagtimpag!!W6. pagtibhang , 0 , 0 , Tagalog
+Agrabiyado , 1. napapatisod, nasaktan, nagkasala!!W2. mabidoon!!W3. mabido!!W4. mauba!!W5. mabudlay , 0 , 0 , Tagalog
+Alab , 1. dingas, laab, lagablab, lingas, liyab, siklab!!2. ningas, liyab, siklab!!3. magningas, magliyab!!W4. ulyab!!W5. pag-ulyab!!W6. rumbo , 0 , 0 , Tagalog
+Alaga , 1. alintana, pagkalinga, malasakit!!2. ingat, kalinga!!3. mag-ingat, ingatan, kumalinga, kalingain!!W4. panimangno!!W5. pagmangno!!W6. pag-ataman!!W7. pagmayuyo!!W8. pag-asikaso!!W9. pagtimangno , 0 , 0 , Tagalog
+Alak , 1. anyeho, banluag, basi, bino!!W2. alaksiw!!W3. tuba!!W4. bahal , 0 , 0 , Tagalog
+Alikabok , 1. galabok, alabok, alisan nga alikabok, punasan!!W2. tapo-tapo!!W3. agu-op!!W4. girhang (kan-on) , 0 , 0 , Tagalog
+Alinsunod , 1. anang, ayon!!W2. siring han!!W3. saegon!!W4. subay , 0 , 0 , Tagalog
+Alisin , 1. tanggalin, sirain!!2. pumaram, pumawi, lumipol, magwala ng halaga!!W3. pagbali-waray!!W4. pagkuha!!W5. pag-utod , 0 , 0 , Tagalog
+Alisin , 1. lumigta, ligtaan, lumaktaw, laktawan!!2. tanggalin, kunin!!W3. pag-iban!!W4. pagbaya!!W5. pagkuha , 0 , 0 , Tagalog
+Alok , 1. mungkahi!!2. handog, palagay!!3. maghandog!!W4. paghalad!!W5. paghatag!!W6. pagpresentar , 0 , 0 , Tagalog
+Alumihit , 1. pagpapalag, alsa, alumihit!!W2. sapot!!W3. sungpong!!W4. tulos , 0 , 0 , Tagalog
+Amoy , 1. bango, salimuyak!!2. alingasaw, alisangsang!!W3. baho!!W4. alimyon!!W5. bungaw  , 0 , 0 , Tagalog
+Andas , 1. patong, patungan!!W2. turumbanon!!W3. taramakan!!W4. bangkilyo , 0 , 0 , Tagalog
+Aparato , 1. sangkap!!2. pagsasangkap ng mga kailangan dalhin!!W3. garamiton!!W4. kasangkapan!!W5. ekipahi , 0 , 0 , Tagalog
+Apoy , 1. sunog, silab!!2. sumunog, magpaningas ng apoy!!W3. kalayo!!W4. sunog!!W5. haring!!W6. irong!!W7. sugangan , 0 , 0 , Tagalog
+Aral , 1. kuro, kuru-kuro!!W2. tuluojan!!W3. doktrina!!W4. tinuonan , 0 , 0 , Tagalog
+Araw-Araw , 1. pang-araw-araw!!2. bawat araw!!W3. adlaw-adlaw!!W4. ikinaadlaw , 0 , 0 , Tagalog
+Asahan , 1. iasa, ibiliang!!2. ipagkatiwala!!!W3. pagsarig!!W4. pagtapod!!W5. pag-piyar , 0 , 0 , Tagalog
+Asalin , 1. mag-ugali, magpalagay mag-asal!!W2. paggios!!W3. pamatasan!!W4. gios!!W5. lihok!!W6. kiwa!!W7. kiay-kiay , 0 , 0 , Tagalog
+Asiwa , 1. kuti-kutiltilin!!2. piyon, peon!!3. hindi marunong!!W4. diri kunosido!!W5. diri hanas!!W6. diri maaram , 0 , 0 , Tagalog
+Aso , 1. singaw, gaas!!2. usok, aso!!W3. alisngaw!!W4. singaw!!W5. hungaw , 0 , 0 , Tagalog
+Away , 1. alit, babag, kana, sigalot, taltal, alitan, bakbakan!!2. makipagbasag-ulo, makipag-away, makipagbabag!!3. away!!W4. balingkot!!W5. pag-away!!W6. pagkabingkil!!W7. pagbalingkot , 0 , 0 , Tagalog
+Bagabundo , 1. bulakbol, hampaslumpa!!2. palaboy, tanga!!W3. bangaw!!W4. latagaw!!W5. bugoy , 0 , 0 , Tagalog
+Bag , 1. supot, bayong!!W2. baruyot!!W3. biol , 0 , 0 , Tagalog
+Bagkus , 1. sa halip!!2. sa lugar ng, na kahalili ng o ni!!W3. imbis!!4. bagkus!!W5. lugod!!W6. tibway , 0 , 0 , Tagalog
+Pagbabago , 1. baguhin, bago, palitan, pagpapalit!!3. paghalili, pag-iiba!!W4. kaibahan , 0 , 0 , Tagalog
+Bago , 1. baguhan, sariwa!!W2. bag-o!!W3. bus-og , 0 , 0 , Tagalog
+Bagsak , 1. bigo!!2. ligta, kaligtaan, kulang, kakulangan, kapahamakan, kapariwaraan!!3. magkulang, maligtaan, mawala, maparam!!W4. pagpakayas!!W5. pagpaltos!!W6. pagsalto , 0 , 0 , Tagalog
+Bagtasin , 1. dumaan, magdaan, lumagpas!!2. hakbang, lakad, landas, daan, pases!!W3. pag-agi!!W4. paglabay!!W5. paghagos!!W6. pagpasar!!W7. pagpasa , 0 , 0 , Tagalog
+Baguhin , 1. kalasin, kalagin!!W2. pagtangtang!!W3. paghubad!!W4. pagruba!!W5. pagbali-waray , 0 , 0 , Tagalog
+Bahagi , 1. kabahagi, kabilanin!!2. hindi buo!!W3. parte!!W4. diri papreho!!W5. paura , 0 , 0 , Tagalog
+Bahay , 1. tirahan!!2. tahanan!!W3. urukyan!!W4. balay , 0 , 0 , Tagalog
+Baklasin , 1. sumira, bumasag, sirain, basagin, lumagot, lagutin!!2. lumagot, lagutin!!W3. pagbari!!W4. pagbarag!!W5. pagbuong!!W6. pag-tipik!!W7. pagpusa!!W8. pagrugmok , 0 , 0 , Tagalog
+Bakod , 1. talakop, bakuran!!2. bakuran!!3. magbakod, bakuran!!W4. pader!!W5. atabay!!W6. alasid!!W7. alad!!W8. kudal , 0 , 0 , Tagalog
+Balaghan , 1. kagilalasan!!2. manggilalas, magtaka, mamangha!!3. hangan, mamangha!!4. kahangahanga, kababalaghan!!W5. urusahon!!W6. katingalaan!!W7. pagpausa!!W8. paghipausa , 0 , 0 , Tagalog
+Balakid , 1. nakaharang!!2. kapansanan, hadlang!!W3. sangwil!!W4. balabag!!W5. sangko!!W6. ulang , 0 , 0 , Tagalog
+Balda , 1. wala, lung!!2. kulang, kakulangan, kailangan!!3. magkulang, mangailangan!!W4. kulang!!W5. kakulangan , 0 , 0 , Tagalog
+Bale-wala , 1. walang halaga!!W2. waray bali!!W3. diri importanti , 0 , 0 , Tagalog
+Balisong , 1. kutsilyo, tarak, lanseta!!2. sundang, lanseta!!W3. kutsilyo!!W4. sipol!!W5. korta!!W6. pisaw!!W7. balisong , 0 , 0 , Tagalog
+Balon , 1. balon, bukal, balong!!2. bumukal, bumalong!!W3. bubon!!W4. atabay!!W5. timba , 0 , 0 , Tagalog
+Baluktot , 1. biling, bakunot, liko!!2. yupi, hutok!!W3. baliko!!W4. bawod!!W5. balok!!W6. biad!!W7. gangko!!W8. halag (tanum) , 0 , 0 , Tagalog
+Balutan , 1. balot, magbalot!!2. bilot, bigkis!!W3. kahon!!W4. putos!!W5. paketi , 0 , 0 , Tagalog
+Balsa , 1. sakyanan pandagat!!W2. balsa!!W3. tabaw!!W4. gakit (bamboo) , 0 , 0 , Tagalog
+Banaag , 1. sikat, tala!!2. sinag, liwayway!!W3. banawag!!W4. sirak!!W5. kaway , 0 , 0 , Tagalog
+Bandana , 1. pamigkis, panali!!W2. pandong!!W3. tudong!!W4. turong!!W5. taong!!W6. bandana , 0 , 0 , Tagalog
+Bantaan , 1. balaan!!2. mabala, manakot!!W3. pagtarhog!!W4. panarhog!!W5. pagtutok , 0 , 0 , Tagalog
+Bantilan , 1. daungan, piyer!!2. paliguan!!3. paanan ng hagdanan!!W4. pantalan!!W5. piyer!!W6. duruongan!!W7. resiko , 0 , 0 , Tagalog
+Bantay , 1. taliba, tanod, guwardiya!!2. tanod!!3. magbantay, tumanod, magsanggalang!!W4. bantay!!W5. gwardya!!W6. magbarantay , 0 , 0 , Tagalog
+Baro , 1. damit!!2. kasuotan, bihisan!!W3. bado!!W4. saya , 0 , 0 , Tagalog
+Basio , 1. hungkag, kakab, lugganggang, walang laman, limasin!!2. walang laman, walang kabuluhan, hangal!!3. alisan ang laman!!W4. waray sulod!!W5. basiyo!!W6. bulalo!!W7. wada , 0 , 0 , Tagalog
+Basura , 1. tapon, sukal!!W2. baya!!W3. sighot!!W4. si-ot , 0 , 0 , Tagalog
+Bata , 1. bagets, binata!!W2. batan-on!!W3. bata pa!!W4. lapsot!!W5. linghod , 0 , 0 , Tagalog
+Batuhin , 1. balabag, hagis, pukol, tilapon, ihagis!!2. balibat, pagkabato!!3. maghagis, magtapon, pumukol, bumalibat, bumato!!W4. paglabay!!W5. pag-itsa!!W6. pag-pilak , 0 , 0 , Tagalog
+Bawi , 1. mabawi, maisauli, bawiin, isauli!!W2. pagbawi!!W3. pag-upay!!W4. pag-uli , 0 , 0 , Tagalog
+Bayad , 1. magbayad, suweldo!!2. upa, sahod!!3. magbayad, umupa!!W4. pagbayad!!W5. pag-impas!!W6. pagsweldo , 0 , 0 , Tagalog
+Benggansa , 1. tirya, higanti, paghihiganti!!2. panghihiganti!!W3. dumot!!W4. bulos!!W5. pag-dumot , 0 , 0 , Tagalog
+Bigat , 1. talaro, timbang, kilo, dagan!!W2. timbang!!W3. bug-at!!W4. kabug-at!!W5. lugpit , 0 , 0 , Tagalog
+Binat , 1. binatin, bintay!!2. pagkakasalangmuli!!3. mabinat, muling magkasala, umulit!!W4. bughat!!W5. pagsumat!!W6. paglibwat!!W7. mahabughat , 0 , 0 , Tagalog
+Bitiw , 1. nagbitiw, magbitiw!!2. palayin, pabayaan!!3. sumuko, huminto!!W4. pag-ukoy!!W5. pag-undang!!W6. pag-baya!!W7. pagretira , 0 , 0 , Tagalog
+Biro , 1. tudyo, pabiro, patawa!!2. pagpapatawa!!3. magbiro, magpatawa!!W4. pataraw-an!!W5.  pagpatawa!!W6. pag-intrimis , 0 , 0 , Tagalog
+Birtud , 1. kabanalan, bisa!!W2. pagkabuotan!!W3. kaputlian!!W4. hiyas , 0 , 0 , Tagalog
+Bloke , 1. kalo, panghulma ng sombrero!!2. maghalang, kumulong!!W3. bloki!!W4. pagsangko!!W5. pagsanko!!W6. pagbalabag!!W7. pagtapotapo , 0 , 0 , Tagalog
+Bola , 1. magsinungaling, kasinungalingan!!2. kabulaan, magbulaan!!W3. buwa!!W4. pagbinuwa!!W5. panhimuwa , 0 , 0 , Tagalog
+Bubot , 1. mura!!2. di pa panahon, wala sa panahon!!W3. linghod!!W4. lapyo!!W5. luyat!!W6. gadlaw , 0 , 0 , Tagalog
+Bubuyog , 1. pukyutan!!2. kamumo, putakti!!W3. buyog!!W4. putyokan!!W5. lapinig!!W6. ligwan!!W7. butok!!W8. alimbubuyog , 0 , 0 , Tagalog
+Buhay , 1. tira, nakatira!!2. matira, manahan, tumira, tumahan, mamuhay!!3. pag-ukoy, pagpuyo, pag-istar!!W4. buhi!!W5. mabuhi!!W6. paglumon (magupod)!!W7. pagtig-ob(magupod)!!W8. paglugaring (magusahan) , 0 , 0 , Tagalog
+Bukas , 1. abre, prangka, walang takip, walang tungtong!!W2. abri!!W3. abierto!!W4. hayag , 0 , 0 , Tagalog
+Bukas , 1. hinaharap, sa susunod na araw!!W2. buwas!!W3. kabubwason!!W4. kaurhian , 0 , 0 , Tagalog
+Bumangon , 1. tumindig, tumayo!!W2. pagtindog!!W3. pagtukdaw!!W4. pagbuhat , 0 , 0 , Tagalog
+Bungangera , 1. tabil, mabigbig, madaldal, masalita, bungangero, mabibig!!2. masalita!!W3. turaban!!W4. tarabitaban!!W5. madawdaw , 0 , 0 , Tagalog
+Bunggo , 1. banggain!!2. bumangga, umumpog!!3. pagbangga!!W4. pagbunggo!!W5. paglagipik!!W6. paglugipik , 0 , 0 , Tagalog
+Buong-puso , 1. taos, tapat, wagas!!2. ng buong puso!!W3. tim-os nga kasing-kasing!!W4. bug-os nga kasingkasing!!W5. kinasingkasing!!W6. unob!!W7. hul-os , 0 , 0 , Tagalog
+Daan , 1. daanan, kabahayan, salas!!W2. again!!W3. buwang!!W4. sayawan , 0 , 0 , Tagalog
+Daan , 1. kalasada, landas, talunton, daanan!!2. landas, bakas, daanan!!W3. agian!!W4. dalan!!W5. sigad!!W6. garam , 0 , 0 , Tagalog
+Daglatin , 1. paikliin!!2. magpaikli, iklian, magpadali!!W3. pagpahaliput , 0 , 0 , Tagalog
+Daigin , 1. pasukuin, supliin, talunin, pangayupapin!!W2. pagpalipas!!W3. pagpahugpoy!!W4. pagsugpo , 0 , 0 , Tagalog
+Dakila , 1. dakila, malaki!!W2. harangdon!!W3. makarit!!W4. makagarahom , 0 , 0 , Tagalog
+Dala , 1. magdala, dalhin!!2. kipkipin, pasanin!!W3. pagkugos!!W4. pagsabak!!W5. pagbitbit!!W6. pagpas-an , 0 , 0 , Tagalog
+Daloy , 1. agos, danak!!W2. agos!!W3. awas!!W4. bugwas!!W5. sulog!!W6. pag-agay , 0 , 0 , Tagalog
+Damo , 1. damo!!W2. banwa!!W3. kugon!!W4. lakatan!!W5. rawadaw!!W6. sakati , 0 , 0 , Tagalog
+Danyos , 1. sira, perhuwisyo, pinsala, pagkasira!!2. kasiraan!!3. sumira!!W4. perhisyo!!W5. distruso!!W6. pagpirdi!!W7. pagperhisyo!!W8. pagdistruso , 0 , 0 , Tagalog
+Daos , 1. diwang, pagdaraos, handaan!!2. pagdiriwan, pagsasaya!!W3. kaliwasan!!W4. bakayaw!!W5. parugmok!!W6. anti-bespera , 0 , 0 , Tagalog
+Dasagwe , 1. paagusan, pansol!!W2. pagpaawas!!W3. pasalugsogan (bamboo)!!W4. buog (talinga) , 0 , 0 , Tagalog
+Daungan , 1. pantal!!2. mwelye!!W3. piyer!!W4. duruongan!!W5. duongan , 0 , 0 , Tagalog
+Daungang-dagat , 1. piyer, daungan ng mga sasakyang pandagat!!W2. mulye!!W3. piyer!!W4. duongan , 0 , 0 , Tagalog
+Desbentaha , 1. kahinaan!!2. kasahulan, pagkasahol!!3. makasahol, makalamang!!W4. kapirdihan!!W5. karat-an , 0 , 0 , Tagalog
+Deskompiyansa , 1. sapantaga, hinala!!2. hindi nagtitiwala, walang tiwala!!3. magkulang ng tiwala, mapsapantaha, maghinala!!4. pagduda!!W5. pagruhaduha!!W6. pagkawara-sarig!!W7. pagkawaray-tapod , 0 , 0 , Tagalog
+Destinasyon , 1. hantong, punta, saan!!2. kaukulan, pag-uukol, destino!!W3. kakadtoan!!W4. destino!!W5. dadangatan , 0 , 0 , Tagalog
+Destino , 1. sapit, tadhana, signos!!W2. palad!!W3. kapalaran!!W4. signos!!W5. siglo , 0 , 0 , Tagalog
+Di-maramot , 1. hindi makasarili, mapagkaloob!!W2. diri lamot!!W3. diri makikalugaringon!!W4. diri maimot!!W5. mahatagon!!W6. mabuligon , 0 , 0 , Tagalog
+Di-masunurin , 1. matigas ang ulo!!2. nagmamatigas, makulit!!W3. batingilan!!W4. salbahi!!W5. batinguran , 0 , 0 , Tagalog
+Di-tanyag , 1. madilim, malabo!!2. padilimin, palabuin!!W3. diri klarado!!W4. madaparap!!W5. malubog!!W6. masirom , 0 , 0 , Tagalog
+Di-totoo , 1. hindi totoo, kasinunaglingan!!W2. diri tuod!!W3. diri matuod!!W4. buwa , 0 , 0 , Tagalog
+Di-sapat , 1. madalang, napakahamak!!W2. diri husto!!W3. diri eksakto!!W4. kulang , 0 , 0 , Tagalog
+Dilim , 1. madilim, kulimlim!!2. malabo, madilim!!W3. kasirom!!W4. dulom!!W5. masirom!!W6. madulom , 0 , 0 , Tagalog
+Dinig , 1. dingig!!2. naririnig ng maayos!!W3. mahibatian!!W4. madurungog , 0 , 0 , Tagalog
+Diskargo , 1. paumanhin, dahilan!!2. magpaumanhin, magpawalang, bahala, dispensahin!!3. madahilan!!W4. baribad!!W5. pasangil!!W6. lansis!!W7. pagpasaylo , 0 , 0 , Tagalog
+Diwa , 1. isip, akala!!2. pag-iisip, isipan!!W3. hunahuna!!W4. paghunahuna!!W5. pamati!!W6. gasi!!W7. panumdoman , 0 , 0 , Tagalog
+Doktor , 1. manggagamot, duktor!!2. pantas, paham, manggagamot,!!3. gumamot!!4. doktor, doktora!!W5. manarambal , 0 , 0 , Tagalog
+Duda , 1. pangamba, agam-agam, alinlangan, ngamba!!2. alinlangan, sapantaha, hinala!!4. mag-alinlangan, maghinala, magsapantaha!!W4. ruhaduha!!W5. pagruhaduha!!W6. duha , 0 , 0 , Tagalog
+Dumamay , 1. sumali!!2. nakilahok, makalahok!!W3. pag-entra!!W4. pag-api!!W5. paggagad , 0 , 0 , Tagalog
+Dusa , 1. sakit, alumpihit, tili!!2. parusa, sakit, antak, kirot, hirap!!W3. ul-ol!!W4. kaul-ol!!W5. hapdos!!W6. kangutngot , 0 , 0 , Tagalog
+Dwag , 1. himatay, nawalan ng malay!!2. lupaypay!!3. manglupaypay, madwag!!W4. malinop!!W5. madismayo!!W6. kuyapan , 0 , 0 , Tagalog
+Edad , 1. gulang, tanga!!W2. idad!!W3. panuigon (taon)!!W4. katuigan!!W5. siglo , 0 , 0 , Tagalog
+Ehemplo , 1. halimbawa, ehemplar, uliran!!2. halimbawa, uliran, mwestra!!W3. pananglitan!!W4. susbaranan!!W5. surubdan , 0 , 0 , Tagalog
+Eksakto , 1. tamang-tama, ganap, singkad, susi, husto, sukat!!2. ganap, husto, sukat, lubos!!3. humingi, sumingil!!W4. hingpit!!W5. tul-id!!W6. tama , 0 , 0 , Tagalog
+Eksamen , 1. subok, sulit!!2. pagsubok, pagtikim!!W3. eksamin!!W4. pagtigi!!W5. pagsari!!W6. pagsuray!!W7. pag-eksamen , 0 , 0 , Tagalog
+Embargo , 1. parusa, multa, rikargo!!2. parusa, dusa!!W3. multa!!W4. sirot!!W5. kastigo!!W6. sentensya , 0 , 0 , Tagalog
+Engkahe , 1. puntas, sintas!!2. laso, panali!!W3. laso!!W4. sintas (para sapatos) , 0 , 0 , Tagalog
+Eskapo , 1. takas, tipas, tiplas!!2. tumaanan, tumakas!!3. pagtataanan, pagtakas!!W4. palagiw!!W5. kalagiw!!W6. eskapo!!W7. pagpalagiw!!W8. pagkalagiw!!W9. pagpuga!!W10. paglayas!!W11. pag-eskapar , 0 , 0 , Tagalog
+Esperansa , 1. pag-asa, tiwala, asa, umasa!!W2. paglaom!!W3. ginlalaoman , 0 , 0 , Tagalog
+Espina , 1. talsok, tinik!!W2. tunok!!W3. pukol!!W4. sunit!!W5. sora , 0 , 0 , Tagalog
+Establisimiento , 1. tatag!!2. pagkakatatag, bahay!!W3. gintukod!!W4. organisasyon , 0 , 0 , Tagalog
+Eternidad , 1. laot!!2. pagkakaylan man, pagkawalang hanggan!!W3. waray katapusan!!W4. kadayonan!!W5. kahasta , 0 , 0 , Tagalog
+Etiketa , 1. magtanda o maglagay ng tanda!!W2. tigaman!!W3. marka!!W4. pag-tigaman!!W5. pagmarka , 0 , 0 , Tagalog
+Galang , 1. alang-alang, kundangan!!2. pahalagahan, mahalin, magpitagan!!W3. paghunahuna!!W4. pamati!!W5. pagtahod , 0 , 0 , Tagalog
+Galawin , 1. tinag, kilos, galawin, lipat!!2.  gumalaw, kumilos!!W3. pagkiwa!!W4. paglarga!!W5. pagbantad!!W6. pagwaring!!W7. pagbahit , 0 , 0 , Tagalog
+Gamitin , 1. madalas gamitin, komodo!!2. maluag, magaan, kayang dalhin sa kamay!!W3. maarabot!!W4. mabiritbit!!W5. maragamit , 0 , 0 , Tagalog
+Gana , 1. kita, mga kinita!!2. atik, paga, pakinabang!!W3. kita!!W4. abot!!W5. suhol!!W6. panginabuhi , 0 , 0 , Tagalog
+Ganap , 1. katuwiran, lang!!2. tapat, matwid!!3. sukat!!W4. tama!!W5. husto!!W6. makatadongan!!W7. kasadangan , 0 , 0 , Tagalog
+Ganit , 1. matigas, hirap, kagang, mahirap!!2. matigas, batibot, mahirap, mabagsik!!3. mapagmatigas na loob, walang awa!!W4. matig-a!!W5. bantok (tuna)!!W6. mabaska (bugas) , 0 , 0 , Tagalog
+Gantimpala , 1. bayad, pabuya!!2. ganti, kagantihan!!3. pagkalooban ng ganiting-pala!!W4. balos!!W5. premyo!!W6. pag-balos!!W7. pagpanibalos , 0 , 0 , Tagalog
+Gapang , 1. umusad, gumapang!!W2. kamang!!W3. pagkamang!!W4. pag-usoy , 0 , 0 , Tagalog
+Gapiin , 1. manaig, mamighati!!!W2. pagdaog!!W3. pagpirdi!!W4. pagsobra hin kusog , 0 , 0 , Tagalog
+Gapos , 1. magtali, mag-ugpong!!2. bangkatin, bigkisin!!3. paggapos!!W4. pagsangbod!!W5. pagalinghod , 0 , 0 , Tagalog
+Gasang , 1. maliliit na bato!!W2. buskay!!W3. timbi , 0 , 0 , Tagalog
+Gawa , 1. paggawa!!2. trabaho!!3. gumawa, magtrabaho, magsikap!!W4. kabudlay!!W5. trabaho!!W6. pag-trabaho!!W7. pagkabudlay!!W8. pagbuhat!!W9. pagbati , 0 , 0 , Tagalog
+Gayon , 1. gayon ay!!2. walang kaya, walang abot, hindi kaya!!W3. diri makahirimo!!W4. diri pwede!!W5. diri mahimo , 0 , 0 , Tagalog
+Gibain , 1. alisin, baliin!!2. sirain!!W3.  pagrangka!!W4. pagtanggal!!W5. pagtangtang!!W6. pagbingbing , 0 , 0 , Tagalog
+Gilit , 1. putol, talyada, tabas, sugat!!2. hiwa!!W3. pag-utod!!W4. pagdulot!!W5. pag-gunting!!W6. pagtabas!!W7. paggulgol!!W8. paggutgot , 0 , 0 , Tagalog
+Gisingin , 1. gumising, pumukaw!!2. gising!!W3. pagmata!!W4. pagpukaw (hin iba)!!W5. pagsangpit , 0 , 0 , Tagalog
+Giya , 1. patuto, gabay, patnubay, patnubayan, akayin!!2. patnubay, panugot!!3. mamatnubay, mamatnugot!!W4. giya!!W5. surubdan!!W6. paggiya!!W7. pagsugay!!W8. pagmulay!!W9. pagsagib , 0 , 0 , Tagalog
+Gripo , 1. gripo!!W2. ruskas , 0 , 0 , Tagalog
+Grupo , 1. pangkat, katipunan!!2. pook, pulutong, bunton, katipunan!!3. magbunton!!W4. pundok!!W5. tampak!!W6. kapanon (mga tawo)!!W7. katipunan!!W8. kaidad (parehos idad)!!W9. tumpok (baligya) , 0 , 0 , Tagalog
+Gulang , 1. hinog, magulang!!2. mahinog, gumulang!!W3. gurang!!W4. hamtong!!W5. tugas!!W6. unas (mais) , 0 , 0 , Tagalog
+Gulpe , 1. gulpi, upak, hampas, hataw!!2. bugbog, tama!!3. humampas, pumalo, bumugbog, tuamama!!W4. paggumbal!!W5. pagtultog!!W6. pagsuntok!!W7. pagyabo , 0 , 0 , Tagalog
+Guluhin , 1. masakit na, masakit, masakit lang!!2. hindi nakakatuwa!!W3. pagbalikad!!W4. pagdisturbo!!W5. pag-aburido , 0 , 0 , Tagalog
+Gumiwang , 1. humapay-hapay, pagiwangin, ugain!!W2. pagwagol!!W3. pagpadag!!W4. paghimarading-pading , 0 , 0 , Tagalog
+Guro , 1. titser, maestra, tagapagturo, tagaaral!!W2. magturutdo!!W3. maestra!!W4. maestro , 0 , 0 , Tagalog
+Gusgusin , 1. burara, limahi, salaula, marumi!!W2. amog!!W3. huagabos!!W4. kalamukat!!W5.yamu-it , 0 , 0 , Tagalog
+Gusto , 1. gaya, paris, kumbaga, katulad, ibig, tulad!!2. kawangis, kawangkit!!3. gaya, para, paris!!4. umbig, suminta, gumiliw!!W5. pareho!!W6. baga!W7. sugad!!W8. kasi!!W9. pagruyag , 0 , 0 , Tagalog
+Gutay , 1. punit!!2. pahakin, punitin, pilasin!!W3. kisi!!W4. pagkisi!!W5. paggisi!!W6. pagkusnit!!W7. paggusi!!W8. pagrabya!!W9. paggibra!!W10. pag-gibwak!!W11. paggibwang , 0 , 0 , Tagalog
+Gutom , 1. dayukdok, pasal, uplak, gutom na gutom, kauplakan!!W2. magutom!!W3. ginugutom , 0 , 0 , Tagalog
+Habi , 1. lala!!2. humabi, maglala, magsala!!W3. paglara!!W4. pagpahot!!W5. pagtagik!!W6. paghabol , 0 , 0 , Tagalog
+Habol , 1. humabol, mamunot, manunod!!2. habulin, hinahabol, tinatangay!!W3. pagbukod!!W4. paglanat!!W5. pagbiling , 0 , 0 , Tagalog
+Hadlang , 1. abala, balakid!!W2. makaurulang!!W3. ulang!!W4. sagwil , 0 , 0 , Tagalog
+Halimbawa , 1. muwestra!!2. parisan, mwestra!!3. magpakitang uliran!!W4. panaglitan!!W5. pruyba!!W6. probar , 0 , 0 , Tagalog
+Halinhan , 1. bigyang lunas, paginahawahin, aliwin!!W2. paghuwas!!W3. pagpawhas!!W4. pagsaliwan (hin trabaho)!!W5. magsando , 0 , 0 , Tagalog
+Hamak , 1. walang kabuluhan, walang halaga!!W2. diri makahulogan!!W3. diri importanti , 0 , 0 , Tagalog
+Hambog , 1. banidoso, mapagmataas!!2. walang kabuluhan!!W3. kawang!!W4. waray pulos!!W5. hambog , 0 , 0 , Tagalog
+Hamon , 1. reto, paghamon!!2. bala!!3, disapyo, desapio!!4. humamon, manghamon!!W5. paghiyaw!!W6. pag-ayat!!W7. pagsaping!!W8. paghagit , 0 , 0 , Tagalog
+Hangganan , 1. hanghang, linya, taliktik!!2. wakas!!3. bigyan ng hangga!!W4. katubtoban!!W5. patubtoban , 0 , 0 , Tagalog
+Hapakin , 1. punitin, kuyamusin!!2. pilas!!W3. pagrabnot!!W4. pagkisi!!W5. pag-kusnit!!W6. paggusi  , 0 , 0 , Tagalog
+Hapis , 1. malungkot, lunos, malumbay!!2. malungkot, mapanglaw!!W3. masubo!!W4. masulub-on!!W5. maabayaw , 0 , 0 , Tagalog
+Hapo , 1. pata, rendido, ngawit!!W2. makapoy!!W3. hangat!!W4. pagal , 0 , 0 , Tagalog
+Hawak , 1. pagkakahawak!!W2. pagkupog!!W3. pagtugol!!W4. pagkurumog , 0 , 0 , Tagalog
+Hawakan , 1. hawak, taban!!2. hawak, tangan!!3. tagnan, pigilan!!W4. pagkapot!!W5. pagtugol!!W6. paggamol!!W7. paggunit , 0 , 0 , Tagalog
+Henerasyon , 1. salinlahi!!2. lahi!!W3. kalutinan!!W4. kamamatan!!W5. katigurangang , 0 , 0 , Tagalog
+Himas , 1. kaliinga, alindog!!2. kumalinga, umalindog, palayawin, alindugin!!W3. karinyo!!W4. pagkarinyo!!W5. paghaplos!!W6. pag-anga , 0 , 0 , Tagalog
+Hindi bale , 1. wag nalang!!W2. waray sapayan!!W3. waray bali!!W4. sagdi , 0 , 0 , Tagalog
+Hindi mabahagi , 1. hindi mahati!!W2. diri maturunga!!W3. diri mabarahin  , 0 , 0 , Tagalog
+Hinggil , 1. tungkol sa!!2. malapit sa!!W3. parte!!W4. bahin!!W5. hiunong!!W6. mahatungod , 0 , 0 , Tagalog
+Hingkod , 1. kiyay, pilay!!2. pilayin, pilayan!!W3. piay!!W4. kinto!!W5. pikit , 0 , 0 , Tagalog
+Hiwatig , 1. tama!!2. uyok, udyok, sulsol!!W3. palabtik!!W4. paaliday!!W5. pasambingay , 0 , 0 , Tagalog
+Hugnusin , 1. kalagin, tastasin!!W2. paghubad!!W3. pagrangka!!W4. pagbadbad , 0 , 0 , Tagalog
+Hukay , 1. seryo, matindi!!2. pormal, malubha, mabigat, walang imik!!3. libingan, hukay!!4. lumilok!!W5. lubong!!W6. lubnganan , 0 , 0 , Tagalog
+Humalo , 1. humalubilo, lumahok!!2. makasalamuha, makihalo!!W3. pag-urusa!!W4. pagtirimpo , 0 , 0 , Tagalog
+Huminga , 1. suminghot ng hangin!!W2. pagginhawa tipasakob!!W3. pagsimhot , 0 , 0 , Tagalog
+Humingi , 1. pakiusap!!2. magpalimos, sumamo, mamanhik!!W3. pangaro!!W4. panlimos!!W5. pagpakimaluoy!!W6. pangamuyo!!W7. pangiyupo , 0 , 0 , Tagalog
+Humiya , 1. kumbaba, aba!!2. mababang loob, mapagkumbaba!!3. magpangayupapa!!W4. mapaubsanon!!W5. paubsanon!!W6. ubos , 0 , 0 , Tagalog
+Huwad , 1. kuliro, pustiso!!2. sinungaling, hindi totoo, bulaan, magdaraya!!W3. diri tinuod!!W4. palsipikado , 0 , 0 , Tagalog
+Huwaran , 1. mithi, uliran!!2. isipan!!W3. surundan nga plano!!W4. hingpit nga ideya , 0 , 0 , Tagalog
+Ibabaw , 1. itaas!!2. sa itaas, mas mataas!!W3. igbaw!!W4. labaw , 0 , 0 , Tagalog
+Ibayo , 1. harap, kabila, salansang, saliwa, taliwas, katapat!!2. kalaban, kasalungat, salangsang, katapat!!W3. kaatbang!!W4. kabaliktaran!!W5. tugbang , 0 , 0 , Tagalog
+Ibig , 1. gusto, nais!!2. pangangailangn, kakulangan!!W3. karuyag!!4. gusto!!W5. kawili , 0 , 0 , Tagalog
+Ibon , W1. tamsi!!W2. banug!!W3. buwirte!!W4. kalaw!!W5. kosi!!W6. itik!!W7. pato!!W8. tigo!!W9. uwak!!W10. wakwak , 0 , 0 , Tagalog
+Idagdag , 1. dagdag!!2. magpuno, magsugpong, magdugtong!!W3. pagdungang!!W4. pagsumpay!!W5. pagsapong!!W6. pagtakip!!W7. pagsuma (Math) , 0 , 0 , Tagalog
+Igi , 1. maigi!!2. mabuti, magaling!!3. walang dinaramdam!!W4. pangkarawat , 0 , 0 , Tagalog
+Ikot , 1. alap, baling, pihit, pulupot, turno!!2. pihit, balik, ikit!!W3. likdo!!W4. lirikduan!!W5. paglikdo!!W6. paghiko , 0 , 0 , Tagalog
+Ikuskos , 1. maglampaso, iskobahin, kuskusin, magkuskos!!W2. pagbagnos!!W3. pagkuskos!!W4. pagnusnos!!W5. pagludgod , 0 , 0 , Tagalog
+Ilegal , 1. bawal, labag sa batas, hindi legal!!2. laban sa utos, labag sa katwiran!!3. kontrasenyas, kontrabando!!W4. kontra han balaud!!W5. supak han balaud , 0 , 0 , Tagalog
+Imbabaw , 1. hindi tapat na loob, giring pula!!W2. diri sinsiro!!3. politika!!W4. salingkapaw , 0 , 0 , Tagalog
+Ingat , 1. lingap, kalinga, pagtingin!!2. mag-ingat, lumingap, kumalinga, tignan!!W3. pagmatngon!!W4. pagdungog!!W5. panungog , 0 , 0 , Tagalog
+Inggit , 1. kainggitan!!2. kainggitan, pananaghili!!3. mainggit, managhili!!W4. kaawa!!W5. ibi!!W6. tuyo!!W7. maawa!!W8. atkanan , 0 , 0 , Tagalog
+Insekto , 1. kulisap!!2. mga hayop na maliliit na gaya nga hanip, tutubi!!W3. mananap , 0 , 0 , Tagalog
+Inutil , 1. walang kabuluhan, walang gamit!!W2. waray gamit!!W3. kawang!!W4. hakang!!W5. awat , 0 , 0 , Tagalog
+Ipahiwatig , 1. magpahiwatig, magbigay-alam, magbalita!!W2. pagpasabot!!W3. pagpahibaro!!W4. pag-abiso , 0 , 0 , Tagalog
+Ipagkaloob , 1. bayaan, alpasan!!2. payagan!!W3. pagtugot!!W4. pagpasagdan , 0 , 0 , Tagalog
+Ipaghambog , 1. ipagmalaki, ipagmagaling!!2. maghambog, magmayabang, mamansag!!W3. paghambog!!W4. paghinambog!!W5. paghalhal , 0 , 0 , Tagalog
+Ipagkapuri , 1. kumporme, sawa, kuntento!!W2. kontento!!W3. busog!!W4. mahinangpot!!W5. mahimuroy , 0 , 0 , Tagalog
+Ipailalim , 1. kontrolin, kontrolahin!!2. panugpo, pangpigil!!3. sumugpo, sugpuin, pigilin!!W4. pagpugong!!W5. pagkontrolar , 0 , 0 , Tagalog
+Ipangilin , 1. magmalas, magmasig, sumubok, tikman!!2. bantayan!!W3. pagkita-kita!!W4. pag-obserba!!W5. pagsunod!!W6. pag-ino-ino , 0 , 0 , Tagalog
+Ipasya , 1. magpasaya, magdesisyon!!2.  ihatol, disisyunan, disidihin!!W3. paglarang!!W4. pagdesider!!W5. pagkalasag!!W6. pagmalaigo , 0 , 0 , Tagalog
+Ipitin , 1. siksikan, halea!!W2. pag-ipit!!W3. pagpiit!!W4. paghitinga!!W5. pagdasok , 0 , 0 , Tagalog
+Ipon , 1. dumampot, tumipon, magpisan!!W2. pagtirok!!W3. pagharampag!!W4. pagbulkas , 0 , 0 , Tagalog
+Isabit , 1. bitayin!!2. ibitin, isampay, ilaylay, bitayin, bigtihin!!W3. pagbitay!!W4. pagsab-it!!W5. pag-sablay , 0 , 0 , Tagalog
+Isalaysay , 1. salaysay, ideklama!!2. manalaysay!!3. bigkasan!!W4. pag-asoy!!W5. pagluwa!!W6. pag-istorya , 0 , 0 , Tagalog
+Isalin , 1. itanim, matanim!!W2. pagtutdo!!W3. pagtanom ha hunahuna , 0 , 0 , Tagalog
+Isaysay , 1. salaysayin, saysayin!!2. iugnay, mag-ugnay!!3.pagsaysay!!W4. pag-asoy!!W5. pag-istorya , 0 , 0 , Tagalog
+Isda , 1. tayubay, tinayubay!!2. mangisda!!W3. lab-as (presko)!!4. paksiw!!W5. pangawil!!W6. pagkawil!!W7. pagbinwit!!W8. pagtibaw , 0 , 0 , Tagalog
+Isip , 1. magisip!!2. umisip, mag-isip, magwari, umakala!!W3. paghunahuna!!4. pag-isip!!W5. pagpinsar!!W6. pag-ino-ino , 0 , 0 , Tagalog
+Iskaut , 1. tagatuklas!!2. manunuklas, tagatuklas, tiktik, manunubok!!W3. pag-inaw!!W4. paghupol!!W5. pagtiktik , 0 , 0 , Tagalog
+Isuwato , 1. magkaayos, magkasundo, magbatian!!2. itaga!!W3. pagkauli!!W4. pagkabalik!!W5. pagkatuhay , 0 , 0 , Tagalog
+Itago , 1. tago!!2. maglingid, magtago, maglihim!!3. pagtago!!W4. pagluklok!!W5. pag-luok!!W6. pagsibat!!W7. pag-unlok , 0 , 0 , Tagalog
+Itago , 1. mag-alaga!!2. mag-ingat!!W3. pagtipig!!W4. paghimos , 0 , 0 , Tagalog
+Itakwil , 1. iwaksi, tanggihan, ayawan!!W2. pagdiri!!W3. pagbali-waray!!W4. pagsalikway , 0 , 0 , Tagalog
+Iwal , 1. ilang, magisahan!!W2. mahidlaw!!W3. mailiw!!W4. mangandoy , 0 , 0 , Tagalog
+Iwasan , 1. huwag pansinin!!2. di makaalam, di makamalay!!W3. pagbali-waray!!W4. diri pag-asi , 0 , 0 , Tagalog
+Kaalatan , 1. alat, maalat!!W2. kaasin!!W3. kapag-ad!!W4. arat!!W5. kaarat , 0 , 0 , Tagalog
+Kabuti , 1. kabute!!W2. upaling!!W3. uhong!!W4. buklad , 0 , 0 , Tagalog
+Kagawian , 1. nakasanayan, arte, gawi!!W2. kinaiya!!W3. lihok!!W4. gios , 0 , 0 , Tagalog
+Kahihiyan , 1. desgrasya!!2. kasiraang puri!!3. manirang puri, magpangayaya magpahamak!!W4. pagkaalo!!W5. pagkaurit!!W6. pagkaalo!!W7. pagpakaurit!!W8. pagdukit , 0 , 0 , Tagalog
+Kahinugan , 1. pagtanda, gulang!!W2. kagurang!!W3. kahamtongan!!W4. kaidaran , 0 , 0 , Tagalog
+Kaibig-ibig , 1. kahang-hanga!!2. marapat, samabahin, nakagigiliw!!W3. makaruruyag , 0 , 0 , Tagalog
+Kailangan , 1. kawalan, pangangailangan!!2. kahirapan!!3. mangailangan!!W4. kinahanglan!!W5. kainahanglanon , 0 , 0 , Tagalog
+Kakayahan , 1. kapas, obra!!2. may kaya, may abot, sapat!!W3. may katapos!!W4. akos!!W5. takos , 0 , 0 , Tagalog
+Kakilabot , 1. kasindaksinadak, katakot-takot!!W2. makalilisang!!W3. makangingirhat , 0 , 0 , Tagalog
+Kakilala , 1. bagong kakilala!!2. hindi masyadong kilala!!3. kakilala!!W4. kilala , 0 , 0 , Tagalog
+Kalahati , 1. medyo, medya!!2. kabyak!!W3. katunga!!W4. kapikaw!!W5. buwang!!W6. pikas!!W7. tunga!!W8. medya , 0 , 0 , Tagalog
+Kalakal , 1. merkanisa!!2. tinda!!W3. paraliton!!W4. papliton , 0 , 0 , Tagalog
+Kalaykay , 1. pangalahig, pangalakay!!2. kalahigin ng kalaykay!!W3. kagkag!!W4. kalkag!!W5. surod , 0 , 0 , Tagalog
+Kaligtasan , 1. ligtas, seguridad!!2. katiwasayan!!W3. katalwasan!!W4. kaluwasan!!W5. kalibrehan , 0 , 0 , Tagalog
+Kalkulahin , 1. kuwentahin, tuusin!!2. kumuro, tumasa!!3. tiyakin!!W4. pagbanabana!!W5. pag-karkulo!!W6. pagkunokuno , 0 , 0 , Tagalog
+Kalokohan , 1. loko, walang katuturan, walang saysay!!2. kabalastugan!!W3. tinuyaw!!W4. dawdaw!!W5. turab!!W6. yawyaw , 0 , 0 , Tagalog
+Kami , 1. kami rin, kami nga, amin!!W2. kita mismo!!W3. aton kalugaringon!!W4. amon kalugaringon!!W5. kami ngahaw , 0 , 0 , Tagalog
+Kamiseta , 1. sando!!W2. kamisita!!W3. saliko (para mga babayi) , 0 , 0 , Tagalog
+Kamoteng kahoy , 1. balinghoy!!2. kasaba!!W3. samaray!!W4. balanghoy!!W5. kamotingkahoy , 0 , 0 , Tagalog
+Kapareho , 1. duplikado, dalawing salin, ikalawang salin!!2. dalawahin!!W3. duplikado!!W4. kopya!!W5. pagkopya!!W6. pagtundog!!W7. pagduplikar , 0 , 0 , Tagalog
+Kapayapaan , 1. kali!!2. kapahingahan, katiwasayan!!W3. murayaw!!W4. kamurayaw!!W5. kalinaw!!W6. kamurayawan!!W7. pakigdait , 0 , 0 , Tagalog
+Kapitbahay , 1. kapwa, kapwa-tao!!W2. kaamyaw!!W3. kaharani!!W4. kahipid!!W5. hiripid , 0 , 0 , Tagalog
+Kapwa , 1. kamag-anak!!2. kahinlugan, kamag-anakan, angkan!!W3. mag-urupod!!W4. mag-pareho , 0 , 0 , Tagalog
+Karaniwan , 1. talik!!2. kasi, katoto, kasamasama, kalaguyo!!W3. kilala!!W4. pamilyar!!W5. kilalado , 0 , 0 , Tagalog
+Kariton , 1. karetela!!W2. kareta!!W3. kariton!!W4. karomata!!W5. karetilya!!W6. karo , 0 , 0 , Tagalog
+Kasabihan , 1. kawikaan!!2. bukambibig, bukang-bibigi!!W3. siringanon!!W4. puplunganon!!W5. darawhonon , 0 , 0 , Tagalog
+Katabi , 1. tabi, sa tabi!!2. sa siping, sa piling!!W3. sapit!!W4. tupad!!W5. hipid , 0 , 0 , Tagalog
+Katapangan , 1. lumangutngot, gitil!!2. pagngalitin!!3. tapang, dangal, gigil!!W4. kailob!!W5. pangigot (ngipon)!!W6. pagligot , 0 , 0 , Tagalog
+Katuwiran , 1. katuwiran!!2. may katwiran, na sa katwiran, tama!!W3. mahingdanon!!W4. may rason!!W5. pagrason , 0 , 0 , Tagalog
+Kaugnayan , 1. may pinagsamahan!!W2. magbilas!!3. mag-asawa!!W4. mag-ilaw!!W5. magtalaamay!!W6. magtala-iroy , 0 , 0 , Tagalog
+Kawayan , 1. bamboo!!W2. bagakay (small)!!W3. makaranas!!W4. mamban!!W5. kabugawan!!W6. tangnan!!W7. amakan , 0 , 0 , Tagalog
+Kibkibin , 1. ngatngat!!2. ngumatngat!!W3. pagkutkot!!W4. pagkitkit!W5. pag-kibkib , 0 , 0 , Tagalog
+Kilala , 1. kiala ng mabuti!!W2. kilalado!!W3. bantugan!!W4. dayag!!W5. samwak!!W6. sikat , 0 , 0 , Tagalog
+Komplot , 1. panukala, akala, haka!!2. balak, pakakas, plano, sistema!!W3. plano!!W4. paagi , 0 , 0 , Tagalog
+Kostura , 1. kustura!!2. pinagtahian, bitik!!3. tahi!!W4. sumpayan!!W5. tinugkopan!!W6. tinakipan!!W7. rinangkitan , 0 , 0 , Tagalog
+Kulto , 1. lingid, tago, kubli!!2. misteryoso!!W3. baga hudem-hudem , 0 , 0 , Tagalog
+Kumagat , 1. kagat, sikmat!!2. mangat, manuka, mamupog!!W3.pagkagat!!W4. pag-angkap!!W5. pag-ingkib!!W6. pagtukob , 0 , 0 , Tagalog
+Kumalag , 1. kumalas, magpalwag!!W2. paghukal!!W3. pagtukal!!W4. patusak (tuna) , 0 , 0 , Tagalog
+Kurtina , 1. tabing, kortina, telon sa palabas!!2. magtabing, lagyan ng tabing!!W3. biray!!W4. talon , 0 , 0 , Tagalog
+Kuting , 1. batang pusa!!W2. gutiay nga misay!!W3. gutiay nga uding , 0 , 0 , Tagalog
+Labanan , 1. away, babag, hamok, bakbakan, basag, awayin, labanan!!2. babag, away, labanan!!3. umaway, bumabag, lumaban!!4. away!!W5. aragway!!6. pag-away , 0 , 0 , Tagalog
+Laban , 1. nalalaban, nakakaagawan!!W2. diri mag-angay!!W3. diri nakaasya , 0 , 0 , Tagalog
+Laglag , 1. bagsak, lagpak, laglag, tag-lagas!!2. bagsak, lagpak, takpak, laglag, pagkahulog, pagkabagsak, bugso!!3. mahulog, bumagsak, lumagpak, tumakpak, malaglag, bumungso!!W4. paghulog!!W5. pag-untong!!W6. pagpurak!!W7. pagpalin!!W8. pagdagdag!!W9. pagpatinhulog!!W10. diri tinuod , 0 , 0 , Tagalog
+Lakad , 1. lumakad, maglakad!!2. pasyal, gala!!3. maglakad, magpasyal, gumala!!W4. paglakat!!W5. pagbaktas!!W6. paso!!W7. iwod-iwod!!W8. kindang-kindang , 0 , 0 , Tagalog
+Lakbay , 1. biyahe, pasahe!!2. paglalakbay, paglalakad!!3. maglakbay!!W4. biyahi!!W5. paglalaktan!!W6. paglakaton , 0 , 0 , Tagalog
+Laktaw , 1. kulang, mali!!W2. pagsipyat!!W3. pagpalta!!W4. pagbalios , 0 , 0 , Tagalog
+Lalo , 1. sakdal, totoo!!2. lubha, napaka, totoo!!W3. labi han!!W4. hin duro!!W5. ura-ura , 0 , 0 , Tagalog
+Lamay , 1. pagpupuyat, bihilya, paglalamay, pagtatanod!!W2. lamay!!W3. mag-aga nga pag-bantay , 0 , 0 , Tagalog
+Lambat , 1. neto, silo!!2. net!!W3. pukot!!W4. bintol!!W5. sibbot!!W6. baring!!W7. batong (higot)  , 0 , 0 , Tagalog
+Lansangan , 1. daan, landas!!W2. aragian!!W3. agian!!W4. paagi!!W5. kaagi , 0 , 0 , Tagalog
+Lantutay , 1. tamad, batugan!!W2. hubya!!W3. huros!!W4. ukoy!!W5. maudong , 0 , 0 , Tagalog
+Laro , 1. palaro, hayop!!2. libangan, napangusuhan!!3. maglaro, magsugal!!W4. mulay!!W5. uyag , 0 , 0 , Tagalog
+Lasa , 1. latoy, namnam, tikim!!2. lasap, linamnam!!3. lasahin, lasapin, namnamin!!W4. rasa!!W5. pagtilaw!!W6. pag-agom , 0 , 0 , Tagalog
+Gulpihin , 1. panghagupit, hagupitin!!W2. paglamba!!W3. paglatub!!W4. paglapdos!!W5. paghatos!!W6. pagrituba , 0 , 0 , Tagalog
+Lawitan , 1. igawad!!2. pahabain, unatin, banatin!!3. dugtungan!!W4. pagpaiha!!W5. pagpahalaba!!W6. paglabaw , 0 , 0 , Tagalog
+Laya , 1. pagka-kawala!!2. pawalan, palayain, gaanan!!W3. pagbuhi!!W4. paglibre!!W5. pag-ariya!!W6. pagturos , 0 , 0 , Tagalog
+Legal , 1. matwid, ayon sa kautusan!!W2. subay han balaud!!W3. uyon han balaud , 0 , 0 , Tagalog
+Libre , 1. walang bayad, hindi binayaran!!W2. waray bayad!!W3. diri impas!!W4. moroso , 0 , 0 , Tagalog
+Ligaya , 1. ginhawa, kaginghawahan!!2. kasiyahan!!W3. kalipay!!W4. kalipayon!!W5. risyo (maaringasa) , 0 , 0 , Tagalog
+Ligoy , 1. sikot, paliguy-ligoy!!2. pasaliw, padaplis, hindi tapatan!!W3. diri deretso!!W4. diri largo , 0 , 0 , Tagalog
+Ligtas , 1. tiwasay!!2. malayo sa panganib!!W3. libre!!W4. talwas!!W5. uwas!!W6. maluwas!!W7. matalwas , 0 , 0 , Tagalog
+Likod , 1. itaguyod, lumingon, suportahan!!W2. urong sa dakong likod!!W3. bumalik!!W4. talikuran!!W5. pag-atras!!W6. pag-isol , 0 , 0 , Tagalog
+Liksi , 1. mabilis, ayuno, bilis, matulin, rapido!!2. matatag, matibay, madali, matulin!!3. ayuno, kulasyon!!4. mag-ayuno, magkulasyon!!W5. madagmit!!W6. malaksi!!W7. mapaspas!!W8. paspas , 0 , 0 , Tagalog
+Lingon , 1. alang-alang!!2. pagmamahal, pagpapahalaga!!3. mahalin, pahalagahan!!W4. pagpahinungdan!!W5. pag-paimportanti , 0 , 0 , Tagalog
+Lipulin , 1. patayin, pumatay!!W2. pagpatay!!W3. paglaglag!!W4. pagtahas!!W5. pag-utang , 0 , 0 , Tagalog
+Listo , 1. mabilis, agap, dali, madali, bilis!!2. madali, matulin, maliksi!!W3. malaksi!!W4. madagmit!!W5. maabtik!!W6. matibaksi!!W7. matibagsik , 0 , 0 , Tagalog
+Liwanag , 1. maliwanag, ilaw, tanglaw, ulang-tikatik!!W2. pawa!!W3. lamrag!!W4. siga!!W5. sanag!!W6. kapawa!!W7. kasanag!!W8. suga , 0 , 0 , Tagalog
+Lukso , 1. kandirit, lumundag!!W2. pag-ukpaw!!W3. pagsakingking (usa ka tiil)!!W4. pagkingking , 0 , 0 , Tagalog
+Lumitaw , 1. nagpakita!!2. sumipot, humarap, sumikat, sumilang!!W3. pagpakita!!W4. paggimaw!!W5. pag-ulbo!!W6. pag-ulwa , 0 , 0 , Tagalog
+Lumuhog , 1. mamanhik, sumamo!!W2. pagpakimaluoy!!W3. pangamuyo , 0 , 0 , Tagalog
+Lundag , 1. talon, tumalon, kandirit, lukso, lundy, salta!!2. lumukso, lumundag!!W3. paglukso!!W4. paglayog (paubos)!!W5. pag-ambak!!W6. pag-umpok (igbaw, ubos)!!W7. pagkundog (paglukso ha kahadlok) , 0 , 0 , Tagalog
+Maaari , 1. baka, maka, puwede!!2. maari mangyari!!W3. mahimo!!W4. hinaut!!W5. unta , 0 , 0 , Tagalog
+Maanod , 1. pilit, dahas!!2. mag-udyok, magbuyo, magbunton!!W3. mahaanod!!W4. mahadara!!W5. mahaupod , 0 , 0 , Tagalog
+Maanta , 1. bulok, sira!!W2. mapan-os!!W3. maanga!!W4. mabaho , 0 , 0 , Tagalog
+Madalas , 1. malimit, limit, palagi!!W2. sukot!!W3. agsub!!W4. masukot!!W5. masunson , 0 , 0 , Tagalog
+Madumi , 1. dumi, sukal!!2. hindi malinis, madungis!!W3. mahugaw!!W4. maringbit!!W5. malamiri!!W6. buring-ot!!W7. yamu-it , 0 , 0 , Tagalog
+Magalak , 1. matwa, magsaya!!W2. pagmalipay!!W3. pagrayhak!!W4. pag-andak , 0 , 0 , Tagalog
+Magaling , 1. maramdamin!!W2. makaaramdok!!W3. malandaw!!W4. manlandawan , 0 , 0 , Tagalog
+Maganda , 1. marikit!!2. kaakit akit tingnan!!W3. mahusay!!W4. matahom!!W5. maanyag!!W6. pustorawo!!W7. pugita , 0 , 0 , Tagalog
+Magarbo , 1. mainam, marikit, pusong, nakakatawa!!W2. maanyag!!W3. malubay , 0 , 0 , Tagalog
+Maghimo , 1. pahirap ng langis!!W2. pagduhig!!W3. pagdihog!!W4. pagbanyos!!W5. paghirog!!W6. pagbuhos (king) , 0 , 0 , Tagalog
+Maghubad , 1. alisin ang damit!!2. ilayo ang damit!!W3. paghukas!!W4. pag-lubas!!W5. paghubo  , 0 , 0 , Tagalog
+Magkaayos , 1. ayos!!W2. pag-amuma (katapos away)!!W3. pag-uli!!W4. paghi-uliay , 0 , 0 , Tagalog
+Magkaisa , 1. ilakip mo, bukluran!!2. isahin, isanib, kumampi!!W3. pag-usa!!W4. pagtimpo!!W5. pag-urusa!!W5. pagtirimpo , 0 , 0 , Tagalog
+Magkalat , 1. magsabog, pangaliatin, ikinalat, isambulat!!W2. pagsarang!!3. pagkalat!!W4. paggawas!!W5. pagwalas!!W6. pagwatak!!W7. pagsabwag!!W8. pagragrag , 0 , 0 , Tagalog
+Magkita , 1. magtagpo!!2. makasumpong, makatagpo, sumalubong!!W3. pagkita!!W4. pagsugat!!W5. pagtapo!!W6. pagrapo , 0 , 0 , Tagalog
+Maglaba , 1. labhan mga damit!!W2. paglaba!!W3. pagbunak!!W4. paglabar!!W5. pagyakyak , 0 , 0 , Tagalog
+Magligtas , 1. liban, bukod sa!!2. mag-impok!!W3. pagluwas!!W4. pagsalbar!!W5. pagtalwas , 0 , 0 , Tagalog
+Magmarka , 1. pumigil, umampat!!2. tsek, magtsek!!W3. pagmarka!!W4. pagtigaman!!W5. pagsugpo!!W6. panginano , 0 , 0 , Tagalog
+Magpahayag , 1. kumilala, kilalanin!!2. pag-ako!!3. pag-kumpabli!!W4. pagtangdo!!W5. pag-angkon , 0 , 0 , Tagalog
+Magpahirap , 1. magpasakit, gumambala, galitin, makayamot!!W2. pagdisturbo!!W3. pagmolestya!!W4. pagsamok!!W5. paglipong , 0 , 0 , Tagalog
+Magsalita , 1. huma, pag-imik, dakdak, usap, salita!!2. mag-usap, makipag-usap!!W3. turab!!W4. pagyakan!!W5. paglibak (pagyakan kontra ha iba)!!W6. paghunta (grupo) , 0 , 0 , Tagalog
+Magsimula , 1. simulan!!2. umpishan, pasimulan!!W3. pagtikang!!W4. paghugar!!W5. pagimpisar , 0 , 0 , Tagalog
+Magsindi , 1. magtitis, magpaningas!!W2. pagdagkot!!W3. pagparukot!!W4. pagsindi , 0 , 0 , Tagalog
+Magtaas , 1. bumuhat, ibangon, itaas, ibunyi, itanghal!!W2. pag-alsa!!W3. pagtuboy!!W4. pag-bakyaw , 0 , 0 , Tagalog
+Magulang , 1. ama o ina!!W2. kag-anak!!W3. ginikanan!!W4. anakan , 0 , 0 , Tagalog
+Maingay , 1. maalingaw-ngaw, mahugong, magulo!!W2. maaringasa!!W3. maaringabngab!!W4. masaba!!W5. marisyo (damo nga tawo)!!W6. marighom , 0 , 0 , Tagalog
+Makapal , 1. gipalpal!!2. malapot, masinsin, siksik, paikpik!!W3. madakmol!!W4. bahol!!W5. espiso!!W6. saputok , 0 , 0 , Tagalog
+Makipag-usap , 1. makipagsalitaan!!2. salitaan, usapan!!3. huntahin, kapulungin, mag-usap!!W4. pag-istorya!!W5. pag-himangraw!!W6. paghampang , 0 , 0 , Tagalog
+Malamlam , 1. malabo!!W2. madulom!!W3. masirom!!W4. madaparap , 0 , 0 , Tagalog
+Malapit , 1. dapit, kapiling, lapit!!2. karatig!!W3. harani!!W4. haraniay!!W5. duok , 0 , 0 , Tagalog
+Maligo , 1. ligo!!W2. pagkarigo!!W3. pagparigo!!W4. paglabar!!W5. digos , 0 , 0 , Tagalog
+Maliwanag , 1. tinag, liwanag!!2. makintab, maningning, malinaw!!3. buhay ang loob, matalino!!W4. mapawa!!W5. masanag!!W6. malamrag!!W7. ranggat , 0 , 0 , Tagalog
+Mamagitan , 1. mamagitna, pamagitan!!W2. pag-alang!!W3. agan!!W4. paghawig!!W5. pagbutnga , 0 , 0 , Tagalog
+Mamuri , 1. manuya, mamuri ng palimbabaw!!2. pinuri, tinutuya!!W3. pag-uwat!!W4. pagsurog-surog!!W5. pagbula!!W6. pag-aring!!W7. amuma!!W8. surog , 0 , 0 , Tagalog
+Mana , 1. mana, pamana!!W2. surundon!!W3. surundanon!!W4. panurundon!!W5. kabilin!!W6. eridar , 0 , 0 , Tagalog
+Managhili , 1. masama!!2. mag-imbot ng masama!!W3. pagmaldisyon!!W4. paglibak!!W5. pagbuyayaw , 0 , 0 , Tagalog
+Mangasiwa , 1. bahala, pangangasiwa!!2. mamahala, mamatnugot, pumaraan!!W3. pagdumara!!4. pag-maneho!!W5. paggawi!!W6. pagtagad , 0 , 0 , Tagalog
+Mangaso , 1. mamamaril!!2. mangangaso!!W3. manmurusil!!W4. mangaranop!!W5. parapanganop , 0 , 0 , Tagalog
+Mangkukulam , 1. bruha!!2. manggagaway, hukluban!!3. manggaway, gawayin!!W4. aswang!!W5. alok!!W6. a lot!!W7. danggab!!W8. wakwak , 0 , 0 , Tagalog
+Manipis , 1. payat, kupis, kuyumpis, nipis!!2. payat, malagnaw!!3. manipis!!W4. magasa!!W5. maniwang , 0 , 0 , Tagalog
+Manmanan , 1. obserba!!2. magmanman!!3. sabang, sayat!!W4. paghupol!!W5. pag-inaw!!W6. pagtiktik , 0 , 0 , Tagalog
+Manunukso , 1. manghihibo, pagkatukso, palapuri!!W2. manunulay!!W3. paratintar!!W4. magsurulay , 0 , 0 , Tagalog
+Mapangarapin , 1. di-maisasagawa!!W2. diri magaramit!!W3. waray pulos , 0 , 0 , Tagalog
+Maputik , 1. maburak, mabanik!!W2. malusak!!W3. malagay!!W4. lusakon!!W5. hanangon!!W6. lupokon!!W7. lapakon!!W8. lutakon!!W9. malupok!!W10. malapak , 0 , 0 , Tagalog
+Maputla , 1. putla, namumutla!!2. hiluka!!3. putla, kaputlaan!!4. bakod, mga tulos, bakuran!!W5. doason!!W6. arag!!W7. labsag , 0 , 0 , Tagalog
+Maramot , 1. hamak, walang kabagay-bagay!!W2. waray pulos!!W3. waray gamit , 0 , 0 , Tagalog
+Marawak , 1. malawak, malaki!!W2. dako hin duro!!W3. hiluag hin duro!!W4. kadako , 0 , 0 , Tagalog
+Marka , 1. bakas, bakat, gatla, senyal, senyas, tanda, tatak, tandaan, tatakan!!2. bakat, guhit, tala!!W3. tigaman!!W4. kagis (ha lawas)!!W5. labag!!W6. lupot , 0 , 0 , Tagalog
+Masugid , 1. masigasig!!2. maskiap, mapagmasakit!!W3. makugion!!W4. makugi gud!!W5. intrasado gud , 0 , 0 , Tagalog
+Masukal , 1. salabahe, mabangis!!W2. ihalas!!W3. mapintas!!W4. mabangis , 0 , 0 , Tagalog
+Matanda , 1. magulang, may-gulang na!!W2. tigurang!!W3. hamtong (tipalagas)!!W4. idaran!!W5. lagas!!W6. bahal (tuba) , 0 , 0 , Tagalog
+Matanda , 1. gurang, luma, tanda!!2. magulang, dati, luma, laon!!W3. lagas!!W4. tigurang!!W5. daan (mga butang)!!W6. laon , 0 , 0 , Tagalog
+Matangkad , 1. mataas, tass!!2. matayog!!W3. hataas!!W4. lanyog (hitaas hin duro)!!W5. kahitaas , 0 , 0 , Tagalog
+Maternal , 1. nauukol sa ina!!W2. kanan iroy!!W3. baga hin nanay , 0 , 0 , Tagalog
+Maya , 1. mamaya, mayamaya!!W2. niyan!!W3. nuruniyan!!W4. unina , 0 , 0 , Tagalog
+Mayamot , 1. makayamot, manggulo, mangyamot!!W2. pag-urit!!W3. pag-pungot!!W4. makapupungot!!W5. makauurit!!W6. alingugngog (tunog)!!W7. kapungot!!W8. kaurit , 0 , 0 , Tagalog
+Maulol , 1. magalit!!W2. pagpasina!!W3. pagpaurit!!W4. pagpalango , 0 , 0 , Tagalog
+Mikrobyo , 1. binhi, pinanggalingan, pinagbubuhatan!!W2. kagaw!!W3. mikrobyo!!W4. binlud , 0 , 0 , Tagalog
+Mukha , 1. harapan, karaagan, pagmumukha, anyo, balat o bagay na kita sa labas!!2. humarap, iharap, magpamukha, ipamukha!!W3. kahimo!!W4. nawong , 0 , 0 , Tagalog
+Mura , 1. sumpa, murahin!!2. tungayaw, lait!!3. tampalas, maldisyon!!W4. pagtampalas!!W5. panumpa!!W6. pagmaldisyon!!W7. pagbuyayaw , 0 , 0 , Tagalog
+Nagagalit , 1. nagngingitngit!!W2. mahangiton!!W3. masinahon , 0 , 0 , Tagalog
+Nagmamadali , 1. dali!!2. pagmamadali, pagtutumulin!!3. magmadali, magtumulin, magmaliksi!!W4. pagdagmit!!W5. pag-ikag!!W6. pag-apura , 0 , 0 , Tagalog
+Nagsisisi , 1.  gusto humingi ng tawad!!W2. mabinasolon!!W3. mabidoon!!W4. mahinulsolon , 0 , 0 , Tagalog
+Nais , 1. hangad, nasa, gusto, udyok!!2. pita, hangad!!W4. karuyag!!W5. kursunada!!W6. kawili!!W7. ungara , 0 , 0 , Tagalog
+Nakakatuwa , 1. nakakaaliw, magandang tingnan!!2. maganda!!W3. mahusay nga gutiay!!W4. pugita , 0 , 0 , Tagalog
+Nakakayamot , 1. nakagagalit!!W2. makaguruol!!W3. makapoy!!W4. masumo , 0 , 0 , Tagalog
+Nakaraan , 1. nakalipas!!2. malaon na!!W3. naglabay!!W4. hanin!!W5. hadto , 0 , 0 , Tagalog
+Nangyari , 1. nagkataon, pangyayari!!2. ganap!!W3. paghanabo!!W4. pag-himugso!!W5. pagduldoy , 0 , 0 , Tagalog
+Nasain , 1. testamento, lakas, loob, habilin!!2. kalooban, ibigin!!W3. buot!!W4. kaburut-on!!W5. larang , 0 , 0 , Tagalog
+Ng buong puso , 1. buong puso!!W2. maaghup!!W3. unob!!W4. kinasing-kasing , 0 , 0 , Tagalog
+Notisya , 1. puna, abiso, bala, pansin, paunawa, reparo, babala!!2. balita, pahayag!!W3. pasabot!!W4. pahibaro!!W5. paskin!!W6. abiso (legal) , 0 , 0 , Tagalog
+Okupant , 1. ukupante!!2. namamay-ari, napapanahon!!W3. umurukoy!!W4. napwesto!!W5. taga-pwesto , 0 , 0 , Tagalog
+Opera , 1. operahin!!2. gumawa, masagawa!!W3. papalakat!!W4. pagdumara!!W5. pagmaneho!!W6. pagpaandar , 0 , 0 , Tagalog
+Opereytor , 1. tagapagpalakad!!2. tagagawa, tagabusbos!!W3. tagdumara!!W4. tagpalakat!!W5. tagmaneho!!W6. parapaandar!!W7. makinista , 0 , 0 , Tagalog
+Order , 1. bilin, direksiyon, atas, ayos, mandamyento, utos!!2. utos, ayos, husay!!W3. areglo!!W4. kahapnig!!W5. kamada!!W6. mando , 0 , 0 , Tagalog
+Ordinansa , 1. takda!!2. utos, tuntunin!!W3. balaud!!W4. pagturun-an!!W5. kasugoan , 0 , 0 , Tagalog
+Pabaya , 1. mahina, walang pakialam!!W2. diri strikto!!W3. waray-waray , 0 , 0 , Tagalog
+Pabigat , 1. paragos, panaginip, panghila!!2. humila, hilahin!!W3. pagsaog!!W4. pagguyod!!W5. pagdanas!!W6. paghila!!W7. pagyudyod , 0 , 0 , Tagalog
+Pabor , 1. paunlakan, biyaya, utang ng loob!!W2. pagpaura!!W3. pagsulabi!!W4. pag-alayon!!W5. dapig!!W6. gapil , 0 , 0 , Tagalog
+Pag-ibig , 1. mahal, amor, gayuma, giliw, ibig, irog, sinta, pagmamahal, mahalin, pitak!!2. pagsinta, pag-irog, pag-giliw!!W3. gugma , 0 , 0 , Tagalog
+Paghiwa , 1. pagputol, paggilit!!2. pagputol, umukit!!W3. sanggi!!W4. salana (kamote) , 0 , 0 , Tagalog
+Pagitan , 1. pinid, paghihiwalay, pagbabahagi!!2. bumahagi, bahagihin!!W3. partisyon!!W4. salipod!!W5. mampara , 0 , 0 , Tagalog
+Pagkain , 1. pangpatid-gutom!!2. magpalain, magpanginain, magpasabsab!!W3. buntol!!W4. pagpakaon!!W5. paghungit!!W6. pagtubong!!W7. pagbuntol , 0 , 0 , Tagalog
+Pagkakamit , 1. pagtataglay, pagtatamo, pagkaabot!!W2. nakaplag!!W3. nakuha!!W4. natapos , 0 , 0 , Tagalog
+Pagkakataon , 1. asa, baka, sakali!!2. palad, kapalaran, pagkakataon!!3. mangyari, magkataon!!W4. higayon!!W5. pag-alaswerti!!W6. paghulat hin panahon , 0 , 0 , Tagalog
+Pagkasira , 1. perhuwisyo, sira, danyos!!W2. pagbungkag!!W3. pag-aberiya , 0 , 0 , Tagalog
+Pagkatapos , 1. makaraan, pagkaraan!!2. pagkaraan, matapos, pagkalipas!!W3. tima!!W4. tapos!!W5. kataliwan!!W6. katapos!!W7. katima , 0 , 0 , Tagalog
+Pagtiisan , 1. tumigil, huminto, magpigil!!2. magbawang, magbuntong-hininga, tanggihan, tumatahimil!!W3. pag-ilob!!W4. pag-agwanta!!W5. pagpugong , 0 , 0 , Tagalog
+Palakpak , 1. lagapak, pagakpak!!2. lumagapak, pumagakpak!!W3. paglagpak!!W4. paglagapak!!W5. paglugapak , 0 , 0 , Tagalog
+Palitan , 1. panumbalikin, iuli!!W2. pag-uli!!W3. pagbalik!!W4. pag-liwan , 0 , 0 , Tagalog
+Panahon , 1. kapahunan!!2. rekaduhan, lagyan ng rekado!!3. panahon!!W4. bundok!!W5. kathuraw!!W6. karayapan!!W7. katuraw , 0 , 0 , Tagalog
+Pananariaw , 1. naginhawahan, pinaginhawa!!W2. mahadnaw!!W3. presko!!W4. maupay nga pamati , 0 , 0 , Tagalog
+Pangangalunya , 1. pakikiagulo!!2. pagkaroon ng maraming asawa!!W3. adulteryo!!W4. paglibog , 0 , 0 , Tagalog
+Pansit , 1. bihon!!W2. miswa!!W3. miki!!W4. udong , 0 , 0 , Tagalog
+Pantay , 1. paris, patag, patas!!2. patag, yano, panay, pares!!3. bagaman, kahit!!4. pantayin, patagin, panayin!!W5. tungod (kalinya)!!W6. tupong (kahitaas)!!W7. sangad (kapareho)!!W8. pareho , 0 , 0 , Tagalog
+Pareho , 1. rin, nga, kagaya, kapara!!2. pareho!!W3. purupareho!!W4. amo la gihapon , 0 , 0 , Tagalog
+Pasa , 1. pumapasa!!2. pagdaraan, pasado!!W3. umaragi!!W4. lumalabay!!W5. mapasado (grade) , 0 , 0 , Tagalog
+Patak , 1. alisan, bagsak, laglag, ibagsak, bitawan!!2. tulo!!3. pumatak, tumulo, mahulog, malaglag, lumagpak, bumaksak!!W4. turo!!W5. paghulog!!W6. pagtaktak!!W7. paghutak!!W8. paghudag , 0 , 0 , Tagalog
+Patayan , 1. pamumuksa!!2. magpatayan!!W3. paglaglag!!W4. pagpuo!!W5. paghapyod , 0 , 0 , Tagalog
+Paypay , 1. pamaypay!!2. pamaypay, abaniko, pangpahangin!!3. magpaypay, mag-abaniko, mag-pahangin!!W4. papha!!W5. abaniko!!W6. bentilador , 0 , 0 , Tagalog
+Payuhan , 1. paalalahan, turuan!!2. payo, aral!!3. pumayo, umaral!!W4. pagsagdon!!W5. pagwaydong!!W6. paglarang!!W7. pagtugon , 0 , 0 , Tagalog
+Peke , 1. huwad, kunwari!!W2. palsipikado!!W3. diri tuod!!W4. pag-palsipikaw , 0 , 0 , Tagalog
+Peklat , 1. piklat, bikat!!2. bakat, pikat!!W3. ulat!!W4. kagis!!W5. pandok , 0 , 0 , Tagalog
+Pilya , 1. masama, malikot, makaras!!W2. pilyo!!W3. pilya!!W4. sutil!!W5. maldito  , 0 , 0 , Tagalog
+Pinakamabuti , 1. kabutibutihan!!2. pinakamainam, pinakamahusay!!W3. giuupayi!!W4. pinakamaupay!!W5. hawod!!W6. hayaw!!W7. lahod , 0 , 0 , Tagalog
+Pinakamataas , 1. pinakapantas, kataastaasan!!2. dulo, pangulong, pasimula, mataas!!W3. gihatataasi!!W4. pinakahitaas!!W5. sampaw , 0 , 0 , Tagalog
+Piring , 1. may piring ang mata!!2. magpiring, piringa ang mata!!W3. itarakop!!W4. itarabon!!W5. butahan , 0 , 0 , Tagalog
+Pueblo , W1. munisipyo!!W2. bungto!!W3. poblasyon , 0 , 0 , Tagalog
+Pumatay , 1. makapatay, patayin!!W2. pagparong!!W3. pagpahugpoy!!W4.pagsugpo , 0 , 0 , Tagalog
+Pumayag , 1. umayon!!2. sumang-ayon!!W3. pag-abuyon!!W4. pagsarabot!!W5. pagkausa!!W6. pagkaasya , 0 , 0 , Tagalog
+Pumighati , 1. magpahirap, sumakal, uminis!!2. amisin, duhagihin!!W3. pagtalumpigos!!W4. pagraugdaug!!W5. pagpabug-at , 0 , 0 , Tagalog
+Punas , 1. linisin, pahirin!!2. punas, punasan mo!!W3. pagpahid!!W4. paghinis!!W5. pag-trapo , 0 , 0 , Tagalog
+Punla , 1. semilya!!2. labot, paglabot!!W3. ganhi!!W4. gahi!!W5. lalong!!W6. semilya , 0 , 0 , Tagalog
+Puno , 1. kabusugan, kasaganaan!!2. pumuno, bumusog, punuin, busugin!!W3. pagpuno!!W4. pagsulod!!W5. pagpaaras!!W6. pag-ugdok , 0 , 0 , Tagalog
+Ramdam , 1. dama, damahin!!2. hipo, kapa, damdam!!2. makaramdam, humipo, kumapa!!W3. paghiram!!W4. pagkamkam!!W5. pag-abat!!W6. pagbati!!W7. bantad , 0 , 0 , Tagalog
+Raspa , 1. hadlang, kapansanan!!2. katkatin, kaskasin, kalmutin!!W3. pagkagos!!W4. pagkaruskos!!W5. pagkudkod!!W6. pagkiskis , 0 , 0 , Tagalog
+Rebelyon , 1. alsa, himagsik!!2. panghihimagsik, himagsikan, pag-aalsa!!W3. pagrebelde!!W4. masupilon!!W5. maatohon , 0 , 0 , Tagalog
+Regalo , 1. pasalubong, alaala, bigay, handog, parating, kaloob!!2. kaloob, bigay, pasalubong!!3. regalo!!W4. hatag!!W5. upa!!W6. premyo!!W7. pabalon!!W8. pahalipay , 0 , 0 , Tagalog
+Rehas , 1. parilya!!2. dalang-dalang!!3. kumayod, lumangitngit, magbakod!!W4. kaguran!!W5. sugang!!W6. saladang!!W7. pagkagud , 0 , 0 , Tagalog
+Relikya , 1. isang mahalagang bagay!!2. makalumang bagay!!W3. salin!!W4. kadaan!!W5. kasanhi , 0 , 0 , Tagalog
+Rendido , 1. gasgas, pudpod, upod!!W2. ibas!!W3. dumay!!W4. pundir , 0 , 0 , Tagalog
+Rikisa , 1. hanap, siyasat!!2. paniniyasat, paghanap!!3. sumiyasat, sumaliksik!!W4. pagbiling!!W5. pangita!!W6. pamiling!!W7. paghanaw!!W8. paghanap , 0 , 0 , Tagalog
+Sadlakan , 1. panig!!2. pagitan, agwat!!W3. bungbong!!W4. kabug-os!!W5. pundok (hin mga tawo) , 0 , 0 , Tagalog
+Sakahan , 1. bukid, lining, kabukiran, taniman!!2. lupang pag-aari, bukid, lupang bunkalin!!W3. huron!!W4. uma!!W5. tayod , 0 , 0 , Tagalog
+Sakit , 1. sama ng katawan, sakit!!W2. baration!!W3. balatian , 0 , 0 , Tagalog
+Sakit ng Ulo , 1. konsumisyon, sakit-ulo!!W2. kaul-ol han ulo!!W3. malingaw!!W4. malipong , 0 , 0 , Tagalog
+Sakripisyo , 1. pagpapakasakit!!2. hain, alay!!3. maghain, mag-alay!!W4. halad!!W5. pag-antos!!W6. paghalad!!W7. pagsakripisyo!!W8. pag-antos!!W9. pagbudlay , 0 , 0 , Tagalog
+Salamin , 1. antepara!!W2. antiyohos!!W3. kibido!!W4. antipara , 0 , 0 , Tagalog
+Salapi , 1. pera, kuwarta, atik, datung, pilak!!W2. kwarta!!W3. sukli!!W4. taya!!W5. puhunan , 0 , 0 , Tagalog
+Salpok , 1. babag!!2. iuntog, magbangga, mapasalpok!!W3. pagsabud!!W4. pagtudol!!W5. pagsampak!!W6. pagbangga!!W7. pagbanggo!!W8. pagrantok!!W9. pagsukdo  , 0 , 0 , Tagalog
+Salsal , 1. mapurol, sano, bobo, torpe, tungag, mahina!!2. tigil, dungo, ungas, malamlam, mapanglaw!!3. matigilan, madungo, pumanglaw!!W4. mangarol!!W5. rumol!!W6. umal!!W7. supo!!W8. bulok , 0 , 0 , Tagalog
+Salungatin , 1. tumutol, sumalungat, sumalangsang, lumaban!!W2. pagkontra!!W3. pagsupak!!W4. paglaris!!W5. pagsuway , 0 , 0 , Tagalog
+Sama , 1. masama!!2. kasamaan!!W3. karautan!!W4. magil-ad!!W5. magirhat , 0 , 0 , Tagalog
+Sarili , W1. kalugaringon!!W2. mismo ngahaw!!W3. ginagapilan , 0 , 0 , Tagalog
+Saya , 1. pagsaya, bunyi!!2. pagkakatawa, paghihiyawa ng papuri!!W3. kalipay!!W4. palakpak!!W5. pagpalakpak , 0 , 0 , Tagalog
+Sawi , 1. panatag, sawi, takda, kamatayan, pamamayapa!!2. kamatayan, pagkamatay!!3. kamatayon, pagkamatay!!W4. namatyan!!W5. himaratyan!!W6. mamaratayon , 0 , 0 , Tagalog
+Selos , 1. panibughuin, seloso, selosa!!2. magselos!!W3. pangabuho!!W4. maabugho , 0 , 0 , Tagalog
+Seradura , 1. kandado, susi!!2. pangtrandka!!3. isara, isusi, itrangka!!W4. trangka , 0 , 0 , Tagalog
+Sigla , 1. atikabo, gana, kasigasigan!!W2. kainteresado!!W3. kadesidido!!W4. kagiyan , 0 , 0 , Tagalog
+Sikap , 1. pagsikapan!!2. masakit!!3. magsumikap, magsikap, magsumakit!!W4. paningkamot!!W5. pagtalinguha!!W6. paglimbasog , 0 , 0 , Tagalog
+Pagsilay , 1. sulyap, kislap, kisap!!W2. sid-ap!!W3. siplat , 0 , 0 , Tagalog
+Sinag , 1. kumislap, kumisap, numingning!!2. liwanag!!W3. idlap (liwanag)!!W4. sulhog (araw)!!W5. lagonlagon (sahig) , 0 , 0 , Tagalog
+Sindak , 1. kagulo, kakilabutan!!W2. katarantar!!W3. matarantar!!W4. maburigo , 0 , 0 , Tagalog
+Sine , 1. tampok na palabas!!W2. pasalida!!W3. pasundayag , 0 , 0 , Tagalog
+Sumingil , 1. magbilin, magtagubilin, masakdal, magparatang, humingi, sumingil!!W2. pagsukot (kwarta)!!W3. pagpautang , 0 , 0 , Tagalog
+Sisi , 1. sisihin!!2. sala!!3. bigyang sala!!W4. basol!!W5. pagbasol!!W6. pagtuklin!!W7. pagtum-a , 0 , 0 , Tagalog
+Siyap , 1. huni!!2. sumiyap, humuni!!W3. piyak!!W4. paghuni!!W5. pagpiyak , 0 , 0 , Tagalog
+Sumali , 1. dumamay!!2. maghati!!W3. pagsaro!!W4. pag-angbit!!W5. pagbulig , 0 , 0 , Tagalog
+Sumamo , 1. mamahik, makiusap!!W2. pag-aram!!W3. paghingod-hingod!!W4. pagpakimaluoy!!W5. pangamuyo!!W6. panginyupo , 0 , 0 , Tagalog
+Sunod , 1. sumunod, sundin!!2. sumunod, tumalima!!W3. pagsugot!!W4. pag-alagad!!W5. pagtuman , 0 , 0 , Tagalog
+Taba , 1. mataba!!2. magpataba!!W3. tambok!!W4. sibo!!W5. mantika , 0 , 0 , Tagalog
+Tabla , 1. pareho, patas, kaparis, katumbas, parehas, katapat!!2. kagaya, kawangis, kawangki!!3. pagparahin, pagparisin, pagparehohin!!W4. tupong!!W5. sandag!!W6. sarandag!!W7. turopong , 0 , 0 , Tagalog
+Tadjak , 1. sipa, tadyak, sipain!!2. sipa, sikad, tadyak!!3. manipa, sumipa, manikad, manadyak!!W4. pagbanyak!!W5. pagsipa!!W6. pagtikod , 0 , 0 , Tagalog
+Taga-tala , 1. tagapagtala, tagapagtanda!!W2. tagalista!!W3. paralista!!W4. parasurat , 0 , 0 , Tagalog
+Takip , 1. sakob, taklob, suklop, tabing, tabon, takpan!!2. tungtong, bubong, karang, balot!!W3. taklob!!W4. tabon!!W5. tahob!!W6. takop!!W7. kabir , 0 , 0 , Tagalog
+Talim , 1. bingit, lamang!!2. patalim, gilid, tabi, laylayan, baybayin, hangganan!!3. maghasa, gawin ang gilid!!4. pagilid, sa gawing gilid!!W5. ligid!!W6. daplin!!W7. ganggang!!W8. palwais surab!!W9. tarom!!W10. katadman , 0 , 0 , Tagalog
+Talo , 1. tunggali, pagtatalo, debate!!2. pagmamatwiran!!3. makipagtalo, makipaglaban, makipagmatwiranan!!W4. debati!!W5. lantugi!!W6. kahisgutan!!W7. pagdebati!!W8. paglantugi!!W9. pagretaki , 0 , 0 , Tagalog
+Talo , 1. hindi nanalo!!2. magwala, pumaram, pumawi, magbulaksak!!W3. pagwara!!W4. pagwagsing , 0 , 0 , Tagalog
+Taltalan , 1. away, sigalot!!2. makigpagtalo, makigpagmatwiranan!!3. pagtatalo, pagmamatwiranan!!W4. balingkot!!W5. pakigbingkil , 0 , 0 , Tagalog
+Tamad , 1. batugan, tanga, pagayongayon!!2. magbatugan, magpagayongayon, tumanga!!W3. hubya!!W4. paghinubya!!W5. pag-istambay!!W6. pagpuruko , 0 , 0 , Tagalog
+Tangkal , 1. kulungan!!2. kumulong, isilid sa tangkal!!W3. alad!!W4. toril!!W5. tangkal!!W6. kudal , 0 , 0 , Tagalog
+Tangkay , 1. puluhan, tatagnan, bitbitan!!2. humipo, lumamas, umugit!!W3. karaptan!!W4. pulo!!W5. ulo-ulo!!W6. kalugkog (hilaba)!!W7. bukong-bukong , 0 , 0 , Tagalog
+Tanod , 1. bantay!!2. tagatanod, tagabantay!!W3. magbarantay!!W4. sirino , 0 , 0 , Tagalog
+Tanong , 1. tanungin!!2. bagay, asunto, tanong!!W3. pakiana!!W4. pagpakiana!!W5. paggipurupakiana!!W6. pagbista , 0 , 0 , Tagalog
+Tapik , 1. tuktok!!2. butas, tubaan!!W3. pagpikpik!!W4. pagmakmak , 0 , 0 , Tagalog
+Tapos , 1. tapos na, natapos, rematado, ganap, lutas, remata, tambay, tapos, todas, yari, utas!!W2. tima!!W3. human!!W4. ripot!!W5. liwas , 0 , 0 , Tagalog
+Taya , 1. tantiya, kuro!!2. tasa, pahalaga, kuro!!3. halagahan!!W4. karkulo!!W5. kuno-kuno! , 0 , 0 , Tagalog
+Teksto , 1. testo, text, letra!!2. bagay, layon, adhika, pinag-salitaan!!W3. barasahon!!W4. teksto!!W5. tinuod nga mga pulong , 0 , 0 , Tagalog
+Testigo , 1. saksi, sumaksi!!2. testigo, saksi!!W3. manarambong , 0 , 0 , Tagalog
+Tingin , 1. tingnan, tumingin!!W2. paghiling!!W3. pagtutok!!W4. pagkinita , 0 , 0 , Tagalog
+Tugis , 1. huli, pangaso!!2. habol, sundan!!W3. pagbukod!!W4. pagtabog!!W5. paghigin , 0 , 0 , Tagalog
+Tuksuhin , 1. manukso!!W2. pagyaang-yaang!!W3. pag-sunlog!!W4. pagtiaw!!W5. pagtingyay  , 0 , 0 , Tagalog
+Tulong , 1. saklolo!!2. abuloy, umabuloy!!W3. bulig!!W4. tabang!!W5. lihog , 0 , 0 , Tagalog
+Tuluy-tuloy , 1. walang-humpay, sunod-sunod!!W2. sigidas!!W3. waray hunong!!W4. waray ukoy , 0 , 0 , Tagalog
+Tumbas , 1. pagkakapantay!!2. paris!!W3. katurupong!!W4. magturupong!!W5. magpareho!!W6. matupong , 0 , 0 , Tagalog
+Tuos , 1. kuwenta!!2. bilang, kuro, turing!!W3. utang!!W4. listahan , 0 , 0 , Tagalog
+Tuparin , 1. gawin!!2. yumari, tumapos, magwakas, gumanap!!W3. pag-akomplisar!!W4. paghinayon!!W5. paghuman!!W6. pagtangpos!!W7. paglampos , 0 , 0 , Tagalog
+Tuyo , 1. tuin, patuyuin!!W2. mamara!!W3. uga!!W4. hubas , 0 , 0 , Tagalog
+Ubusin , 1. sakmal!!2. lamunin, sirain, iwasak!!W3. paghaklam!!W4. paghakhak!!W5. paghalukhok , 0 , 0 , Tagalog
+Udyok , 1. pag-himok!!2. magpalakas ng loob, magpatapang!!W3. pag-aghat!!W4. pag-palahan , 0 , 0 , Tagalog
+Udyok , 1. pumilitt, madaliin, papagmadaliin, ibuyo, udyukan!!W2. nagudyot!!W3. pag-aghat!!4. pagtukso!!W5. paghugay , 0 , 0 , Tagalog
+Ugma , 1. pareho, bagay!!2. pag-aasawa!!3. itulad, iparis, papag-asawahin!!W4. kapadis!!W5. kaatbang , 0 , 0 , Tagalog
+Ugnayan , 1. sugpungan, sugpong!!2. kasukasuan!!3. sumama, sumanib!!W4. kaluluthan!!W5. luta (tanom)!!W6. muko-buko (lawas) , 0 , 0 , Tagalog
+Ulila , 1. walang mga magulang, walang pamilya!!W2. ilo!!W3. tulapos , 0 , 0 , Tagalog
+Uliran , 1. dibuho, muwestra, pag-paparisan, huwaran, hulmahan!!2. tularan!!3. disenyo, modelo!!W4. surundan!!W5. turundogan!!W6. suruklan!!W7. batakan , 0 , 0 , Tagalog
+Ulitin , 1. sabihin uli, gawin muli!!W2. pag-utro!!W3. pagliwat!!W4. pag-uruutro!!W5. pagliwat-liwat  , 0 , 0 , Tagalog
+Ultimo , 1. huli, wakas, natira!!2. katapusan!!3. magtagal, maglwat!!W4. urhi!!W5. katapusan!!W6. pukis!!W7. giuurhii , 0 , 0 , Tagalog
+Umabuloy , 1. tumulong, sumaklolo!!W2. pagbulig!!W3. pagsanib!!W4. pag-alakapa , 0 , 0 , Tagalog
+Umakay , 1. pumatnugot, pumatnubay!!2. panguna!!W3. pag-una!!W4. pag-sugay!!W5. pagtungway , 0 , 0 , Tagalog
+Umalipusta , 1. tumampalasan!!W2. pagraugdaug!!W3. paglupaglupog!!W4. pagdurugas , 0 , 0 , Tagalog
+Umayaw , 1. sukal!!2. tapon, labis, sobra!!3. tumanggi, pagindi, humiya!!W4. pagbaribad!!W5. pagdiri!!W6. pagdehar!!W7. pagbinaribaray , 0 , 0 , Tagalog
+Umulit , 1. dumulog, dumalo!!W2. pagtulos!!W3. pagsugmat!!W4. paglibwat , 0 , 0 , Tagalog
+Una , 1. muna, primera, uno, nangunguna!!2. panguna!!3. pinsang buo!!W4. siyahan!!W5. una!!W6. primero , 0 , 0 , Tagalog
+Unano , 1. bulilit, duwende!!2. pandak!!3. papandakin, bansutin!!W4. inano!!W5. duwendi , 0 , 0 , Tagalog
+Unawa , 1. alam, muslak, muwang, taho, tingkala, pagkaintindi, maunawain, pagkakaunawa!!2. kaalaman, bait!!W3. pag-intiende!!W4. intiendehan!!W5. sinabotan , 0 , 0 , Tagalog
+Ungal , 1. hiyaw!!2. kahol, tahol, angal!!W3. guliat!!W4. singgit , 0 , 0 , Tagalog
+Uod , 1. bulati!!W2. ulod!!W3. wait!!W4. wutok!!W5. atatado!!W6. uging , 0 , 0 , Tagalog
+Usisa , 1. usisain, magtanong!!2. siyasatin, litisin!!W3. pagpakiana!!W4. panginano!!W5. panginsayod , 0 , 0 , Tagalog
+Uyam , 1. gagad, biro!!2. tuya!!3. umuyam, gumagad, tumuya, manuya!!W4. pagsunlog!!W5. pagsudyot!!W6. pag-udoy-udoy , 0 , 0 , Tagalog
+Wagi , 1. nagtagumpay, nagwagi, nanalo, panalo!!W2. magdaraog!!W3. daogan!!W4. paradaog , 0 , 0 , Tagalog
+Wakas , 1. katapusan, dulo!!2. katapusan, dulo, hangganan, hangga!!3. tumapos, yumari, lumutas, umutas, humangga!!W4. katubtuban , 0 , 0 , Tagalog
+Wakasan , 1. tapusin, tapos!!W2. pagtapos!!W3. paghuman!!W4. pag-iwas , 0 , 0 , Tagalog
+Wala , 1. walang kapararakan!!W2. waray bali!!W3. waray gamit , 0 , 0 , Tagalog
+Walang hanggan , 1. walang katapusan, walang bilang!!W2. waray katubtoban!!W3. waray katapusan , 0 , 0 , Tagalog
+Walang-kahulilip , 1. di maihahantulad, di maipaparis, walang katulad!!W2. waray katupong!!W3. waray katanding!!W4. waray kapareho , 0 , 0 , Tagalog
+Walang-kaya , 1. hindi sanay!!2. walang karapatan, hindi marunong!!W3. diri igo!!W4. diri angay!!W5. diri takos , 0 , 0 , Tagalog
+Wani , 1. saklolo, tulong, abuloy, pagtulong!!2. tulong, abuloy, saklolo!!W3. bulig!!W4. tambulig!!W5. arayupan!!W6. lihog , 0 , 0 , Tagalog
+Wika , 1. lengguwa!!2. pananalita!!W3. yinaknan!!W4. pinulongan , 0 , 0 , Tagalog
+Yakap , 1. yapos!!2. yumakap, yumapos!!W3. pagkupkop!!W4. paggakos!!W5. pagtakgus!!W6. paggahos , 0 , 0 , Tagalog
+Yaman , 1. ginhawa, kariwasaan, riwasa!!2. kayamanan!!W3. bahandi!!W4. manggad!!W5. karikohan!!W6. kamanggaran  , 0 , 0 , Tagalog
+Yamot , 1. pagod, napapagal!!2. pumagod, mamagod, yumamot!!W3. guol!!W4. kapoy!!W5. rahol!!W6. pagal!!W7. butlaw , 0 , 0 , Tagalog
+Yapos , 1. yumapos, yumakap!!W2. paggakos!!W3. pagkupkop!!W4. paghangkop , 0 , 0 , Tagalog
+Yarda , 1. bakuran!!2. bara, looban!!W3. barisbisan!!W4. libong!!W5. bangsaran , 0 , 0 , Tagalog
+Yurak , 1. padyak, tapakan!!2. tumadyak, sumikad, yumurak, tumusak!!W3. pagyatak!!W4. pagyaag!!W5. pag-raugdaug , 0 , 0 , Tagalog

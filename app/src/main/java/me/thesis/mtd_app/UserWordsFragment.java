@@ -19,10 +19,6 @@ import android.widget.Button;
 import me.thesis.mtd_app.db.DBHandler;
 import me.thesis.mtd_app.service.MTDService;
 
-/**
- * Created by Khalile on 12/1/2017.
- */
-
 public class UserWordsFragment extends Fragment {
 
     View mView;
