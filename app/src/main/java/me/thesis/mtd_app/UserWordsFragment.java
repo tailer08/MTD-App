@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -50,13 +51,13 @@ public class UserWordsFragment extends Fragment {
     };
 
     private void setList() {
-        show("ORDER BY word");
+        show("userword=1 ORDER BY word");
     }
 
     private void show(String filter) {
         if (dbHandler!=null) {
             list.removeAll(list);
-            list.addAll(dbHandler.searchUserWords(filter));
+            list.addAll(dbHandler.searchWords(filter));
             wordAdapter.notifyDataSetChanged();
         } else {
             Log.d("mtd-app","dbHandler is null?");
@@ -74,7 +75,16 @@ public class UserWordsFragment extends Fragment {
                 list);
         Log.d("mtd-app", "list here: " + wordAdapter);
         listView.setAdapter(wordAdapter);
-
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                WordFragment wordFragment =new WordFragment();
+                Bundle b=new Bundle();
+                b.putString("word",listView.getItemAtPosition(i).toString());
+                wordFragment.setArguments(b);
+                getActivity().getFragmentManager().beginTransaction().
+                        replace(R.id.content_frame, wordFragment,null).addToBackStack(null).commit();
+            }});
 
 //      Adding a user_generater_word button
         Button addWordButton = (Button)mView.findViewById(R.id.add_word);

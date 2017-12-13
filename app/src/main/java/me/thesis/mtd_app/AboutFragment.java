@@ -20,7 +20,9 @@ public class AboutFragment extends Fragment {
         tv.setText("Thank you for using our app!\n\n\n" +
                 "Mother Tongue Dictionary is an offline " +
                 "Waray-Tagalog dictionary that allows users to" +
-                " search for the equivalent of Waray-Waray or Tagalog words.\n\n\n");
+                " search for the equivalent of Waray-Waray or Tagalog words and "+
+                "add new Waray-Waray words the user learned over time.\n\n\n");
+
         return mView;
     }
 }

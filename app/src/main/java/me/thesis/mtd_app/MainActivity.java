@@ -17,13 +17,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import me.thesis.mtd_app.db.DBHandler;
 import me.thesis.mtd_app.service.MTDService;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private boolean isBound=false;
-    private MTDService mService=null;
+    private DBHandler dbHandler=null;
     private String s;
     private boolean isLoggedIn;
     private int tick = 0;
@@ -33,7 +34,11 @@ public class MainActivity extends AppCompatActivity
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
-        public void onServiceConnected(ComponentName componentName, IBinder service) {}
+        public void onServiceConnected(ComponentName componentName, IBinder service) {
+            if (dbHandler==null) {
+                dbHandler=((MTDService.LocalBinder) service).getService().getDBHandler();
+            }
+        }
 
         @Override
         public void onServiceDisconnected(ComponentName componentName) {}
@@ -70,9 +75,9 @@ public class MainActivity extends AppCompatActivity
 
         this.userWordsFragment = new UserWordsFragment();
 
-        Intent intent=new Intent(this,MTDService.class);
-        intent.setAction(MTDService.ACTION_INIT_DB);
-        startService(intent);
+//        Intent intent=new Intent(this,MTDService.class);
+//        intent.setAction(MTDService.ACTION_INIT_DB);
+//        startService(intent);
     }
 
     @Override

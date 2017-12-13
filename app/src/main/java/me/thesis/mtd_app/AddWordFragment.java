@@ -12,8 +12,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import me.thesis.mtd_app.db.DBHandler;
 import me.thesis.mtd_app.service.MTDService;
@@ -53,8 +55,13 @@ public class AddWordFragment extends Fragment {
         save_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(dbHandler.addWord(word.getText().toString(),definition.getText().toString(),0,"Waray",0,1)){
+                if(dbHandler.addWord(word.getText().toString(),definition.getText().toString(),"Waray",1)){
+                    dbHandler.addPhonetic(word.getText().toString(),phonetic.getText().toString());
                     Log.d("mtd-app", "****************Success on adding new user generated word");
+                    InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+                    Toast.makeText(getActivity(),word.getText().toString()+" added to database.",Toast.LENGTH_LONG).show();
+                    getActivity().getFragmentManager().popBackStack();
                 };
             }
         });

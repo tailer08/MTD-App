@@ -54,4 +54,8 @@ public class Word{
     public int getUserWord() {
         return _userword;
     }
+
+    public String getLanguage() {
+        return _language;
+    }
 }

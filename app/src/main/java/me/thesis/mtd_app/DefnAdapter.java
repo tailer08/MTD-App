@@ -50,7 +50,7 @@ public class DefnAdapter extends ArrayAdapter {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCallBack.speakToFragment(finalS.split(". ")[1]);
+                mCallBack.speakToFragment(finalS.split(". ")[1].replace(" \\\\(.*\\\\)",""));
             }
         });
         return convertView;

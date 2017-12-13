@@ -17,6 +17,7 @@ import me.thesis.mtd_app.db.DBHandler;
 public class MTDService extends IntentService {
 
     public static final String ACTION_INIT_DB="me.thesis.mtd_app.service.action.INIT_DB";
+    public static final String DISPLAY_HOME="me.thesis.mtd_app.service.DISPLAY_HOME";
 
     private final IBinder mBinder=new LocalBinder();
     private DBHandler dbHandler=null;
@@ -30,9 +31,7 @@ public class MTDService extends IntentService {
                 String[] tokens=line.split(" , ");
                 addWord(tokens[0],
                         tokens[1],
-                        Integer.parseInt(tokens[2]),
-                        Integer.parseInt(tokens[3]),
-                        tokens[4]);
+                        tokens[2]);
             }
         } catch(IOException e) {
             Log.d("mtd-app","cannot open dictionary file");
@@ -53,22 +52,12 @@ public class MTDService extends IntentService {
         }
     }
 
-    private void addWord(String word, String defn, int fav, int lookup, String lang){
-        boolean insertWord = dbHandler.addWord(word,defn,fav,lang,lookup,0);
-        if(insertWord){
-//            Log.i("mtd-app", "Successfully added the word " + word);
-        }else{
-//            Log.i("mtd-app", "UNSUCCESSFUL "+word);
-        }
+    private void addWord(String word, String defn, String lang){
+        dbHandler.addWord(word,defn,lang,0);
     }
 
     private void addPhonetic(String word, String phonetic) {
-        boolean insertWord=dbHandler.addPhonetic(word,phonetic);
-        if (insertWord) {
-//            Log.d("mtd-app","Successfully added phonetic");
-        } else {
-//            Log.d("mtd-app","UNSUCCESSFUL "+word);
-        }
+        dbHandler.addPhonetic(word,phonetic);
     }
 
     public MTDService() {
@@ -81,6 +70,9 @@ public class MTDService extends IntentService {
             dbHandler=new DBHandler(this);
             initWord();
             initPhonetic();
+
+            Intent i=new Intent(DISPLAY_HOME);
+            sendBroadcast(i);
         }
     }
 

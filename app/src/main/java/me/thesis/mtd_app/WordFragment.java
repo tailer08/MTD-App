@@ -96,7 +96,6 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
     }
 
     public void speak(String text) {
-        Log.d("mtd-app","beb be alayb");
         tts.speak(text, TextToSpeech.QUEUE_FLUSH,null);
     }
 
@@ -136,7 +135,11 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         sound.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                speak(w.getWord());
+                if (w.getLanguage().equals("Waray")) {
+                    speakToFragment(w.getWord());
+                } else {
+                    speak(w.getWord());
+                }
             }});
 
         return mView;
