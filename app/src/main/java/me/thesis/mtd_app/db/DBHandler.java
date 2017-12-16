@@ -63,8 +63,8 @@ public class DBHandler extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
        Log.d("mtd-app","here at upgrade");
         db.execSQL("DROP TABLE " + TABLE_WORDS);
-        db.execSQL("DROP TABLE " + TABLE_USERS);
-        db.execSQL("DROP TABLE " + TABLE_PHONETIC);
+//        db.execSQL("DROP TABLE " + TABLE_USERS);
+//        db.execSQL("DROP TABLE " + TABLE_PHONETIC);
         onCreate(db);
     }
 

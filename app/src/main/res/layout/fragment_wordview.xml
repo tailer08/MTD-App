@@ -45,6 +45,15 @@
             android:background="@color/main"
             android:clickable="true"
             android:src="@drawable/star_off" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favorite"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@color/main" />
     </RelativeLayout>
 
    <ListView
