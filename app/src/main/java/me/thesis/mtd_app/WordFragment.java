@@ -245,6 +245,7 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         else if(w.getWord().equals("Yamot"))
             gif.setImageResource(R.drawable.yamot);
 
+
         /* Showing delete button for userwords */
         if(w.getUserWord() == 0){
             deleteButton.setVisibility(View.GONE);
