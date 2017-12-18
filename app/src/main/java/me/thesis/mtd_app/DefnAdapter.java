@@ -40,7 +40,11 @@ public class DefnAdapter extends ArrayAdapter {
         button.setVisibility(View.GONE);
         final TextView textView=(TextView)convertView.findViewById(R.id.word_defn);
         if (s.startsWith("W")) {
-            s = s.replace("W", "");
+            s=s.replace("W", "");
+            if (s.endsWith(" ")) {
+                s=s.substring(0,s.length()-1);
+            }
+
             button.setVisibility(View.VISIBLE);
         }
         textView.setText(s);
@@ -50,7 +54,7 @@ public class DefnAdapter extends ArrayAdapter {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCallBack.speakToFragment(finalS.split(". ")[1].replace(" \\\\(.*\\\\)",""));
+                mCallBack.speakToFragment(finalS.substring(3,finalS.length()));
             }
         });
         return convertView;

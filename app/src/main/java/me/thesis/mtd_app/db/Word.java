@@ -14,6 +14,7 @@ public class Word{
     public static final String LANGUAGE="language";
     public static final String LOOKUP="lookup";
     public static final String USERWORD="userword";
+    public static final String GIF="gif";
 
     private int _id;
     private String _word;
@@ -22,6 +23,7 @@ public class Word{
     private String _language;
     private int _lookup;
     private int _userword;
+    private String _gif;
 
     public Word(Cursor c) {
         this._id=c.getInt(c.getColumnIndex(ID));
@@ -31,6 +33,7 @@ public class Word{
         this._language=c.getString(c.getColumnIndex(LANGUAGE));
         this._lookup=c.getInt(c.getColumnIndex(LOOKUP));
         this._userword=c.getInt(c.getColumnIndex(USERWORD));
+        this._gif=c.getString(c.getColumnIndex(GIF));
     }
 
     public int getID() {
@@ -55,7 +58,7 @@ public class Word{
         return _userword;
     }
 
-    public String getLanguage() {
-        return _language;
-    }
+    public String getLanguage() { return _language; }
+
+    public String getGIF() { return _gif; }
 }

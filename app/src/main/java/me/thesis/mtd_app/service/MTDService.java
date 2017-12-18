@@ -52,8 +52,8 @@ public class MTDService extends IntentService {
         }
     }
 
-    private void addWord(String word, String defn, String lang){
-        dbHandler.addWord(word,defn,lang,0);
+    private void addWord(String word, String defn, String gif){
+        dbHandler.addWord(word,defn,"Tagalog",0, gif);
     }
 
     private void addPhonetic(String word, String phonetic) {
@@ -69,7 +69,7 @@ public class MTDService extends IntentService {
         if (intent!=null && intent.getAction().equals(ACTION_INIT_DB)) {
             dbHandler=new DBHandler(this);
 
-            if (dbHandler.getDBCount("words") < 500) {
+            if (dbHandler.getDBCount("words") ==0) {
                 initWord();
             }
 

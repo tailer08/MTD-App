@@ -84,172 +84,14 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
             favorite.setImageResource(R.drawable.star_on);
         }
 
-        if(w.getWord().equals("Abante"))
-            gif.setImageResource(R.drawable.abante);
-        else if(w.getWord().equals("Abot"))
-            gif.setImageResource(R.drawable.abot);
-        else if(w.getWord().equals("Alisin"))
-            gif.setImageResource(R.drawable.alisin);
-        else if(w.getWord().equals("Amoy"))
-            gif.setImageResource(R.drawable.amoy);
-        else if(w.getWord().equals("Apoy"))
-            gif.setImageResource(R.drawable.apoy);
-        else if(w.getWord().equals("Away"))
-            gif.setImageResource(R.drawable.away);
-        else if(w.getWord().equals("Bagsak"))
-            gif.setImageResource(R.drawable.bagsak);
-        else if(w.getWord().equals("Balutan"))
-            gif.setImageResource(R.drawable.balutan);
-        else if(w.getWord().equals("Batuhin"))
-            gif.setImageResource(R.drawable.batuhin);
-        else if(w.getWord().equals("Dala"))
-            gif.setImageResource(R.drawable.dala);
-        else if(w.getWord().equals("Gapos"))
-            gif.setImageResource(R.drawable.gapos);
-        else if(w.getWord().equals("Gibain"))
-            gif.setImageResource(R.drawable.gibain);
-        else if(w.getWord().equals("Guluhin"))
-            gif.setImageResource(R.drawable.guluhin);
-        else if(w.getWord().equals("Gumiwang"))
-            gif.setImageResource(R.drawable.gumiwang);
-        else if(w.getWord().equals("Habi"))
-            gif.setImageResource(R.drawable.habi);
-        else if(w.getWord().equals("Habol"))
-            gif.setImageResource(R.drawable.habol);
-        else if(w.getWord().equals("Hawak"))
-            gif.setImageResource(R.drawable.hawak);
-        else if(w.getWord().equals("Himas"))
-            gif.setImageResource(R.drawable.himas);
-        else if(w.getWord().equals("Hukay"))
-            gif.setImageResource(R.drawable.hukay);
-        else if(w.getWord().equals("Huminga"))
-            gif.setImageResource(R.drawable.huminga);
-        else if(w.getWord().equals("Ikot"))
-            gif.setImageResource(R.drawable.ikot);
-        else if(w.getWord().equals("Inumin"))
-            gif.setImageResource(R.drawable.inumin);
-        else if(w.getWord().equals("Ipon"))
-            gif.setImageResource(R.drawable.ipon);
-        else if(w.getWord().equals("Itago"))
-            gif.setImageResource(R.drawable.itago);
-        else if(w.getWord().equals("Iwasan"))
-            gif.setImageResource(R.drawable.iwasan);
-        else if(w.getWord().equals("Kalkulahin"))
-            gif.setImageResource(R.drawable.kalkulahin);
-        else if(w.getWord().equals("Kumagat"))
-            gif.setImageResource(R.drawable.kumagat);
-        else if(w.getWord().equals("Lakad"))
-            gif.setImageResource(R.drawable.lakad);
-        else if(w.getWord().equals("Lakbay"))
-            gif.setImageResource(R.drawable.lakbay);
-        else if(w.getWord().equals("Laktaw"))
-            gif.setImageResource(R.drawable.laktaw);
-        else if(w.getWord().equals("Laro"))
-            gif.setImageResource(R.drawable.laro);
-        else if(w.getWord().equals("Lasa"))
-            gif.setImageResource(R.drawable.lasa);
-        else if(w.getWord().equals("Liksi"))
-            gif.setImageResource(R.drawable.liksi);
-        else if(w.getWord().equals("Lukso"))
-            gif.setImageResource(R.drawable.lukso);
-        else if(w.getWord().equals("Maanod"))
-            gif.setImageResource(R.drawable.maanod);
-        else if(w.getWord().equals("Magalak"))
-            gif.setImageResource(R.drawable.magalak);
-        else if(w.getWord().equals("Maghubad"))
-            gif.setImageResource(R.drawable.maghubad);
-        else if(w.getWord().equals("Magkalat"))
-            gif.setImageResource(R.drawable.magkalat);
-        else if(w.getWord().equals("Magkita"))
-            gif.setImageResource(R.drawable.magkita);
-        else if(w.getWord().equals("Maglaba"))
-            gif.setImageResource(R.drawable.maglaba);
-        else if(w.getWord().equals("Magligtas"))
-            gif.setImageResource(R.drawable.magligtas);
-        else if(w.getWord().equals("Magmarka"))
-            gif.setImageResource(R.drawable.magmarka);
-        else if(w.getWord().equals("Magpahayag"))
-            gif.setImageResource(R.drawable.magpahayag);
-        else if(w.getWord().equals("Magsalita"))
-            gif.setImageResource(R.drawable.magsalita);
-        else if(w.getWord().equals("Maingay"))
-            gif.setImageResource(R.drawable.maingay);
-        else if(w.getWord().equals("Maligo"))
-            gif.setImageResource(R.drawable.maligo);
-        else if(w.getWord().equals("Mamuri"))
-            gif.setImageResource(R.drawable.mamuri);
-        else if(w.getWord().equals("Mangasiwa"))
-            gif.setImageResource(R.drawable.mangasiwa);
-        else if(w.getWord().equals("Mangaso"))
-            gif.setImageResource(R.drawable.mangaso);
-        else if(w.getWord().equals("Manmanan"))
-            gif.setImageResource(R.drawable.manmanan);
-        else if(w.getWord().equals("Masugid"))
-            gif.setImageResource(R.drawable.masugid);
-        else if(w.getWord().equals("Nagagalit"))
-            gif.setImageResource(R.drawable.nagagalit);
-        else if(w.getWord().equals("Nagmamadali"))
-            gif.setImageResource(R.drawable.nagmamadali);
-        else if(w.getWord().equals("Nagsisisi"))
-            gif.setImageResource(R.drawable.nagsisisi);
-        else if(w.getWord().equals("Nakakatuwa"))
-            gif.setImageResource(R.drawable.nakakatuwa);
-        else if(w.getWord().equals("Nakakayamot"))
-            gif.setImageResource(R.drawable.nakakayamot);
-        else if(w.getWord().equals("Opera"))
-            gif.setImageResource(R.drawable.opera);
-        else if(w.getWord().equals("Order"))
-            gif.setImageResource(R.drawable.order);
-        else if(w.getWord().equals("Pagkain"))
-            gif.setImageResource(R.drawable.pagkain);
-        else if(w.getWord().equals("Palakpak"))
-            gif.setImageResource(R.drawable.palakpak);
-        else if(w.getWord().equals("Palitan"))
-            gif.setImageResource(R.drawable.palitan);
-        else if(w.getWord().equals("Patayan"))
-            gif.setImageResource(R.drawable.patayan);
-        else if(w.getWord().equals("Payuhan"))
-            gif.setImageResource(R.drawable.payuhan);
-        else if(w.getWord().equals("Pumatay"))
-            gif.setImageResource(R.drawable.pumatay);
-        else if(w.getWord().equals("Pumayag"))
-            gif.setImageResource(R.drawable.pumayag);
-        else if(w.getWord().equals("Punas"))
-            gif.setImageResource(R.drawable.punas);
-        else if(w.getWord().equals("Ramdam"))
-            gif.setImageResource(R.drawable.ramdam);
-        else if(w.getWord().equals("Sabit"))
-            gif.setImageResource(R.drawable.sabit);
-        else if(w.getWord().equals("Sakripisyo"))
-            gif.setImageResource(R.drawable.sakripisyo);
-        else if(w.getWord().equals("Salungatin"))
-            gif.setImageResource(R.drawable.salungatin);
-        else if(w.getWord().equals("Sawi"))
-            gif.setImageResource(R.drawable.sawi);
-        else if(w.getWord().equals("Saya"))
-            gif.setImageResource(R.drawable.saya);
-        else if(w.getWord().equals("Sindak"))
-            gif.setImageResource(R.drawable.sindak);
-        else if(w.getWord().equals("Tadjak"))
-            gif.setImageResource(R.drawable.tadjak);
-        else if(w.getWord().equals("Takbo"))
-            gif.setImageResource(R.drawable.takbo);
-        else if(w.getWord().equals("Tuksuhin"))
-            gif.setImageResource(R.drawable.tuksuhin);
-        else if(w.getWord().equals("Umakay"))
-            gif.setImageResource(R.drawable.umakay);
-        else if(w.getWord().equals("Umayaw"))
-            gif.setImageResource(R.drawable.umayaw);
-        else if(w.getWord().equals("Yakap"))
-            gif.setImageResource(R.drawable.yakap);
-        else if(w.getWord().equals("Yamot"))
-            gif.setImageResource(R.drawable.yamot);
-
-
+        gif.setImageResource(getActivity().getApplicationContext().
+                getResources().getIdentifier("drawable/"+w.getGIF(),
+                null,getActivity().getApplicationContext().getPackageName()));
+//
         /* Showing delete button for userwords */
         if(w.getUserWord() == 0){
             deleteButton.setVisibility(View.GONE);
-        }else{
+        } else {
             deleteButton.setVisibility(View.VISIBLE);
         }
     }
@@ -381,6 +223,8 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
 
     @Override
     public void speakToFragment(String word) {
+
+        Log.d("mtd-app","word to speak="+word);
         speak(mService.getDBHandler().getPhonetic(word));
     }
 }

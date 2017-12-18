@@ -30,7 +30,8 @@ public class DBHandler extends SQLiteOpenHelper {
                     Word.LANGUAGE+ " TEXT NOT NULL," +
                     Word.FAVORITE+ " INTEGER DEFAULT 0,"+
                     Word.LOOKUP  + " INTEGER DEFAULT 0,"+
-                    Word.USERWORD+ " INTEGER DEFAULT 0)";
+                    Word.USERWORD+ " INTEGER DEFAULT 0,"+
+                    Word.GIF     + " TEXT)";
 
     private static final String CREATE_USER_TABLE=
             "CREATE TABLE "+ TABLE_USERS + " ( " +
@@ -68,7 +69,7 @@ public class DBHandler extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public boolean addWord(String word, String def, String lang, int userWord) {
+    public boolean addWord(String word, String def, String lang, int userWord, String gif) {
         Cursor data = getData(word);
         data.moveToFirst();
         if (data.getCount() == 0) {
@@ -81,6 +82,7 @@ public class DBHandler extends SQLiteOpenHelper {
             values.put(Word.LANGUAGE, lang);
             values.put(Word.LOOKUP, 0);
             values.put(Word.USERWORD, userWord);
+            values.put(Word.GIF, gif);
 
            Log.i("mtd-app", "add data: ADDING "+word+" : "+def+" : "+lang+" to "+TABLE_WORDS);
             long result = db.insert(TABLE_WORDS, null, values);
@@ -135,7 +137,6 @@ public class DBHandler extends SQLiteOpenHelper {
             Log.i("mtd-app", "add data: ADDING "+word+" : "+phonetic+" to "+TABLE_PHONETIC);
             long result = db.insert(TABLE_PHONETIC, null, values);
 
-            data.close();
             db.close();
             if(result == -1) {
                 return false;
@@ -165,7 +166,6 @@ public class DBHandler extends SQLiteOpenHelper {
 
     public String getPhonetic(String word) {
         SQLiteDatabase db = this.getWritableDatabase();
-        word = normalizeWord(word);
         String query = "SELECT * FROM " + TABLE_PHONETIC + " WHERE word = '" + word + "'";
         Cursor data = db.rawQuery(query, null);
         data.moveToFirst();
@@ -173,22 +173,6 @@ public class DBHandler extends SQLiteOpenHelper {
         return (new Phonetic(data)).getPhonetic();
     }
 
-    public String normalizeWord(String word){
-        if(word.equals("paglaka"))
-            word="paglakat";
-        else if(word.equals("hilua"))
-            word="hiluag nga hangraban";
-        else if(word.equals("urukya"))
-            word="urukyan";
-        else if(word.equals("girhan"))
-            word="girhang";
-        else if(word.equals("sirin"))
-            word="siring han";
-        else if(word.equals("dir"))
-            word="diri kunosido";
-
-        return word;
-    }
 //  Get user data from user_db
     public Cursor getUsersData(String username){
         SQLiteDatabase db = this.getWritableDatabase();
@@ -211,6 +195,7 @@ public class DBHandler extends SQLiteOpenHelper {
             list.add(w.getWord());
             c.moveToNext();
         }
+        c.close();
         db.close();
         return list;
     }
