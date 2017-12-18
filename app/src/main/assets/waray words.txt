@@ -140,7 +140,7 @@ pagginhawa tipasakob , pag gin hawa tipa sa kob
 pangaro , pah nga ro
 mapaubsanon , mah pah ub sa non
 surundan nga plano , su run dan nga pla no
-igbaw , ig baw
+igbaw , igbow
 tamsi , tamsi
 pagdungang , pag dungang
 pangkarawat , pang kah rah wat
@@ -151,24 +151,24 @@ diri sinsiro , diri sin si ro
 pagmatngon , pag mat ngon
 kaawa , kah ah wa
 mananap , mah nah nap
-pagpasabot , pag pah sah bot
+pagpasabot , pag pah sa bot
 pagtugot , pag tu got
 paghambog , pag ham bog
 kontento , kontento
 pagkita-kita , pag kita kita
-pag-ipit , pag ih pit
+pag-ipit , pag e pit
 pagtirok , pag ti rok
-pagbitay , pag bi tay
+pagbitay , pag bee tie
 pagtutdo , pag tut do
 pag-asoy , pag ah soy
 pangawil , panga wil
-pagkauli , pag kah u li
+pagkauli , pag kah o li
 pagluklok , pag luk lok
 pagtipig , pag ti pig
 mahidlaw , mah hid law
 kaasin , kah ah sin
-upaling , u pa ling
-kinaiya , ki nah ih ya
+upaling , o pa ling
+kinaiya , ki nah e ya
 kagurang , kah gu rang
 makaruruyag , mah kah ru ru yag
 kinahanglan , ki nah hang lan
@@ -176,7 +176,7 @@ may katapos , may kah tah pos
 makalilisang , mah kah li li sang
 katunga , kah tu nga
 paraliton , pah rah li ton
-kagkag , kag kag
+kagkag , kagkag
 katalwasan , kah tal wah san
 pagbanabana , pag bah nah bah na
 tinuyaw , ti nu yaw
@@ -315,18 +315,18 @@ pag-anga , pag ah nga
 tigo , ti go
 pato , pah to
 mahatungod , mah hah tungod
-itik , ih tik
+itik , e tik
 pangiyupo , pangi yu po
 kosi , ko si
 pagsuma , pag su mah
 kalaw , kah law
 pagtakip , pag tah kip
-paghiko , pag hi ko
+paghiko , pag he ko
 pagludgod , pag lud god
 maawa , mah ah wa
 awat , ah wat
-mahimuroy , mah hi mu roy
-pagmalaigo , pag mah lah igo
+mahimuroy , mah hee mu roy
+pagmalaigo , pag mah la ego
 pagdasok , pag da sok
 pagtibaw , pag ti baw
 pag-ino-ino , pag ino ino
@@ -334,8 +334,8 @@ pag-unlok , pag un lok
 medya , medya
 tunga , tu nga
 kaarat , kah ah rat
-pagpakaurit , pag pah kah u rit
-pikas , pi kas
+pagpakaurit , pag pah kah o rit
+pikas , pee kas
 pagduplikar , pag dup li kar
 yawyaw , yaw yaw
 kami ngahaw , kami ngahaw
@@ -749,7 +749,7 @@ paggamol , pag gah mol
 katigurangang , kah ti gu rah ngang
 paghaplos , pag hap los
 sagdi , sag dee
-uwak , u wak
+uwak , o wak
 hiunong , he o nong
 pikit , pee kit
 pasambingay , pah sam beenguy
@@ -757,36 +757,36 @@ pagbadbad , pag bad bad
 wakwak , wak wak
 ubos , o bos
 tugbang , tug bang
-buwirte , bu wir te
-pagsapong , pag sah pong
+buwirte , bu where te
+pagsapong , pag sa pong
 paglikdo , pag lik do
-pagnusnos , pag nus nos
+pagnusnos , pag nos nos
 atkanan , at kah nan
 salingkapaw , sa ling kah paw
 panungog , pah nu ngog
 tuyo , tu yo
 hakang , ha kang
-pag-abiso , pag ah bi so
+pag-abiso , pag ah bee so
 paghalhal , pag hal hal
-mahinangpot , mah hi nang pot
+mahinangpot , mah hee nang pot
 pagsunod , pag su nod
-pagkalasag , pag kah lah sag
-paghitinga , pag hi ti nga
+pagkalasag , pag kah la sag
+paghitinga , pag he ti nga
 pagbulkas , pag bul kas
-pag-sablay , pag sab lay
+pag-sablay , pag sab lie
 pagbinwit , pag bin wit
 pagpinsar , pag pin sar
 pagkatuhay , pag kah tu hay
 pagsibat , pag si bat
-pagsalikway , pag sah lik way
+pagsalikway , pag sa lik why
 mangandoy , mah ngan doy
 pagdukit , pag du kit
 arat , ah rat
-buklad , buk lad
+buklad , book lad
 gios , gi ohs
 pagkaalo , pag kah ahlo
-kaidaran , kah ih dah ran
-takos , tah kos
+kaidaran , kah e dah ran
+takos , tah cause
 karo , kah ro
 pakigdait , pakig da it
 surod , su rod
@@ -927,7 +927,7 @@ mapasado , mah pah sa do
 pagtaktak , pag tak tak
 paghapyod , pag hap yod
 bentilador , ben ti lah dor
-paglarang , pag lah rang
+paglarang , pag la rang
 pag-palsipikaw , pag pal si pi kaw
 pandok , pan dok
 sutil , su til
@@ -1228,26 +1228,26 @@ panlimos , pan-li-moss
 paubsanon , pah-ub-sah-non
 palsipikado , pal-si-pee-kah-do
 hingpit nga ideya , hingpit nga ideya
-labaw , lah bahw
+labaw , labow
 kabaliktaran , kah-bah-lik-tah-ran
 gusto , gusto
 banug , bah-nug
 pagsumpay , pag-sum-pay
 lirikduan , li-rik-du-ahn
-pagkuskos , pag-kus-kos
+pagkuskos , pag-kus-kus
 supak han balaud , supak han bah-lah-ud
 politika , poli-tika
 pagdungog , pag-du-ngog
-ibi , ibi
+ibi , ebee
 kawang , kawang
-pagpahibaro , pag-pa-hi-baro
+pagpahibaro , pag-pa-he-baro
 pagpasagdan , pag-pa-sag-dan
 paghinambog , pag-hinam-bog
 busog , bu-sog
 pagkontrolar , pag-kon-tro-lar
-pag-obserba , pag-ob-ser-ba
+pag-obserba , pag-obser/ba
 pagdesider , pag-de-si-der
-pagpiit , pag-pi-it
+pagpiit , pag-pee-it
 pagharampag , pag-haram-pang
 pagsab-it , pag-sab-it
 pagluwa , pag-luwa
@@ -1257,20 +1257,20 @@ pagkawil , pag-kah-wil
 pag-isip , pag-i-sip
 paghupol , pag-hu-pol
 pagkabalik , pag-kah-bah-lik
-pag-luok , pag-lu-ok
-paghimos , pag-hi-mos
+pag-luok , pag-lu-oak
+paghimos , pag-he-mos
 pagbali-waray , pag-bah-li-wa-rha-aye
-mailiw , mah-i-liw
+mailiw , mah-elew
 diri pag-asi , diri pag-ah-si
 kapag-ad , kah-pag-ad
-uhong , u-hong
+uhong , o-hong
 lihok , li-hulk
-pagkaurit , pag-kah-u-rit
+pagkaurit , pag-kah-o-rit
 kahamtongan , kah-ham-to-ngan
-kainahanglanon , kah-inah-hang-lah-non
-akos , ah-kos
-makangingirhat , mah-kah-ngi-ngir-hat
-kapikaw , kah-pi-kaw
+kainahanglanon , kah-inah-hang-la-non
+akos , ah-cause
+makangingirhat , mah-kahngingir-hat
+kapikaw , kah-pee-kaw
 papliton , pap-li-ton
 kalkag , kahl-kahg
 kaluwasan , kah-lu-wah-san
@@ -1370,7 +1370,7 @@ pag-maneho , pag-ma-ne-ho
 mangaranop , manga-ra-nop
 alok , ah-lok
 maniwang , mani-wang
-pag-inaw , pag-i-naw
+pag-inaw , pag-e-naw
 paratintar , pa-ra-tin-tar
 waray pulos , waray pu-los
 malagay , mah-lah-gay
@@ -1514,7 +1514,7 @@ katapusan , ka-ta-pu-san
 pagsanib , pag-sa-nib
 pag-sugay , pag-su-gay
 paglupaglupog , pag-lupag-lupog
-pagdiri , pag-di-ri
+pagdiri , pag-dee-ri
 pagsugmat , pag-su-mat
 una , una
 duwendi , du-wen-di
