@@ -147,6 +147,8 @@ public class UserWordsFragment extends Fragment {
         if (tmp!=null && tmp.equals("logged in")) {
             isLoggedIn=true;
         }
+
+        updateList();
     }
 
     @Override

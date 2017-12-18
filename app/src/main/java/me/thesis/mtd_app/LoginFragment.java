@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -79,6 +80,8 @@ public class LoginFragment extends Fragment {
                         password.setClickable(false);
                         password.setFocusableInTouchMode(false);
                         signup_button.setVisibility(View.GONE);
+                        InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+                        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
                     }
                 }else{
                     isLoggedIn = false;
@@ -94,6 +97,8 @@ public class LoginFragment extends Fragment {
                     signup_button.setVisibility(View.VISIBLE);
                     result.setText("Enter Username and Password");
                     result.setTextColor(Color.WHITE);
+                    InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
                 }
 
             }

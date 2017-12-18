@@ -14,10 +14,12 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -37,8 +39,10 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
     private ImageView gif;
     private TextToSpeech tts;
     private ImageButton favorite,sound;
+    private Button deleteButton;
     private ListView listView;
     private DefnAdapter defnAdapter;
+    private DBHandler db;
 
     private Word w;
     private String param;
@@ -49,6 +53,7 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         public void onServiceConnected(ComponentName componentName, IBinder service) {
             if(service.toString().equals("MTD") && mService==null) {
                 mService = ((MTDService.LocalBinder) service).getService();
+                db =mService.getDBHandler();
                 Log.d("mtd-app","mService initialized");
                 showWord();
                 editLookup();
@@ -81,6 +86,8 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
 
         if(w.getWord().equals("Abante"))
             gif.setImageResource(R.drawable.abante);
+        else if(w.getWord().equals("Abot"))
+            gif.setImageResource(R.drawable.abot);
         else if(w.getWord().equals("Alisin"))
             gif.setImageResource(R.drawable.alisin);
         else if(w.getWord().equals("Amoy"))
@@ -237,6 +244,13 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
             gif.setImageResource(R.drawable.yakap);
         else if(w.getWord().equals("Yamot"))
             gif.setImageResource(R.drawable.yamot);
+
+        /* Showing delete button for userwords */
+        if(w.getUserWord() == 0){
+            deleteButton.setVisibility(View.GONE);
+        }else{
+            deleteButton.setVisibility(View.VISIBLE);
+        }
     }
 
     private void editFavorite() {
@@ -269,7 +283,7 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
                 Log.d("mtd", "Language not supported");
             }else{}
 
-            Locale loc = new Locale("uk_UA");
+            Locale loc = new Locale("fil");
             Log.i("mtd",Arrays.toString(loc.getAvailableLocales()));
         }
     }
@@ -280,6 +294,7 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         mView=inflater.inflate(R.layout.fragment_wordview,container,false);
 
         word=(TextView) mView.findViewById(R.id.word_main);
+        deleteButton = (Button)mView.findViewById(R.id.delete_button);
 
         gif = (ImageView)mView.findViewById(R.id.gif);
         listView=(ListView) mView.findViewById(R.id.word_list);
@@ -307,6 +322,24 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
                 }
             }});
 
+        deleteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if( db.deleteWord(w.getWord()) ){
+                    Toast.makeText(getActivity(),word.getText().toString()+" removed from words database.",Toast.LENGTH_LONG).show();
+                    getActivity().getFragmentManager().popBackStack();
+                }else{
+                    Toast.makeText(getActivity(),word.getText().toString()+" unable to removed from database.",Toast.LENGTH_LONG).show();
+                }
+
+                if( db.deletePhonetic(w.getWord()) ){
+                    Toast.makeText(getActivity(),word.getText().toString()+" removed from phonetics database.",Toast.LENGTH_LONG).show();
+                    getActivity().getFragmentManager().popBackStack();
+                }else{
+                    Toast.makeText(getActivity(),word.getText().toString()+" unable to removed from phonetic.",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
         return mView;
     }
 

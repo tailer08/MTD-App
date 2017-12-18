@@ -124,7 +124,7 @@ public class DBHandler extends SQLiteOpenHelper {
     }
 
     public boolean addPhonetic(String word, String phonetic) {
-        Cursor data = getData(word);
+        Cursor data = getDataPhonetics(word);
         if(data.getCount() == 0) {
             SQLiteDatabase db = this.getWritableDatabase();
             ContentValues values = new ContentValues();
@@ -156,8 +156,27 @@ public class DBHandler extends SQLiteOpenHelper {
         return data;
     }
 
+    public Cursor getDataPhonetics(String word){
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_PHONETIC + " WHERE word = '" + word + "'";
+        Cursor data = db.rawQuery(query, null);
+        return data;
+    }
+
     public String getPhonetic(String word) {
         SQLiteDatabase db = this.getWritableDatabase();
+        if(word.equals("paglaka"))
+            word="paglakat";
+        else if(word.equals("hilua"))
+            word="hiluag nga hangraban";
+        else if(word.equals("urukya"))
+            word="urukyan";
+        else if(word.equals("girhan"))
+            word="girhang";
+        else if(word.equals("sirin"))
+            word="siring han";
+        else if(word.equals("bunga"))
+            word="bungaw";
         String query = "SELECT * FROM " + TABLE_PHONETIC + " WHERE word = '" + word + "'";
         Cursor data = db.rawQuery(query, null);
         data.moveToFirst();
@@ -216,5 +235,17 @@ public class DBHandler extends SQLiteOpenHelper {
         db.update(Word.TABLE_NAME,values,Word.ID+"=?",
                 new String[]{Integer.toString(word.getID())});
         Log.d("mtd-app","updated lookup");
+    }
+
+    public boolean deleteWord(String this_word)
+    {
+        SQLiteDatabase db=this.getWritableDatabase();
+        return db.delete(TABLE_WORDS, Word.WORD + '=' + '"'+ this_word + '"', null) > 0;
+    }
+
+    public boolean deletePhonetic(String this_word)
+    {
+        SQLiteDatabase db=this.getWritableDatabase();
+        return db.delete(TABLE_PHONETIC, Word.WORD + '=' + '"'+ this_word + '"', null) > 0;
     }
 }
