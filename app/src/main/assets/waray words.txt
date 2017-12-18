@@ -511,10 +511,10 @@ takop , tak op
 palwais surab , pal wah is su rab
 pagdebati , pag de bah ti
 pagpuruko , pag pu ru ko
-kalugkog , kah lug kog
+kalugkog , kalugkog
 pagbista , pag bis tah
 liwas , li was
-matupong , mah tu pong
+matupong , mah tupong
 pagtangpos , pag tang pos
 paghugay , pag hoogai
 batakan , batahkahn
@@ -1032,15 +1032,15 @@ bukong-bukong , bukong bukong
 pag-istambay , pag is tam bay
 tangkal , tang kal
 ulo-ulo , ulo ulo
-paggipurupakiana , pag gi pu ru pah ki ah na
-ripot , ri pot
+paggipurupakiana , paggiipurupah ki ahh na
+ripot , ripot
 paglampos , pag lam pous
-tinuod nga mga pulong , ti nu od nga mga pulong
+tinuod nga mga pulong , ti nuod nga mga poo long
 pagkinita , pag ki ni ta
-paghigin , pag hi gin
-pagtingyay , pag ting yay
+paghigin , pag hee gihn
+pagtingyay , pag ting yayh
 waray ukoy , waray ukoy
-magpareho , mag pa re ho
+magpareho , mag pareho
 hubas , hoobaas
 paghalukhok , pag ha luk hok
 pagtukso , pag tukso
@@ -1066,20 +1066,20 @@ debati , de bah ti
 pagwara , pag wah ra
 balingkot , bah ling kot
 hubya , hubya
-alad , ah lad
+alad , ah laahd
 karaptan , kah rap tan
 magbarantay , magbaran tie
-pakiana , pah ki ah nah
+pakiana , pah ki ahh nah
 pagpikpik , pag pik pik
-tima , ti ma
-karkulo , kar ku lo
-barasahon , bah rah sah hon
-manarambong , mah nah ram bong
-paghiling , pag hi ling 
+tima , tee ma
+karkulo , kar koo lou
+barasahon , barasahon
+manarambong , manaram bong
+paghiling , pag hee ling 
 pagbukod , pag bu could
-pag-sunlog , pag sun log
+pag-sunlog , pag soonlohg
 sigidas , si gi das
-katurupong , kah tu ru pong
+katurupong , kahtooroopong
 utang , utang
 pag-akomplisar , pag ah kum pli sar
 mamara , mama rah
@@ -1523,15 +1523,15 @@ toril , to-ril
 pulo , pu-lo
 sirino , siri-no
 pagmakmak , pag-mak-mak
-human , hu-man
-kuno-kuno , kuno-kuno
+human , hoo man
+kuno-kuno , kunoh kunoh
 teksto , teks-to
 pagtutok , pagh tutalk
 pagtabog , pag-ta-bog
-pagtiaw , pag-ti-aw
-tabang , tabang
-waray hunong , waray hu-nong
-magturupong , mag-tu-ru-pong
+pagtiaw , pag tee ahw
+tabang , tahbang
+waray hunong , waray hoonong
+magturupong , mag turupong
 listahan , listahan
 paghinayon , pag hee nahyon
 uga , ou gah
