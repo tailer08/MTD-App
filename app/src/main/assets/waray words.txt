@@ -87,15 +87,15 @@ ruhaduha , ru ha du ha
 pag-entra , pag en tra
 ul-ol , ul ul
 malinop , mah leenope
-idad , idad
+idad , edad
 hingpit , hingpit
-eksamin , ek sah min
+eksamin , ex sahmin
 multa , multa
-laso , lah so
-palagiw , pah lah giw
-paglaom , pag lah om
+laso , laso
+palagiw , pah lagiw
+paglaom , pag la om
 tunok , tu nok
-gintukod , gin tu kod
+gintukod , gin tu could
 pagkiwa , pag ki wa
 maarabot , mah ah rah bot
 kita , kita
@@ -274,17 +274,17 @@ anti-bespera , anti bis peera
 mabuligon , mah bu li gon
 panumdoman , pah num do man
 pag-eskapar , pag es kah par
-paglayas , pag lah yas
+paglayas , pag la yas
 mahatagon , mah hah tah gon
 pagpuga , pag pu ga
-pagkalagiw , pag kah lah giw
+pagkalagiw , pag kah lagiw
 pagpasaylo , pag pah say lo
 gasi , gahsi
 kangutngot , kahngutngot
 siglo , siglo
 pagbahit , pag bah hit
-pagsuray , pag su ray
-sentensya , sen ten sya
+pagsuray , pagh su rie
+sentensya , sen ten sha
 pagpalagiw , pag pah lah giw
 sora , so ra
 pagwaring , pag wa ring
@@ -684,7 +684,7 @@ lakatan , lakaton
 parugmok , pah rug mok
 buog , bu og
 duongan , du o ngan
-pag-eksamen , pag ek sah men
+pag-eksamen , pagh ex sahmin
 pagkawaray-tapod , pag kah waray tah pod
 dadangatan , dah dah nga tan
 signos , sig nos
@@ -698,11 +698,11 @@ duha , du ha
 paggagad , pag gah gad
 hapdos , hap dos
 kuyapan , ku yap nan
-katuigan , kah tu ih gan
+katuigan , kahtu e gan
 tama , tama
-pagsari , pag sah ri
+pagsari , pag sa ri
 kastigo , kas ti go
-eskapo , es kah po
+eskapo , es kahpo
 sunit , su nit
 kahasta , kah has ta
 pag-tigaman , pag ti gah man
@@ -1170,8 +1170,8 @@ tul-id , tul-id
 pagtigi , pag-ti-gi
 sirot , sirot
 sintas , sintas
-kalagiw , kah-lah-giw
-ginlalaoman , gin-lah-lah-o-mahn
+kalagiw , kah-lagiw
+ginlalaoman , gin-la-la-o-mahn
 pukol , pukol
 organisasyon , orgah-ni-sahs-yon
 kadayonan , kah-dah-yo-nan
