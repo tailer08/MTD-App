@@ -20,6 +20,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -70,6 +71,12 @@ public class WordListFragment extends Fragment {
     }
 
     private void show(String filter) {
+        /* Karl: adding word manually */
+//        if(dbHandler.addWord("Pusa", "misay", "Tagalog", 0)){
+//            Toast.makeText(getActivity(),"added to database.",Toast.LENGTH_LONG).show();
+//        }else{
+//            Log.d("mtd-app", "UNSUCCESSFUL ");
+//        }
         if (dbHandler!=null) {
             list.removeAll(list);
             list.addAll(dbHandler.searchWords(filter));
@@ -77,6 +84,8 @@ public class WordListFragment extends Fragment {
         } else {
             Log.d("mtd-app","dbHandler is null?");
         }
+
+
     }
 
     @Nullable
@@ -102,6 +111,7 @@ public class WordListFragment extends Fragment {
             }});
 
         final EditText et=(EditText)mView.findViewById(R.id.word_search);
+
         et.setOnKeyListener(new View.OnKeyListener(){
 
             @Override

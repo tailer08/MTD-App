@@ -15,7 +15,7 @@ garamiton , gahrah mi tohn
 kalayo , kah laa yo
 doktrina , dohk trinah
 adlaw-adlaw , ad lao ad lao
-pagsarig , pagh sah rig
+pagsarig , pagh sahrig
 paggios , pagh gee ohs
 diri kunosido , diri/ kunu-siidoe
 alisngaw , ahlihs nga ao
@@ -631,9 +631,9 @@ pagpusa , pag pu sa
 kudal , ku dal
 ekipahi , e ki pah he
 haring , haring
-pag-piyar , pag pi yar
+pag-piyar , pagh pee yar
 diri maaram , diri mah aram
-hungaw , hu ngaw
+hungaw , hu nga aw
 pagkabingkil , pag ka bing kil
 lugod , lu god
 pagsalto , pag sal to
@@ -783,7 +783,7 @@ mangandoy , mah ngan doy
 pagdukit , pag du kit
 arat , ah rat
 buklad , buk lad
-gios , gi os
+gios , gi ohs
 pagkaalo , pag kah ahlo
 kaidaran , kah ih dah ran
 takos , tah kos
@@ -1084,14 +1084,14 @@ bungaw , bu nga aw
 bangkilyo , bang kil yo
 kasangkapan , kah sang kah pan
 sunog , soonog
-tinuonan , ti nu o nan
-ikinaadlaw , I ki nah ahd law
+tinuonan , ti nu uh nan
+ikinaadlaw , e ki na ad lawh
 pagtapod , pag tah pod
 pamatasan , pah mah tah sahn
 diri hanas , diri hah nas
-singaw , si ngaw
+singaw , si nga aw
 bangaw , bah ngaw
-biol , bi ol
+biol , bee all
 bagkus , bag kus
 bus-og , bus-og
 pagpaltos , pag pahl tos
@@ -1264,7 +1264,7 @@ mailiw , mah-i-liw
 diri pag-asi , diri pag-ah-si
 kapag-ad , kah-pag-ad
 uhong , u-hong
-lihok , li-hok
+lihok , li-hulk
 pagkaurit , pag-kah-u-rit
 kahamtongan , kah-ham-to-ngan
 kainahanglanon , kah-inah-hang-lah-non
@@ -1299,7 +1299,7 @@ pag-angkap , pag-ahng-kahp
 pagtukal , pag-tuh-kal
 talon , tah-lon
 gutiay nga uding , gu-ti-ahy nga u-ding
-pag-away , pag-ah-way
+pag-away , pag-ah-wahy
 diri nakaasya , diri nah-kah-asya
 pag-untong , pag-un-ton
 pagbaktas , pag-bahk-tas
