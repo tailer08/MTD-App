@@ -16,6 +16,7 @@ import me.thesis.mtd_app.service.MTDService;
 public class Splash extends AppCompatActivity {
 
     private boolean isBound=false;
+    private boolean isObserving;
 
     private ServiceConnection mConnection = new ServiceConnection() {
             @Override
@@ -55,6 +56,7 @@ public class Splash extends AppCompatActivity {
                     mConnection,
                     Context.BIND_AUTO_CREATE);
             isBound=true;
+            isObserving=true;
         }
     }
 
@@ -63,6 +65,11 @@ public class Splash extends AppCompatActivity {
         if (isBound) {
             isBound=false;
             unbindService(mConnection);
+
+            if (isObserving) {
+                unregisterReceiver(receiver);
+                isObserving=false;
+            }
         }
 
         super.onDestroy();
