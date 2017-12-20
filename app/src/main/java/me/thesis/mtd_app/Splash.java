@@ -17,7 +17,6 @@ public class Splash extends AppCompatActivity {
 
     private boolean isBound=false;
     private boolean isObserving;
-
     
     private ServiceConnection mConnection = new ServiceConnection() {
             @Override
