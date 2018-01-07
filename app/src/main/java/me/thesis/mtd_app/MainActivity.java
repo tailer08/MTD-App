@@ -19,6 +19,7 @@ import android.view.View;
 
 import me.thesis.mtd_app.service.MTDService;
 
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -63,6 +64,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 getFragmentManager().beginTransaction().replace(R.id.content_frame,
                         new HomeFragment()).commit();
+                updateActionBar("MTD");
                 drawer.closeDrawer(GravityCompat.START);
             }});
 
@@ -105,7 +107,7 @@ public class MainActivity extends AppCompatActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
+        Log.d("mtd-app","called options item");
         //noinspection SimplifiableIfStatement
         return super.onOptionsItemSelected(item);
     }
@@ -114,6 +116,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+        Log.d("mtd-app","called nav");
         int id = item.getItemId();
         Bundle b=new Bundle();
 
@@ -133,7 +136,7 @@ public class MainActivity extends AppCompatActivity
             isLoggedIn = this.loginFragment.isLoggedIn();
         } else if (id == R.id.nav_favorite) {
             WordListFragment wordListFragment=new  WordListFragment();
-            b.putString("state","Favorite");
+            b.putString("state","Favorites");
             wordListFragment.setArguments(b);
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     wordListFragment).commit();
@@ -183,6 +186,8 @@ public class MainActivity extends AppCompatActivity
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+
+        updateActionBar(item.getTitle().toString());
         return true;
     }
 
@@ -194,5 +199,9 @@ public class MainActivity extends AppCompatActivity
         }
 
         super.onDestroy();
+    }
+
+    public void updateActionBar(String title) {
+        getSupportActionBar().setTitle(title);
     }
 }

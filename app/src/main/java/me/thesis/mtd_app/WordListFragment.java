@@ -17,10 +17,10 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -38,6 +38,8 @@ public class WordListFragment extends Fragment {
     private boolean isBound=false;
     private ArrayList<String> list=new ArrayList<String>();
     private ArrayAdapter<String> wordAdapter;
+
+    Button reset;
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
@@ -58,7 +60,7 @@ public class WordListFragment extends Fragment {
         if (condition!=null) {
             Log.d("mtd-app","condition="+condition);
             show(condition+" ORDER BY word");
-        } else if (state.equals("Favorite")) {
+        } else if (state.equals("Favorites")) {
             Log.d("mtd-app","at favoritE");
             show("favorite=1 ORDER BY word");
         } else if (state.equals("Recent")) {
@@ -93,6 +95,16 @@ public class WordListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         mView=inflater.inflate(R.layout.fragment_wordlist,container,false);
         listView=(ListView)mView.findViewById(R.id.words);
+
+        reset=(Button)mView.findViewById(R.id.reset);
+        reset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                list.removeAll(list);
+                wordAdapter.notifyDataSetChanged();
+                dbHandler.resetLookup();
+            }
+        });
 
         wordAdapter=new ArrayAdapter<String>(
                 getActivity(),
@@ -164,6 +176,18 @@ public class WordListFragment extends Fragment {
 
         state = getArguments().getString("state");
         letter=getArguments().getString("letter");
+
+        if (state.equals("Recent")) {
+            reset.setVisibility(View.VISIBLE);
+            reset.setClickable(true);
+        } else {
+            reset.setVisibility(View.INVISIBLE);
+            reset.setClickable(false);
+        }
+
+        if (letter != null) {
+            ((MainActivity)getActivity()).updateActionBar(letter);
+        }
 
         if (!isBound) {
             getActivity().bindService(new Intent(getActivity(), MTDService.class),

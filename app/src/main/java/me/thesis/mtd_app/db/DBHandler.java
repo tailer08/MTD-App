@@ -227,6 +227,14 @@ public class DBHandler extends SQLiteOpenHelper {
         Log.d("mtd-app","updated lookup");
     }
 
+    public void resetLookup() {
+        Log.d("mtd-app","reset lookup");
+        String query="UPDATE "+ TABLE_WORDS + " SET " + Word.LOOKUP + "=0 WHERE "+ Word.LOOKUP+">0";
+        SQLiteDatabase db=this.getWritableDatabase();
+        db.execSQL(query);
+        db.close();
+    }
+
     public boolean deleteWord(String this_word)
     {
         SQLiteDatabase db=this.getWritableDatabase();
