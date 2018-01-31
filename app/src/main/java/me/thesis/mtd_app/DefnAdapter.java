@@ -59,6 +59,13 @@ public class DefnAdapter extends ArrayAdapter {
             public void onClick(View view) {
                 Resources res = getContext().getResources();
                 String wordToSpeak = finalS.substring(3,finalS.length());
+
+                if (wordToSpeak.contains(" ")) {
+                    wordToSpeak=wordToSpeak.replace(" ","");
+                } else if (wordToSpeak.contains("-")) {
+                    wordToSpeak=wordToSpeak.replace("-","");
+                }
+
                 int soundId = res.getIdentifier(wordToSpeak.toLowerCase(),"raw", getContext().getPackageName());
                 MediaPlayer wordSound = null;
                 try {
