@@ -74,7 +74,7 @@ public class MTDService extends IntentService {
             }
 
             if (dbHandler.getDBCount("phonetic") == 0 ) {
-                initPhonetic();
+//                initPhonetic();
             }
 
             Intent i=new Intent(DISPLAY_HOME);

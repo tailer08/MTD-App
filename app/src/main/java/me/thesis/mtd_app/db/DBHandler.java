@@ -138,6 +138,7 @@ public class DBHandler extends SQLiteOpenHelper {
             long result = db.insert(TABLE_PHONETIC, null, values);
 
             db.close();
+            data.close();
             if(result == -1) {
                 return false;
             }else {
