@@ -33,7 +33,7 @@ Balisong , W1. kutsilyo!!Origin: Samar-Leyte!!Ex. gintarhog hi Nanay pinaagi hin
 Balon , W1. bubon!!Origin: Leyte!!Ex. Kondi, waray hiya maglikay ha pagpamatuod ha usa nga Samaritana ha ATABAY!!W2. atabay!!Origin: Samar-Leyte!!W3. ukab!!Origin: Samar , end
 Baluktot , W1. baliko!!Origin: Leyte-Samar!!Ex. bangin diri niya maigo an puntirya kon BALIKO an iya pana!!W2. balok!!Origin: Samar , end
 Balutan , 1. putson!!Origin: Leyte-Samar!!W2. bulihon!!Origin: Samar!!Ex. an Dios nagsiring kan Noe nga kinahanglan iya BULIHON an arka hin alkitran , balutan
-Balsa , W1. baloto!!Origin: Samar-Leyte!!Ex. naggamit hin mga BALOTO ha pagtabok ha isla!!W2. tabaw!!Origin: Samar, end
+Balsa , W1. baloto!!Origin: Samar-Leyte!!Ex. naggamit hin mga BALOTO ha pagtabok ha isla!!W2. tabaw!!Origin: Samar , end
 Banaag , W1. sirak!!Origin: Samar-Leyte!!Ex.nakita niya an nahibilin pa nga SIRAK han himaya , end
 Bang-ga , W1. bunggo!!Origin: Samar-Leyte!!W2. bunggo-ay!!Origin: Samar!!Ex. upat na sarakyan an nag BUNGGO-AY ha kalsada , end
 Bantaan , W1. pagtarhog!!Origin: Samar-Leyte!!W2. namimeligro!!Origin: Samar!!Ex. NAMIMELIGRO an katawohan tungod han mga girra ngan kalamidad , end
@@ -85,13 +85,13 @@ Dumamay , W1. pag-uyon!!Origin: Samar!!Ex. Pag-UYON han eya mga problema!!W2. pa
 Dusa , W1. kasakit!!Origin: Samar!!Ex. an KASAKIT han himaya!!W2. kakurian!!Origin: Leyte-Samar , end
 Edad , W1. idad!!Origin: Samar-Leyte!!Ex. 18 pa la an iya IDAD han iya pag-asawa , end
 Eksakto , W1. isakto!!Origin: Samar-Leyte!!Ex. Ayaw pag-istorya hin diri ISAKTO na butang , end
-Eksamen , W1. eksamin!!Origin: Samar-Leyte!!Ex. Natural la nga naiistres kita kon may-ada kita EKSAMIN, end
-Embargo , W1. pagkabi!!Origin: Leyte!!W2. embargo!!Origin: Leyte-Samar!!Ex.  , end
+Eksamen , W1. eksamin!!Origin: Samar-Leyte!!Ex. Natural la nga naiistres kita kon may-ada kita EKSAMIN , end
+Embargo , W1. pagkabi!!Origin: Leyte!!W2. embargo!!Origin: Leyte-Samar!! , end
 Engkahe , W1. sintas!!Origin: Samar-Leyte!!Ex. Guin kuha an SINTAS han eya sapatos , end
 Eskapo , W1. iskip!!Origin: Samar-Leyte!!W2. kalagiw!!Origin: Samar-Leyte!!W3. iskapo!!Origin: Samar!!Ex. Usa ka grupo an UMISKAPO han era eskwelahan , end
-Espina , W1. basuni!!Origin: Samar!!W2. sunit!!Origin: Leyte, end
+Espina , W1. basuni!!Origin: Samar!!W2. sunit!!Origin: Leyte , end
 Eternidad , W1. waray katapusan!!Origin: Samar-Leyte!!Ex. An gugma han Ginoo nga WARAY KATAPUSAN!!W2. kahasta!!Origin: Samar-Leyte , end
-Etiketa , W1. tigaman!!Origin: Leyte-Samar!!Ex.  , end
+Etiketa , W1. tigaman!!Origin: Leyte-Samar!! , end
 Galang , W1. rispeto!!Origin: Samar-Leyte!!W2. pagtahod!!Origin: Samar!!Ex. Pagpakita hin PAGTAHOD ha diri imu panimalay , end
 Galawin , W1. pag-labot!!Origin: Samar-Leyte!!Ex. Ayaw PAG-LABOT hit dri imu gamit!!W2. pagbantad!!Origin: Leyte , end
 Gamitin , W1. gamiton!!Origin: Leyte-Samar!!Ex. GAMITON mo ngani it na saruwal, labhi na la dayon!!W2. gamita!!Origin: Leyte-Samar , end
@@ -101,25 +101,25 @@ Ganit , W1. matig-a!!Origin: Samar-Leyte!!Ex. MATIG-A it ulo hini na bata, kay d
 Gantimpala , W1. balos!!W2. award!!Origin: Samar-Leyte!!W3. grasya!!Origin: Samar-Leyte!!Ex. gintagan hin GRASYA han eya pagtrabho , end
 Gapang , W1. kamang!!Origin: Samar-Leyte!!Ex. An bata nga na kamang , end
 Gapiin , W1. pagpirdi!!Origin: Samar-Leyte!!Ex. He Juan an naniguro han PAGPIRDI han ira kamulay , end
-Gapos , W1. iggapos!!Origin: Samar-Leyte!!W2. guin-higot!!Origin: Samar-Leyte!!Ex. GUIN-HIGOT an eya balay dida han dako nga puno han mangga , gapos
+Gapos , W1. iggapos!!Origin: Samar-Leyte!!W2. guin-higot!!Origin: Samar-Leyte!!Ex. GUIN-HIGOT an eya balay dida han dako nga puno han mangga , end
 Gawa , W1. himu!!Origin: Samar-Leyte!!W2. gi-os!!Origin: Samar-Leyte!!Ex. Ayaw paghinubya, GI-OS para magka-uunat tim mga tul-an!!W3. pagbuhat!!Origin: Samar , end
 Gayon , W1. diri puydi!!Origin: Samar-Leyte!!Ex. DIRI PUYDI mag binuwa hit imo kag anak!!W2. diri mahimo!!Origin: Samar-Leyte , end
-Gibain , W1. pagrangka!!Origin: Leyte-Samar!!Ex. Dida han PAGRANGKA han kapulisan, dumalagan an kawatan!!W2. roba-on!!Origin: Samar , gibain
+Gibain , W1. pagrangka!!Origin: Leyte-Samar!!Ex. Dida han PAGRANGKA han kapulisan, dumalagan an kawatan!!W2. roba-on!!Origin: Samar , end
 Gilit , W1. hiwa!!Origin: Samar-Leyte!!Ex. An pag-HIWA han karne ha mercado!!W2. pagtabas!!Origin: Samar-Leyte!!W5. paggutgot!!Origin: Samar , end
 Gisingin , W1. pagmata!!Origin: Samar-Leyte!!W2. pagpukaw!!Origin: Leyte-Samar!!W3. pagpuklat!!Origin: Samar!!Ex. PAGPUKLAT han eya mga mata aga na , end
 Gripo , W1. gripo!!Origin: Samar-Leyte!!Ex. Alayon pag-parong han GRIPO kay nag eenawas!!W2. ruskas!!Origin: Samar , end
 Grupo , W1. Gropo!!Origin: Samar-Leyte!!Ex. Dinayo an GROPO ni kulas ha kaluyo na barangay para mag uyas hn basketball!!W2. kamada!!Origin: Leyte , end
 Gulang , W1. gurang!!Origin:Leyte!!Ex. Pwede na kaonon iton na saging kay GURANG naman!!W2. idad!!Origin: Samar-Leyte!!W3. lahing!!Origin: Samar , end
 Gulpe , W1. kastigo!!Origin: Leyte-Samar!!Ex. na siring he Juan, ayaw ikaw pag-KASTIGO hin imu igkasi tawo , end
-Guluhin , W1. pagsamok!!Origin: Samar-Leyte!!Ex. Ayaw PAGSAMOK kan pedro kay nag-aaram , guluhin
-Gumiwang , W1. pagpadag!!Origin: Leyte!!W2. pag-iwol!!Origin: Samar!!Ex. Duro gud na pag-iwol ni helen kon diri upod it eya uyab , gumiwang
+Guluhin , W1. pagsamok!!Origin: Samar-Leyte!!Ex. Ayaw PAGSAMOK kan pedro kay nag-aaram , end
+Gumiwang , W1. pagpadag!!Origin: Leyte!!W2. pag-iwol!!Origin: Samar!!Ex. Duro gud na pag-iwol ni helen kon diri upod it eya uyab , end
 Guro , W1. magturutdo!!Origin: Samar-Leyte!!Ex. Lamesa han MAGTURUTDO!!W2. maestra, maestro!!Origin: Samar-Leyte , end
 Gusgusin , W1. asmog!!Origin: Samar!!W2. yamu-it!!Origin: Leyte!!Ex. Ma YAMU-IT hin duro it amon kusina , end
 Gusto , W1. karuyag!!Origin: Samar-Leyte!!Ex. Karuyag niya kumaon hin panit han saging , end
-Gutay , W1. paggusi!!Origin: Leyte!!Ex. PAGGUSI hin tela ngan ighigot ngada tim agtang!!W2. pilas!!Origin: Samar, end
+Gutay , W1. paggusi!!Origin: Leyte!!Ex. PAGGUSI hin tela ngan ighigot ngada tim agtang!!W2. pilas!!Origin: Samar , end
 Gutom , W1. ginugutom!!Origin: Samar-Leyte!!Ex. Kaon ikaw kulas kon GINUGUTOM ka , end
-Habi , W1. paglara!!Origin: Samar-Leyte!!Ex. PAGLARA hin banig para igbaligya naton!!W2. pag-gansilyo!!Origin: Samar , habi
-Habol , W1. pagbukod!!Origin: Samar!!Ex. Ayaw PAGBUKOD kan em nanay kay makadto adto ha uma!!W2. paglanat!!Origin: Leyte-Samar , habol
+Habi , W1. paglara!!Origin: Samar-Leyte!!Ex. PAGLARA hin banig para igbaligya naton!!W2. pag-gansilyo!!Origin: Samar , end
+Habol , W1. pagbukod!!Origin: Samar!!Ex. Ayaw PAGBUKOD kan em nanay kay makadto adto ha uma!!W2. paglanat!!Origin: Leyte-Samar , end
 Hadlang , W1. ulang!!Origin: Samar-Leyte!!Ex. iwas dida hit aragi-an kay nakaka-ULANG ka!!W2. sagwil!!Origin: Samar , end
 Halimbawa , W1. pananglitan!!Origin: Leyte-Samar!!W2. susbaranan!!Origin: Samar , end
 Hambog , W1. waray pulos!!Ex. WARAY-PULOS an asawa ni helen!!Origin: Samar-Leyte!!W2. hambog!!Origin: Samar-Leyte , end
@@ -128,14 +128,14 @@ Hangganan , W1. katubtoban!!Origin: Samar-Leyte!!Ex. An KATUBTOBAN han kinabuhi!
 Hapis , W1. masubo!!Origin: Leyte!!W2. masurub-on!!Origin: Samar!!Ex. nag MASUROB-ON  he Juan han kawara han eya irong , end
 Hapo , W1. makapoy!!Origin: Leyte!!W2. mabotlaw!!Origin: Samar!!Ex. Kahuman han trabaho kulas inuli largo , end
 Hawakan , W1. pagkapot!!Origin: Leyte-Samar!!Ex. Kay matarum man an higot nasamad he Juan han eya PAGKAPOT!!W2. paggunit!!Origin: Leyte , end
-Himas , W1. paghiram!!Origin: Samar-Leyte!!W2. paghikap!!Origin: Samar!!Ex. PAGHIKAP han gard kan Pedro na sabtan na mayda dara hini neya na pusil , himas
+Himas , W1. paghiram!!Origin: Samar-Leyte!!W2. paghikap!!Origin: Samar!!Ex. PAGHIKAP han gard kan Pedro na sabtan na mayda dara hini neya na pusil , end
 Hindi bale , W1. waray sapayan!!Origin: Leyte-Samar!!Ex. WARAY SAPAYAN ha era ka damu it era salapi , end
 Hinggil , W1. hiunong!!Origin: Samar-Leyte!!Ex. HIUNONG hiton na era patago na relasyon, gin lorong an babayi!!W2. mahatungod!!Origin: Leyte-Samar , end
 Hingkod , W1. piay!!Origin: Leyte!!W2. piang!!Origin: Samar!!Ex. na PIANG he Juan hiunong hiton na basketball , end
 Hiwatig , W1. pasabot!!Origin: Samar-Leyte!!Ex. gin PASABOT ha katawhan an proyekto na matatabo han barangay!!W2. pasambingay!!Origin: Samar , end
-Hukay , W1. lubungan!!Origin: Samar!!W2. lubnganan!!Origin: Samar-Leyte!!Ex. an mga LUBNGANAN ha sementeryo , hukay
+Hukay , W1. lubungan!!Origin: Samar!!W2. lubnganan!!Origin: Samar-Leyte!!Ex. an mga LUBNGANAN ha sementeryo , end
 Humalo , W1. pag-tampo!!Origin: Samar-Leyte!!W2. pagtirimpo!!Origin: Leyte-Samar!!Ex. PAGTIRIMPO han kan Juan kag-anak , end
-Huminga , W1. pagginhawa!!Origin: Samar-Leyte!!Ex. PAG-GINHAWA hin hilarum!!W2. pagsimhot!!Origin: Leyte , huminga
+Huminga , W1. pagginhawa!!Origin: Samar-Leyte!!Ex. PAG-GINHAWA hin hilarum!!W2. pagsimhot!!Origin: Leyte , end
 Humingi , W1. pag-aro!!Origin: Leyte-Samar!!Ex. PAG-ARO kan em nanay hin igbarayad tim pagskwela , end
 Huwaran , W1. surundan nga plano!!W2. hingpit nga ideya , end
 Ibabaw , W1. igbaw!!Origin: Leyte-Samar!!Ex. an misay na aadto ha IGBAW hit cabinet , end
@@ -143,28 +143,28 @@ Ibayo , W1. kaatbang!!Origin: Samar!!W2. tugbang!!Origin: Leyte!!Ex. TUGBANG hit
 Ibig , W1. karuyag!!Origin: Samar-Leyte!!Ex. an KARUYAG ipasabot ni Pedro kan Juan , end
 Ibon , W1. tamsi!!Origin: Samar-Leyte!!Ex. An TAMSI didto han igbaw han puno , end
 Idagdag , W1. pagdungang!!Origin: Samar!!Ex. PAGDUGANG han pagkaon!!W2. pagsapong!!Origin: Leyte , end
-Ikot , W1. birik!!Origin: Leyte-Samar!!Ex. an mulayan nga na BIRIK , ikot
+Ikot , W1. birik!!Origin: Leyte-Samar!!Ex. an mulayan nga na BIRIK , end
 Ikuskos , W1. pagnusnos!!Origin: Samar!!W2. pagludgod!!Origin: Leyte!!Ex. PAGLUDGOD hin maupay kay madakmol na tim buring , end
 Ingat , W1. hinay!!Origin: Samar-Leyte!!Ex. HINAY hit im lakat!!W2. pag hirot!!Origin: Samar , end
 Inggit , W1. naawa!!Origin: Samar-Leyte!!Ex. NAAWA he Juan han bag-o nga mulayan ni Pedro!!W2. aw-anon!!Origin: Samar-Leyte , end
 Insekto , W1. mananap!!Origin: Samar-Leyte!!Ex. an gudti nga MANANAP nga nag kaka lupad , end
 Ipahiwatig , W1. ipasabot!!Origin: Samar-Leyte!!W2. ipahibaro!!Origin: Samar!!Ex. IPAHIBARO hit eya kag-anak an nahitabo ha eya , end
-Ipagkaloob , W1. eghatag!!Origin: Leyte-Samar!!Ex. EGHATAG na la iton na mga bado didto hit nanginginahanglan na tablasanon, end
+Ipagkaloob , W1. eghatag!!Origin: Leyte-Samar!!Ex. EGHATAG na la iton na mga bado didto hit nanginginahanglan na tablasanon , end
 Ipaghambog , W1. egpa-awa!!Origin: Leyte-Samar!!Ex. EGPA-AWA it na em mga mulayan ha gawas , end
 Ipangilin , W1. pagkita-kita!!Origin: Leyte-Samar!!W2. pag-obserba!!Origin: Leyte-Samar!!Ex. PAG-OBSERBA dida ha gawas kay bangin ada it mangarawat , end
 Ipasya , W1. paglarang!!Origin: Samar-Leyte!!W2. pagmalaigo!!Origin: Samar!!Ex. PAGMALAIGO na la ikaw hit em mga desisyon , end
 Ipitin , W1. piiton!!Origin: Samar-Leyte!!Ex. Bangin nem PIITON it kamot ni edoy , end
-Ipon , W1. tirok!!Origin: Samar-Leyte!!Ex. Ginkadto ko la han akon alkasiya na ak mga TIROK na kwarta , ipon
+Ipon , W1. tirok!!Origin: Samar-Leyte!!Ex. Ginkadto ko la han akon alkasiya na ak mga TIROK na kwarta , end
 Isabit , W1. eghalyhay!!Origin: Samar!!W2. egsablay!!Origin: Leyte-Samar!!Ex. An em salin nga pagkaon ibutang ha basket ngan EGSABLAY , end
 Isalaysay , W1. eg-istorya!!Origin: Samar-Leyte!!Ex. EG-ISTORYA ha kapulisan an nahatabo , end
 Isalin , W1. ibalhin!! Origin: Samar-Leyte!!Ex. IBALHIN an lamesa ngadto ha ruwang , end
 Isip , W1. hunahuna!!Origin: Samar-Leyte!!Ex. An kahugaw han HUNAHUNA ni Juan , end
 Isuwato , W1. pagkaturuhay!!Origin: Leyte-Samar!!Ex. An PAGKATURUHAY han pamilya na mag-away , end
-Itago , W1. paghimos!!Origin: Samar!!Ex. Upaya it PAGHIMOS tim kwarta , itago
+Itago , W1. paghimos!!Origin: Samar!!Ex. Upaya it PAGHIMOS tim kwarta , end
 Ingatan , W1. hiruti!!Origin: Samar-Leyte!!Ex. HIRUTI it mga pasaheros , end
 Itakwil , W1. pagsalikway!!Origin: Samar-Leyte!!Ex. PAGSALIKWAY ha eya mga sala ha kalibutan , end
 Iwal , W1. mahidlaw!!Origin: Samar-Leyte!!Ex. MAHIDLAW hin herayo ka hit em pamilya , end
-Iwasan , W1. likaye!!Origin: Leyte-Samar!!Ex. LIKAYE it em kada adlaw na pag-hinubog , iwasan
+Iwasan , W1. likaye!!Origin: Leyte-Samar!!Ex. LIKAYE it em kada adlaw na pag-hinubog , end
 Kaalatan , W1. kaasin!!Origin: Samar!!W2. kapag-ad!!Origin: Leyte!!Ex. KAPAG-AD man han em paksiw na isda , end
 Kabuti , W1. upaling!!Origin: Leyte-Samar!!Ex. An UPALING na tumubo dida han higad han saging!!W2. uhong!!Origin: Samar!! , end
 Kagawian , W1. kinaiya!!Origin: Samar-Leyte!!Ex. makuri gud bag-uhon it KINAIYA hit usa na tawo , end
@@ -174,7 +174,7 @@ Kailangan , W1. kinahanglan!!Origin: Leyte-Samar!!Ex. KINAHANGLAN ni Juan magpak
 Kakayahan , W1. abilidad!!Origin: Leyte-Samar!!Ex. an imo ABILIDAD nga diri maupay , end
 Kakilabot , W1. makalilisang!!Origin: Leyte-Samar!!Ex. MAKALILISANG an eya ginbuhat han eya kag anak!!W2. makangingirhat!!Origin: Samar , end
 Kakilala , W1. kilala!!Origin: Leyte-Samar!!Ex. KILALA ni Juan an asawa han bugto na umangkot han tatay ni pedro , end
-Kalahati , W1. katunga!!Origin: Leyte-Samar!!W2. medya!!Origin: Leyte-Samar!!Ex. Ginsugo he Juan pagpalit hin tuba ma MEDYA, end
+Kalahati , W1. katunga!!Origin: Leyte-Samar!!W2. medya!!Origin: Leyte-Samar!!Ex. Ginsugo he Juan pagpalit hin tuba ma MEDYA , end
 Kalaykay , W1. kagkag!!Origin: Leyte-Samar!!Ex. He Juan nagamit hin KAGKAG pag bulad han eya humay , end
 Kaligtasan , W1. katalwasan!!Origin: Leyte-Samar!!Ex. KATALWASAN han eya kinabuhi!!W2. kalibrehan!!Origin: Samar , end
 Kalokohan , W1. kalurongan!!Origin: Leyte!!Ex. KALURONGAN han eya kabataan!!W2. katinuyawan!!Origin: Samar!!W3. KAPADLAS , end
@@ -185,17 +185,17 @@ Katabi , W1. sapit!!Origin: Leyte!!Ex. He Helen ngan he Gina magsapit la ha era 
 Katapangan , W1. kamaisug!!Origin: Samar-Leyte!!Ex. KAMAISUG nala hit maistra nra Helen , end
 Katuwiran , W1. rason!!Origin!!Samar-Leyte!!Ex. Pirme gudla may RASON ni Juan kon na gagab-ihan ha iskoylahan , end
 Kunin , W1. kuha-a!!Origin: Samar-Leyte!!Ex. KUHA-A na la an payong na ginhuram , end
-Kurtina , W1. biray!!Origin: Leyte-Samar!!Ex. Kada pagpapatron la gin liliwanan it BIRAY han bintana nira Gina, end
-Laban , W1. pag-atu!!Origin: Leyte-Samar!!Ex. PAG-ATU hin mayda nem eg-aratu hit away, end
+Kurtina , W1. biray!!Origin: Leyte-Samar!!Ex. Kada pagpapatron la gin liliwanan it BIRAY han bintana nira Gina , end
+Laban , W1. pag-atu!!Origin: Leyte-Samar!!Ex. PAG-ATU hin mayda nem eg-aratu hit away , end
 Laglag , W1. hulog!!Origin: Samar-Leyte!!Ex. HULOG he Juan han era eksam , end
-Lakad , W1. lakat!!Origin: Samar-Leyte!!Ex. He Gina namata la hin agap kon may LAKAT, lakad
+Lakad , W1. lakat!!Origin: Samar-Leyte!!Ex. He Gina namata la hin agap kon may LAKAT , lakad
 Lakbay , W1. biyahi!!Origin: Leyte-Samar!!Ex. An Pag BIYAHI ngadto ha manila in maihaay , lakbay
 Laktaw , W1. pagbaka-ang!!Origin: Leyte-Samar!!Ex. An PAGBAKA-ANG kan imo Tatay in dir kno maupay , laktaw
 Lalo , W1. Labi!!Origin: Samar!!Ex. Pirme gud aadto he Pedro hit sarusarayaw LABI na kon Patron , end
 Lambat , W1. pukot!!Origin: Leyte-Samar!!Ex. An PUKOT na gin gamit ni Juan ngan Pedro in gin kawat ha dagat , end
 Lansangan , W1. kalsada!!Origin: Samar-Leyte!!Ex. Nagdako na la ini he Pedro ha kaKALSADAhan , end
-Laro , W1. mulay!!Origin: Leyte!!Ex. MULAY nira Pedro yana hin Basketball!!W2. uyas, uyag!!Origin: Samar , laro
-Lasa , W1. rasa!!Origin: Leyte-Samar!!Ex. Pag tilaw han luto na tinula kon anu it RASA , lasa
+Laro , W1. mulay!!Origin: Leyte!!Ex. MULAY nira Pedro yana hin Basketball!!W2. uyas, uyag!!Origin: Samar , end
+Lasa , W1. rasa!!Origin: Leyte-Samar!!Ex. Pag tilaw han luto na tinula kon anu it RASA , end
 Lawitan , 1. igawad!!2. pahabain, unatin, banatin!!3. dugtungan!!W4. pagpaiha!!W5. pagpahalaba!!W6. paglabaw , end
 Laya , W1. pagbuhi!!Origin: Leyte-Samar!!Ex. PAGBUHI ha eya tikang ha prisohan, kay talwas na an eya sentinsya!!W2. pag-gawas!!Origin: Leyte-Samar , end
 Libre , W1. waray bayad!!W2. libre!!Origin: Leyte-Samar!!Ex. Gin LIBRE he Juan han pasahe , end
@@ -204,25 +204,25 @@ Ligtas , W1. talwas!!Origin: Samar-Leyte!!ex. TALWAS na gihap he Pedro han eya m
 Likod , W1. luyo!!Origin: Leyte-Samar!!Ex. An LUYO han era balay duro hin si-ot!!W2. libong!!Origin: Samar , end
 Listo , W1. abtik!!Origin: Samar!!Ex. Angay gud kita pirme ABTIK oras hiton disgrasya!!W2. madagmit!!Origin: Leyte-Samar , end
 Liwanag , W1. pawa!!Origin: Samar!!W2. lamrag!!Origin: Leyte-Samar!!Ex. Natika pintas la an LAMRAG han adlaw , end
-Lukso , W1. pag-ambak!!Origin: Samar!!W2. paglukso!!Origin: Samar-Leyte!!Ex. An PAGLUKSO ni Juan sapa!!W3. paglayog!!Origin: Samar , lukso
+Lukso , W1. pag-ambak!!Origin: Samar!!W2. paglukso!!Origin: Samar-Leyte!!Ex. An PAGLUKSO ni Juan sapa!!W3. paglayog!!Origin: Samar , end
 Lumitaw , W1. paglutaw!!Origin: Samar-leyte!!Ex. PAGLUTAW han linunod na barko , end
 Maaari , W1. mahimo!!Origin: Samar-Leyte!!Ex. MAHIMO ka magkaada hin pariho nga pagsarig , end
-Maanod , W1. mahaanod!!Origin: Samar-Leyte!!W2. ig-anod!!Origin: Samar!!Ex. Basi diri kita IG-ANOD, kinahanglan kita maniguro paglangoy tikadto ha iba nga direksyon , maanod
+Maanod , W1. mahaanod!!Origin: Samar-Leyte!!W2. ig-anod!!Origin: Samar!!Ex. Basi diri kita IG-ANOD, kinahanglan kita maniguro paglangoy tikadto ha iba nga direksyon , end
 Madalas , W1. agsob!!Origin: Samar!!Ex. AGSOB paghisgotan han kabugtoan kon dinihogan ba an usa o diri!!W2. pirme!!Origin: Samar-Leyte , end
 Madumi , W1. mahugaw!!Origin: Leyte-Samar!!Ex. Bisan kon makuri ngan MAHUGAW an trabaho, nahihimo ko ito kada adlawW2. malamiri!!Origin: Samar , end
 Magaling , W1. makarit!!Origin: Leyte-Samar!!W2. maoroopay!!Origin: Samar-Leyte!!Ex. Makakagmando daw an mga tawo ha ira kalugaringon nga MAOROOPAY kay han Dios , end
 Maganda , W1. mahusay!!Origin: Leyte-Samar!!W2. maopay!!Origin: Leyte-Samar!!Ex. Ha kabug-osan, mas maopay an ira kahimsog , end
-Maghubad , W1. paghukas!!Origin: Leyte!!W2. pag-lubas!!Origin: Samar!!W3. naghuhubo!!Origin: Leyte-Samar!!Ex. Pagkamahimayaon han hadi ha Israel niyan nga adlaw, nga NAGHUHUBO niyan nga adlaw ha mga mata han mga surugoon nga kababayin-an han iya mga surugoon , maghubad
+Maghubad , W1. paghukas!!Origin: Leyte!!W2. pag-lubas!!Origin: Samar!!W3. naghuhubo!!Origin: Leyte-Samar!!Ex. Pagkamahimayaon han hadi ha Israel niyan nga adlaw, nga NAGHUHUBO niyan nga adlaw ha mga mata han mga surugoon nga kababayin-an han iya mga surugoon , end
 Magkaayos , W1. magkasangkay!!Origin: Samar-Leyte!!W2. makighiuli!!Origin: Samar!!Ex. Kay ano nga sadang kita MAKIGHIULI dayon ha usa nga bugto kon nasisina kita ha iya? , end
 Magkaisa , W1. magkaurusa!!Origin: Leyte-Samar!!Ex. Paonan-o an buruhaton nga iginhatag ha aton han Dios nabulig ha aton nga MAGKAURUSA?!!W2.pagtirimpo!!Origin: Samar , end
-Magkalat , W1. pagpasarang!!Origin: Samar-Leyte!!Ex. ha PAGPASARANG hin sayop nga impormasyon , magkalat
-Magkita , W1. pagsugat!!Origin: Leyte!!W2. magkita!!Origin: Samar-Leyte!!Ex. MAGKITA kita ha Ginhadian han Dios , magkita
-Maglaba , W1. labhan!!Origin: Leyte-Samar!!Ex. An aton mga bado liwat kinahanglan regular nga LABHAN basi magin limpyo ngan presentable W2. pagbunak!!Origin: Samar , maglaba
-Magligtas , W1. pagsalbar!!Origin: Leyte!!W2. pagtalwas!!Origin: Samar!!W3. pagbulig!!Origin: Leyte-Samar!!Ex. Inabot an pinili nga awtoridad ha PAGBULIG  , magligtas
-Magpahirap , W1.pagpakuri!!Origin: Samar-Leyte!!W2.magpapasakit!!Origin: Samar-Leyte!!Ex. alit, an mga pagsari posible nga MAGPAPASAKIT ha ngatanan dinhi ha tuna, end
-Magsalita , W1. pagyakan!!Origin: Samar-Leyte!!Ex. Ayaw pagpahitas-a an imo tingog o ayaw pagyam-id, kondi PAGYAKAN hin kalmado , magsalita
-Magsimula , W1. magtikang!!Origin: Samar-Leyte!!W2. tikangan!!Origin: Leyte-Samar!!Ex. Katapos mo TIKANGAN an pag-aram ha Biblia, hinsabtan mo nga ini nga mga selebrasyon aktuwal nga nagtikang ha pagano, end
-Magsindi , W1. pagdagkot!!Origin: Samar-Leyte!!W2. magharing!!Origin: Samar-Leyte!!Ex. Mas masayon para ha mga tawo hadto nga umaro na la hin baga ha ira mga amyaw, kon posible, imbes nga hira mismo an MAGHARING, end
+Magkalat , W1. pagpasarang!!Origin: Samar-Leyte!!Ex. ha PAGPASARANG hin sayop nga impormasyon , end
+Magkita , W1. pagsugat!!Origin: Leyte!!W2. magkita!!Origin: Samar-Leyte!!Ex. MAGKITA kita ha Ginhadian han Dios , end
+Maglaba , W1. labhan!!Origin: Leyte-Samar!!Ex. An aton mga bado liwat kinahanglan regular nga LABHAN basi magin limpyo ngan presentable W2. pagbunak!!Origin: Samar , end
+Magligtas , W1. pagsalbar!!Origin: Leyte!!W2. pagtalwas!!Origin: Samar!!W3. pagbulig!!Origin: Leyte-Samar!!Ex. Inabot an pinili nga awtoridad ha PAGBULIG  , end
+Magpahirap , W1.pagpakuri!!Origin: Samar-Leyte!!W2.magpapasakit!!Origin: Samar-Leyte!!Ex. alit, an mga pagsari posible nga MAGPAPASAKIT ha ngatanan dinhi ha tuna , end
+Magsalita , W1. pagyakan!!Origin: Samar-Leyte!!Ex. Ayaw pagpahitas-a an imo tingog o ayaw pagyam-id, kondi PAGYAKAN hin kalmado , end
+Magsimula , W1. magtikang!!Origin: Samar-Leyte!!W2. tikangan!!Origin: Leyte-Samar!!Ex. Katapos mo TIKANGAN an pag-aram ha Biblia, hinsabtan mo nga ini nga mga selebrasyon aktuwal nga nagtikang ha pagano , end
+Magsindi , W1. pagdagkot!!Origin: Samar-Leyte!!W2. magharing!!Origin: Samar-Leyte!!Ex. Mas masayon para ha mga tawo hadto nga umaro na la hin baga ha ira mga amyaw, kon posible, imbes nga hira mismo an MAGHARING , end
 Magtaas , W1. mag-alsa!!Origin: leyte-Samar!!Ex. Katapos ginhangyo han lalaki nga MAG-ALSA han ira mga kamot adton nauyon nga sunugon an ngatanan nga mga idolo , end
 Magulang , W1. kag-anak!!Origin: Leyte-Samar!!Ex. Napaid hiya ha kabataan nga namatyan hin KAG-ANAK!!W2. ginikanan!!Origin: Samar , end
 Maingay , W1. maaringasa!!Origin: Leyte-Samar!!Ex. Likayi an MAARINGASA nga Pagrayhak!!W2. mangiras!!Origin: Samar , maingay
@@ -230,7 +230,7 @@ Makapal , W1. madakmol!!Origin: Leyte-Samar!!Ex. samtang ginpupugngan nga diri m
 Malapit , W1. harani!!Origin: Leyte-Samar!!Ex. Kondi, diri ako maaram nga HIRANI na mahitabo an daku nga mga pagbag-o ha akon kinabuhi!!W2. duok!!Origin: Samar , end
 Maligo , W1. kumarigu!!Origin: Leyte-Samar!!Ex. An sanlahon nga hi Naaman ginsugo nga KUMARIGO hin pito ka beses ha Salog Jordan, ngan katapos hito hiya bug-os nga naopay!!W2. mangarigo!!Origin: Leyte-Samar , maligo
 Mana , W1. panurundon!!Origin: Leyte-Samar!!Ex. Ano an ginpili ni Esau may kalabotan ha iya PANURUNDON!!W2. asukarera!!Origin: Samar , end
-Mangasiwa , W1. magdumara!!Origin: Samar!!Ex.  may tumambong nga adulto nga brother nga diri puydi MAGDUMARA hito nga katirok!!W2. manguna!!Origin: leyte-Samar , mangasiwa
+Mangasiwa , W1. magdumara!!Origin: Samar!!Ex.  may tumambong nga adulto nga brother nga diri puydi MAGDUMARA hito nga katirok!!W2. manguna!!Origin: leyte-Samar , end
 Mangkukulam , W1. aswang!!Origin: Leyte-Samar!!Ex. Agsob nga ginbabasol an mga ASWANG tungod han damu nga mga karaotan, upod na an sakit!!W2. barangan!!Origin: Samar , end
 Manunukso , W1. magsurulay!!Origin: Samar-Leyte!!W2. parasulay!!Origin: Samar!!Ex. Hiya an bantogan nga PARASULAY , end
 Mapangarapin , W1. ambisyoso!!Origin: Samar-Leyte!!Ex. AMBISYUSO gud hin duro ini he kulas , end
@@ -241,12 +241,12 @@ Matanda , W1. tigurang!!Origin: Leyte!!Ex. angayan para ha TIGURANG ha kadaan ng
 Luma , W1. kadaan!!Origin: Leyte-Samar!!Ex. Amo nga masisiring naton nga KADAAN ito nga libro pero moderno , end
 Matangkad , W1. hataas!!Origin: Leyte-Samar!!Ex. HITAAS hiya nga babayi ngan mahusay!!W2. lanyog!!Origin: Samar , end
 Mukha , W1. kahimo!!Origin: Samar!!W2. nawong!!Origin: Leyte-Samar!!Ex. Nakakita na ako nga an ekspresyon ha NAWONG han usa nga bugto nga lalaki nagbag-o tikang ha kabaraka ngadto ha pagin kalmado , end
-Nagagalit , W1. nasisina!!Origin: Leyte!!Ex. Kon diri kami nagkakauyon ni Nanay, NASISINA hiya ha ngatanan ko nga ginyayakan!!W2. nag-iisug!!Origin: Leyte-Samar , nagagalit
-Nagmamadali , W1. nagdadagmit!!Origin: Leyte-Samar!!W5. na-e-ikag!!Origin: Samar!!W6. nag-aapura!!Origin: Leyte!!Ex. Pilia adton baga hin makisangkayon ngan diri NAG-AAPURA , nagmamadali
-Nagsisisi , W1. nagbabasol!!Origin: Samar-Leyte!!Ex. Kondi may paglaom adton NAGBABASOL ngan natoo ha maopay nga sumat!!W2. mabidoon!!Origin: Leyte!!W3. mahinulsolon!!Origing: Samar , nagsisisi
+Nagagalit , W1. nasisina!!Origin: Leyte!!Ex. Kon diri kami nagkakauyon ni Nanay, NASISINA hiya ha ngatanan ko nga ginyayakan!!W2. nag-iisug!!Origin: Leyte-Samar , end
+Nagmamadali , W1. nagdadagmit!!Origin: Leyte-Samar!!W5. na-e-ikag!!Origin: Samar!!W6. nag-aapura!!Origin: Leyte!!Ex. Pilia adton baga hin makisangkayon ngan diri NAG-AAPURA , end
+Nagsisisi , W1. nagbabasol!!Origin: Samar-Leyte!!Ex. Kondi may paglaom adton NAGBABASOL ngan natoo ha maopay nga sumat!!W2. mabidoon!!Origin: Leyte!!W3. mahinulsolon!!Origing: Samar , end
 Nais , W1. karuyag!!Origin: Samar-Leyte!!Ex. An diri mo KARUYAG buhaton ha imo, ayaw pagbuhata ha iba!!W2. hingyap!!Origin: Samar-Leyte!!W3. ungara!!Origin: Samar , end
 Nakakatuwa , W1. makaruruyag!!Origin: Samar-Leyte!!W2. makalilipay!!Origin: Samar-Leyte!!Ex. MAKALILIPAY nga nalamposan nira ito ngan hira nagin mas malimpyo ngan andam ha pagsuporta , end
-Nakakayamot , W1. makangaralas!!Origin: Leyte-Samar!!W2. masumo!!Origin: Leyte!!Ex. MASUMO pag pinamati hin balik balik na istorya , nakakayamot
+Nakakayamot , W1. makangaralas!!Origin: Leyte-Samar!!W2. masumo!!Origin: Leyte!!Ex. MASUMO pag pinamati hin balik balik na istorya , end
 Nakaraan , W1. naglabay!!Origin: Samar-Leyte!!Ex. Antes Ngan Katapos—Madulom nga NAGLABAY Malamrag nga Tidaraon!!W2. hadto!!Origin: Leyte-Samar , end
 Nangyari , W1. nahitabo!!Origin: Leyte-Samar!!Ex. Tungod ini han NAHITABO katapos mamatay hi Jesus. , end
 Ng buong puso , W1. bug-os nga kinasing-kasing!!Origin: Samar-Leyte!!Ex. Tikang han pag-abot ha Russia, nag-ampo gud ako, Umabot an Imo ginhadian ha BUG-OS ko nga KASINGKASING. , end
@@ -261,44 +261,44 @@ Pabor , W1. pagpaura!!Origin: Samar-Leyte!!W2. pag-alayon!!Origin: Samar-Leyte!!
 Pag-ibig , W1. pag-gugma!!Origin: Samar-Leyte!!Ex.  Diri ba ini an lalaoman han usa tikang ha Dios nga amo an PAG-GUGMA , end
 Paghiwa , W1. pag-utod!!Origin: Samar-Leyte!!Ex. Katapos PAG-UTOD han mga parauma an panit han kahoy, nga nagigin hinungdan han pagtangis han mga kahoyW2. pag-gotgot!!Origin: Samar , end
 Pagitan , W1. butnga!!Origin: Samar-Leyte!!Ex. Ako magbubutang hin away ha BUTNGA nimo ngan han babaye , end
-Pagkain , W1. pagka-un!!Origin: Samar-Leyte!!Ex. PAGKA-UN ha Igo nga Panahon!!W2. karaonon!!Origin: Samar-Leyte , pagkain
+Pagkain , W1. pagka-un!!Origin: Samar-Leyte!!Ex. PAGKA-UN ha Igo nga Panahon!!W2. karaonon!!Origin: Samar-Leyte , end
 Pagkakamit , W1. pakakuha!!Origin: leyte-Samar!! W2. pakakarawat!!Origin: Samar!!Ex. An PAKAKARAWAT hito nakadepende han imo pagin masinugtanon , end
-Pagkakataon , W1. higayon!!Origin: Samar-Leyte!!Ex. An Yawa namimiling hin mga HIGAYON ha paglamoy ha aton, end
+Pagkakataon , W1. higayon!!Origin: Samar-Leyte!!Ex. An Yawa namimiling hin mga HIGAYON ha paglamoy ha aton , end
 Pagkasira , W1. madaot!!Origin: Leyte!!Ex. MADAOT an pagkamagsarangkay, ngan mawara an espirituwal nga mga tumong!!W2. pag-karuba!!Origin: Samar , end
 Pagkatapos , W1. katima!!Origin: Samar!!W2. kahuman!!Origin: Samar-Leyte!!W3. katapos!!Origin: Samar-Leyte!!Ex. KATAPOS larangon an tawo, duha na la an kinahanglan buhaton basi matuman an katuyoan han Dios , end
 Pagtiisan , W1. pag-ilob!!Origin: Samar-Leyte!!Ex. PAG-ILOB han dako na samad ha lawas!!W2. pagpugong!!Origin: Samar-Leyte!! , end
-Palakpak , W1. pagpakpak!!Origin: Samar-Leyte!!Ex. PAGPAKPAK ni Juan han pagdaog ni pedro han kompetisyon , palakpak
-Palitan , W1. balyoan!!Origin: Samar-Leyte!!W2. masaliwnan!!Origin: Samar!!Ex. Pangalimbasog nga MASALIWNAN hin positibo an nakakaguol ngan nakakasubo nga panhunahuna , palitan
+Palakpak , W1. pagpakpak!!Origin: Samar-Leyte!!Ex. PAGPAKPAK ni Juan han pagdaog ni pedro han kompetisyon , end
+Palitan , W1. balyoan!!Origin: Samar-Leyte!!W2. masaliwnan!!Origin: Samar!!Ex. Pangalimbasog nga MASALIWNAN hin positibo an nakakaguol ngan nakakasubo nga panhunahuna , end
 Panahon , W1. panahon!!Origin: Samar-Leyte!!Ex. Mauyon ka gud nga mas masayon la magkaada hin PANAHON ha mga buruhaton nga imo naruruyagan , end
 Pangangalunya , W1. pag-adulteryo!!Origin: Leyte-Samar!!Ex. Kasagaran nga an PAG-ADULTERYO diri tigda, madagmit nga buhat , end
 Pantay , W1. pagkaparapriho!!Origin: Samar-Leyte!!Ex. Ginhunahuna ba han siyahan nga mga Kristiano an ira mga kalugaringon nga PARAPRIHO!!W2. tupong!! , end
 Patak , W1. turo!!Origin: Samar-Leyte!!W2. tun-og!!Origin: Samar Ex. Labi nga makatirigamnan an mga batan-on nga pariho hin makarepresko nga TUN-OG ha aga , end
 Pagbabago , W1. pagbabag-o!!Origin: Samar-Leyte!!Ex. Kondi, diri ako maaram nga hirani na mahitabo an daku nga mga PAGBABAG-O ha akon kinabuhi. , end
-Payuhan , W4. pagsagdon!!Origin: Samar-Leyte!!Ex. Kondi usahay tungod han disposisyon han usa, nag-aalang an iba paghatag hin SAGDON!!W2. pagtugon!!Origin: Samar , payuhan
+Payuhan , W4. pagsagdon!!Origin: Samar-Leyte!!Ex. Kondi usahay tungod han disposisyon han usa, nag-aalang an iba paghatag hin SAGDON!!W2. pagtugon!!Origin: Samar , end
 Peke , W1. palsipikado!!Origin: Samar-Leyte!!W3. diri tinuod!!Origin: Samar-Leyte!!Ex.  Mga eskwelahan ha pagturi’ yana an DIRI TINUOD ngan makamaratay. , end
 Peklat , W1. ulat!!Origin: Samar-Leyte!!Ex. Duha na katuig an eya ULAT tikang han eya kadisgrasya , end
 Pilitin , W1. pagpirit!!Origin: Samar-Leyte!!Ex. PAGPIRIT han pagbulig hit Fraternity!!W2. pag-aghat!!Origin: Samar , end
 Pinakamabuti , W1. gimaopayi!!Origin: Samar-Leyte!!Ex. An kabaraka waray gud makapugong kan Maria ha pagbuhat han GIMAOPAYI nga iya mahihimo!!W2. pinakamaupay!!Origin: Samar-Leyte , end
 Pinakamataas , W1. gihataasi!!Origin: Samar!!Ex.  ha GIHATAASI nga opisyal han gobyerno hiton nga rehiyon!!W2. pinakahitaas!!Origin: Samar-Leyte , end
-Pumatay , W1. makamaratay!!Origin: Samar-Leyte!!Ex. Usa nga MAKAMARATAY nga Pagkunsabo!!W2. pagpatay!!Origin: Samar-Leyte , pumatay
-Pumayag , W1. pag-abuyon!!Origin: Samar!!W2. sumugot!!Origin: Samar-Leyte!!Ex. SUMUGOT ako nga dumarahan hin pag-aram ha Biblia  , pumayag
-Punas , W1. pagpahid!!Origin: Samar-Leyte!!W2. paghinis!!Origin: Leyte!!W3. pag-trapo!!Origin: Samar-Leyte!!Ex. Naki alayon he Helen han PAG-TRAPO han era salog , punas
-Ramdam , W1. paghinumdom!!Origin: Samar-Leyte!!	W2. pag-abat!!Origin: Samar-Leyte!!Ex. PAG-ABAT ko waray ko na sangkay bis usa , ramdam
+Pumatay , W1. makamaratay!!Origin: Samar-Leyte!!Ex. Usa nga MAKAMARATAY nga Pagkunsabo!!W2. pagpatay!!Origin: Samar-Leyte , end
+Pumayag , W1. pag-abuyon!!Origin: Samar!!W2. sumugot!!Origin: Samar-Leyte!!Ex. SUMUGOT ako nga dumarahan hin pag-aram ha Biblia  , end
+Punas , W1. pagpahid!!Origin: Samar-Leyte!!W2. paghinis!!Origin: Leyte!!W3. pag-trapo!!Origin: Samar-Leyte!!Ex. Naki alayon he Helen han PAG-TRAPO han era salog , end
+Ramdam , W1. paghinumdom!!Origin: Samar-Leyte!!	W2. pag-abat!!Origin: Samar-Leyte!!Ex. PAG-ABAT ko waray ko na sangkay bis usa , end
 Rebelyon , W1. pagrebelde!!Origin: Samar-Leyte!!Ex. ntelihente nga mga linarang nga mga tawo ngan mga anghel an resulta han PAGREBELDE ,  end
 Regalo , W1. hatag!!Origin: Samar-Leyte!!W2. regalo!!Origin: Samar-Leyte!!Ex. Ano an pinakamaopay nga REGALO nga iyo maihahatag ha iyo anak , end
-Rehas , W1. trangka!!Origin: Samar-Leyte!!Ex. waray na mga kandado, waray na mga TRANGKA, waray na bisan ano nga makakadaot han bug-os nga pagsarig ngan kalipay,  end
-Relikya , W1. hawla!!Origin: Samar-Leyte!!W2. kadaan na mga butang!!Origin: Samar-Leyte!!Ex. Imporatnte gud na maitago an mga KADAAN NA MGA BUTANG ,  end
+Rehas , W1. trangka!!Origin: Samar-Leyte!!Ex. waray na mga kandado, waray na mga TRANGKA, waray na bisan ano nga makakadaot han bug-os nga pagsarig ngan kalipay , end
+Relikya , W1. hawla!!Origin: Samar-Leyte!!W2. kadaan na mga butang!!Origin: Samar-Leyte!!Ex. Imporatnte gud na maitago an mga KADAAN NA MGA BUTANG , end
 Sakahan , W1. huron!!Origin: Leyte!!W2. u-ma!!Origin: Samar!!Ex. An mga parag u-ma nga nakakabulig ha ekonomiya , end
-Sakit , W1. ul-ul!!Origin: Leyte-Samar!!W2. sakit!!Origin: Leyte-Samar!!Ex. Hini nga paagi, inaabat ko nga baga hin waray ako SAKIT ,  end
-Sakripisyo , W1. pag-antos!!Origin: Samar!!W2. sakripisyo!!Origin: Samar-Leyte!!Ex. Kay ano nga daku nga SAKRIPISYO para kan Abram ngan Sarai an pagbaya ha ira balay ha Ur? , sakripisyo
+Sakit , W1. ul-ul!!Origin: Leyte-Samar!!W2. sakit!!Origin: Leyte-Samar!!Ex. Hini nga paagi, inaabat ko nga baga hin waray ako SAKIT , end
+Sakripisyo , W1. pag-antos!!Origin: Samar!!W2. sakripisyo!!Origin: Samar-Leyte!!Ex. Kay ano nga daku nga SAKRIPISYO para kan Abram ngan Sarai an pagbaya ha ira balay ha Ur? , end
 Salamin , W1. espiho!!Origin: Samar-leyte!!Ex. An imo pagkita ha imo kalugaringon maipapariho ha dagway nga makikita ha malimbong nga ESPIHO , end
 Salapi , W1. kwarta!!Origin: Samar-Leyte!!Ex. Ngan tungod kay waray balos nga KWARTA, kay ano nga sadang nira atamanon an palibot? , end
 Salpok , W1. pagsampak!!Origin: Leyte!!W2. binonggo!!Origin: Leyte-Samar!!Ex. Ha barko nga Titanic nga BINUNGGO ha daku hinduro nga yelo ngan nalunod han 1912  , end
-Salungatin , W1. pagkontra!!Origin: Leyte-Samar!!Ex. Ano an nahitatabo kon an mga nasud nangangalimbasog PAGKONTRA ha katuyoan han Dios?!!W2. pagsuway!!Origin: Samar , salungatin
+Salungatin , W1. pagkontra!!Origin: Leyte-Samar!!Ex. Ano an nahitatabo kon an mga nasud nangangalimbasog PAGKONTRA ha katuyoan han Dios?!!W2. pagsuway!!Origin: Samar , end
 Sama , W1. maraut!!Origin: Samar-Leyte!!Ex. MARAUT gud an mga kahimtang dinhi ha tuna tungod han ira impluwensia, labi na tikang han 1914!!W2. daot!!Origin: Leyte ,  end
 Sarili , W1. kalugaringon!!Origin: Samar-Leyte!!Ex. Hito nga paagi ginsusuportahan ko ngan han akon asawa an amon KALUGARINGON tubtob yana  ,  end
-Saya , W1. malipayon!!Origin: Leyte-Samar!!Ex. MALIPAYON nga bag-o nga tuig!!W2. rayhak!!Origin: Samar , saya
-Sawi , W1. namatay!!Origin: leyte-Samar!!Ex. NAMATAY an iya anak na misay!!W2. pasakit!!Origin: Leyte-Samar , sawi
+Saya , W1. malipayon!!Origin: Leyte-Samar!!Ex. MALIPAYON nga bag-o nga tuig!!W2. rayhak!!Origin: Samar , end
+Sawi , W1. namatay!!Origin: leyte-Samar!!Ex. NAMATAY an iya anak na misay!!W2. pasakit!!Origin: Leyte-Samar , end
 Selos , W1. panibugho!!Origin: Samar!!Ex. An PANIBUGHO in usa nga rason kon kay ano nagsasaramok it pamilya!!W2. pag-awa!!Origin: Leyte-Samar ,  end
 Sigla , W1. kadasig!!Origin: Samar!!Ex. Paonan-o hi Pedro nagpakita hin KADASIG ngan pagkabuotan?!!W2. pagkamilapayon!!Origin: Samar-Leyte!! ,  end
 Sikap , W1. paningkamot!!Origin: Samar-Leyte!!W2. pagtalinguha!!Origin: Samar!!W3. pangalimbasog!!Origin: Samar-Leyte , end
@@ -321,24 +321,24 @@ Tanong , W1. pakiana!!Origin: Samar-Leyte!!Ex. Diri maraot mag PAKIANA hin maupa
 Tapos , W1. tima!!Origin: Samar!!W2. human!!Origin: Samar-Leyte!!Ex. Alas otso na nahuHUMAN an misa han kanan alas syete han aga kada Domingo , end
 Taya , W1. Pusta!!Origin: Samar-Leyte!!Ex. Pirdi he Juan han eya PUSTA han bulang ,  end
 Testigo , W1. manarambong!!Origin: Samar-Leyte!!W2. testigo!!Origin: Samar-Leyte!!Ex. TESTIGO he Pedro han nangawat han era barangay ,  end
-Tingin , W1. pagtutok!!Origin: Samar-Leyte!!W2. pagkita!!Origin: Samar-Leyte!!Ex. Nangirhat dayon he Kulas PAGKITA niya nga namatay an era ayam ,  end
+Tingin , W1. pagtutok!!Origin: Samar-Leyte!!W2. pagkita!!Origin: Samar-Leyte!!Ex. Nangirhat dayon he Kulas PAGKITA niya nga namatay an era ayam , end
 Tugis , W1. pagdakop!!Origin: Samar-Leyte!!Ex. Nagkuri an mga Pulis PAGDAKOP han KRIMINAL , end
-Tuksuhin , W1. pagyaang-yaang!!Origin: Leyte!!W2. pag-sunlog!!Origin: Samar-Leyte!!Ex. Nag tinuok an bata han era PAG-SINUNLOG , tuksuhin
+Tuksuhin , W1. pagyaang-yaang!!Origin: Leyte!!W2. pag-sunlog!!Origin: Samar-Leyte!!Ex. Nag tinuok an bata han era PAG-SINUNLOG , end
 Tulong , W1. bulig!!Origin: Samar-Leyte!!Ex. An bata na gin kastigo, nangaro hin BULIG ha eya kag-anak!!W2. lihog!!Origin: Samar ,  end
 Tuluy-tuloy , W1. parupadayon!!Origin: Samar-Leyte!!Ex. PARUPADAYON an era sarayaw bisan mauran hin duro!!W2. waray hunong!!Origin: Leyte!!W3. waray ukoy!!Origin: Samar , end
 Tuparin , W1. paghinayon!!Origin: Samar-Leyte!!W2. paghuman!!Origin: Samar-Leyte!!W3. nabuhat!!Origin: Samar!!Ex. NABUHAT na gihap an ak mga hingyap , end
-Tuyo , W1. mamara!!Origin: Samar-Leyte!!W2. uga!!Origin: Samar!!W3. hubas!!Origin: Samar-Leyte!!Ex. HUBAS yana it dagat ha pangariguan ,  end
-Ubusin , W1. uboson!!Origin: Samar-Leyte!!Ex. UBOSON panguha an bunga han manga kay bangin pangawaton, end
-Udyok , W1. pag-aghat!!W2. pag-palahan ,  end
+Tuyo , W1. mamara!!Origin: Samar-Leyte!!W2. uga!!Origin: Samar!!W3. hubas!!Origin: Samar-Leyte!!Ex. HUBAS yana it dagat ha pangariguan , end
+Ubusin , W1. uboson!!Origin: Samar-Leyte!!Ex. UBOSON panguha an bunga han manga kay bangin pangawaton , end
+Udyok , W1. pag-aghat!!W2. pag-palahan , end
 Ugnayan , 1. sugpungan, sugpong!!2. kasukasuan!!3. sumama, sumanib!!W4. kaluluthan!!W5. luta!!W6. muko-buko , end
-Ulila , 1. walang mga magulang, walang pamilya!!W2. ilo!!W3. tulapos ,  end
+Ulila , 1. walang mga magulang, walang pamilya!!W2. ilo!!W3. tulapos , end
 Uliran , W1. surundan!!W5. turundogan!!W6. suruklan!!W7. batakan , end
 Ulitin , 1. sabihin uli, gawin muli!!W2. pag-utro!!W3. pagliwat!!W4. pag-uruutro!!W5. pagliwat-liwat  ,  end
 Ultimo , 1. huli, wakas, natira!!2. katapusan!!3. magtagal, maglwat!!W4. urhi!!W5. katapusan!!W6. pukis!!W7. giuurhii , end
 Umabuloy , 1. tumulong, sumaklolo!!W2. pagbulig!!W3. pagsanib!!W4. pag-alakapa ,  end
-Umakay , 1. pumatnugot, pumatnubay!!2. panguna!!W3. pag-una!!W4. pag-sugay!!W5. pagtungway , umakay
+Umakay , 1. pumatnugot, pumatnubay!!2. panguna!!W3. pag-una!!W4. pag-sugay!!W5. pagtungway , end
 Umalipusta , 1. tumampalasan!!W2. pagraugdaug!!W3. paglupaglupog!!W4. pagdurugas ,  end
-Umayaw , 1. sukal!!2. tapon, labis, sobra!!3. tumanggi, pagindi, humiya!!W4. pagbaribad!!W5. pagdiri!!W6. pagdehar!!W7. pagbinaribaray , umayaw
+Umayaw , 1. sukal!!2. tapon, labis, sobra!!3. tumanggi, pagindi, humiya!!W4. pagbaribad!!W5. pagdiri!!W6. pagdehar!!W7. pagbinaribaray , end
 Umulit , 1. dumulog, dumalo!!W2. pagtulos!!W3. pagsugmat!!W4. paglibwat ,  end
 Una , 1. muna, primera, uno, nangunguna!!2. panguna!!3. pinsang buo!!W4. siyahan!!W5. una!!W6. primero , end
 Unano , 1. bulilit, duwende!!2. pandak!!3. papandakin, bansutin!!W4. inano!!W5. duwendi ,  end
@@ -355,7 +355,7 @@ Walang-kahulilip , 1. di maihahantulad, di maipaparis, walang katulad!!W2. waray
 Walang-kaya , 1. hindi sanay!!2. walang karapatan, hindi marunong!!W3. diri igo!!W4. diri angay!!W5. diri takos ,  end
 Wani , 1. saklolo, tulong, abuloy, pagtulong!!2. tulong, abuloy, saklolo!!W3. bulig!!W4. tambulig!!W5. arayupan!!W6. lihog , end
 Wika , W1. yinaknan!!Origin: Samar-Leyte!!W2. pulong!!Origin: Samar-Leyte!!Ex. An PULONG han Ginoo ,  end
-Yakap , W1. pagkupkop!!Origin: Samar-Leyte!!Ex. An eya PAGKUPKOP ha poste han kahoy amu an naka solbar ha eya han hilarom nga baha!!W2. paghangkop!!Origin: Samar-Leyte , yakap
+Yakap , W1. pagkupkop!!Origin: Samar-Leyte!!Ex. An eya PAGKUPKOP ha poste han kahoy amu an naka solbar ha eya han hilarom nga baha!!W2. paghangkop!!Origin: Samar-Leyte , end
 Yaman , W1. karikohan!!Origin: Samar-Leyte!!Ex. An KARIKOHAN ha mineral han bansa!!W2. kamanggaran!!Origin: Samar  , end
 Yamot , 1. pagod, napapagal!!2. pumagod, mamagod, yumamot!!W3. guol!!W4. kapoy!!W5. rahol!!W6. pagal!!W7. butlaw , yamot
 Yapos , 1. yumapos, yumakap!!W2. paggakos!!W3. pagkupkop!!W4. paghangkop ,  end
