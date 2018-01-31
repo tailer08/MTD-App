@@ -1,8 +1,11 @@
 package me.thesis.mtd_app;
 
 import android.content.Context;
+import android.content.res.Resources;
+import android.media.MediaPlayer;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -54,7 +57,21 @@ public class DefnAdapter extends ArrayAdapter {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCallBack.speakToFragment(finalS.substring(3,finalS.length()));
+                Resources res = getContext().getResources();
+                String wordToSpeak = finalS.substring(3,finalS.length());
+                int soundId = res.getIdentifier(wordToSpeak.toLowerCase(),"raw", getContext().getPackageName());
+                MediaPlayer wordSound = null;
+                try {
+                    wordSound = MediaPlayer.create(getContext(), soundId);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                if(wordSound == null){
+                    Log.d("mtd-app", "wordSound not found");
+                }else{
+                    wordSound.start();
+                }
+    //                mCallBack.speakToFragment(finalS.substring(3,finalS.length()));
             }
         });
         return convertView;
