@@ -5,6 +5,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -159,11 +160,7 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         sound.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                if (w.getLanguage().equals("Waray")) {
-                    speakToFragment(w.getWord());
-                } else {
-                    speak(w.getWord());
-                }
+                speakToFragment(w.getWord());
             }});
 
         deleteButton.setOnClickListener(new View.OnClickListener() {
@@ -224,8 +221,28 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
 
     @Override
     public void speakToFragment(String word) {
+        Resources res = getActivity().getResources();
+        String wordToSpeak = word;
 
-        Log.d("mtd-app","word to speak="+word);
-        speak(mService.getDBHandler().getPhonetic(word));
+        if (wordToSpeak.contains(" ")) {
+            wordToSpeak=wordToSpeak.replace(" ","");
+        } else if (wordToSpeak.contains("-")) {
+            wordToSpeak=wordToSpeak.replace("-","");
+        }
+
+        int soundId = res.getIdentifier(wordToSpeak.toLowerCase(),"raw", getActivity().getPackageName());
+        MediaPlayer wordSound = null;
+        try {
+            wordSound = MediaPlayer.create(getActivity(), soundId);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        if(wordSound == null){
+            Log.d("mtd-app", "wordSound not found");
+        }else{
+            wordSound.start();
+        }
+//        Log.d("mtd-app","word to speak="+word);
+//        speak(mService.getDBHandler().getPhonetic(word));
     }
 }
