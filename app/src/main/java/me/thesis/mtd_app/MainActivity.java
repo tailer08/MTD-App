@@ -168,6 +168,12 @@ public class MainActivity extends AppCompatActivity
         }else if (id == R.id.nav_about) {
             getFragmentManager().beginTransaction().replace(R.id.content_frame,
                     new AboutFragment()).commit();
+        }else if (id == R.id.nav_help) {
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                    new HelpFragment()).commit();
+        }else if (id == R.id.nav_feedback) {
+            getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                    new FeedbackFragment()).commit();
         } else if (id == R.id.nav_admin) {
             Bundle bl = new Bundle();
             if(this.loginFragment.isLoggedIn()){
