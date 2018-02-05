@@ -5,8 +5,12 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.os.ParcelFileDescriptor;
+import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -15,10 +19,16 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
+
 import me.thesis.mtd_app.db.DBHandler;
+import me.thesis.mtd_app.db.Word;
 import me.thesis.mtd_app.service.MTDService;
+import pl.droidsonroids.gif.GifDrawable;
 
 public class AddWordFragment extends Fragment {
 
@@ -29,7 +39,12 @@ public class AddWordFragment extends Fragment {
     private EditText word;
     private EditText definition;
     private EditText phonetic;
+    private EditText sample;
     private Button save_button;
+    private Button photo_button;
+    private ImageView gif;
+
+    private Uri mUri;
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
@@ -38,6 +53,23 @@ public class AddWordFragment extends Fragment {
                 mService = ((MTDService.LocalBinder) service).getService();
                 dbHandler = mService.getDBHandler();
                 Log.d("mtd-app","************************************mService initialized");
+
+                try {
+                    if ((getArguments().getString("state")).equals("editWord")) {
+                        Log.d("mtd-app","here at addword for editword");
+
+                        Cursor c=(mService.getDBHandler()).getData(getArguments().getString("word"));
+                        c.moveToFirst();
+
+                        Word w=new Word(c);
+                        word.setText(w.getWord(), TextView.BufferType.EDITABLE);
+                        definition.setText(w.getDefn().split("!!Ex. ")[0], TextView.BufferType.EDITABLE);
+                        phonetic.setText(dbHandler.getPhonetic(w.getWord()), TextView.BufferType.EDITABLE);
+                        sample.setText(w.getDefn().split("!!Ex. ")[1], TextView.BufferType.EDITABLE);
+                    }
+                } catch (NullPointerException e) {
+                    Log.d("mtd-app","Not for editing.");
+                }
             }
         }
         @Override
@@ -49,23 +81,49 @@ public class AddWordFragment extends Fragment {
 
         word = (EditText)mView.findViewById(R.id.word);
         definition = (EditText)mView.findViewById(R.id.definition);
-        phonetic = (EditText)mView.findViewById(R.id.definition);
+        phonetic = (EditText)mView.findViewById(R.id.phonetic);
+        sample = (EditText)mView.findViewById(R.id.sample);
         save_button = (Button)mView.findViewById(R.id.save);
+        photo_button = (Button)mView.findViewById(R.id.photo);
+        gif = (ImageView)mView.findViewById(R.id.add_gif);
 
         save_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(dbHandler.addWord(word.getText().toString(),definition.getText().toString(),"Waray",1, "")){
+                if(dbHandler.addWord(word.getText().toString(),
+                        definition.getText().toString().concat("!!Ex. "+sample.getText().toString()),
+                        "Waray",1, mUri.toString())) {
                     dbHandler.addPhonetic(word.getText().toString(),phonetic.getText().toString());
                     Log.d("mtd-app", "****************Success on adding new user generated word");
                     InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
                     imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
                     Toast.makeText(getActivity(),word.getText().toString()+" added to database.",Toast.LENGTH_LONG).show();
                     getActivity().getFragmentManager().popBackStack();
-                };
+                } else {
+                    getActivity().getFragmentManager().popBackStackImmediate();
+                }
+            }
+        });
+
+        photo_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                photo_button.setEnabled(false);
+                Intent galleryIntent=new Intent(Intent.ACTION_PICK,
+                        MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+                startActivityForResult(galleryIntent,1);
             }
         });
         return mView;
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Log.d("mtd-app","got photo");
+        if (resultCode==-1 && requestCode==1 && data!=null) {
+            mUri=data.getData();
+            decodeUri();
+        }
     }
 
     @Override
@@ -87,5 +145,20 @@ public class AddWordFragment extends Fragment {
             getActivity().unbindService(mConnection);
         }
         super.onDestroy();
+    }
+
+    public void decodeUri() {
+        ParcelFileDescriptor parcelFD=null;
+
+        try {
+            Log.d("mtd-app","decoding uri");
+            GifDrawable g=new GifDrawable(getActivity().getContentResolver(),mUri);
+            g.start();
+            gif.setImageDrawable(g);
+            gif.setVisibility(View.VISIBLE);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

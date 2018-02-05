@@ -1,12 +1,16 @@
 package me.thesis.mtd_app;
 
+import android.app.AlertDialog;
 import android.app.Fragment;
+import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.database.Cursor;
-import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.speech.tts.TextToSpeech;
@@ -22,6 +26,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Locale;
@@ -29,18 +34,20 @@ import java.util.Locale;
 import me.thesis.mtd_app.db.DBHandler;
 import me.thesis.mtd_app.db.Word;
 import me.thesis.mtd_app.service.MTDService;
+import pl.droidsonroids.gif.GifDrawable;
 
 public class WordFragment extends Fragment implements TextToSpeech.OnInitListener, DefnAdapter.CallBack {
 
     private View mView;
     private MTDService mService=null;
     private boolean isBound=false;
+    private boolean isObserving;
 
     private TextView word;
     private ImageView gif;
     private TextToSpeech tts;
     private ImageButton favorite,sound;
-    private Button deleteButton;
+    private Button deleteButton, editButton;
     private ListView listView;
     private DefnAdapter defnAdapter;
     private DBHandler db;
@@ -65,6 +72,38 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         public void onServiceDisconnected(ComponentName componentName) { mService=null;}
     };
 
+    private BroadcastReceiver receiver=new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            Log.d("mtd-app","received bishes");
+            String i=intent.getStringExtra("status");
+            if (i.equals("ok")) {
+                AddWordFragment addWordFragment=new AddWordFragment();
+                Bundle b=new Bundle();
+                b.putString("state","editWord");
+                b.putString("word",w.getWord());
+                addWordFragment.setArguments(b);
+                getActivity().getFragmentManager().beginTransaction().
+                        replace(R.id.content_frame, addWordFragment,null).addToBackStack(null).commit();
+            } else {
+                AlertDialog.Builder builder1 = new AlertDialog.Builder(getActivity());
+                builder1.setMessage("Only an Administrator can add new words. \nLogin first at Admin Page on the menu.");
+                builder1.setCancelable(true);
+
+                builder1.setPositiveButton(
+                        "Ok",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
+
+                AlertDialog alert11 = builder1.create();
+                alert11.show();
+            }
+        }
+    };
+
     private void updateDefn() {
         defn.removeAll(defn);
         defn.addAll(Arrays.asList(w.getDefn().split("!!")));
@@ -85,15 +124,30 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
             favorite.setImageResource(R.drawable.star_on);
         }
 
-        gif.setImageResource(getActivity().getApplicationContext().
-                getResources().getIdentifier("drawable/"+w.getGIF(),
-                null,getActivity().getApplicationContext().getPackageName()));
-//
+        if (!w.getGIF().contains("/")) {
+            gif.setImageResource(getActivity().getApplicationContext().
+                    getResources().getIdentifier("drawable/" + w.getGIF(),
+                    null, getActivity().getApplicationContext().getPackageName()));
+        }
+        else {
+            try {
+                GifDrawable g=new GifDrawable(getActivity().getContentResolver(), Uri.parse(w.getGIF()));
+                g.start();
+                gif.setImageDrawable(g);
+                gif.setVisibility(View.VISIBLE);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+
+        }
         /* Showing delete button for userwords */
         if(w.getUserWord() == 0){
             deleteButton.setVisibility(View.GONE);
+            editButton.setVisibility(View.GONE);
         } else {
             deleteButton.setVisibility(View.VISIBLE);
+            editButton.setVisibility(View.VISIBLE);
         }
     }
 
@@ -139,6 +193,7 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
 
         word=(TextView) mView.findViewById(R.id.word_main);
         deleteButton = (Button)mView.findViewById(R.id.delete_button);
+        editButton = (Button)mView.findViewById(R.id.edit_button);
 
         gif = (ImageView)mView.findViewById(R.id.gif);
         listView=(ListView) mView.findViewById(R.id.word_list);
@@ -184,6 +239,17 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
                 }
             }
         });
+        editButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(getActivity(),MTDService.class);
+                i.setAction(MTDService.ACTION_ADMIN);
+                getActivity().startService(i);
+            }});
+
+        IntentFilter filter=new IntentFilter();
+        filter.addAction(MTDService.CHECK_ADMIN);
+        getActivity().registerReceiver(receiver,filter);
         return mView;
     }
 
@@ -196,6 +262,7 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
                     mConnection,
                     Context.BIND_AUTO_CREATE);
             isBound=true;
+            isObserving=true;
         } else {
             showWord();
             editLookup();
@@ -211,6 +278,11 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         if (isBound) {
             isBound=false;
             getActivity().unbindService(mConnection);
+        }
+
+        if (isObserving) {
+            getActivity().unregisterReceiver(receiver);
+            isObserving=false;
         }
 
         if (tts!=null) {

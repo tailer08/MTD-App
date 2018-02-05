@@ -82,6 +82,9 @@ public class LoginFragment extends Fragment {
                         signup_button.setVisibility(View.GONE);
                         InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
                         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+                        Intent i=new Intent(getActivity(),MTDService.class);
+                        i.setAction(MTDService.ACTION_LOG_IN);
+                        getActivity().startService(i);
                     }
                 }else{
                     isLoggedIn = false;

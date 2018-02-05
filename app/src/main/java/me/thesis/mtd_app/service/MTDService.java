@@ -17,10 +17,16 @@ import me.thesis.mtd_app.db.DBHandler;
 public class MTDService extends IntentService {
 
     public static final String ACTION_INIT_DB="me.thesis.mtd_app.service.action.INIT_DB";
+    public static final String ACTION_LOG_IN="me.thesis.mtd_app.service.action.LOG_IN";
+    public static final String ACTION_ADMIN="me.thesis.mtd_app.service.action.ADMIN";
+
     public static final String DISPLAY_HOME="me.thesis.mtd_app.service.DISPLAY_HOME";
+    public static final String CHECK_ADMIN="me.thesis.mtd_app.service.CHECK_ADMIN";
 
     private final IBinder mBinder=new LocalBinder();
     private DBHandler dbHandler=null;
+
+    private boolean isLoggedIn=false;
 
     private void initWord() {
         try {
@@ -78,6 +84,18 @@ public class MTDService extends IntentService {
             }
 
             Intent i=new Intent(DISPLAY_HOME);
+            sendBroadcast(i);
+        } else if (intent!=null && intent.getAction().equals(ACTION_LOG_IN)) {
+            isLoggedIn=!isLoggedIn;
+            Log.d("mtd-app","Logged in in service");
+        } else if (intent!=null && intent.getAction().equals(ACTION_ADMIN)) {
+            Intent i=new Intent(CHECK_ADMIN);
+
+            if (isLoggedIn) {
+                i.putExtra("status","ok");
+            } else {
+                i.putExtra("status","no");
+            }
             sendBroadcast(i);
         }
     }
