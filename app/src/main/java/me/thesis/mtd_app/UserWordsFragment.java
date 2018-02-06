@@ -83,7 +83,7 @@ public class UserWordsFragment extends Fragment {
                 b.putString("word",listView.getItemAtPosition(i).toString());
                 wordFragment.setArguments(b);
                 getActivity().getFragmentManager().beginTransaction().
-                        replace(R.id.content_frame, wordFragment,null).addToBackStack(null).commit();
+                        replace(R.id.content_frame, wordFragment,null).addToBackStack("userword").commit();
             }});
 
 //      Adding a user_generater_word button
@@ -96,7 +96,7 @@ public class UserWordsFragment extends Fragment {
                     AddWordFragment addWordFragment=new AddWordFragment();
                     getActivity().getFragmentManager().beginTransaction().
                             replace(R.id.content_frame,addWordFragment,null).
-                            addToBackStack(null).commit();
+                            addToBackStack("userword").commit();
                 } else {
                     AlertDialog.Builder builder1 = new AlertDialog.Builder(getActivity());
                     builder1.setMessage("Only an Administrator can add new words. \nLogin first at Admin Page on the menu.");

@@ -1,5 +1,6 @@
 package me.thesis.mtd_app;
 
+import android.Manifest;
 import android.app.AlertDialog;
 import android.app.Fragment;
 import android.content.BroadcastReceiver;
@@ -9,6 +10,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.media.MediaPlayer;
@@ -16,7 +18,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.speech.tts.TextToSpeech;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,7 +43,9 @@ import me.thesis.mtd_app.db.Word;
 import me.thesis.mtd_app.service.MTDService;
 import pl.droidsonroids.gif.GifDrawable;
 
-public class WordFragment extends Fragment implements TextToSpeech.OnInitListener, DefnAdapter.CallBack {
+public class WordFragment extends Fragment implements TextToSpeech.OnInitListener,
+        DefnAdapter.CallBack,
+        ActivityCompat.OnRequestPermissionsResultCallback {
 
     private View mView;
     private MTDService mService=null;
@@ -57,6 +64,8 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
     private Word w;
     private String param;
     private ArrayList<String> defn;
+
+    private static final int MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE=0;
 
     private ServiceConnection mConnection=new ServiceConnection() {
         @Override
@@ -77,7 +86,6 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
     private BroadcastReceiver receiver=new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            Log.d("mtd-app","received bishes");
             String i=intent.getStringExtra("status");
             if (i.equals("ok")) {
                 AddWordFragment addWordFragment=new AddWordFragment();
@@ -86,7 +94,7 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
                 b.putString("word",w.getWord());
                 addWordFragment.setArguments(b);
                 getActivity().getFragmentManager().beginTransaction().
-                        replace(R.id.content_frame, addWordFragment,null).addToBackStack(null).commit();
+                        replace(R.id.content_frame, addWordFragment,null).addToBackStack("editword").commit();
             } else {
                 AlertDialog.Builder builder1 = new AlertDialog.Builder(getActivity());
                 builder1.setMessage("Only an Administrator can add new words. \nLogin first at Admin Page on the menu.");
@@ -133,10 +141,18 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         }
         else {
             try {
-                GifDrawable g=new GifDrawable(getActivity().getContentResolver(), Uri.parse(w.getGIF()));
-                g.start();
-                gif.setImageDrawable(g);
-                gif.setVisibility(View.VISIBLE);
+                if (ContextCompat.checkSelfPermission(getActivity(),
+                        Manifest.permission.READ_EXTERNAL_STORAGE)== PackageManager.PERMISSION_GRANTED) {
+                    GifDrawable g=new GifDrawable(getActivity().getContentResolver(), Uri.parse(w.getGIF()));
+                    g.start();
+                    gif.setImageDrawable(g);
+                    gif.setVisibility(View.VISIBLE);
+                } else {
+                    ActivityCompat.requestPermissions(getActivity(),
+                            new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
+                            MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE);
+                }
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -249,6 +265,26 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         filter.addAction(MTDService.CHECK_ADMIN);
         getActivity().registerReceiver(receiver,filter);
         return mView;
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE: {
+                if (grantResults.length > 0 && grantResults[0]==PackageManager.PERMISSION_GRANTED) {
+                    try {
+                        GifDrawable g=new GifDrawable(getActivity().getContentResolver(), Uri.parse(w.getGIF()));
+                        g.start();
+                        gif.setImageDrawable(g);
+                        gif.setVisibility(View.VISIBLE);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                } else {
+                    Toast.makeText(getActivity(),"Permission denied.",Toast.LENGTH_LONG).show();
+                }
+            }
+        }
     }
 
     @Override

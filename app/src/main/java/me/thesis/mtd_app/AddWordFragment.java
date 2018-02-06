@@ -1,6 +1,7 @@
 package me.thesis.mtd_app;
 
 import android.app.Fragment;
+import android.app.FragmentManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -44,6 +45,8 @@ public class AddWordFragment extends Fragment {
     private Button photo_button;
     private ImageView gif;
 
+    private String firstWord;
+
     private Uri mUri;
 
     private ServiceConnection mConnection=new ServiceConnection() {
@@ -66,14 +69,16 @@ public class AddWordFragment extends Fragment {
                         definition.setText(w.getDefn().split("!!Ex. ")[0], TextView.BufferType.EDITABLE);
                         phonetic.setText(dbHandler.getPhonetic(w.getWord()), TextView.BufferType.EDITABLE);
                         sample.setText(w.getDefn().split("!!Ex. ")[1], TextView.BufferType.EDITABLE);
+                        mUri=Uri.parse(w.getGIF());
                         try {
-                            GifDrawable g=new GifDrawable(getActivity().getContentResolver(), Uri.parse(w.getGIF()));
+                            GifDrawable g=new GifDrawable(getActivity().getContentResolver(), mUri);
                             g.start();
                             gif.setImageDrawable(g);
                             gif.setVisibility(View.VISIBLE);
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
+                        firstWord=word.getText().toString();
                     }
                 } catch (NullPointerException e) {
                     Log.d("mtd-app","Not for editing.");
@@ -100,7 +105,7 @@ public class AddWordFragment extends Fragment {
             public void onClick(View view) {
                 if(dbHandler.addWord(word.getText().toString(),
                         definition.getText().toString().concat("!!Ex. "+sample.getText().toString()),
-                        "Waray",1, mUri.toString())) {
+                        "Waray",1, mUri.toString()) && firstWord==null) {
                     dbHandler.addPhonetic(word.getText().toString(),phonetic.getText().toString());
                     Log.d("mtd-app", "****************Success on adding new user generated word");
                     InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -108,12 +113,20 @@ public class AddWordFragment extends Fragment {
                     Toast.makeText(getActivity(),word.getText().toString()+" added to database.",Toast.LENGTH_LONG).show();
                     getActivity().getFragmentManager().popBackStack();
                 } else {
-                    dbHandler.deletePhonetic(word.getText().toString());
-                    dbHandler.deleteWord(word.getText().toString());
+                    Log.d("mtd-app","first word="+firstWord);
+                    dbHandler.deletePhonetic(firstWord);
+                    dbHandler.deleteWord(firstWord);
                     dbHandler.addWord(word.getText().toString(),
                             definition.getText().toString().concat("!!Ex. "+sample.getText().toString()),
                             "Waray",1, mUri.toString());
-                    getActivity().getFragmentManager().popBackStackImmediate();
+                    dbHandler.addPhonetic(word.getText().toString(),phonetic.getText().toString());
+                    WordFragment wordFragment=new WordFragment();
+                    Bundle b=new Bundle();
+                    b.putString("word",word.getText().toString());
+                    wordFragment.setArguments(b);
+                    getActivity().getFragmentManager().popBackStack("userword", FragmentManager.POP_BACK_STACK_INCLUSIVE);
+                    getActivity().getFragmentManager().beginTransaction().
+                            replace(R.id.content_frame,wordFragment,null).addToBackStack("addWord").commit();
                 }
             }
         });
