@@ -66,6 +66,14 @@ public class AddWordFragment extends Fragment {
                         definition.setText(w.getDefn().split("!!Ex. ")[0], TextView.BufferType.EDITABLE);
                         phonetic.setText(dbHandler.getPhonetic(w.getWord()), TextView.BufferType.EDITABLE);
                         sample.setText(w.getDefn().split("!!Ex. ")[1], TextView.BufferType.EDITABLE);
+                        try {
+                            GifDrawable g=new GifDrawable(getActivity().getContentResolver(), Uri.parse(w.getGIF()));
+                            g.start();
+                            gif.setImageDrawable(g);
+                            gif.setVisibility(View.VISIBLE);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                     }
                 } catch (NullPointerException e) {
                     Log.d("mtd-app","Not for editing.");
@@ -100,6 +108,11 @@ public class AddWordFragment extends Fragment {
                     Toast.makeText(getActivity(),word.getText().toString()+" added to database.",Toast.LENGTH_LONG).show();
                     getActivity().getFragmentManager().popBackStack();
                 } else {
+                    dbHandler.deletePhonetic(word.getText().toString());
+                    dbHandler.deleteWord(word.getText().toString());
+                    dbHandler.addWord(word.getText().toString(),
+                            definition.getText().toString().concat("!!Ex. "+sample.getText().toString()),
+                            "Waray",1, mUri.toString());
                     getActivity().getFragmentManager().popBackStackImmediate();
                 }
             }
@@ -108,7 +121,6 @@ public class AddWordFragment extends Fragment {
         photo_button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                photo_button.setEnabled(false);
                 Intent galleryIntent=new Intent(Intent.ACTION_PICK,
                         MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 startActivityForResult(galleryIntent,1);
