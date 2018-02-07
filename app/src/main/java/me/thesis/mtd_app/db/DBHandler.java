@@ -7,6 +7,7 @@ import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
+import android.support.annotation.Nullable;
 import android.util.Log;
 
 import java.util.ArrayList;
@@ -69,7 +70,7 @@ public class DBHandler extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public boolean addWord(String word, String def, String lang, int userWord, String gif) {
+    public boolean addWord(String word, String def, String lang, int userWord, @Nullable String gif) {
         Cursor data = getData(word);
         data.moveToFirst();
         if (data.getCount() == 0) {

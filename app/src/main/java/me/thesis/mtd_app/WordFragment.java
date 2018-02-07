@@ -134,31 +134,33 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
             favorite.setImageResource(R.drawable.star_on);
         }
 
-        if (!w.getGIF().contains("/")) {
-            gif.setImageResource(getActivity().getApplicationContext().
-                    getResources().getIdentifier("drawable/" + w.getGIF(),
-                    null, getActivity().getApplicationContext().getPackageName()));
-        }
-        else {
-            try {
-                if (ContextCompat.checkSelfPermission(getActivity(),
-                        Manifest.permission.READ_EXTERNAL_STORAGE)== PackageManager.PERMISSION_GRANTED) {
-                    GifDrawable g=new GifDrawable(getActivity().getContentResolver(), Uri.parse(w.getGIF()));
-                    g.start();
-                    gif.setImageDrawable(g);
-                    gif.setVisibility(View.VISIBLE);
-                } else {
-                    ActivityCompat.requestPermissions(getActivity(),
-                            new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
-                            MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE);
-                }
-
-            } catch (IOException e) {
-                e.printStackTrace();
+        if (w.getGIF()!=null) {
+            if (!w.getGIF().contains("/")) {
+                gif.setImageResource(getActivity().getApplicationContext().
+                        getResources().getIdentifier("drawable/" + w.getGIF(),
+                        null, getActivity().getApplicationContext().getPackageName()));
             }
+            else {
+                try {
+                    if (ContextCompat.checkSelfPermission(getActivity(),
+                            Manifest.permission.READ_EXTERNAL_STORAGE)== PackageManager.PERMISSION_GRANTED) {
+                        GifDrawable g=new GifDrawable(getActivity().getContentResolver(), Uri.parse(w.getGIF()));
+                        g.start();
+                        gif.setImageDrawable(g);
+                        gif.setVisibility(View.VISIBLE);
+                    } else {
+                        ActivityCompat.requestPermissions(getActivity(),
+                                new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
+                                MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE);
+                    }
 
-
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
+
+
         /* Showing delete button for userwords */
         if(w.getUserWord() == 0){
             deleteButton.setVisibility(View.GONE);

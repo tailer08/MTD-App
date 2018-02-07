@@ -20,6 +20,7 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -44,6 +45,7 @@ public class AddWordFragment extends Fragment {
     private Button save_button;
     private Button photo_button;
     private ImageView gif;
+    private ImageButton xmark;
 
     private String firstWord;
 
@@ -69,15 +71,22 @@ public class AddWordFragment extends Fragment {
                         definition.setText(w.getDefn().split("!!Ex. ")[0], TextView.BufferType.EDITABLE);
                         phonetic.setText(dbHandler.getPhonetic(w.getWord()), TextView.BufferType.EDITABLE);
                         sample.setText(w.getDefn().split("!!Ex. ")[1], TextView.BufferType.EDITABLE);
-                        mUri=Uri.parse(w.getGIF());
-                        try {
-                            GifDrawable g=new GifDrawable(getActivity().getContentResolver(), mUri);
-                            g.start();
-                            gif.setImageDrawable(g);
-                            gif.setVisibility(View.VISIBLE);
-                        } catch (IOException e) {
-                            e.printStackTrace();
+
+                        if (w.getGIF()!=null) {
+                            mUri=Uri.parse(w.getGIF());
+                            try {
+                                GifDrawable g=new GifDrawable(getActivity().getContentResolver(), mUri);
+                                g.start();
+                                gif.setImageDrawable(g);
+                                gif.setVisibility(View.VISIBLE);
+                                xmark.setVisibility(View.VISIBLE);
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        } else {
+                            xmark.setVisibility(View.GONE);
                         }
+                        
                         firstWord=word.getText().toString();
                     }
                 } catch (NullPointerException e) {
@@ -99,13 +108,24 @@ public class AddWordFragment extends Fragment {
         save_button = (Button)mView.findViewById(R.id.save);
         photo_button = (Button)mView.findViewById(R.id.photo);
         gif = (ImageView)mView.findViewById(R.id.add_gif);
+        xmark = (ImageButton)mView.findViewById(R.id.xbutton);
+
+        xmark.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                xmark.setVisibility(View.GONE);
+                gif.setImageDrawable(null);
+                mUri=null;
+            }});
 
         save_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(dbHandler.addWord(word.getText().toString(),
-                        definition.getText().toString().concat("!!Ex. "+sample.getText().toString()),
-                        "Waray",1, mUri.toString()) && firstWord==null) {
+
+                if (firstWord==null) {
+                    dbHandler.addWord(word.getText().toString(),
+                            definition.getText().toString().concat("!!Ex. "+sample.getText().toString()),
+                            "Waray",1,((mUri==null)?null:mUri.toString()));
                     dbHandler.addPhonetic(word.getText().toString(),phonetic.getText().toString());
                     Log.d("mtd-app", "****************Success on adding new user generated word");
                     InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -118,7 +138,7 @@ public class AddWordFragment extends Fragment {
                     dbHandler.deleteWord(firstWord);
                     dbHandler.addWord(word.getText().toString(),
                             definition.getText().toString().concat("!!Ex. "+sample.getText().toString()),
-                            "Waray",1, mUri.toString());
+                            "Waray",1,((mUri==null)?null:mUri.toString()));
                     dbHandler.addPhonetic(word.getText().toString(),phonetic.getText().toString());
                     WordFragment wordFragment=new WordFragment();
                     Bundle b=new Bundle();
@@ -147,6 +167,7 @@ public class AddWordFragment extends Fragment {
         Log.d("mtd-app","got photo");
         if (resultCode==-1 && requestCode==1 && data!=null) {
             mUri=data.getData();
+            xmark.setVisibility(View.VISIBLE);
             decodeUri();
         }
     }
