@@ -1,9 +1,11 @@
 package me.thesis.mtd_app;
 
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.database.Cursor;
@@ -86,7 +88,7 @@ public class AddWordFragment extends Fragment {
                         } else {
                             xmark.setVisibility(View.GONE);
                         }
-                        
+
                         firstWord=word.getText().toString();
                     }
                 } catch (NullPointerException e) {
@@ -123,15 +125,33 @@ public class AddWordFragment extends Fragment {
             public void onClick(View view) {
 
                 if (firstWord==null) {
-                    dbHandler.addWord(word.getText().toString(),
+                    if (dbHandler.addWord(word.getText().toString(),
                             definition.getText().toString().concat("!!Ex. "+sample.getText().toString()),
-                            "Waray",1,((mUri==null)?null:mUri.toString()));
-                    dbHandler.addPhonetic(word.getText().toString(),phonetic.getText().toString());
-                    Log.d("mtd-app", "****************Success on adding new user generated word");
-                    InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
-                    imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
-                    Toast.makeText(getActivity(),word.getText().toString()+" added to database.",Toast.LENGTH_LONG).show();
-                    getActivity().getFragmentManager().popBackStack();
+                            "Waray",1,((mUri==null)?null:mUri.toString()))) {
+                        dbHandler.addPhonetic(word.getText().toString(),phonetic.getText().toString());
+                        Log.d("mtd-app", "****************Success on adding new user generated word");
+                        InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+                        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+                        Toast.makeText(getActivity(),word.getText().toString()+" added to database.",Toast.LENGTH_LONG).show();
+                        getActivity().getFragmentManager().popBackStack();
+                    } else {
+                        AlertDialog.Builder builder1 = new AlertDialog.Builder(getActivity());
+                        builder1.setMessage("Word already exists.");
+                        builder1.setCancelable(true);
+
+                        builder1.setPositiveButton(
+                                "Ok",
+                                new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int id) {
+                                        dialog.cancel();
+                                        getActivity().getFragmentManager().popBackStack();
+                                    }
+                                });
+
+                        AlertDialog alert11 = builder1.create();
+                        alert11.show();
+                    }
+
                 } else {
                     Log.d("mtd-app","first word="+firstWord);
                     dbHandler.deletePhonetic(firstWord);
