@@ -19,58 +19,47 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                app:srcCompat="@drawable/logo"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/logo" />
 
             <TextView
                 android:id="@+id/text_about"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageView2"
-                android:layout_marginEnd="55dp"
-                android:layout_marginTop="10dp"
                 android:layout_centerHorizontal="true"
-                android:textColor="#FFFFFF"
-                android:textSize="15dp"
-                android:gravity="fill_horizontal"
-                android:text="Hi"/>
-
-            <TextView
-                android:id="@+id/title"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/text_about"
-                android:layout_marginTop="15dp"
-                android:layout_centerHorizontal="true"
-                android:textColor="#FFFFFF"
-                android:textSize="15dp"
-                android:text="Developers:"/>
+                android:text="here"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
 
             <ImageView
-                android:id="@+id/developers"
+                android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_below="@+id/title"
-                app:srcCompat="@drawable/devs"
-                android:layout_centerHorizontal="true"/>
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/text_about"
+                android:layout_marginTop="14dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/aboutfunction1" />
 
-            <TextView
-                android:id="@+id/names"
+            <ImageView
+                android:id="@+id/imageView10"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/developers"
-                android:layout_marginTop="15dp"
-                android:paddingBottom="50dp"
-                android:layout_centerHorizontal="true"
-                android:textColor="#FFFFFF"
-                android:textSize="15dp"
-                android:text="Bernido, Froilan and Edgar. (Left to right)" />
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView3"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/aboutfunction2" />
 
         </RelativeLayout>
+
     </ScrollView>
+
 </LinearLayout>
