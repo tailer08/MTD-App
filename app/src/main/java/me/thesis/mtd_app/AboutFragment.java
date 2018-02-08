@@ -18,10 +18,10 @@ public class AboutFragment extends Fragment {
 
         final TextView tv= (TextView)mView.findViewById(R.id.text_about);
         tv.setText("Thank you for using our app!\n\n\n" +
-                "Mother Tongue Dictionary is an offline " +
-                "Waray-Tagalog dictionary that allows users to" +
-                " search for the equivalent of Waray-Waray or Tagalog words and "+
-                "add new Waray-Waray words the user learned over time.\n\n\n");
+                "Mother Tongue Dictionary is developed by IT Student and is free to use by language communities around Visayas. Development began in June 2017, with most of the work carried out by IT Student of Eastern Visayas State University Tacloban Campus.\n\n\n" +
+                "The Application “Mother Tongue Dictionary” has its use for the students that is primarily to search the difficult Filipino and Waray-Waray words for their meanings. Definition area shows the meaning of the word, audio pronunciation, and favorite icon. The application shows also the related words and example " +
+                "sentence. Mother Tongue Dictionary has an audio pronunciation that will help the user to pronounce the word properly. The application has a translation function from Filipino to Waray-Waray. It will help the user "+
+                "understand the Waray-Waray word through translation. The proponents insert an example of gif animation every in action word.\n\n\n");
 
         return mView;
     }
