@@ -72,7 +72,11 @@ public class AddWordFragment extends Fragment {
                         word.setText(w.getWord(), TextView.BufferType.EDITABLE);
                         definition.setText(w.getDefn().split("!!Ex. ")[0], TextView.BufferType.EDITABLE);
                         phonetic.setText(dbHandler.getPhonetic(w.getWord()), TextView.BufferType.EDITABLE);
-                        sample.setText(w.getDefn().split("!!Ex. ")[1], TextView.BufferType.EDITABLE);
+
+                        Log.d("mtd-app","w.getDefn="+w.getDefn());
+                        if (w.getDefn().toString().contains("!!Ex. ")) {
+                            sample.setText(w.getDefn().toString().split("!!Ex. ")[1], TextView.BufferType.EDITABLE);
+                        }
 
                         if (w.getGIF()!=null) {
                             mUri=Uri.parse(w.getGIF());
@@ -123,16 +127,16 @@ public class AddWordFragment extends Fragment {
         save_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                if (firstWord==null) {
+                if (firstWord == null) {
                     if (dbHandler.addWord(word.getText().toString(),
-                            definition.getText().toString().concat("!!Ex. "+sample.getText().toString()),
-                            "Waray",1,((mUri==null)?null:mUri.toString()))) {
-                        dbHandler.addPhonetic(word.getText().toString(),phonetic.getText().toString());
+                            ((!sample.getText().toString().equals("")) ? definition.getText().toString().
+                                    concat("!!Ex. " + sample.getText().toString()) : definition.getText().toString()),
+                            "Waray", 1, ((mUri == null) ? null : mUri.toString()))) {
+                        dbHandler.addPhonetic(word.getText().toString(), phonetic.getText().toString());
                         Log.d("mtd-app", "****************Success on adding new user generated word");
-                        InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+                        InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
                         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
-                        Toast.makeText(getActivity(),word.getText().toString()+" added to database.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getActivity(), word.getText().toString() + " added to database.", Toast.LENGTH_LONG).show();
                         getActivity().getFragmentManager().popBackStack();
                     } else {
                         AlertDialog.Builder builder1 = new AlertDialog.Builder(getActivity());
@@ -144,7 +148,6 @@ public class AddWordFragment extends Fragment {
                                 new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog, int id) {
                                         dialog.cancel();
-                                        getActivity().getFragmentManager().popBackStack();
                                     }
                                 });
 
@@ -153,23 +156,46 @@ public class AddWordFragment extends Fragment {
                     }
 
                 } else {
-                    Log.d("mtd-app","first word="+firstWord);
+
+                    if (!firstWord.equals(word.getText().toString())) {
+                        Cursor c = dbHandler.getData(word.getText().toString());
+                        c.moveToFirst();
+
+                        if (c.getCount()!=0) {
+                            AlertDialog.Builder builder1 = new AlertDialog.Builder(getActivity());
+                            builder1.setMessage("Word already exists.");
+                            builder1.setCancelable(true);
+
+                            builder1.setPositiveButton(
+                                    "Ok",
+                                    new DialogInterface.OnClickListener() {
+                                        public void onClick(DialogInterface dialog, int id) {
+                                            dialog.cancel();
+                                        }
+                                    });
+
+                            AlertDialog alert11 = builder1.create();
+                            alert11.show();
+                            return;
+                        }
+                    }
+
                     dbHandler.deletePhonetic(firstWord);
                     dbHandler.deleteWord(firstWord);
                     dbHandler.addWord(word.getText().toString(),
-                            definition.getText().toString().concat("!!Ex. "+sample.getText().toString()),
-                            "Waray",1,((mUri==null)?null:mUri.toString()));
-                    dbHandler.addPhonetic(word.getText().toString(),phonetic.getText().toString());
-                    WordFragment wordFragment=new WordFragment();
-                    Bundle b=new Bundle();
-                    b.putString("word",word.getText().toString());
+                            ((!sample.getText().toString().equals("")) ? definition.getText().toString().
+                                    concat("!!Ex. " + sample.getText().toString()) : definition.getText().toString()),
+                            "Waray", 1, ((mUri == null) ? null : mUri.toString()));
+                    dbHandler.addPhonetic(word.getText().toString(), phonetic.getText().toString());
+                    WordFragment wordFragment = new WordFragment();
+                    Bundle b = new Bundle();
+                    b.putString("word", word.getText().toString());
                     wordFragment.setArguments(b);
                     getActivity().getFragmentManager().popBackStack("userword", FragmentManager.POP_BACK_STACK_INCLUSIVE);
                     getActivity().getFragmentManager().beginTransaction().
-                            replace(R.id.content_frame,wordFragment,null).addToBackStack("addWord").commit();
+                            replace(R.id.content_frame, wordFragment, null).addToBackStack("addWord").commit();
                 }
-            }
-        });
+            }});
 
         photo_button.setOnClickListener(new View.OnClickListener(){
             @Override

@@ -18,10 +18,13 @@ public class MTDService extends IntentService {
 
     public static final String ACTION_INIT_DB="me.thesis.mtd_app.service.action.INIT_DB";
     public static final String ACTION_LOG_IN="me.thesis.mtd_app.service.action.LOG_IN";
-    public static final String ACTION_ADMIN="me.thesis.mtd_app.service.action.ADMIN";
+    public static final String ACTION_EDIT_WORD="me.thesis.mtd_app.service.action.EDIT_WORD";
+    public static final String ACTION_DELETE_WORD="me.thesis.mtd_app.service.action.DELETE_WORD";
 
     public static final String DISPLAY_HOME="me.thesis.mtd_app.service.DISPLAY_HOME";
     public static final String CHECK_ADMIN="me.thesis.mtd_app.service.CHECK_ADMIN";
+
+    public static final String EXTRA_STATE="me.thesis.mtd_app.service.extra.STATE";
 
     private final IBinder mBinder=new LocalBinder();
     private DBHandler dbHandler=null;
@@ -72,7 +75,11 @@ public class MTDService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        if (intent!=null && intent.getAction().equals(ACTION_INIT_DB)) {
+        if (intent==null) {
+            return;
+        }
+
+        if (intent.getAction().equals(ACTION_INIT_DB)) {
             dbHandler=new DBHandler(this);
 
             if (dbHandler.getDBCount("words") ==0) {
@@ -85,14 +92,15 @@ public class MTDService extends IntentService {
 
             Intent i=new Intent(DISPLAY_HOME);
             sendBroadcast(i);
-        } else if (intent!=null && intent.getAction().equals(ACTION_LOG_IN)) {
+        } else if (intent.getAction().equals(ACTION_LOG_IN)) {
             isLoggedIn=!isLoggedIn;
             Log.d("mtd-app","Logged in in service");
-        } else if (intent!=null && intent.getAction().equals(ACTION_ADMIN)) {
+        } else if (intent.getAction().equals(ACTION_EDIT_WORD) ||
+            intent.getAction().equals(ACTION_DELETE_WORD)) {
             Intent i=new Intent(CHECK_ADMIN);
 
             if (isLoggedIn) {
-                i.putExtra("status","ok");
+                i.putExtra("status","ok_"+intent.getStringExtra(EXTRA_STATE));
             } else {
                 i.putExtra("status","no");
             }

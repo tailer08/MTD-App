@@ -87,7 +87,7 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         @Override
         public void onReceive(Context context, Intent intent) {
             String i=intent.getStringExtra("status");
-            if (i.equals("ok")) {
+            if (i.equals("ok_edit_word")) {
                 AddWordFragment addWordFragment=new AddWordFragment();
                 Bundle b=new Bundle();
                 b.putString("state","editWord");
@@ -95,9 +95,25 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
                 addWordFragment.setArguments(b);
                 getActivity().getFragmentManager().beginTransaction().
                         replace(R.id.content_frame, addWordFragment,null).addToBackStack("editword").commit();
+            } else if (i.equals("ok_delete_word")) {
+                getActivity().getFragmentManager().popBackStack();
+                if (db.deleteWord(w.getWord())) {
+                    Toast.makeText(getActivity(),word.getText().toString()+
+                            " removed from words database.",Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(getActivity(),word.getText().toString()+
+                            " unable to removed from database.",Toast.LENGTH_LONG).show();
+                }
+
+                if( db.deletePhonetic(w.getWord()) ){
+                    Toast.makeText(getActivity(),word.getText().toString()+
+                            " removed from phonetics database.",Toast.LENGTH_LONG).show();
+                }else{
+                    Toast.makeText(getActivity(),word.getText().toString()+" unable to removed from phonetic.",Toast.LENGTH_LONG).show();
+                }
             } else {
                 AlertDialog.Builder builder1 = new AlertDialog.Builder(getActivity());
-                builder1.setMessage("Only an Administrator can add new words. \nLogin first at Admin Page on the menu.");
+                builder1.setMessage("Only an Administrator can tamper words. \nLogin first at Admin Page on the menu.");
                 builder1.setCancelable(true);
 
                 builder1.setPositiveButton(
@@ -240,26 +256,18 @@ public class WordFragment extends Fragment implements TextToSpeech.OnInitListene
         deleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if( db.deleteWord(w.getWord()) ){
-                    Toast.makeText(getActivity(),word.getText().toString()+" removed from words database.",Toast.LENGTH_LONG).show();
-                    getActivity().getFragmentManager().popBackStack();
-                }else{
-                    Toast.makeText(getActivity(),word.getText().toString()+" unable to removed from database.",Toast.LENGTH_LONG).show();
-                }
-
-                if( db.deletePhonetic(w.getWord()) ){
-                    Toast.makeText(getActivity(),word.getText().toString()+" removed from phonetics database.",Toast.LENGTH_LONG).show();
-                    getActivity().getFragmentManager().popBackStack();
-                }else{
-                    Toast.makeText(getActivity(),word.getText().toString()+" unable to removed from phonetic.",Toast.LENGTH_LONG).show();
-                }
+                Intent i=new Intent(getActivity(),MTDService.class);
+                i.setAction(MTDService.ACTION_DELETE_WORD);
+                i.putExtra(MTDService.EXTRA_STATE,"delete_word");
+                getActivity().startService(i);
             }
         });
         editButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(getActivity(),MTDService.class);
-                i.setAction(MTDService.ACTION_ADMIN);
+                i.setAction(MTDService.ACTION_EDIT_WORD);
+                i.putExtra(MTDService.EXTRA_STATE,"edit_word");
                 getActivity().startService(i);
             }});
 
